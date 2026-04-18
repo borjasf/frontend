@@ -1,56 +1,61 @@
-/* Componente React: grid de tarjetas de productos.
-   Props: productos[], cargando (bool)
-   Renderiza una cuadrícula responsiva de tarjetas, cada una con: imagen, título, precio, estado y enlace al detalle.
-   Muestra un spinner mientras carga y un mensaje si no hay resultados. */
-
-// Sacamos las herramientas que necesitamos de React (que ya están cargadas en el navegador)
 const { useState, useEffect } = React;
 const { createRoot } = ReactDOM;
 
+// Este mensaje nos avisará en la consola (F12) de que el archivo ha sido leído por Babel
+console.log("🚀 El archivo ListaProductos.jsx ha despertado correctamente.");
+
 function ListaProductos() {
     // 1. EL ESTADO (La Memoria del Componente)
-    // Leemos los datos que Node.js nos dejó en el objeto global "window"
-    const datosIniciales = window.PRODUCTOS_INICIALES || { contenido: [] };
+    const datosIniciales = window.PRODUCTOS_INICIALES || {};
+    console.log("📦 Datos inyectados desde Node.js:", datosIniciales);
     
-    // Creamos una variable 'productos' y una función para actualizarla 'setProductos'.
-    const [productos, setProductos] = useState(datosIniciales.contenido || []);
+    // Detector inteligente de datos: 
+    // Java Spring Boot usa 'content', nosotros usamos 'contenido', o puede venir un Array directo.
+    let arrayProductos = [];
+    if (Array.isArray(datosIniciales)) {
+        arrayProductos = datosIniciales;
+    } else if (datosIniciales.content) {
+        arrayProductos = datosIniciales.content; // Formato típico de Spring Boot
+    } else if (datosIniciales.contenido) {
+        arrayProductos = datosIniciales.contenido;
+    }
+
+    const [productos, setProductos] = useState(arrayProductos);
 
     // 2. QUÉ PASA SI NO HAY DATOS
     if (productos.length === 0) {
         return (
-            //Se usa className porque en JSX no se puede usar "class" (es una palabra reservada de JavaScript)
-            <div className="alert alert-info text-center mt-4" role="alert">
-                No se han encontrado productos en el catálogo.
+            <div className="alert alert-info text-center mt-4 shadow-sm" role="alert">
+                <i className="fa-solid fa-box-open fa-2x mb-2"></i>
+                <br/>
+                No se han encontrado productos en el catálogo o no hay conexión con Java.
             </div>
         );
     }
 
     // 3. DIBUJAR LA INTERFAZ (El Render)
     return (
-        // row-cols-md-2: En tablets pon 2 tarjetas por fila. lg-3: En PC pon 3 tarjetas. g-4: Espacio entre ellas.
         <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-2">
-            
-            {/* Recorremos la lista de productos con un bucle map() */}
             {productos.map(producto => (
-                <div className="col" key={producto.id}>
-                    <div className="card h-100 shadow-sm">
-                        {/* Imagen de prueba genérica */}
+                <div className="col" key={producto.id || Math.random()}>
+                    <div className="card h-100 shadow-sm border-0">
+                        {/* Si el producto de Java no tiene imagen, ponemos un placeholder */}
                         <img 
-                            src="https://via.placeholder.com/300x200?text=Sin+Imagen" 
+                            src={producto.imagen || "https://via.placeholder.com/300x200?text=Sin+Imagen"} 
                             className="card-img-top" 
                             alt={producto.titulo} 
+                            style={{ height: '200px', objectFit: 'cover' }}
                         />
                         <div className="card-body">
-                            <h5 className="card-title">{producto.titulo}</h5>
-                            {/* text-truncate corta el texto si es muy largo y le pone ... */}
-                            <p className="card-text text-truncate text-muted">{producto.descripcion}</p>
+                            <h5 className="card-title fw-bold">{producto.titulo || 'Sin título'}</h5>
+                            <p className="card-text text-truncate text-muted">{producto.descripcion || 'Sin descripción'}</p>
                             
-                            <div className="d-flex justify-content-between align-items-center mb-2">
-                                <h6 className="text-primary fw-bold mb-0">{producto.precio} €</h6>
-                                <span className="badge bg-secondary">{producto.estado}</span>
+                            <div className="d-flex justify-content-between align-items-center mt-3">
+                                <h5 className="text-primary fw-bold mb-0">{producto.precio || 0} €</h5>
+                                <span className="badge bg-secondary">{producto.estado || 'N/A'}</span>
                             </div>
                         </div>
-                        <div className="card-footer bg-white border-top-0">
+                        <div className="card-footer bg-white border-top-0 pt-0">
                             <a href={`/productos/${producto.id}`} className="btn btn-outline-primary w-100">
                                 Ver detalles
                             </a>
@@ -58,15 +63,15 @@ function ListaProductos() {
                     </div>
                 </div>
             ))}
-
         </div>
     );
 }
 
 // 4. INYECTAR REACT EN EL HTML
-// Buscamos el "hueco" que dejamos en listado.hbs y metemos este componente dentro.
 const rootElement = document.getElementById('root-lista-productos');
 if (rootElement) {
     const root = createRoot(rootElement);
     root.render(<ListaProductos />);
+} else {
+    console.error("❌ Error: No se encontró el 'root-lista-productos' en el HTML.");
 }

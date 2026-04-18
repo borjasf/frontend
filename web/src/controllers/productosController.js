@@ -1,23 +1,10 @@
-/* Controlador de productos.
-   - listado: obtiene productos paginados/filtrados de la API y renderiza listado.hbs con los datos (React toma el relevo en cliente)
-   - detalle: obtiene un producto por id, incrementa visualizaciones vía API y renderiza detalle.hbs
-   - mostrarCrear / crear: renderiza y procesa el formulario de nuevo producto
-   - mostrarEditar / editar: renderiza y procesa el formulario de edición (precio/descripción)
-   - comprar: llama a compraventasService para registrar la compra */
-
-
-
-
-// Importamos el servicio que se comunicará con la API de Java
+/* Controlador de productos. */
 const productosService = require('../services/productosService');
 
 const productosController = {
-
     // PANTALLA PRINCIPAL: Catálogo de productos
     listado: async (req, res) => {
         try {
-            // A. Recoger los filtros que el usuario haya puesto en la URL
-            // req.query captura parámetros como ?categoria=1&precioMax=50
             const filtros = {
                 page: req.query.page || 0,
                 categoria: req.query.categoria || '',
@@ -26,15 +13,10 @@ const productosController = {
                 texto: req.query.q || ''
             };
 
-            // B. Llamar a la "cocina" para obtener los productos de Java
-            // Usamos 'await' porque es una petición asíncrona (tarda un poco)
             const respuestaAPI = await productosService.obtenerProductos(filtros);
 
-            // C. Inyectar los datos en la vista listado.hbs
             res.render('productos/listado', {
                 title: 'Catálogo de Productos',
-                // Convertimos el objeto a una cadena de texto (String) para que 
-                // Handlebars y React puedan leerlo fácilmente al cargar la página
                 productosInyectados: JSON.stringify(respuestaAPI)
             });
 
@@ -44,35 +26,48 @@ const productosController = {
         }
     },
 
-    // ---------------------------------------------------------
-    // HUECOS PREPARADOS PARA LAS SIGUIENTES TAREAS
-    // ---------------------------------------------------------
-
-    detalle: async (req, res) => {
-        // Aquí irá el código para ver un producto concreto
-        res.send('Página de detalle en construcción');
-    },
-
-    mostrarCrear: (req, res) => {
-        // Aquí se mostrará el formulario de crear
-        res.render('productos/crear', { title: 'Nuevo Producto' });
+    detalle: async (req, res) => { res.send('Página de detalle en construcción'); },
+    mostrarCrear: (req, res) => { 
+        // Inventamos un par de categorías temporales para que el formulario funcione visualmente
+        const categoriasTemporales = [
+            { id: '1', nombre: 'Electrónica' },
+            { id: '2', nombre: 'Deportes' },
+            { id: '3', nombre: 'Hogar' }
+        ];
+        res.render('productos/crear', { 
+            title: 'Nuevo Producto',
+            categorias: categoriasTemporales
+        }); 
     },
 
     crear: async (req, res) => {
-        // Aquí se procesarán los datos del formulario de crear
-    },
+        try {
+            // 1. Atrapamos los datos que vienen del HTML (req.body)
+            const nuevoProducto = {
+                titulo: req.body.titulo,
+                precio: parseFloat(req.body.precio),
+                estado: req.body.estado,
+                descripcion: req.body.descripcion,
+                categoria_id: req.body.categoria, 
+                envioDisponible: req.body.envioDisponible === 'on' // El checkbox devuelve 'on' si está marcado
+            };
 
-    mostrarEditar: async (req, res) => {
-        // Aquí se mostrará el formulario de edición
-    },
+            // 2. Se lo pasamos al servicio para que viaje a Java
+            await productosService.crearProducto(nuevoProducto);
 
-    editar: async (req, res) => {
-        // Aquí se procesarán los datos de edición
-    },
+            // 3. Si todo va bien, redirigimos al catálogo para ver nuestro nuevo producto
+            console.log("✅ Producto creado con éxito. Redirigiendo al catálogo...");
+            res.redirect('/productos');
 
-    comprar: async (req, res) => {
-        // Aquí se procesará la compra
-    }
+        } catch (error) {
+            console.error("Error al guardar el producto:", error);
+            // Si falla, recargamos la página de crear pero podríamos añadir un mensaje de error
+            res.redirect('/productos/crear'); 
+        }
+    },
+    mostrarEditar: async (req, res) => {},
+    editar: async (req, res) => {},
+    comprar: async (req, res) => {}
 };
 
 module.exports = productosController;

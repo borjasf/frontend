@@ -9,33 +9,23 @@
 const express = require('express');
 const router = express.Router();
 
-// Importamos el Controlador ("El Maitre")
+// ¡CORREGIDO! Importamos el Controlador desde la carpeta 'src'
 const productosController = require('../src/controllers/productosController');
 
-// 1. PANTALLA PRINCIPAL: Catálogo de productos
+// 1. RUTAS ESTÁTICAS (Fijas, siempre van primero)
 router.get('/productos', productosController.listado);
 
-// ---------------------------------------------------------
-// HUECOS PREPARADOS PARA EL RESTO DE FUNCIONES
-// ---------------------------------------------------------
+// Mostrar formulario de crear (Hacemos que coincida con tu crear.hbs)
+router.get('/productos/crear', productosController.mostrarCrear);
 
-// IMPORTANTE: Las rutas fijas como '/nuevo' deben ir SIEMPRE ANTES que las rutas con parámetros dinámicos como '/:id'
-// Mostrar formulario de crear
-router.get('/productos/nuevo', productosController.mostrarCrear);
+// Procesar la creación cuando se envía el formulario (vía POST)
+router.post('/productos/crear', productosController.crear);
 
-// Procesar la creación (vía POST)
-router.post('/productos', productosController.crear);
 
-// Ver detalle de un producto concreto
+// 2. RUTAS DINÁMICAS (Con parámetros como :id, siempre al final)
 router.get('/productos/:id', productosController.detalle);
-
-// Mostrar formulario de edición
 router.get('/productos/:id/editar', productosController.mostrarEditar);
-
-// Procesar la edición
-router.post('/productos/:id', productosController.editar);
-
-// Solicitar compra
+router.post('/productos/:id/editar', productosController.editar);
 router.post('/productos/:id/comprar', productosController.comprar);
 
 module.exports = router;

@@ -7,6 +7,7 @@ const app = express();
 // Motor de vistas HBS
 app.set('view engine', 'hbs');
 app.set('views', path.join(__dirname, 'views'));
+app.set('view options', { layout: 'layouts/main' }); 
 hbs.registerPartials(path.join(__dirname, 'views/partials'));
 
 // Middleware

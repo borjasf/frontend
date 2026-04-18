@@ -1,17 +1,15 @@
-{{!-- Página principal de listado y búsqueda de productos.
-      El servidor inyecta datos iniciales (productos, categorías, paginación) en variables JS globales.
-      React monta aquí los componentes: FiltrosBusqueda, ListaProductos y Paginacion.
-      Sin JS, el listado SSR inicial sigue siendo accesible. --}}
-      
+<style>
+    .img-tarjeta { height: 200px; object-fit: cover; }
+</style>
+
 <div class="container-fluid mt-4">
     <div class="row mb-4">
         <div class="col-12 text-center">
             <h1 class="fw-bold">Catálogo de Productos</h1>
-            {{!-- Color gris para el subtítulo --}}
-            <p class="text-muted">Encuentra los mejores artículos de segunda mano</p> 
+            <p class="text-muted">Encuentra los mejores artículos de segunda mano</p>
         </div>
     </div>
-      {{!-- row es un envoltorio obligatorio para poder usar col-md-3 y col-md-9 --}}
+
     <div class="row">
         <aside class="col-md-3 col-lg-2 mb-4">
             <div class="card shadow-sm">
@@ -24,29 +22,184 @@
 
         <section class="col-md-9 col-lg-10">
             <div id="root-lista-productos">
-                  {{!-- Margen superior y centrado para el spinner de carga --}}
                 <div class="text-center mt-5">
-                    <div class="spinner-border text-primary" role="status">
-                        <span class="visually-hidden">Cargando...</span>
-                    </div>
-                    <p class="mt-2">Cargando productos...</p>
+                    <div class="spinner-border text-primary" role="status"></div>
+                    <p class="mt-2 text-danger fw-bold">Despertando a React...</p>
                 </div>
             </div>
-
-            {{!-- Contenedor para la paginación, centrado y con margen superior, 
-            d-flex transforma el contenedor en una caja flexible, y 
-            justify-content-center alinea horizontalmente su contenido al centro.
-             --}}
-            <div id="root-paginacion" class="mt-4 d-flex justify-content-center">
-                </div>
         </section>
     </div>
 </div>
 
 <script>
-    // El servidor Node inyecta aquí el JSON crudo antes de enviar la página.
-    // React leerá esta variable 'window.PRODUCTOS_INICIALES' cuando despierte.
-    window.PRODUCTOS_INICIALES = {{{ productosInyectados }}};
+    console.log("🟢 1. El HTML ha cargado perfectamente.");
+    try {
+        window.PRODUCTOS_INICIALES = {{{ productosInyectados }}};
+        console.log("🟢 2. Datos recibidos de Java:", window.PRODUCTOS_INICIALES);
+    } catch(error) {
+        window.PRODUCTOS_INICIALES = {};
+    }
 </script>
 
-<script type="text/babel" src="/js/components/ListaProductos.jsx"></script>
+<script crossorigin src="https://cdn.jsdelivr.net/npm/react@18.2.0/umd/react.production.min.js"></script>
+<script crossorigin src="https://cdn.jsdelivr.net/npm/react-dom@18.2.0/umd/react-dom.production.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@babel/standalone@7.23.6/babel.min.js"></script>
+
+<script type="text/babel">
+    console.log("🚀 3. Babel y React han superado los bloqueos.");
+
+    const { useState } = React;
+    const { createRoot } = ReactDOM;
+
+    function FiltrosBusqueda() {
+        // Leemos la URL actual por si el usuario ya había buscado algo antes
+        const urlParams = new URLSearchParams(window.location.search);
+        
+        // Memoria interna del formulario (Ahora recuerda lo que hay en la URL)
+        const [filtros, setFiltros] = useState({
+            texto: urlParams.get('texto') || urlParams.get('q') || '',
+            categoria: urlParams.get('categoria') || '',
+            estado: urlParams.get('estado') || '',
+            precioMax: urlParams.get('precioMax') || ''
+        });
+
+        const categorias = [
+            { id: '1', nombre: 'Electrónica' },
+            { id: '2', nombre: 'Deportes' },
+            { id: '3', nombre: 'Hogar' }
+        ];
+
+        const handleChange = (e) => {
+            const { name, value } = e.target;
+            setFiltros({ ...filtros, [name]: value });
+        };
+
+        // Función conectada a Node.js
+        const handleSubmit = (e) => {
+            e.preventDefault();
+            
+            // Construimos la ruta dinámica con los filtros que estén rellenados
+            const params = new URLSearchParams();
+            if (filtros.texto) params.append('q', filtros.texto); // Usamos 'q' como lo espera tu controlador
+            if (filtros.categoria) params.append('categoria', filtros.categoria);
+            if (filtros.estado) params.append('estado', filtros.estado);
+            if (filtros.precioMax) params.append('precioMax', filtros.precioMax);
+
+            console.log("🚀 Viajando al backend con:", params.toString());
+            // Mandamos al navegador a la nueva ruta
+            window.location.href = `/productos?${params.toString()}`;
+        };
+
+        const limpiarFiltros = () => {
+            console.log("🧹 Limpiando...");
+            window.location.href = '/productos';
+        };
+
+        return (
+            <form onSubmit={handleSubmit} className="d-flex flex-column gap-3 mt-3">
+                
+                <div>
+                    <label className="form-label fw-bold small mb-1">¿Qué buscas?</label>
+                    <input type="text" className="form-control form-control-sm" name="texto" value={filtros.texto} onChange={handleChange} placeholder="Ej: Bicicleta" />
+                </div>
+
+                <div>
+                    <label className="form-label fw-bold small mb-1">Categoría</label>
+                    <select className="form-select form-select-sm" name="categoria" value={filtros.categoria} onChange={handleChange}>
+                        <option value="">Todas las categorías</option>
+                        {categorias.map(cat => (
+                            <option key={cat.id} value={cat.id}>{cat.nombre}</option>
+                        ))}
+                    </select>
+                </div>
+
+                <div>
+                    <label className="form-label fw-bold small mb-1">Estado</label>
+                    <select className="form-select form-select-sm" name="estado" value={filtros.estado} onChange={handleChange}>
+                        <option value="">Cualquier estado</option>
+                        <option value="NUEVO">Nuevo</option>
+                        <option value="COMO_NUEVO">Como nuevo</option>
+                        <option value="BUENO">Buen estado</option>
+                        <option value="ACEPTABLE">Aceptable</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label className="form-label fw-bold small mb-1">Precio máximo (€)</label>
+                    <input type="number" className="form-control form-control-sm" name="precioMax" value={filtros.precioMax} onChange={handleChange} min="0" placeholder="Ej: 50" />
+                </div>
+
+                <div className="d-grid gap-2 mt-2">
+                    <button type="submit" className="btn btn-primary btn-sm">Aplicar filtros</button>
+                    <button type="button" className="btn btn-outline-secondary btn-sm" onClick={limpiarFiltros}>Limpiar</button>
+                </div>
+            </form>
+        );
+    }
+    
+
+    // COMPONENTE 2: LA LISTA DE PRODUCTOS (EL QUE YA TENÍAMOS)
+    function ListaProductos() {
+        const datos = window.PRODUCTOS_INICIALES || {};
+        
+        let arrayProductos = [];
+        if (datos._embedded && datos._embedded.productos) {
+            arrayProductos = datos._embedded.productos;
+        } else if (datos.content) {
+            arrayProductos = datos.content;
+        } else if (Array.isArray(datos)) {
+            arrayProductos = datos;
+        }
+
+        if (arrayProductos.length === 0) {
+            return (
+                <div className="alert alert-info text-center mt-4 shadow-sm" role="alert">
+                    <i className="fa-solid fa-box-open fa-2x mb-2"></i>
+                    <br/>
+                         productos en el catálogo de Java ahora mismo.
+                </div>
+            );
+        }
+
+        return (
+            <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-2">
+                {arrayProductos.map(producto => (
+                    <div className="col" key={producto.id || Math.random()}>
+                        <div className="card h-100 shadow-sm border-0">
+                            <img src={producto.imagen || "https://via.placeholder.com/300x200?text=Sin+Imagen"} className="card-img-top img-tarjeta" alt={producto.titulo || 'Producto'} />
+                            <div className="card-body">
+                                <h5 className="card-title fw-bold">{producto.titulo || 'Sin título'}</h5>
+                                <p className="card-text text-truncate text-muted">{producto.descripcion || 'Sin descripción'}</p>
+                                <div className="d-flex justify-content-between align-items-center mt-3">
+                                    <h5 className="text-primary fw-bold mb-0">{producto.precio || 0} €</h5>
+                                    <span className="badge bg-secondary">{producto.estado || 'N/A'}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                ))}
+            </div>
+        );
+    }
+
+    // INYECCIÓN DE REACT EN EL HTML (RENDER)
+    
+    // Dibujar la lista de productos en la columna derecha
+    const rootListaDiv = document.getElementById('root-lista-productos');
+    if (rootListaDiv) {
+        const rootLista = createRoot(rootListaDiv);
+        rootLista.render(<ListaProductos />);
+    }
+
+    // Dibujar el formulario de filtros en la columna izquierda
+    const rootFiltrosDiv = document.getElementById('root-filtros');
+    if (rootFiltrosDiv) {
+        const rootFiltros = createRoot(rootFiltrosDiv);
+        rootFiltros.render(
+            <div>
+                <h5 className="card-title border-bottom pb-2 mb-0"><i className="fa-solid fa-filter me-2"></i>Filtros</h5>
+                <FiltrosBusqueda />
+            </div>
+        );
+    }
+</script>
