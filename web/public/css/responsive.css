@@ -1,0 +1,5 @@
+/* Media queries para diseño responsive (enfoque mobile-first).
+   - < 576px  (xs): una columna, navbar colapsada
+   - >= 576px (sm): dos columnas en el grid de productos
+   - >= 768px (md): tres columnas, sidebar visible
+   - >= 992px (lg): cuatro columnas, layout completo de escritorio */

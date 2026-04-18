@@ -1,0 +1,31 @@
+{{!-- Layout principal que envuelve todas las páginas.
+      Contiene: <head> con meta/CSS, el partial navbar, {{{body}}} donde HBS inyecta cada vista, y el partial footer.
+      Los scripts de React (Babel standalone + JSX) se cargan aquí para estar disponibles en todas las páginas. --}}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- El título se inyecta desde cada vista, este es enviado por cada ruta con res.render(...) -->
+    <title>{{title}}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+      <!-- El navbar es un partial que se incluye en todas las páginas -->
+      {{> navbar}}
+      
+      <main>
+            <!-- Insertamos el contenido específico de cada página aquí -->
+            {{{body}}}
+      </main>
+      
+      <!-- El footer también es un partial común a todas las páginas, sin el no se verá -->
+      {{> footer}}
+      
+      <link rel="stylesheet" href="/css/responsive.css">
+</body>
+</html>

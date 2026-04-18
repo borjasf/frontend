@@ -1,0 +1,283 @@
+/* Aqui vamos a implementar el estilo de la pagina de login*/
+
+/* Oculta el ojo nativo de Edge/Chrome en campos password */
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+    display: none;
+}
+
+/* Fondo y centrado de la página */
+main {
+    min-height: 100vh;
+    background-color: #f3f4f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+/* Tarjeta central */
+.login-card {
+    width: 100%;
+    max-width: 28rem;
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 1px solid #f3f4f6;
+}
+
+/* Cabecera con logo */
+.login-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.login-header img {
+    margin-bottom: 1rem;
+}
+
+.login-header h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #111827;
+    margin: 0;
+}
+
+.login-header p {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin-top: 0.5rem;
+    font-weight: 600;
+}
+
+/* Grupos de campos */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.375rem;
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #374151;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    font-size: 0.95rem;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    box-sizing: border-box;
+}
+
+.form-group input:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+}
+
+/* Contenedor del campo contraseña (para el botón ojo) */
+.password-wrapper {
+    position: relative;
+}
+
+.password-wrapper input {
+    padding-right: 2.75rem;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #6b7280;
+    font-size: 1rem;
+    padding: 0;
+}
+
+/* Botón cancelar */
+.btn-cancel {
+    display: block;
+    width: 100%;
+    padding: 0.65rem;
+    text-align: center;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    color: #374151;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.95rem;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.btn-cancel:hover {
+    background-color: #f9fafb;
+}
+
+/* Enlace al registro */
+.register-link {
+    margin-top: 1rem;
+    font-size: 0.875rem;
+    color: #4b5563;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.register-link a {
+    color: #2563eb;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+.btn-login {
+  font-size: 17px;
+  padding: 1em 2.7em;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  background: #1f2937;
+  color: white;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.6em;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btn-login .gradient {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 0.6em;
+  margin-top: -0.25em;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.3)
+  );
+}
+
+.btn-login .label {
+  position: relative;
+  top: -1px;
+}
+
+.btn-login .transition {
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  transition-duration: 500ms;
+  background-color: rgba(16, 185, 129, 0.6);
+  border-radius: 9999px;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn-login:hover .transition {
+  width: 30em;
+  height: 30em;
+}
+
+.btn-login:active {
+  transform: scale(0.97);
+}
+
+.social-message {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-top: 1.25rem;
+}
+
+.social-message .line {
+    flex: 1;
+    height: 1px;
+    background-color: #d1d5db;
+}
+
+.social-message .message {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    color: #6b7280;
+    white-space: nowrap;
+    margin: 0;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    background: white;
+    cursor: pointer;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+.icon:hover {
+    background-color: #f3f4f6;
+    border-color: #9ca3af;
+}
+
+.icon svg {
+    width: 1.25rem;
+    height: 1.25rem;
+    fill: #24292e;
+}
+
+.btn.github {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #24292e;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.5rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn.github:hover {
+  background-color: #3a3f46;
+}
+
+.btn.github svg {
+  fill: #ffffff;
+  flex-shrink: 0;
+}
