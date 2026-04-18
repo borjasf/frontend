@@ -1,0 +1,284 @@
+/* Aqui vamos a implementar el estilo de la pagina de registro */
+
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+    display: none;
+}
+
+main {
+    min-height: 100vh;
+    background-color: #f3f4f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.registro-card {
+    width: 100%;
+    max-width: 28rem;
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 1px solid #f3f4f6;
+}
+
+.registro-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.registro-header img {
+    margin-bottom: 1rem;
+}
+
+.registro-header h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #111827;
+    margin: 0;
+}
+
+.registro-header p {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin-top: 0.5rem;
+    font-weight: 600;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.375rem;
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #374151;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group input[type="date"] {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    font-size: 0.95rem;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    box-sizing: border-box;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group input[type="password"]:focus,
+.form-group input[type="date"]:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+}
+
+.password-wrapper {
+    position: relative;
+}
+
+.password-wrapper input {
+    padding-right: 2.75rem;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #6b7280;
+    font-size: 1rem;
+    padding: 0;
+}
+
+/* Checkbox group layout */
+.checkbox-group {
+    flex-direction: row;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.checkbox-label {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #374151;
+}
+
+/* ── Flip checkbox ── */
+.cbx-wrapper {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+#isAdmin {
+    display: none;
+}
+
+.cbx {
+    -webkit-perspective: 20;
+    perspective: 20;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -12px;
+    border: 2px solid #e8e8eb;
+    background: #e8e8eb;
+    border-radius: 4px;
+    transform: translate3d(0, 0, 0);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.cbx:hover {
+    border-color: #10b981;
+}
+
+.flip {
+    display: block;
+    transition: all 0.4s ease;
+    transform-style: preserve-3d;
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+
+#isAdmin:checked + .cbx {
+    border-color: #10b981;
+}
+
+#isAdmin:checked + .cbx .flip {
+    transform: rotateY(180deg);
+}
+
+.front,
+.back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+}
+
+.front {
+    background: #fff;
+    z-index: 1;
+}
+
+.back {
+    transform: rotateY(180deg);
+    background: #10b981;
+    text-align: center;
+    color: #fff;
+    line-height: 20px;
+    box-shadow: 0 0 0 1px #10b981;
+}
+
+.back svg {
+    margin-top: 3px;
+    fill: none;
+}
+
+.back svg path {
+    stroke: #fff;
+    stroke-width: 2.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+/* Botón cancelar */
+.btn-cancel {
+    display: block;
+    width: 100%;
+    padding: 0.65rem;
+    text-align: center;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    color: #374151;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.95rem;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.btn-cancel:hover {
+    background-color: #f9fafb;
+}
+
+.btn-register {
+  font-size: 17px;
+  padding: 1em 2.7em;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  background: #1f2937;
+  color: white;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.6em;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btn-register .gradient {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 0.6em;
+  margin-top: -0.25em;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.3)
+  );
+}
+
+.btn-register .label {
+  position: relative;
+  top: -1px;
+}
+
+.btn-register .transition {
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  transition-duration: 500ms;
+  background-color: rgba(16, 185, 129, 0.6);
+  border-radius: 9999px;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn-register:hover .transition {
+  width: 30em;
+  height: 30em;
+}
+
+.btn-register:active {
+  transform: scale(0.97);
+}
+                                                                                                                                           

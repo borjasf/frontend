@@ -6,32 +6,36 @@
    GET  /productos/:id/editar → formulario editar producto (requiere auth + ser vendedor)
    POST /productos/:id        → actualiza precio/descripción vía API (requiere auth)
    POST /productos/:id/comprar → solicita compra del producto (requiere auth) */
+const express = require('express');
+const router = express.Router();
 
-   const express = require('express');
-   const router = express.Router();
-   
-   router.get('/productos/nuevo', function(req, res) {
-         res.render('productoNuevo', { title: 'Nuevo Producto' });
-   });
+// Importamos el Controlador ("El Maitre")
+const productosController = require('../src/controllers/productosController');
 
-   router.get('/productos/:id', function(req, res) {
-         res.render('productoDetalle', { title: 'Detalle del Producto' });
-   });
+// 1. PANTALLA PRINCIPAL: Catálogo de productos
+router.get('/productos', productosController.listado);
 
-   router.get('/productos/:id/editar', function(req, res) {
-         res.render('productoEditar', { title: 'Editar Producto' });
-   });
+// ---------------------------------------------------------
+// HUECOS PREPARADOS PARA EL RESTO DE FUNCIONES
+// ---------------------------------------------------------
 
-   router.post('/productos', function(req, res) {
-         res.send('Producto creado (simulado)');
-   });
+// IMPORTANTE: Las rutas fijas como '/nuevo' deben ir SIEMPRE ANTES que las rutas con parámetros dinámicos como '/:id'
+// Mostrar formulario de crear
+router.get('/productos/nuevo', productosController.mostrarCrear);
 
-   router.post('/productos/:id', function(req, res) {
-         res.send('Producto actualizado (simulado)');
-   });
+// Procesar la creación (vía POST)
+router.post('/productos', productosController.crear);
 
-   router.post('/productos/:id/comprar', function(req, res) {
-         res.send('Compra solicitada (simulado)');
-   });
+// Ver detalle de un producto concreto
+router.get('/productos/:id', productosController.detalle);
 
-   module.exports = router;
+// Mostrar formulario de edición
+router.get('/productos/:id/editar', productosController.mostrarEditar);
+
+// Procesar la edición
+router.post('/productos/:id', productosController.editar);
+
+// Solicitar compra
+router.post('/productos/:id/comprar', productosController.comprar);
+
+module.exports = router;

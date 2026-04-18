@@ -2,3 +2,51 @@
       El servidor inyecta datos iniciales (productos, categorías, paginación) en variables JS globales.
       React monta aquí los componentes: FiltrosBusqueda, ListaProductos y Paginacion.
       Sin JS, el listado SSR inicial sigue siendo accesible. --}}
+      
+<div class="container-fluid mt-4">
+    <div class="row mb-4">
+        <div class="col-12 text-center">
+            <h1 class="fw-bold">Catálogo de Productos</h1>
+            {{!-- Color gris para el subtítulo --}}
+            <p class="text-muted">Encuentra los mejores artículos de segunda mano</p> 
+        </div>
+    </div>
+      {{!-- row es un envoltorio obligatorio para poder usar col-md-3 y col-md-9 --}}
+    <div class="row">
+        <aside class="col-md-3 col-lg-2 mb-4">
+            <div class="card shadow-sm">
+                <div class="card-body" id="root-filtros">
+                    <h5 class="card-title">Filtros de búsqueda</h5>
+                    <p class="text-muted small">Cargando filtros...</p>
+                </div>
+            </div>
+        </aside>
+
+        <section class="col-md-9 col-lg-10">
+            <div id="root-lista-productos">
+                  {{!-- Margen superior y centrado para el spinner de carga --}}
+                <div class="text-center mt-5">
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="visually-hidden">Cargando...</span>
+                    </div>
+                    <p class="mt-2">Cargando productos...</p>
+                </div>
+            </div>
+
+            {{!-- Contenedor para la paginación, centrado y con margen superior, 
+            d-flex transforma el contenedor en una caja flexible, y 
+            justify-content-center alinea horizontalmente su contenido al centro.
+             --}}
+            <div id="root-paginacion" class="mt-4 d-flex justify-content-center">
+                </div>
+        </section>
+    </div>
+</div>
+
+<script>
+    // El servidor Node inyecta aquí el JSON crudo antes de enviar la página.
+    // React leerá esta variable 'window.PRODUCTOS_INICIALES' cuando despierte.
+    window.PRODUCTOS_INICIALES = {{{ productosInyectados }}};
+</script>
+
+<script type="text/babel" src="/js/components/ListaProductos.jsx"></script>
