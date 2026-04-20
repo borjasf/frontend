@@ -4,13 +4,14 @@
 
 const express = require('express');
 const router = express.Router();
+const authMiddleware = require('../src/middleware/authMiddleware');
+const adminController = require('../src/controllers/adminController');
+const adminMiddleware = require('../src/middleware/adminMiddleware');
 
-router.get('/usuarios', (req, res) => {
-   res.render('admin_usuarios', { title: 'Gestión de Usuarios' });
-});
+router.use(authMiddleware); // Aplica el middleware de autenticación a todas las rutas de este router
+router.use(adminMiddleware); // Aplica el middleware de rol admin a todas las rutas de este router
 
-router.get('/compraventas', (req, res) => {
-   res.render('admin_compraventas', { title: 'Gestión de Compraventas' });
-});
+router.get('/usuarios', adminController.listarUsuarios);
+router.get('/compraventas', adminController.listarCompraventas);
 
 module.exports = router;

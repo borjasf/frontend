@@ -2,3 +2,85 @@
       Muestra todos los campos: título, descripción, precio, estado, categoría, vendedor, visualizaciones, envío.
       Si el usuario está autenticado y no es el vendedor: botón "Comprar".
       Si el usuario es el vendedor: botones "Editar" y opción de eliminar. --}}
+<div class="container mt-5 mb-5">
+    
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/productos" class="text-decoration-none">Catálogo</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{{producto.categoria.nombre}}</li>
+        </ol>
+    </nav>
+
+    <article class="card shadow-sm border-0 mt-3 overflow-hidden">
+        <div class="row g-0">
+            
+            <figure class="col-md-6 bg-light m-0 d-flex align-items-center justify-content-center">
+                <img src="{{producto.imagen}}" class="img-fluid object-fit-cover w-100 h-100" style="min-height: 400px; max-height: 600px;" alt="Fotografía de {{producto.titulo}}">
+            </figure>
+
+            <section class="col-md-6 p-4 p-lg-5 d-flex flex-column">
+                
+                <header class="mb-4">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="badge bg-primary text-uppercase">{{producto.estado}}</span>
+                        <small class="text-muted"><i class="fa-regular fa-eye me-1"></i>{{producto.visualizaciones}} visitas</small>
+                    </div>
+                    <h1 class="fw-bold h2 mb-1">{{producto.titulo}}</h1>
+                    <p class="text-muted small mb-3">Publicado el {{producto.fechaPublicacion}}</p>
+                    <h2 class="text-success fw-bold h1">{{producto.precio}} €</h2>
+                </header>
+
+                <div class="mb-4">
+                    <h3 class="h5 fw-bold border-bottom pb-2">Descripción</h3>
+                    <p class="text-muted mt-2" style="white-space: pre-line;">{{producto.descripcion}}</p>
+                </div>
+
+                <aside class="bg-light p-3 rounded mb-4">
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fa-solid fa-user-circle fs-3 text-secondary me-3"></i>
+                        <div>
+                            <p class="mb-0 small text-muted">Vendido por</p>
+                            <p class="mb-0 fw-bold">{{producto.vendedor.nombre}}</p>
+                        </div>
+                    </div>
+                    
+                    <div class="text-secondary small mb-2">
+                        <i class="fa-solid fa-location-dot me-2"></i>Lugar de recogida: <strong>{{producto.lugarRecogida}}</strong>
+                    </div>
+
+                    {{#if producto.envioDisponible}}
+                    <div class="text-success small">
+                        <i class="fa-solid fa-truck-fast me-2"></i>Envío a domicilio disponible
+                    </div>
+                    {{else}}
+                    <div class="text-secondary small">
+                        <i class="fa-solid fa-people-carry-box me-2"></i>Solo entrega en mano
+                    </div>
+                    {{/if}}
+                </aside>
+
+                <footer class="mt-auto d-grid gap-2">
+                    {{#if esVendedor}}
+                        <div class="row g-2">
+                            <div class="col-6">
+                                <a href="/productos/{{producto.id}}/editar" class="btn btn-outline-dark w-100 py-2">Editar anuncio</a>
+                            </div>
+                            <div class="col-6">
+                                <form action="/productos/{{producto.id}}/eliminar" method="POST">
+                                    <button type="submit" class="btn btn-outline-danger w-100 py-2">Eliminar</button>
+                                </form>
+                            </div>
+                        </div>
+                    {{else}}
+                        <form action="/productos/{{producto.id}}/comprar" method="POST">
+                            <button type="submit" class="btn btn-success btn-lg w-100 py-3 fw-bold">
+                                <i class="fa-solid fa-cart-arrow-down me-2"></i>Solicitar Compra
+                            </button>
+                        </form>
+                    {{/if}}
+                </footer>
+
+            </section>
+        </div>
+    </article>
+</div>

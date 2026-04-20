@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<categoria id="5181" ruta="|5181|">
+	<nombre>Maletas y bolsos de viaje</nombre>
+	<categoria id="110" ruta="|5181|110|">
+		<nombre>Accesorios de equipaje</nombre>
+		<categoria id="503014" ruta="|5181|110|503014|">
+			<nombre>Accesorios y revestimientos para contenedores impermeables
+			</nombre>
+		</categoria>
+		<categoria id="5650" ruta="|5181|110|5650|">
+			<nombre>Bolsos de viaje</nombre>
+		</categoria>
+		<categoria id="6919" ruta="|5181|110|6919|">
+			<nombre>Botellas y contenedores de viaje</nombre>
+		</categoria>
+		<categoria id="5652" ruta="|5181|110|5652|">
+			<nombre>Correas para equipaje</nombre>
+		</categoria>
+		<categoria id="5651" ruta="|5181|110|5651|">
+			<nombre>Etiquetas para equipaje</nombre>
+		</categoria>
+		<categoria id="7521" ruta="|5181|110|7521|">
+			<nombre>Fundas para mochilas</nombre>
+		</categoria>
+		<categoria id="5620" ruta="|5181|110|5620|">
+			<nombre>Organizadores de equipaje</nombre>
+		</categoria>
+		<categoria id="499691" ruta="|5181|110|499691|">
+			<nombre>Portaequipajes y soportes para maletas</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="106" ruta="|5181|106|">
+		<nombre>Bandoleras grandes</nombre>
+	</categoria>
+	<categoria id="103" ruta="|5181|103|">
+		<nombre>Bolsas de deporte</nombre>
+	</categoria>
+	<categoria id="5608" ruta="|5181|5608|">
+		<nombre>Bolsas para compra</nombre>
+	</categoria>
+	<categoria id="549" ruta="|5181|549|">
+		<nombre>Bolsos de bebé</nombre>
+	</categoria>
+	<categoria id="502974" ruta="|5181|502974|">
+		<nombre>Contenedores impermeables</nombre>
+	</categoria>
+	<categoria id="105" ruta="|5181|105|">
+		<nombre>Fundas para trajes</nombre>
+	</categoria>
+	<categoria id="107" ruta="|5181|107|">
+		<nombre>Maletas</nombre>
+	</categoria>
+	<categoria id="101" ruta="|5181|101|">
+		<nombre>Maletines</nombre>
+	</categoria>
+	<categoria id="6553" ruta="|5181|6553|">
+		<nombre>Maletines neceser</nombre>
+	</categoria>
+	<categoria id="100" ruta="|5181|100|">
+		<nombre>Mochilas</nombre>
+	</categoria>
+	<categoria id="108" ruta="|5181|108|">
+		<nombre>Neceseres</nombre>
+	</categoria>
+	<categoria id="104" ruta="|5181|104|">
+		<nombre>Riñoneras</nombre>
+	</categoria>
+</categoria>

@@ -1,3 +1,21 @@
 {{!-- Página de error genérica.
       Muestra el código de error (404, 403, 500...) y un mensaje descriptivo.
       Recibe las variables: statusCode, mensaje. --}}
+<div class="container mt-5 mb-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6 text-center">
+            <div class="card shadow border-0">
+                <div class="card-body p-5">
+                    <i class="fas fa-exclamation-triangle fa-4x text-warning mb-4"></i>
+                    {{#if statusCode}}
+                        <h1 class="display-4 fw-bold text-dark">{{statusCode}}</h1>
+                    {{/if}}
+                    <p class="lead text-muted mb-4">
+                        {{#if mensaje}}{{mensaje}}{{else}}Ha ocurrido un error inesperado.{{/if}}
+                    </p>
+                    <a href="/productos" class="btn btn-dark px-4">Volver al catálogo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

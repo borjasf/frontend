@@ -2,3 +2,40 @@
       Tabla con: id, producto, comprador, vendedor y fecha.
       Permite filtrar por idComprador o idVendedor.
       Datos obtenidos via GET /api/compraventas?idComprador=X&idVendedor=Y --}}
+{{!-- Extiende el layout principal --}}
+{{#extend "main"}}
+      {{!-- Define el bloque de contenido, con esto el admin puede observar a todas las compraventas del sistema --}}
+      {{#content "body"}}
+            <h1>{{title}}</h1>
+            <form method="GET" action="/admin/compraventas" class="mb-3">                                                                                                      <input type="text" name="idComprador" placeholder="ID Comprador" value="{{filtros.comprador}}">                                                          
+                  <input type="text" name="idVendedor" placeholder="ID Vendedor" value="{{filtros.vendedor}}">                                                             
+                  <button type="submit">Filtrar</button>
+            </form>
+            <table class="table">
+                  <thead>
+                        <tr>
+                              <th>ID</th>
+                              <th>Producto</th>
+                              <th>Comprador</th>
+                              <th>Vendedor</th>
+                              <th>Fecha</th>
+                        </tr>
+                  </thead>
+                  <tbody>
+                        {{#each compraventas}}
+                        <tr>
+                              <td>{{this.id}}</td>
+                              <td>{{this.producto}}</td>
+                              <td>{{this.comprador}}</td>
+                              <td>{{this.vendedor}}</td>
+                              <td>{{this.fecha}}</td>
+                        </tr>
+                        {{else}}
+                        <tr>
+                              <td colspan="5">No hay compraventas para mostrar.</td>
+                        </tr>
+                        {{/each}}
+                  </tbody>
+            </table>
+      {{/content}}
+{{/extend}}

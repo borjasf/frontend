@@ -1,3 +1,107 @@
 {{!-- Página de perfil del usuario autenticado.
       Muestra los datos del usuario (nombre, apellidos, email) con opción de editar.
       Incluye un listado de sus productos actualmente en venta usando el partial productoCard. --}}
+<div class="container mt-5 mb-5">
+    <div class="row">
+        
+        <div class="col-lg-3 mb-4">
+            <div class="card shadow-sm border-0">
+                <div class="card-body text-center pt-4 pb-4 border-bottom">
+                    <div class="bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                        <i class="fa-solid fa-user fs-1"></i>
+                    </div>
+                    <h5 class="fw-bold mb-0">{{usuario.nombre}} {{usuario.apellidos}}</h5>
+                    <p class="text-muted small">Miembro desde {{usuario.fechaRegistro}}</p>
+                </div>
+                <div class="list-group list-group-flush">
+                    <a href="/perfil" class="list-group-item list-group-item-action active fw-bold py-3">
+                        <i class="fa-solid fa-id-card me-2"></i> Mis Datos
+                    </a>
+                    <a href="/perfil/mis-ventas" class="list-group-item list-group-item-action py-3">
+                        <i class="fa-solid fa-store me-2"></i> En Venta / Vendidos
+                    </a>
+                    <a href="/perfil/mis-compras" class="list-group-item list-group-item-action py-3">
+                        <i class="fa-solid fa-bag-shopping me-2"></i> Mis Compras
+                    </a>
+                    <a href="/logout" class="list-group-item list-group-item-action text-danger py-3 fw-bold bg-light">
+                        <i class="fa-solid fa-right-from-bracket me-2"></i> Cerrar Sesión
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-9">
+            
+            <h2 class="fw-bold mb-4">Resumen de Actividad</h2>
+            
+            <div class="row g-3 mb-5">
+                <div class="col-md-4">
+                    <div class="card bg-primary text-white border-0 shadow-sm h-100">
+                        <div class="card-body text-center">
+                            <h1 class="display-4 fw-bold">{{stats.enVenta}}</h1>
+                            <p class="mb-0">Artículos en Venta</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-success text-white border-0 shadow-sm h-100">
+                        <div class="card-body text-center">
+                            <h1 class="display-4 fw-bold">{{stats.vendidos}}</h1>
+                            <p class="mb-0">Artículos Vendidos</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-info text-white border-0 shadow-sm h-100">
+                        <div class="card-body text-center">
+                            <h1 class="display-4 fw-bold">{{stats.comprados}}</h1>
+                            <p class="mb-0">Artículos Comprados</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card shadow-sm border-0">
+                <div class="card-header bg-white border-bottom py-3">
+                    <h5 class="fw-bold mb-0"><i class="fa-solid fa-address-card me-2"></i>Información Personal</h5>
+                </div>
+                <div class="card-body p-4">
+                    <form>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label class="form-label text-muted small fw-bold">Nombre</label>
+                                <input type="text" class="form-control" value="{{usuario.nombre}}" readonly>
+                            </div>
+                            <div class="col-md-6 mt-3 mt-md-0">
+                                <label class="form-label text-muted small fw-bold">Apellidos</label>
+                                <input type="text" class="form-control" value="{{usuario.apellidos}}" readonly>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label class="form-label text-muted small fw-bold">Correo Electrónico</label>
+                                <input type="email" class="form-control" value="{{usuario.email}}" readonly>
+                            </div>
+                            <div class="col-md-6 mt-3 mt-md-0">
+                                <label class="form-label text-muted small fw-bold">Teléfono</label>
+                                <input type="text" class="form-control" value="{{usuario.telefono}}" readonly>
+                            </div>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col-md-6">
+                                <label class="form-label text-muted small fw-bold">Fecha de Nacimiento</label>
+                                <input type="date" class="form-control" value="{{usuario.fechaNacimiento}}" readonly>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-end">
+                            <button type="button" class="btn btn-outline-primary" disabled>
+                                <i class="fa-solid fa-pen me-2"></i>Editar Datos (Próximamente)
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

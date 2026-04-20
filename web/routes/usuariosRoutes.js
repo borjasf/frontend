@@ -4,13 +4,24 @@
 
 const express = require('express');
 const router = express.Router();
+const authMiddleware = require('../src/middleware/authMiddleware');
+router.use(authMiddleware); // Aplica el middleware de autenticación a todas las rutas de este router
 
-router.get('/perfil', function(req, res) {
-    res.render('perfil', { title: 'Perfil de Usuario' });
-});
+// Importamos el controlador
+const usuariosController = require('../src/controllers/usuariosController');
 
-router.post('/perfil', function(req, res) {
-    res.send('Perfil actualizado (simulado)');
-});
+/* Rutas del perfil de usuario */
+
+// GET /perfil -> Llama a verPerfil en el controlador
+router.get('/perfil', usuariosController.verPerfil);
+
+// POST /perfil -> Llama a editarPerfil (para el futuro PATCH)
+router.post('/perfil', usuariosController.editarPerfil);
+
+// GET /perfil/mis-ventas -> Llama a misVentas para mostrar los productos que el usuario tiene en venta
+router.get('/perfil/mis-ventas', usuariosController.misVentas);
+
+// GET /perfil/mis-compras -> Llama a misCompras para mostrar los productos que el usuario ha comprado
+router.get('/perfil/mis-compras', usuariosController.misCompras);
 
 module.exports = router;

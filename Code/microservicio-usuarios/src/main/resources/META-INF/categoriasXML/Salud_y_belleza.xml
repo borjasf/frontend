@@ -1,0 +1,1054 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<categoria id="469" ruta="|469|">
+	<nombre>Salud y belleza</nombre>
+	<categoria id="491" ruta="|469|491|">
+		<nombre>Cuidado de la salud</nombre>
+		<categoria id="5071" ruta="|469|491|5071|">
+			<nombre>Accesorios para dispositivos biométricos</nombre>
+			<categoria id="5072" ruta="|469|491|5071|5072|">
+				<nombre>Accesorios para básculas de peso corporal</nombre>
+			</categoria>
+			<categoria id="3688" ruta="|469|491|5071|3688|">
+				<nombre>Accesorios para medidores de glucosa en sangre</nombre>
+				<categoria id="3111" ruta="|469|491|5071|3688|3111|">
+					<nombre>Lancetas</nombre>
+				</categoria>
+				<categoria id="6323" ruta="|469|491|5071|3688|6323|">
+					<nombre>Solución de control de glucosa en sangre</nombre>
+				</categoria>
+				<categoria id="3905" ruta="|469|491|5071|3688|3905|">
+					<nombre>Tiras para prueba de glucosa en sangre</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="505819" ruta="|469|491|5071|505819|">
+				<nombre>Accesorios para monitores de actividad</nombre>
+			</categoria>
+			<categoria id="6284" ruta="|469|491|5071|6284|">
+				<nombre>Accesorios para monitores de tensión arterial</nombre>
+				<categoria id="6285" ruta="|469|491|5071|6284|6285|">
+					<nombre>Manguitos para medición de tensión arterial</nombre>
+				</categoria>
+			</categoria>
+		</categoria>
+		<categoria id="5849" ruta="|469|491|5849|">
+			<nombre>Acupuntura</nombre>
+			<categoria id="5851" ruta="|469|491|5849|5851|">
+				<nombre>Agujas de acupuntura</nombre>
+			</categoria>
+			<categoria id="5850" ruta="|469|491|5849|5850|">
+				<nombre>Modelos de acupuntura</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="8105" ruta="|469|491|8105|">
+			<nombre>Artículos de compresión para muñones</nombre>
+		</categoria>
+		<categoria id="523" ruta="|469|491|523|">
+			<nombre>Artículos ortopédicos y de soporte</nombre>
+		</categoria>
+		<categoria id="5690" ruta="|469|491|5690|">
+			<nombre>Audífonos</nombre>
+		</categoria>
+		<categoria id="775" ruta="|469|491|775|">
+			<nombre>Condones</nombre>
+		</categoria>
+		<categoria id="4551" ruta="|469|491|4551|">
+			<nombre>Cuidado respiratorio</nombre>
+			<categoria id="505669" ruta="|469|491|4551|505669|">
+				<nombre>Inhaladores de vapor</nombre>
+			</categoria>
+			<categoria id="7317" ruta="|469|491|4551|7317|">
+				<nombre>Máquinas CPAP</nombre>
+			</categoria>
+			<categoria id="7316" ruta="|469|491|4551|7316|">
+				<nombre>Máscaras CPAP</nombre>
+			</categoria>
+			<categoria id="4552" ruta="|469|491|4551|4552|">
+				<nombre>Nebulizadores</nombre>
+			</categoria>
+			<categoria id="499692" ruta="|469|491|4551|499692|">
+				<nombre>Tanques de oxígeno</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="7220" ruta="|469|491|7220|">
+			<nombre>Cuñas</nombre>
+		</categoria>
+		<categoria id="494" ruta="|469|491|494|">
+			<nombre>Dispositivos biométricos</nombre>
+			<categoria id="2633" ruta="|469|491|494|2633|">
+				<nombre>Alcoholímetro</nombre>
+			</categoria>
+			<categoria id="497" ruta="|469|491|494|497|">
+				<nombre>Analizadores de colesterol</nombre>
+			</categoria>
+			<categoria id="496" ruta="|469|491|494|496|">
+				<nombre>Analizadores de grasa corporal</nombre>
+			</categoria>
+			<categoria id="500" ruta="|469|491|494|500|">
+				<nombre>Básculas de peso corporal</nombre>
+			</categoria>
+			<categoria id="2246" ruta="|469|491|494|2246|">
+				<nombre>Medidores de glucosa en sangre</nombre>
+			</categoria>
+			<categoria id="500009" ruta="|469|491|494|500009|">
+				<nombre>Monitores de actividad</nombre>
+			</categoria>
+			<categoria id="4767" ruta="|469|491|494|4767|">
+				<nombre>Monitores de escucha de latidos fetales</nombre>
+			</categoria>
+			<categoria id="495" ruta="|469|491|494|495|">
+				<nombre>Monitores de presión sanguínea</nombre>
+			</categoria>
+			<categoria id="5551" ruta="|469|491|494|5551|">
+				<nombre>Pulsioxímetros</nombre>
+			</categoria>
+			<categoria id="501" ruta="|469|491|494|501|">
+				<nombre>Termómetros médicos</nombre>
+			</categoria>
+			<categoria id="505822" ruta="|469|491|494|505822|">
+				<nombre>Tests de ovulación y monitores de fertilidad</nombre>
+				<categoria id="543679" ruta="|469|491|494|505822|543679|">
+					<nombre>Monitores y tests de fertilidad</nombre>
+				</categoria>
+				<categoria id="543680" ruta="|469|491|494|505822|543680|">
+					<nombre>Tests de ovulación</nombre>
+				</categoria>
+			</categoria>
+		</categoria>
+		<categoria id="5870" ruta="|469|491|5870|">
+			<nombre>Equipos de fisioterapia</nombre>
+			<categoria id="505352" ruta="|469|491|5870|505352|">
+				<nombre>Columpios terapéuticos</nombre>
+			</categoria>
+			<categoria id="8541" ruta="|469|491|5870|8541|">
+				<nombre>Estimuladores musculares eléctricos</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="7186" ruta="|469|491|7186|">
+			<nombre>Espermicidas</nombre>
+		</categoria>
+		<categoria id="7002" ruta="|469|491|7002|">
+			<nombre>Estuches para anticonceptivos</nombre>
+		</categoria>
+		<categoria id="5965" ruta="|469|491|5965|">
+			<nombre>Etiquetas de identificación y joyería médica, joyería para id
+				médica</nombre>
+		</categoria>
+		<categoria id="505820" ruta="|469|491|505820|">
+			<nombre>Lociones y geles de conductividad</nombre>
+		</categoria>
+		<categoria id="5923" ruta="|469|491|5923|">
+			<nombre>Lubricantes quirúrgicos</nombre>
+		</categoria>
+		<categoria id="500087" ruta="|469|491|500087|">
+			<nombre>Lámparas para terapia de iluminación</nombre>
+		</categoria>
+		<categoria id="518" ruta="|469|491|518|">
+			<nombre>Medicinas y medicamentos</nombre>
+		</categoria>
+		<categoria id="519" ruta="|469|491|519|">
+			<nombre>Movilidad y accesibilidad</nombre>
+			<categoria id="521" ruta="|469|491|519|521|">
+				<nombre>Accesorios para equipos de accesibilidad</nombre>
+			</categoria>
+			<categoria id="6929" ruta="|469|491|519|6929|">
+				<nombre>Accesorios para utensilios para andar</nombre>
+			</categoria>
+			<categoria id="5488" ruta="|469|491|519|5488|">
+				<nombre>Accesorios y muebles adaptados</nombre>
+				<categoria id="7243" ruta="|469|491|519|5488|7243|">
+					<nombre>Asientos y bancos para duchas</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="520" ruta="|469|491|519|520|">
+				<nombre>Equipo de accesibilidad</nombre>
+				<categoria id="7138" ruta="|469|491|519|520|7138|">
+					<nombre>Salvaescaleras</nombre>
+				</categoria>
+				<categoria id="3512" ruta="|469|491|519|520|3512|">
+					<nombre>Scooters eléctricos</nombre>
+				</categoria>
+				<categoria id="3364" ruta="|469|491|519|520|3364|">
+					<nombre>Sillas de ruedas</nombre>
+				</categoria>
+				<categoria id="502969" ruta="|469|491|519|520|502969|">
+					<nombre>Sábanas y tablas de traslado</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="5164" ruta="|469|491|519|5164|">
+				<nombre>Utensilios para andar</nombre>
+				<categoria id="5166" ruta="|469|491|519|5164|5166|">
+					<nombre>Andadores</nombre>
+				</categoria>
+				<categoria id="5165" ruta="|469|491|519|5164|5165|">
+					<nombre>Bastones para andar</nombre>
+				</categoria>
+				<categoria id="4248" ruta="|469|491|519|5164|4248|">
+					<nombre>Muletas</nombre>
+				</categoria>
+			</categoria>
+		</categoria>
+		<categoria id="2890" ruta="|469|491|2890|">
+			<nombre>Nutrición y actividad física</nombre>
+			<categoria id="2984" ruta="|469|491|2890|2984|">
+				<nombre>Barritas energéticas</nombre>
+			</categoria>
+			<categoria id="5702" ruta="|469|491|2890|5702|">
+				<nombre>Bebidas sustitutivas de comidas</nombre>
+			</categoria>
+			<categoria id="6242" ruta="|469|491|2890|6242|">
+				<nombre>Geles y productos masticables nutritivos</nombre>
+			</categoria>
+			<categoria id="6871" ruta="|469|491|2890|6871|">
+				<nombre>Purés de alimentos nutritivos</nombre>
+			</categoria>
+			<categoria id="7413" ruta="|469|491|2890|7413|">
+				<nombre>Suplementos para alimentación por sonda gástrica</nombre>
+			</categoria>
+			<categoria id="525" ruta="|469|491|2890|525|">
+				<nombre>Vitaminas y complementos</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="3777" ruta="|469|491|3777|">
+			<nombre>Pastilleros</nombre>
+		</categoria>
+		<categoria id="508" ruta="|469|491|508|">
+			<nombre>Primeros auxilios</nombre>
+			<categoria id="510" ruta="|469|491|508|510|">
+				<nombre>Botiquín de primeros auxilios</nombre>
+			</categoria>
+			<categoria id="509" ruta="|469|491|508|509|">
+				<nombre>Esparadrapos y vendas</nombre>
+			</categoria>
+			<categoria id="2954" ruta="|469|491|508|2954|">
+				<nombre>Productos antisépticos y desinfectantes</nombre>
+			</categoria>
+			<categoria id="4527" ruta="|469|491|508|4527|">
+				<nombre>Productos para la limpieza ocular</nombre>
+			</categoria>
+			<categoria id="6206" ruta="|469|491|508|6206|">
+				<nombre>Protectores para escayola y vendajes</nombre>
+			</categoria>
+			<categoria id="516" ruta="|469|491|508|516|">
+				<nombre>Terapias de frío y calor</nombre>
+				<categoria id="6205" ruta="|469|491|508|516|6205|">
+					<nombre>Bolsas de calor</nombre>
+				</categoria>
+				<categoria id="4753" ruta="|469|491|508|516|4753|">
+					<nombre>Bolsas de frío</nombre>
+				</categoria>
+				<categoria id="5848" ruta="|469|491|508|516|5848|">
+					<nombre>Pomadas rubefacientes</nombre>
+				</categoria>
+			</categoria>
+		</categoria>
+		<categoria id="517" ruta="|469|491|517|">
+			<nombre>Productos para la incontinencia</nombre>
+		</categoria>
+		<categoria id="505293" ruta="|469|491|505293|">
+			<nombre>Pruebas médicas</nombre>
+			<categoria id="499934" ruta="|469|491|505293|499934|">
+				<nombre>Kits de pruebas de alergia</nombre>
+			</categoria>
+			<categoria id="7337" ruta="|469|491|505293|7337|">
+				<nombre>Kits de pruebas para tipología sanguínea</nombre>
+			</categoria>
+			<categoria id="1680" ruta="|469|491|505293|1680|">
+				<nombre>Pruebas de embarazo</nombre>
+			</categoria>
+			<categoria id="505294" ruta="|469|491|505293|505294|">
+				<nombre>Pruebas de infección del tracto urinario</nombre>
+			</categoria>
+			<categoria id="7336" ruta="|469|491|505293|7336|">
+				<nombre>Pruebas del VIH</nombre>
+			</categoria>
+			<categoria id="2552" ruta="|469|491|505293|2552|">
+				<nombre>Pruebas para la detección de drogas</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="5966" ruta="|469|491|5966|">
+			<nombre>Sistemas de alarma médica</nombre>
+		</categoria>
+		<categoria id="8082" ruta="|469|491|8082|">
+			<nombre>Vasos para muestras</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="2915" ruta="|469|2915|">
+		<nombre>Cuidado personal</nombre>
+		<categoria id="528" ruta="|469|2915|528|">
+			<nombre>Afeitado y arreglo personal</nombre>
+			<categoria id="531" ruta="|469|2915|528|531|">
+				<nombre>Accesorios para afeitadoras eléctricas</nombre>
+			</categoria>
+			<categoria id="6842" ruta="|469|2915|528|6842|">
+				<nombre>Accesorios para recortadores y cortadores de pelo</nombre>
+			</categoria>
+			<categoria id="534" ruta="|469|2915|528|534|">
+				<nombre>Afeitadoras y cuchillas</nombre>
+			</categoria>
+			<categoria id="8531" ruta="|469|2915|528|8531|">
+				<nombre>Boles y tazas de afeitado</nombre>
+			</categoria>
+			<categoria id="2681" ruta="|469|2915|528|2681|">
+				<nombre>Brochas de afeitar</nombre>
+			</categoria>
+			<categoria id="2971" ruta="|469|2915|528|2971|">
+				<nombre>Crema de afeitar</nombre>
+			</categoria>
+			<categoria id="8214" ruta="|469|2915|528|8214|">
+				<nombre>Decolorante para pelo corporal y facial</nombre>
+			</categoria>
+			<categoria id="4507" ruta="|469|2915|528|4507|">
+				<nombre>Depilación</nombre>
+				<categoria id="7199" ruta="|469|2915|528|4507|7199|">
+					<nombre>Aparatos de depilación láser e IPL</nombre>
+				</categoria>
+				<categoria id="4509" ruta="|469|2915|528|4507|4509|">
+					<nombre>Aparatos para la depilación por electrólisis</nombre>
+				</categoria>
+				<categoria id="8136" ruta="|469|2915|528|4507|8136|">
+					<nombre>Calentadores de cera para depilación</nombre>
+				</categoria>
+				<categoria id="4510" ruta="|469|2915|528|4507|4510|">
+					<nombre>Depiladoras</nombre>
+				</categoria>
+				<categoria id="4511" ruta="|469|2915|528|4507|4511|">
+					<nombre>Kits y suministros de cera</nombre>
+				</categoria>
+				<categoria id="4508" ruta="|469|2915|528|4507|4508|">
+					<nombre>Productos depilatorios</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="5111" ruta="|469|2915|528|5111|">
+				<nombre>Kits de afeitado</nombre>
+			</categoria>
+			<categoria id="529" ruta="|469|2915|528|529|">
+				<nombre>Loción para después de afeitarse</nombre>
+			</categoria>
+			<categoria id="2508" ruta="|469|2915|528|2508|">
+				<nombre>Lápiz estíptico</nombre>
+			</categoria>
+			<categoria id="532" ruta="|469|2915|528|532|">
+				<nombre>Máquinas de afeitar eléctricas</nombre>
+			</categoria>
+			<categoria id="533" ruta="|469|2915|528|533|">
+				<nombre>Recortadores y cortadores de pelo</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="4076" ruta="|469|2915|4076|">
+			<nombre>Ayudas para conciliar el sueño</nombre>
+			<categoria id="4211" ruta="|469|2915|4076|4211|">
+				<nombre>Almohadas de viaje</nombre>
+			</categoria>
+			<categoria id="4313" ruta="|469|2915|4076|4313|">
+				<nombre>Antifaces para dormir</nombre>
+			</categoria>
+			<categoria id="6017" ruta="|469|2915|4076|6017|">
+				<nombre>Ayudas para ronquidos y apnea de sueño</nombre>
+			</categoria>
+			<categoria id="4056" ruta="|469|2915|4076|4056|">
+				<nombre>Máquinas de ruido blanco</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="2934" ruta="|469|2915|2934|">
+			<nombre>Bastoncillos de algodón</nombre>
+		</categoria>
+		<categoria id="4929" ruta="|469|2915|4929|">
+			<nombre>Bolas de algodón</nombre>
+		</categoria>
+		<categoria id="472" ruta="|469|2915|472|">
+			<nombre>Camas bronceadoras</nombre>
+		</categoria>
+		<categoria id="473" ruta="|469|2915|473|">
+			<nombre>Cosméticos</nombre>
+			<categoria id="474" ruta="|469|2915|473|474|">
+				<nombre>Baño y cuidado corporal</nombre>
+				<categoria id="2876" ruta="|469|2915|473|474|2876|">
+					<nombre>Cepillos para el baño</nombre>
+				</categoria>
+				<categoria id="3691" ruta="|469|2915|473|474|3691|">
+					<nombre>Desinfectantes para manos</nombre>
+				</categoria>
+				<categoria id="2875" ruta="|469|2915|473|474|2875|">
+					<nombre>Esponjas de baño y lufas exfoliantes</nombre>
+				</categoria>
+				<categoria id="2747" ruta="|469|2915|473|474|2747|">
+					<nombre>Gel de ducha</nombre>
+				</categoria>
+				<categoria id="4049" ruta="|469|2915|473|474|4049|">
+					<nombre>Gorros para ducha</nombre>
+				</categoria>
+				<categoria id="7417" ruta="|469|2915|473|474|7417|">
+					<nombre>Jabón de manos en polvo</nombre>
+				</categoria>
+				<categoria id="3208" ruta="|469|2915|473|474|3208|">
+					<nombre>Jabón líquido para manos</nombre>
+				</categoria>
+				<categoria id="2503" ruta="|469|2915|473|474|2503|">
+					<nombre>Pastilla de jabón</nombre>
+				</categoria>
+				<categoria id="2522" ruta="|469|2915|473|474|2522|">
+					<nombre>Sales de baño y baño de burbujas</nombre>
+				</categoria>
+				<categoria id="499913" ruta="|469|2915|473|474|499913|">
+					<nombre>Toallitas higiénicas para adultos</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="475" ruta="|469|2915|473|475|">
+				<nombre>Cestas de regalo con productos de baño y cuidado corporal
+				</nombre>
+			</categoria>
+			<categoria id="567" ruta="|469|2915|473|567|">
+				<nombre>Cuidado de la piel</nombre>
+				<categoria id="6104" ruta="|469|2915|473|567|6104|">
+					<nombre>Aceites corporales</nombre>
+				</categoria>
+				<categoria id="6863" ruta="|469|2915|473|567|6863|">
+					<nombre>Antiverrugas</nombre>
+				</categoria>
+				<categoria id="482" ruta="|469|2915|473|567|482|">
+					<nombre>Cuidado labial</nombre>
+					<categoria id="543573"
+						ruta="|469|2915|473|567|482|543573|">
+						<nombre>Bálsamos labiales</nombre>
+					</categoria>
+					<categoria id="543574"
+						ruta="|469|2915|473|567|482|543574|">
+						<nombre>Tratamientos medicinales para labios</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="6034" ruta="|469|2915|473|567|6034|">
+					<nombre>Desmaquilladores</nombre>
+				</categoria>
+				<categoria id="7429" ruta="|469|2915|473|567|7429|">
+					<nombre>Kits de cuidado dermatológico antiedad</nombre>
+				</categoria>
+				<categoria id="7467" ruta="|469|2915|473|567|7467|">
+					<nombre>Kits de limpieza facial</nombre>
+				</categoria>
+				<categoria id="2592" ruta="|469|2915|473|567|2592|">
+					<nombre>Loción</nombre>
+				</categoria>
+				<categoria id="8029" ruta="|469|2915|473|567|8029|">
+					<nombre>Mascarillas faciales comprimidas</nombre>
+				</categoria>
+				<categoria id="6262" ruta="|469|2915|473|567|6262|">
+					<nombre>Máscaras y peelings para cuidado de la piel</nombre>
+				</categoria>
+				<categoria id="5980" ruta="|469|2915|473|567|5980|">
+					<nombre>Polvo corporal</nombre>
+				</categoria>
+				<categoria id="2740" ruta="|469|2915|473|567|2740|">
+					<nombre>Productos bronceadores</nombre>
+					<categoria id="5338" ruta="|469|2915|473|567|2740|5338|">
+						<nombre>Autobronceador</nombre>
+					</categoria>
+					<categoria id="5339" ruta="|469|2915|473|567|2740|5339|">
+						<nombre>Lociones y aceites bronceadores</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="2526" ruta="|469|2915|473|567|2526|">
+					<nombre>Productos de limpieza facial</nombre>
+				</categoria>
+				<categoria id="2844" ruta="|469|2915|473|567|2844|">
+					<nombre>Protector solar</nombre>
+				</categoria>
+				<categoria id="5820" ruta="|469|2915|473|567|5820|">
+					<nombre>Repelente contra insectos</nombre>
+				</categoria>
+				<categoria id="6791" ruta="|469|2915|473|567|6791|">
+					<nombre>Tiras limpiaporos</nombre>
+				</categoria>
+				<categoria id="481" ruta="|469|2915|473|567|481|">
+					<nombre>Tratamientos para el acné</nombre>
+				</categoria>
+				<categoria id="5976" ruta="|469|2915|473|567|5976|">
+					<nombre>Tónicos y astringentes</nombre>
+					<categoria id="543659"
+						ruta="|469|2915|473|567|5976|543659|">
+						<nombre>Astringentes</nombre>
+					</categoria>
+					<categoria id="543658"
+						ruta="|469|2915|473|567|5976|543658|">
+						<nombre>Tonificadores</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="6753" ruta="|469|2915|473|567|6753|">
+					<nombre>Vaselina</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="478" ruta="|469|2915|473|478|">
+				<nombre>Cuidado de uñas</nombre>
+				<categoria id="3009" ruta="|469|2915|473|478|3009|">
+					<nombre>Aceites y cremas para cutículas</nombre>
+				</categoria>
+				<categoria id="233419" ruta="|469|2915|473|478|233419|">
+					<nombre>Aerosoles y gotas de secado para esmaltes de uñas</nombre>
+				</categoria>
+				<categoria id="7445" ruta="|469|2915|473|478|7445|">
+					<nombre>Disolventes para esmaltes de uñas</nombre>
+				</categoria>
+				<categoria id="2683" ruta="|469|2915|473|478|2683|">
+					<nombre>Esmaltes de uñas</nombre>
+				</categoria>
+				<categoria id="5975" ruta="|469|2915|473|478|5975|">
+					<nombre>Kits y accesorios de decoración de uñas</nombre>
+				</categoria>
+				<categoria id="6893" ruta="|469|2915|473|478|6893|">
+					<nombre>Pegamento para uñas</nombre>
+				</categoria>
+				<categoria id="2946" ruta="|469|2915|473|478|2946|">
+					<nombre>Quitaesmaltes</nombre>
+				</categoria>
+				<categoria id="4218" ruta="|469|2915|473|478|4218|">
+					<nombre>Uñas postizas</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="6069" ruta="|469|2915|473|6069|">
+				<nombre>Juegos de maquillaje</nombre>
+			</categoria>
+			<categoria id="477" ruta="|469|2915|473|477|">
+				<nombre>Maquillaje</nombre>
+				<categoria id="6072" ruta="|469|2915|473|477|6072|">
+					<nombre>Esprays fijadores de maquillaje</nombre>
+				</categoria>
+				<categoria id="5978" ruta="|469|2915|473|477|5978|">
+					<nombre>Maquillaje corporal</nombre>
+					<categoria id="5979" ruta="|469|2915|473|477|5978|5979|">
+						<nombre>Base y pintura corporal</nombre>
+					</categoria>
+					<categoria id="5981" ruta="|469|2915|473|477|5978|5981|">
+						<nombre>Purpurina para cuerpo y cabello</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="2645" ruta="|469|2915|473|477|2645|">
+					<nombre>Maquillaje de labios</nombre>
+					<categoria id="8217" ruta="|469|2915|473|477|2645|8217|">
+						<nombre>Base fijadora para labios</nombre>
+					</categoria>
+					<categoria id="2858" ruta="|469|2915|473|477|2645|2858|">
+						<nombre>Brillo labial</nombre>
+					</categoria>
+					<categoria id="6306" ruta="|469|2915|473|477|2645|6306|">
+						<nombre>Colores de labios y mejillas</nombre>
+					</categoria>
+					<categoria id="3021" ruta="|469|2915|473|477|2645|3021|">
+						<nombre>Lápiz labial</nombre>
+					</categoria>
+					<categoria id="2589" ruta="|469|2915|473|477|2645|2589|">
+						<nombre>Perfilador de labios</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="2571" ruta="|469|2915|473|477|2571|">
+					<nombre>Maquillaje para cara y mejillas</nombre>
+					<categoria id="8218" ruta="|469|2915|473|477|2571|8218|">
+						<nombre>Base fijadora de maquillaje</nombre>
+					</categoria>
+					<categoria id="2765" ruta="|469|2915|473|477|2571|2765|">
+						<nombre>Bases de maquillaje y correctores</nombre>
+					</categoria>
+					<categoria id="6305" ruta="|469|2915|473|477|2571|6305|">
+						<nombre>Coloretes y polvos bronceadores</nombre>
+					</categoria>
+					<categoria id="2980" ruta="|469|2915|473|477|2571|2980|">
+						<nombre>Polvos</nombre>
+					</categoria>
+					<categoria id="6304" ruta="|469|2915|473|477|2571|6304|">
+						<nombre>Resaltadores e iluminadores</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="2779" ruta="|469|2915|473|477|2779|">
+					<nombre>Maquillaje para ojos</nombre>
+					<categoria id="8219" ruta="|469|2915|473|477|2779|8219|">
+						<nombre>Base fijadora de máscara</nombre>
+					</categoria>
+					<categoria id="8220" ruta="|469|2915|473|477|2779|8220|">
+						<nombre>Base fijadora para sombra de ojos</nombre>
+					</categoria>
+					<categoria id="2686" ruta="|469|2915|473|477|2779|2686|">
+						<nombre>Lápices para cejas</nombre>
+					</categoria>
+					<categoria id="2807" ruta="|469|2915|473|477|2779|2807|">
+						<nombre>Perfiladores de ojos</nombre>
+					</categoria>
+					<categoria id="2761" ruta="|469|2915|473|477|2779|2761|">
+						<nombre>Pestañas postizas</nombre>
+					</categoria>
+					<categoria id="2834" ruta="|469|2915|473|477|2779|2834|">
+						<nombre>Rímel</nombre>
+					</categoria>
+					<categoria id="2904" ruta="|469|2915|473|477|2779|2904|">
+						<nombre>Sombra de ojos</nombre>
+					</categoria>
+					<categoria id="6340" ruta="|469|2915|473|477|2779|6340|">
+						<nombre>Tratamientos para crecimiento de pestañas y cejas</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="4779" ruta="|469|2915|473|477|4779|">
+					<nombre>Maquillaje teatral y artístico</nombre>
+				</categoria>
+				<categoria id="3509" ruta="|469|2915|473|477|3509|">
+					<nombre>Tatuajes no permanentes</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="2619" ruta="|469|2915|473|2619|">
+				<nombre>Objetos cosméticos</nombre>
+				<categoria id="2958" ruta="|469|2915|473|2619|2958|">
+					<nombre>Objetos para el cuidado de la piel</nombre>
+					<categoria id="499926"
+						ruta="|469|2915|473|2619|2958|499926|">
+						<nombre>Artículos para aplicar lociones y protectores solares
+						</nombre>
+					</categoria>
+					<categoria id="8132" ruta="|469|2915|473|2619|2958|8132|">
+						<nombre>Cabezales de cepillos de limpieza facial</nombre>
+					</categoria>
+					<categoria id="6260" ruta="|469|2915|473|2619|2958|6260|">
+						<nombre>Cepillos y sistemas de limpieza de la piel</nombre>
+					</categoria>
+					<categoria id="6261" ruta="|469|2915|473|2619|2958|6261|">
+						<nombre>Extractores para cuidado de la piel</nombre>
+					</categoria>
+					<categoria id="7190" ruta="|469|2915|473|2619|2958|7190|">
+						<nombre>Limas para pies</nombre>
+					</categoria>
+					<categoria id="2511" ruta="|469|2915|473|2619|2958|2511|">
+						<nombre>Piedras pómez</nombre>
+					</categoria>
+					<categoria id="7018" ruta="|469|2915|473|2619|2958|7018|">
+						<nombre>Rodillos para el cuidado de la piel</nombre>
+					</categoria>
+					<categoria id="6760" ruta="|469|2915|473|2619|2958|6760|">
+						<nombre>Saunas faciales</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="2548" ruta="|469|2915|473|2619|2548|">
+					<nombre>Objetos para maquillaje</nombre>
+					<categoria id="502996"
+						ruta="|469|2915|473|2619|2548|502996|">
+						<nombre>Accesorios para pestañas postizas</nombre>
+						<categoria id="7493"
+							ruta="|469|2915|473|2619|2548|502996|7493|">
+							<nombre>Aplicadores para pestañas postizas</nombre>
+						</categoria>
+						<categoria id="7256"
+							ruta="|469|2915|473|2619|2548|502996|7256|">
+							<nombre>Cola para pestañas postizas</nombre>
+						</categoria>
+						<categoria id="502997"
+							ruta="|469|2915|473|2619|2548|502996|502997|">
+							<nombre>Disolvente para quitar pestañas postizas</nombre>
+						</categoria>
+					</categoria>
+					<categoria id="7356" ruta="|469|2915|473|2619|2548|7356|">
+						<nombre>Adhesivos y cola de párpado doble</nombre>
+					</categoria>
+					<categoria id="3025" ruta="|469|2915|473|2619|2548|3025|">
+						<nombre>Brochas para maquillaje</nombre>
+					</categoria>
+					<categoria id="476" ruta="|469|2915|473|2619|2548|476|">
+						<nombre>Espejos para maquillaje</nombre>
+					</categoria>
+					<categoria id="4106" ruta="|469|2915|473|2619|2548|4106|">
+						<nombre>Esponjas para maquillaje</nombre>
+					</categoria>
+					<categoria id="499822"
+						ruta="|469|2915|473|2619|2548|499822|">
+						<nombre>Paletas y estuches de maquillaje rellenables</nombre>
+					</categoria>
+					<categoria id="6555" ruta="|469|2915|473|2619|2548|6555|">
+						<nombre>Plantillas para cejas</nombre>
+					</categoria>
+					<categoria id="6282" ruta="|469|2915|473|2619|2548|6282|">
+						<nombre>Recambios para rizapestañas</nombre>
+					</categoria>
+					<categoria id="2780" ruta="|469|2915|473|2619|2548|2780|">
+						<nombre>Rizador de pestañas</nombre>
+					</categoria>
+					<categoria id="4121" ruta="|469|2915|473|2619|2548|4121|">
+						<nombre>Toallitas desmaquilladoras</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="2975" ruta="|469|2915|473|2619|2975|">
+					<nombre>Objetos para uñas</nombre>
+					<categoria id="499698"
+						ruta="|469|2915|473|2619|2975|499698|">
+						<nombre>Accesorios para pulidoras de uñas</nombre>
+					</categoria>
+					<categoria id="2828" ruta="|469|2915|473|2619|2975|2828|">
+						<nombre>Cortaúñas</nombre>
+					</categoria>
+					<categoria id="2739" ruta="|469|2915|473|2619|2975|2739|">
+						<nombre>Empujacutículas</nombre>
+					</categoria>
+					<categoria id="6300" ruta="|469|2915|473|2619|2975|6300|">
+						<nombre>Juegos de útiles para manicura</nombre>
+					</categoria>
+					<categoria id="6341" ruta="|469|2915|473|2619|2975|6341|">
+						<nombre>Limas abrillantadoras</nombre>
+					</categoria>
+					<categoria id="2734" ruta="|469|2915|473|2619|2975|2734|">
+						<nombre>Limas de uñas y limas de esmeril</nombre>
+					</categoria>
+					<categoria id="7490" ruta="|469|2915|473|2619|2975|7490|">
+						<nombre>Perforadoras para uñas</nombre>
+					</categoria>
+					<categoria id="5880" ruta="|469|2915|473|2619|2975|5880|">
+						<nombre>Secadores de uñas</nombre>
+					</categoria>
+					<categoria id="7494" ruta="|469|2915|473|2619|2975|7494|">
+						<nombre>Separadores de manicura y pedicura</nombre>
+					</categoria>
+					<categoria id="3037" ruta="|469|2915|473|2619|2975|3037|">
+						<nombre>Tijeras para cutículas</nombre>
+					</categoria>
+				</categoria>
+			</categoria>
+			<categoria id="479" ruta="|469|2915|473|479|">
+				<nombre>Perfumes y colonias</nombre>
+			</categoria>
+			<categoria id="6331" ruta="|469|2915|473|6331|">
+				<nombre>Productos de limpieza de objetos cosméticos</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="526" ruta="|469|2915|526|">
+			<nombre>Cuidado bucal</nombre>
+			<categoria id="4775" ruta="|469|2915|526|4775|">
+				<nombre>Accesorios para cepillos de dientes</nombre>
+				<categoria id="4776" ruta="|469|2915|526|4775|4776|">
+					<nombre>Cabezales de repuesto para cepillos de dientes</nombre>
+				</categoria>
+				<categoria id="4942" ruta="|469|2915|526|4775|4942|">
+					<nombre>Desinfectantes para cepillos de dientes</nombre>
+				</categoria>
+				<categoria id="6920" ruta="|469|2915|526|4775|6920|">
+					<nombre>Fundas para cepillos de dientes</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="5155" ruta="|469|2915|526|5155|">
+				<nombre>Adhesivos para dentadura</nombre>
+			</categoria>
+			<categoria id="6715" ruta="|469|2915|526|6715|">
+				<nombre>Aplicador de hilo dental eléctrico</nombre>
+			</categoria>
+			<categoria id="3019" ruta="|469|2915|526|3019|">
+				<nombre>Blanqueadores dentales</nombre>
+			</categoria>
+			<categoria id="6455" ruta="|469|2915|526|6455|">
+				<nombre>Cabezales de recambio para irrigadores dentales</nombre>
+			</categoria>
+			<categoria id="527" ruta="|469|2915|526|527|">
+				<nombre>Cepillos de dientes</nombre>
+			</categoria>
+			<categoria id="2527" ruta="|469|2915|526|2527|">
+				<nombre>Dentaduras postizas</nombre>
+			</categoria>
+			<categoria id="5154" ruta="|469|2915|526|5154|">
+				<nombre>Dispensadores y exprimidores de pasta de dientes</nombre>
+			</categoria>
+			<categoria id="3040" ruta="|469|2915|526|3040|">
+				<nombre>Enjuagues bucales</nombre>
+			</categoria>
+			<categoria id="6189" ruta="|469|2915|526|6189|">
+				<nombre>Espray para el aliento</nombre>
+			</categoria>
+			<categoria id="2769" ruta="|469|2915|526|2769|">
+				<nombre>Estimuladores de encías</nombre>
+			</categoria>
+			<categoria id="505367" ruta="|469|2915|526|505367|">
+				<nombre>Fundas para ortodoncias</nombre>
+			</categoria>
+			<categoria id="5823" ruta="|469|2915|526|5823|">
+				<nombre>Férulas dentales</nombre>
+			</categoria>
+			<categoria id="2620" ruta="|469|2915|526|2620|">
+				<nombre>Hilo dental</nombre>
+			</categoria>
+			<categoria id="5295" ruta="|469|2915|526|5295|">
+				<nombre>Irrigadores dentales</nombre>
+			</categoria>
+			<categoria id="8543" ruta="|469|2915|526|8543|">
+				<nombre>Kits de reparación de dentaduras</nombre>
+			</categoria>
+			<categoria id="5824" ruta="|469|2915|526|5824|">
+				<nombre>Limpiadores de dentaduras postizas</nombre>
+			</categoria>
+			<categoria id="6441" ruta="|469|2915|526|6441|">
+				<nombre>Limpiadores linguales</nombre>
+			</categoria>
+			<categoria id="4316" ruta="|469|2915|526|4316|">
+				<nombre>Palillos de dientes</nombre>
+			</categoria>
+			<categoria id="1360" ruta="|469|2915|526|1360|">
+				<nombre>Pasta de dientes</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="486" ruta="|469|2915|486|">
+			<nombre>Cuidado capilar</nombre>
+			<categoria id="5977" ruta="|469|2915|486|5977|">
+				<nombre>Accesorios para teñir el cabello</nombre>
+			</categoria>
+			<categoria id="6018" ruta="|469|2915|486|6018|">
+				<nombre>Accesorios para útiles de peluquería</nombre>
+				<categoria id="4569" ruta="|469|2915|486|6018|4569|">
+					<nombre>Accesorios para planchas de pelo</nombre>
+				</categoria>
+				<categoria id="4475" ruta="|469|2915|486|6018|4475|">
+					<nombre>Accesorios para secadores</nombre>
+				</categoria>
+				<categoria id="5317" ruta="|469|2915|486|6018|5317|">
+					<nombre>Pinzas y horquillas para rulos</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="2441" ruta="|469|2915|486|2441|">
+				<nombre>Champú y acondicionador</nombre>
+				<categoria id="543616" ruta="|469|2915|486|2441|543616|">
+					<nombre>Acondicionadores</nombre>
+				</categoria>
+				<categoria id="543615" ruta="|469|2915|486|2441|543615|">
+					<nombre>Champú</nombre>
+				</categoria>
+				<categoria id="543617" ruta="|469|2915|486|2441|543617|">
+					<nombre>Kits de champú y acondicionador</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="2814" ruta="|469|2915|486|2814|">
+				<nombre>Coloración</nombre>
+			</categoria>
+			<categoria id="6053" ruta="|469|2915|486|6053|">
+				<nombre>Decolorantes para pelo teñido</nombre>
+			</categoria>
+			<categoria id="1901" ruta="|469|2915|486|1901|">
+				<nombre>Espumas, lacas y geles de peinado</nombre>
+			</categoria>
+			<categoria id="8452" ruta="|469|2915|486|8452|">
+				<nombre>Kits de cuidado capilar</nombre>
+			</categoria>
+			<categoria id="6099" ruta="|469|2915|486|6099|">
+				<nombre>Productos para ocultar la pérdida capilar</nombre>
+			</categoria>
+			<categoria id="6052" ruta="|469|2915|486|6052|">
+				<nombre>Rizadores y alisadores de pelo</nombre>
+			</categoria>
+			<categoria id="3013" ruta="|469|2915|486|3013|">
+				<nombre>Tijeras del pelo</nombre>
+			</categoria>
+			<categoria id="4766" ruta="|469|2915|486|4766|">
+				<nombre>Tratamientos contra la caída del cabello</nombre>
+			</categoria>
+			<categoria id="6429" ruta="|469|2915|486|6429|">
+				<nombre>Vaporizadores para el cabello y gorros térmicos</nombre>
+			</categoria>
+			<categoria id="6019" ruta="|469|2915|486|6019|">
+				<nombre>Útiles de peluquería</nombre>
+				<categoria id="499992" ruta="|469|2915|486|6019|499992|">
+					<nombre>Artículos para el pelo</nombre>
+				</categoria>
+				<categoria id="487" ruta="|469|2915|486|6019|487|">
+					<nombre>Peines y cepillos</nombre>
+				</categoria>
+				<categoria id="3407" ruta="|469|2915|486|6019|3407|">
+					<nombre>Planchas de pelo</nombre>
+				</categoria>
+				<categoria id="488" ruta="|469|2915|486|6019|488|">
+					<nombre>Rulos</nombre>
+				</categoria>
+				<categoria id="490" ruta="|469|2915|486|6019|490|">
+					<nombre>Secadores</nombre>
+				</categoria>
+				<categoria id="489" ruta="|469|2915|486|6019|489|">
+					<nombre>Tenacillas</nombre>
+				</categoria>
+			</categoria>
+		</categoria>
+		<categoria id="493" ruta="|469|2915|493|">
+			<nombre>Cuidado de la espalda</nombre>
+			<categoria id="7404" ruta="|469|2915|493|7404|">
+				<nombre>Cojines de soporte lumbar y de espalda</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="506" ruta="|469|2915|506|">
+			<nombre>Cuidado de los oídos</nombre>
+			<categoria id="7542" ruta="|469|2915|506|7542|">
+				<nombre>Dispensadores de tapones para los oídos</nombre>
+			</categoria>
+			<categoria id="6559" ruta="|469|2915|506|6559|">
+				<nombre>Gotas para los oídos</nombre>
+			</categoria>
+			<categoria id="6561" ruta="|469|2915|506|6561|">
+				<nombre>Jeringas para los oídos</nombre>
+			</categoria>
+			<categoria id="6562" ruta="|469|2915|506|6562|">
+				<nombre>Kits para la eliminación de cerumen</nombre>
+			</categoria>
+			<categoria id="500024" ruta="|469|2915|506|500024|">
+				<nombre>Productos de higiene para los oídos</nombre>
+			</categoria>
+			<categoria id="6560" ruta="|469|2915|506|6560|">
+				<nombre>Secadores para los oídos</nombre>
+			</categoria>
+			<categoria id="2596" ruta="|469|2915|506|2596|">
+				<nombre>Tapones para los oídos</nombre>
+			</categoria>
+			<categoria id="5706" ruta="|469|2915|506|5706|">
+				<nombre>Velas de oído</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="515" ruta="|469|2915|515|">
+			<nombre>Cuidado de los pies</nombre>
+			<categoria id="3049" ruta="|469|2915|515|3049|">
+				<nombre>Desodorante para pies</nombre>
+			</categoria>
+			<categoria id="2801" ruta="|469|2915|515|2801|">
+				<nombre>Plantillas</nombre>
+			</categoria>
+			<categoria id="7495" ruta="|469|2915|515|7495|">
+				<nombre>Separadores de dedos</nombre>
+			</categoria>
+			<categoria id="3022" ruta="|469|2915|515|3022|">
+				<nombre>Tratamiento de callos</nombre>
+			</categoria>
+			<categoria id="2992" ruta="|469|2915|515|2992|">
+				<nombre>Tratamiento de juanetes</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="1380" ruta="|469|2915|1380|">
+			<nombre>Cuidado visual</nombre>
+			<categoria id="2521" ruta="|469|2915|1380|2521|">
+				<nombre>Accesorios para gafas</nombre>
+				<categoria id="8204" ruta="|469|2915|1380|2521|8204|">
+					<nombre>Cintas y cadenas para gafas</nombre>
+				</categoria>
+				<categoria id="5507" ruta="|469|2915|1380|2521|5507|">
+					<nombre>Fundas y soportes para gafas</nombre>
+				</categoria>
+				<categoria id="543538" ruta="|469|2915|1380|2521|543538|">
+					<nombre>Piezas de repuesto para gafas</nombre>
+				</categoria>
+				<categoria id="352853" ruta="|469|2915|1380|2521|352853|">
+					<nombre>Soluciones de limpieza para lentes de gafas</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="2922" ruta="|469|2915|1380|2922|">
+				<nombre>Colirios y lubricantes oculares</nombre>
+			</categoria>
+			<categoria id="3011" ruta="|469|2915|1380|3011|">
+				<nombre>Cuidado de las lentes de contacto</nombre>
+				<categoria id="6510" ruta="|469|2915|1380|3011|6510|">
+					<nombre>Estuches para lentes de contacto</nombre>
+				</categoria>
+				<categoria id="7363" ruta="|469|2915|1380|3011|7363|">
+					<nombre>Kits de mantenimiento para lentes de contacto</nombre>
+				</categoria>
+				<categoria id="6509" ruta="|469|2915|1380|3011|6509|">
+					<nombre>Solución para lentes de contacto</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="524" ruta="|469|2915|1380|524|">
+				<nombre>Gafas</nombre>
+			</categoria>
+			<categoria id="2923" ruta="|469|2915|1380|2923|">
+				<nombre>Lentes de contacto</nombre>
+			</categoria>
+			<categoria id="2733" ruta="|469|2915|1380|2733|">
+				<nombre>Lentes para gafas</nombre>
+			</categoria>
+			<categoria id="6977" ruta="|469|2915|1380|6977|">
+				<nombre>Lentes para gafas de sol</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="484" ruta="|469|2915|484|">
+			<nombre>Desodorantes y antitranspirantes</nombre>
+			<categoria id="543599" ruta="|469|2915|484|543599|">
+				<nombre>Antitranspirante</nombre>
+			</categoria>
+			<categoria id="543598" ruta="|469|2915|484|543598|">
+				<nombre>Desodorante</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="7134" ruta="|469|2915|7134|">
+			<nombre>Enemas</nombre>
+		</categoria>
+		<categoria id="777" ruta="|469|2915|777|">
+			<nombre>Lubricantes íntimos</nombre>
+		</categoria>
+		<categoria id="5663" ruta="|469|2915|5663|">
+			<nombre>Masaje y relajación</nombre>
+			<categoria id="5664" ruta="|469|2915|5663|5664|">
+				<nombre>Aceites para masaje</nombre>
+			</categoria>
+			<categoria id="233420" ruta="|469|2915|5663|233420|">
+				<nombre>Almohadas para ojos</nombre>
+			</categoria>
+			<categoria id="8530" ruta="|469|2915|5663|8530|">
+				<nombre>Calentadores de piedras de masaje</nombre>
+			</categoria>
+			<categoria id="471" ruta="|469|2915|5663|471|">
+				<nombre>Masajeadores</nombre>
+				<categoria id="543595" ruta="|469|2915|5663|471|543595|">
+					<nombre>Cojines de masaje</nombre>
+				</categoria>
+				<categoria id="543596" ruta="|469|2915|5663|471|543596|">
+					<nombre>Masajeadores eléctricos</nombre>
+				</categoria>
+				<categoria id="543597" ruta="|469|2915|5663|471|543597|">
+					<nombre>Utensilios para masaje manual</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="2074" ruta="|469|2915|5663|2074|">
+				<nombre>Mesas de masaje</nombre>
+			</categoria>
+			<categoria id="8135" ruta="|469|2915|5663|8135|">
+				<nombre>Piedras de masaje</nombre>
+			</categoria>
+			<categoria id="500060" ruta="|469|2915|5663|500060|">
+				<nombre>Rascaespaldas</nombre>
+			</categoria>
+			<categoria id="1442" ruta="|469|2915|5663|1442|">
+				<nombre>Sillones de masaje</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="2656" ruta="|469|2915|2656|">
+			<nombre>Pinzas</nombre>
+		</categoria>
+		<categoria id="485" ruta="|469|2915|485|">
+			<nombre>Productos sanitarios femeninos</nombre>
+			<categoria id="2387" ruta="|469|2915|485|2387|">
+				<nombre>Compresas y protectores femeninos</nombre>
+			</categoria>
+			<categoria id="8122" ruta="|469|2915|485|8122|">
+				<nombre>Copas menstruales</nombre>
+			</categoria>
+			<categoria id="5821" ruta="|469|2915|485|5821|">
+				<nombre>Cremas y duchas vaginales</nombre>
+			</categoria>
+			<categoria id="6862" ruta="|469|2915|485|6862|">
+				<nombre>Desodorante femenino</nombre>
+			</categoria>
+			<categoria id="2564" ruta="|469|2915|485|2564|">
+				<nombre>Tampones</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="6921" ruta="|469|2915|6921|">
+			<nombre>Tiendas para bronceado en espray</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="5573" ruta="|469|5573|">
+		<nombre>Limpieza y cuidado de joyas</nombre>
+		<categoria id="500082" ruta="|469|5573|500082|">
+			<nombre>Artículos para la limpieza de joyas</nombre>
+		</categoria>
+		<categoria id="5124" ruta="|469|5573|5124|">
+			<nombre>Kits de reparación de relojes</nombre>
+		</categoria>
+		<categoria id="499919" ruta="|469|5573|499919|">
+			<nombre>Soluciones y pulidos para joyas</nombre>
+		</categoria>
+		<categoria id="5974" ruta="|469|5573|5974|">
+			<nombre>Soportes para joyería</nombre>
+		</categoria>
+		<categoria id="500083" ruta="|469|5573|500083|">
+			<nombre>Vaporizadores para joyas</nombre>
+		</categoria>
+	</categoria>
+</categoria>

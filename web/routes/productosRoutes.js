@@ -8,24 +8,25 @@
    POST /productos/:id/comprar → solicita compra del producto (requiere auth) */
 const express = require('express');
 const router = express.Router();
+const authMiddleware = require('../src/middleware/authMiddleware');
 
-// ¡CORREGIDO! Importamos el Controlador desde la carpeta 'src'
+// Importamos el Controlador desde la carpeta 'src'
 const productosController = require('../src/controllers/productosController');
 
-// 1. RUTAS ESTÁTICAS (Fijas, siempre van primero)
+// rutas estáticas (Fijas, siempre van primero)
 router.get('/productos', productosController.listado);
 
 // Mostrar formulario de crear (Hacemos que coincida con tu crear.hbs)
-router.get('/productos/crear', productosController.mostrarCrear);
+router.get('/productos/crear', authMiddleware, productosController.mostrarCrear);
 
 // Procesar la creación cuando se envía el formulario (vía POST)
-router.post('/productos/crear', productosController.crear);
+router.post('/productos/crear', authMiddleware, productosController.crear);
 
 
-// 2. RUTAS DINÁMICAS (Con parámetros como :id, siempre al final)
+// Rutas dinámicas (Con parámetros como :id, siempre al final)
 router.get('/productos/:id', productosController.detalle);
-router.get('/productos/:id/editar', productosController.mostrarEditar);
-router.post('/productos/:id/editar', productosController.editar);
-router.post('/productos/:id/comprar', productosController.comprar);
+router.get('/productos/:id/editar', authMiddleware, productosController.mostrarEditar);
+router.post('/productos/:id/editar', authMiddleware, productosController.editar);
+router.post('/productos/:id/comprar', authMiddleware, productosController.comprar);
 
 module.exports = router;

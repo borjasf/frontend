@@ -1,4 +1,20 @@
-/* Servicio de usuarios. Encapsula las llamadas a la API de usuarios:
-   - getUsuario(id, token)           → GET /api/usuarios/:id
-   - getTodosUsuarios(token)          → GET /api/usuarios (solo admin)
-   - actualizarUsuario(id, datos, token) → PATCH /api/usuarios/:id */
+const { crearApiClient } = require('./apiService');
+
+async function getTodosUsuarios(token) {
+    const api = crearApiClient(token);
+    const response = await api.get('/api/usuarios');
+    return response.data;
+}
+
+async function getUsuario(id, token) {
+    const api = crearApiClient(token);
+    const response = await api.get(`/api/usuarios/${id}`);
+    return response.data;
+}
+
+async function actualizarUsuario(id, datos, token) {
+    const api = crearApiClient(token);
+    await api.patch(`/api/usuarios/${id}`, datos);
+}
+
+module.exports = { getTodosUsuarios, getUsuario, actualizarUsuario };

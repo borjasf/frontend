@@ -122,6 +122,7 @@ main {
 }
 
 /* ── Flip checkbox ── */
+/* Este código es para el checkbox de admin, lo hemos quitado por seguridad, pero lo dejamos aqui por si queremos implementarlo en un futuro 
 .cbx-wrapper {
     position: relative;
     width: 24px;
@@ -205,7 +206,7 @@ main {
     stroke-linecap: round;
     stroke-linejoin: round;
 }
-
+*/
 /* Botón cancelar */
 .btn-cancel {
     display: block;

@@ -1,3 +1,39 @@
 {{!-- Panel admin: lista de todos los usuarios del sistema (solo accesible con rol admin).
       Tabla con: id, nombre, apellidos, email y rol de cada usuario.
       Datos obtenidos via GET /api/usuarios --}}
+
+{{!-- Extiende el layout principal --}}
+{{#extend "main"}}
+      {{!-- Define el bloque de contenido, con esto el admin puede observar a todos los usuarios del sistema --}}
+      {{#content "body"}}
+            <h1>{{title}}</h1>
+            <table class="table">
+                  <thead>
+                        <tr>
+                              <th>ID</th>
+                              <th>Nombre</th>
+                              <th>Apellidos</th>
+                              <th>Email</th>
+                              <th>Rol</th>
+                        </tr>
+                  </thead>
+                  <tbody>
+                        {{#each usuarios}}
+                        <tr>
+                              <td>{{this.id}}</td>
+                              <td>{{this.nombre}}</td>
+                              <td>{{this.apellidos}}</td>
+                              <td>{{this.email}}</td>
+                              <td>{{this.rol}}</td>
+                        </tr>
+                        {{else}}
+                        <tr>
+                              <td colspan="5">No hay usuarios para mostrar.</td>
+                        </tr>
+                        {{/each}}
+                  </tbody>
+            </table>
+      {{/content}}
+{{/extend}}
+
+

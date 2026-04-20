@@ -1,0 +1,1646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<categoria id="8" ruta="|8|">
+	<nombre>Arte y ocio</nombre>
+	<categoria id="499969" ruta="|8|499969|">
+		<nombre>Entradas para eventos</nombre>
+	</categoria>
+	<categoria id="5709" ruta="|8|5709|">
+		<nombre>Fiestas y celebraciones</nombre>
+		<categoria id="408" ruta="|8|5709|408|">
+			<nombre>Efectos especiales</nombre>
+			<categoria id="5711" ruta="|8|5709|408|5711|">
+				<nombre>Bolas de discoteca</nombre>
+			</categoria>
+			<categoria id="5967" ruta="|8|5709|408|5967|">
+				<nombre>Controladores de efectos especiales</nombre>
+			</categoria>
+			<categoria id="410" ruta="|8|5709|408|410|">
+				<nombre>Efectos de iluminación</nombre>
+			</categoria>
+			<categoria id="409" ruta="|8|5709|408|409|">
+				<nombre>Máquinas de humo</nombre>
+			</categoria>
+			<categoria id="503028" ruta="|8|5709|408|503028|">
+				<nombre>Soportes para iluminación de efectos especiales</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="96" ruta="|8|5709|96|">
+			<nombre>Productos para fiestas</nombre>
+			<categoria id="4351" ruta="|8|5709|96|4351|">
+				<nombre>Aerosoles de serpentinas</nombre>
+			</categoria>
+			<categoria id="5452" ruta="|8|5709|96|5452|">
+				<nombre>Artículos para fiestas</nombre>
+				<categoria id="5453" ruta="|8|5709|96|5452|5453|">
+					<nombre>Recordatorios de boda</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="4915" ruta="|8|5709|96|4915|">
+				<nombre>Bengalas</nombre>
+			</categoria>
+			<categoria id="7097" ruta="|8|5709|96|7097|">
+				<nombre>Cajas y soportes para ocasiones especiales</nombre>
+			</categoria>
+			<categoria id="2781" ruta="|8|5709|96|2781|">
+				<nombre>Confeti</nombre>
+			</categoria>
+			<categoria id="502981" ruta="|8|5709|96|502981|">
+				<nombre>Cortinillas y guirnaldas</nombre>
+			</categoria>
+			<categoria id="8110" ruta="|8|5709|96|8110|">
+				<nombre>Decoraciones hinchables para fiestas</nombre>
+			</categoria>
+			<categoria id="7007" ruta="|8|5709|96|7007|">
+				<nombre>Decoraciones para cócteles</nombre>
+			</categoria>
+			<categoria id="2587" ruta="|8|5709|96|2587|">
+				<nombre>Globos</nombre>
+			</categoria>
+			<categoria id="1371" ruta="|8|5709|96|1371|">
+				<nombre>Invitaciones</nombre>
+			</categoria>
+			<categoria id="3735" ruta="|8|5709|96|3735|">
+				<nombre>Juegos para beber</nombre>
+				<categoria id="3361" ruta="|8|5709|96|3735|3361|">
+					<nombre>Beer Pong</nombre>
+					<categoria id="3440" ruta="|8|5709|96|3735|3361|3440|">
+						<nombre>Mesas de beer pong</nombre>
+					</categoria>
+				</categoria>
+			</categoria>
+			<categoria id="7160" ruta="|8|5709|96|7160|">
+				<nombre>Juegos para fiestas</nombre>
+			</categoria>
+			<categoria id="6311" ruta="|8|5709|96|6311|">
+				<nombre>Kits de globos</nombre>
+			</categoria>
+			<categoria id="502972" ruta="|8|5709|96|502972|">
+				<nombre>Kits para fiestas</nombre>
+			</categoria>
+			<categoria id="505763" ruta="|8|5709|96|505763|">
+				<nombre>Lazos para sillas</nombre>
+			</categoria>
+			<categoria id="2783" ruta="|8|5709|96|2783|">
+				<nombre>Matasuegras y petardos</nombre>
+			</categoria>
+			<categoria id="5043" ruta="|8|5709|96|5043|">
+				<nombre>Pajitas y agitadores</nombre>
+			</categoria>
+			<categoria id="2531" ruta="|8|5709|96|2531|">
+				<nombre>Pancartas</nombre>
+			</categoria>
+			<categoria id="4914" ruta="|8|5709|96|4914|">
+				<nombre>Petardos y fuegos artificiales</nombre>
+			</categoria>
+			<categoria id="3994" ruta="|8|5709|96|3994|">
+				<nombre>Piñatas</nombre>
+			</categoria>
+			<categoria id="8216" ruta="|8|5709|96|8216|">
+				<nombre>Pompones decorativos</nombre>
+			</categoria>
+			<categoria id="8038" ruta="|8|5709|96|8038|">
+				<nombre>Programas de eventos</nombre>
+			</categoria>
+			<categoria id="1484" ruta="|8|5709|96|1484|">
+				<nombre>Sellos, lacres y pegatinas</nombre>
+			</categoria>
+			<categoria id="6906" ruta="|8|5709|96|6906|">
+				<nombre>Sombreros para fiestas</nombre>
+			</categoria>
+			<categoria id="5472" ruta="|8|5709|96|5472|">
+				<nombre>Soportes de tarjetas de colocación de invitados</nombre>
+			</categoria>
+			<categoria id="1887" ruta="|8|5709|96|1887|">
+				<nombre>Tarjetas de confirmación</nombre>
+			</categoria>
+			<categoria id="328061" ruta="|8|5709|96|328061|">
+				<nombre>Tarjetas de consejos</nombre>
+			</categoria>
+			<categoria id="2104" ruta="|8|5709|96|2104|">
+				<nombre>Tarjetas de ubicación</nombre>
+			</categoria>
+			<categoria id="4730" ruta="|8|5709|96|4730|">
+				<nombre>Velas de cumpleaños</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="2559" ruta="|8|5709|2559|">
+			<nombre>Regalos</nombre>
+			<categoria id="5916" ruta="|8|5709|2559|5916|">
+				<nombre>Agujas para ojal y corpiños</nombre>
+			</categoria>
+			<categoria id="53" ruta="|8|5709|2559|53|">
+				<nombre>Cheques regalo</nombre>
+			</categoria>
+			<categoria id="94" ruta="|8|5709|2559|94|">
+				<nombre>Envoltorios para regalos</nombre>
+				<categoria id="5838" ruta="|8|5709|2559|94|5838|">
+					<nombre>Bolsas de regalo</nombre>
+				</categoria>
+				<categoria id="5091" ruta="|8|5709|2559|94|5091|">
+					<nombre>Cajas de regalo</nombre>
+				</categoria>
+				<categoria id="8213" ruta="|8|5709|2559|94|8213|">
+					<nombre>Etiquetas para regalos</nombre>
+				</categoria>
+				<categoria id="2816" ruta="|8|5709|2559|94|2816|">
+					<nombre>Papel de regalo</nombre>
+				</categoria>
+				<categoria id="6712" ruta="|8|5709|2559|94|6712|">
+					<nombre>Papel de seda</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="2899" ruta="|8|5709|2559|2899|">
+				<nombre>Flores recién cortadas</nombre>
+			</categoria>
+			<categoria id="6100" ruta="|8|5709|2559|6100|">
+				<nombre>Pasadores para corpiños y ojales</nombre>
+			</categoria>
+			<categoria id="95" ruta="|8|5709|2559|95|">
+				<nombre>Tarjetas de felicitación y papel de carta</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="5868" ruta="|8|5709|5868|">
+			<nombre>Trofeos y premios</nombre>
+			<categoria id="543654" ruta="|8|5709|5868|543654|">
+				<nombre>Cintas para premios</nombre>
+			</categoria>
+			<categoria id="543656" ruta="|8|5709|5868|543656|">
+				<nombre>Diplomas para premios</nombre>
+			</categoria>
+			<categoria id="543655" ruta="|8|5709|5868|543655|">
+				<nombre>Pines y medallas para premios</nombre>
+			</categoria>
+			<categoria id="543657" ruta="|8|5709|5868|543657|">
+				<nombre>Placas para premios</nombre>
+			</categoria>
+			<categoria id="543653" ruta="|8|5709|5868|543653|">
+				<nombre>Trofeos</nombre>
+			</categoria>
+		</categoria>
+	</categoria>
+	<categoria id="5710" ruta="|8|5710|">
+		<nombre>Hobbies y artes creativas</nombre>
+		<categoria id="55" ruta="|8|5710|55|">
+			<nombre>Accesorios para instrumentos musicales y de orquesta</nombre>
+			<categoria id="8072" ruta="|8|5710|55|8072|">
+				<nombre>Accesorios para amplificadores de instrumentos musicales
+				</nombre>
+				<categoria id="8462" ruta="|8|5710|55|8072|8462|">
+					<nombre>Diales para amplificadores de instrumentos musicales
+					</nombre>
+				</categoria>
+				<categoria id="8461" ruta="|8|5710|55|8072|8461|">
+					<nombre>Fundas para amplificadores de instrumentos musicales
+					</nombre>
+				</categoria>
+				<categoria id="6970" ruta="|8|5710|55|8072|6970|">
+					<nombre>Muebles para amplificadores de instrumentos musicales
+					</nombre>
+				</categoria>
+				<categoria id="8073" ruta="|8|5710|55|8072|8073|">
+					<nombre>Pedales para amplificadores de instrumentos musicales
+					</nombre>
+				</categoria>
+				<categoria id="7364" ruta="|8|5710|55|8072|7364|">
+					<nombre>Soportes para amplificadores de instrumentos musicales
+					</nombre>
+				</categoria>
+				<categoria id="8480" ruta="|8|5710|55|8072|8480|">
+					<nombre>Tubos para amplificadores de instrumentos musicales
+					</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="7277" ruta="|8|5710|55|7277|">
+				<nombre>Accesorios para atriles de música</nombre>
+				<categoria id="7279" ruta="|8|5710|55|7277|7279|">
+					<nombre>Bolsas para atriles de música</nombre>
+				</categoria>
+				<categoria id="7280" ruta="|8|5710|55|7277|7280|">
+					<nombre>Luces para atriles de música</nombre>
+				</categoria>
+				<categoria id="7278" ruta="|8|5710|55|7277|7278|">
+					<nombre>Pinzas para partituras</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="61" ruta="|8|5710|55|61|">
+				<nombre>Accesorios para instrumentos de cuerda</nombre>
+				<categoria id="3502" ruta="|8|5710|55|61|3502|">
+					<nombre>Accesorios para guitarra</nombre>
+					<categoria id="3176" ruta="|8|5710|55|61|3502|3176|">
+						<nombre>Calibradores para guitarras</nombre>
+					</categoria>
+					<categoria id="5367" ruta="|8|5710|55|61|3502|5367|">
+						<nombre>Cejillas</nombre>
+					</categoria>
+					<categoria id="499688" ruta="|8|5710|55|61|3502|499688|">
+						<nombre>Cintas para guitarra</nombre>
+					</categoria>
+					<categoria id="3178" ruta="|8|5710|55|61|3502|3178|">
+						<nombre>Cuerdas de guitarra</nombre>
+					</categoria>
+					<categoria id="3882" ruta="|8|5710|55|61|3502|3882|">
+						<nombre>Fundas y estuches de guitarra</nombre>
+					</categoria>
+					<categoria id="3392" ruta="|8|5710|55|61|3502|3392|">
+						<nombre>Humidificadores de guitarra</nombre>
+					</categoria>
+					<categoria id="503721" ruta="|8|5710|55|61|3502|503721|">
+						<nombre>Manivela para apretar cuerdas de guitarra</nombre>
+					</categoria>
+					<categoria id="3775" ruta="|8|5710|55|61|3502|3775|">
+						<nombre>Pastillas para guitarra acústica</nombre>
+					</categoria>
+					<categoria id="3412" ruta="|8|5710|55|61|3502|3412|">
+						<nombre>Pastillas para guitarra eléctrica</nombre>
+					</categoria>
+					<categoria id="503032" ruta="|8|5710|55|61|3502|503032|">
+						<nombre>Piezas y equipamiento para guitarras</nombre>
+					</categoria>
+					<categoria id="4111" ruta="|8|5710|55|61|3502|4111|">
+						<nombre>Púas de guitarra</nombre>
+					</categoria>
+					<categoria id="5368" ruta="|8|5710|55|61|3502|5368|">
+						<nombre>Slides para guitarra</nombre>
+					</categoria>
+					<categoria id="3646" ruta="|8|5710|55|61|3502|3646|">
+						<nombre>Soportes para guitarra</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="503033" ruta="|8|5710|55|61|503033|">
+					<nombre>Accesorios para instrumentos de cuerda de orquesta</nombre>
+					<categoria id="503040"
+						ruta="|8|5710|55|61|503033|503040|">
+						<nombre>Arcos para instrumentos de cuerda de orquesta</nombre>
+					</categoria>
+					<categoria id="503034"
+						ruta="|8|5710|55|61|503033|503034|">
+						<nombre>Cuerdas para instrumentos de cuerda de orquesta</nombre>
+					</categoria>
+					<categoria id="8209" ruta="|8|5710|55|61|503033|8209|">
+						<nombre>Estuches para arcos de instrumentos de cuerda</nombre>
+					</categoria>
+					<categoria id="503039"
+						ruta="|8|5710|55|61|503033|503039|">
+						<nombre>Estuches para instrumentos de cuerda de orquesta</nombre>
+					</categoria>
+					<categoria id="503036"
+						ruta="|8|5710|55|61|503033|503036|">
+						<nombre>Pastillas para instrumentos de cuerda de orquesta</nombre>
+					</categoria>
+					<categoria id="503038"
+						ruta="|8|5710|55|61|503033|503038|">
+						<nombre>Piezas y equipamiento para instrumentos de cuerda de
+							orquesta</nombre>
+					</categoria>
+					<categoria id="503035"
+						ruta="|8|5710|55|61|503033|503035|">
+						<nombre>Soportes para instrumentos de cuerda de orquesta</nombre>
+					</categoria>
+					<categoria id="503037"
+						ruta="|8|5710|55|61|503033|503037|">
+						<nombre>Sordinas para instrumentos de cuerda de orquesta</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="4806" ruta="|8|5710|55|61|4806|">
+					<nombre>Limpieza y cuidado de instrumentos de cuerda</nombre>
+					<categoria id="4912" ruta="|8|5710|55|61|4806|4912|">
+						<nombre>Cera para instrumentos de cuerda</nombre>
+					</categoria>
+					<categoria id="4911" ruta="|8|5710|55|61|4806|4911|">
+						<nombre>Gamuzas para instrumentos de cuerda</nombre>
+					</categoria>
+					<categoria id="3374" ruta="|8|5710|55|61|4806|3374|">
+						<nombre>Resina para arcos</nombre>
+					</categoria>
+				</categoria>
+			</categoria>
+			<categoria id="57" ruta="|8|5710|55|57|">
+				<nombre>Accesorios para instrumentos de metal</nombre>
+				<categoria id="505308" ruta="|8|5710|55|57|505308|">
+					<nombre>Boquillas para instrumentos de metal</nombre>
+				</categoria>
+				<categoria id="505310" ruta="|8|5710|55|57|505310|">
+					<nombre>Fundas y estuches para instrumentos de metal</nombre>
+				</categoria>
+				<categoria id="4797" ruta="|8|5710|55|57|4797|">
+					<nombre>Limpieza y cuidado de instrumentos de metal</nombre>
+					<categoria id="4895" ruta="|8|5710|55|57|4797|4895|">
+						<nombre>Gamuzas para instrumentos de metal</nombre>
+					</categoria>
+					<categoria id="4890" ruta="|8|5710|55|57|4797|4890|">
+						<nombre>Herramientas para limpiar instrumentos de metal</nombre>
+					</categoria>
+					<categoria id="4891" ruta="|8|5710|55|57|4797|4891|">
+						<nombre>Kits de mantenimiento de instrumentos de metal</nombre>
+					</categoria>
+					<categoria id="4894" ruta="|8|5710|55|57|4797|4894|">
+						<nombre>Lubricantes para instrumentos de metal</nombre>
+					</categoria>
+					<categoria id="4892" ruta="|8|5710|55|57|4797|4892|">
+						<nombre>Productos de limpieza y desinfectantes para instrumentos
+							de metal</nombre>
+					</categoria>
+					<categoria id="4893" ruta="|8|5710|55|57|4797|4893|">
+						<nombre>Protectores para instrumentos de metal</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="4798" ruta="|8|5710|55|57|4798|">
+					<nombre>Piezas de repuesto de instrumentos de metal</nombre>
+				</categoria>
+				<categoria id="505309" ruta="|8|5710|55|57|505309|">
+					<nombre>Soportes y correas para instrumentos de metal</nombre>
+				</categoria>
+				<categoria id="505768" ruta="|8|5710|55|57|505768|">
+					<nombre>Sordinas para instrumentos de metal</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="62" ruta="|8|5710|55|62|">
+				<nombre>Accesorios para instrumentos de viento-madera</nombre>
+				<categoria id="4955" ruta="|8|5710|55|62|4955|">
+					<nombre>Accesorios para armónica</nombre>
+					<categoria id="4956" ruta="|8|5710|55|62|4955|4956|">
+						<nombre>Estuches para armónicas</nombre>
+					</categoria>
+					<categoria id="5046" ruta="|8|5710|55|62|4955|5046|">
+						<nombre>Soportes para armónica</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="4791" ruta="|8|5710|55|62|4791|">
+					<nombre>Accesorios para clarinete</nombre>
+					<categoria id="4820" ruta="|8|5710|55|62|4791|4820|">
+						<nombre>Abrazaderas y boquilleros para clarinete</nombre>
+					</categoria>
+					<categoria id="4824" ruta="|8|5710|55|62|4791|4824|">
+						<nombre>Cañas para clarinete</nombre>
+					</categoria>
+					<categoria id="4819" ruta="|8|5710|55|62|4791|4819|">
+						<nombre>Fundas y estuches para clarinete</nombre>
+					</categoria>
+					<categoria id="4818" ruta="|8|5710|55|62|4791|4818|">
+						<nombre>Limpieza y cuidado del clarinete</nombre>
+						<categoria id="4828"
+							ruta="|8|5710|55|62|4791|4818|4828|">
+							<nombre>Escobillas para clarinete</nombre>
+						</categoria>
+						<categoria id="4827"
+							ruta="|8|5710|55|62|4791|4818|4827|">
+							<nombre>Escobillones para clarinete</nombre>
+						</categoria>
+						<categoria id="4826"
+							ruta="|8|5710|55|62|4791|4818|4826|">
+							<nombre>Kits de mantenimiento para clarinete</nombre>
+						</categoria>
+					</categoria>
+					<categoria id="4822" ruta="|8|5710|55|62|4791|4822|">
+						<nombre>Piezas para clarinete</nombre>
+						<categoria id="4829"
+							ruta="|8|5710|55|62|4791|4822|4829|">
+							<nombre>Barriletes para clarinete</nombre>
+						</categoria>
+						<categoria id="4831"
+							ruta="|8|5710|55|62|4791|4822|4831|">
+							<nombre>Boquillas para clarinete</nombre>
+						</categoria>
+						<categoria id="4830"
+							ruta="|8|5710|55|62|4791|4822|4830|">
+							<nombre>Campanas para clarinete</nombre>
+						</categoria>
+						<categoria id="4832"
+							ruta="|8|5710|55|62|4791|4822|4832|">
+							<nombre>Piezas pequeñas para clarinete</nombre>
+						</categoria>
+					</categoria>
+					<categoria id="4823" ruta="|8|5710|55|62|4791|4823|">
+						<nombre>Soportes y clavijas para clarinete</nombre>
+					</categoria>
+					<categoria id="4825" ruta="|8|5710|55|62|4791|4825|">
+						<nombre>Soportes y cordones para clarinete</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="4790" ruta="|8|5710|55|62|4790|">
+					<nombre>Accesorios para fagot</nombre>
+					<categoria id="4812" ruta="|8|5710|55|62|4790|4812|">
+						<nombre>Cañas para fagot</nombre>
+					</categoria>
+					<categoria id="4810" ruta="|8|5710|55|62|4790|4810|">
+						<nombre>Fundas y estuches para fagot</nombre>
+					</categoria>
+					<categoria id="4809" ruta="|8|5710|55|62|4790|4809|">
+						<nombre>Limpieza y cuidado del fagot</nombre>
+						<categoria id="4815"
+							ruta="|8|5710|55|62|4790|4809|4815|">
+							<nombre>Escobillas para fagot</nombre>
+						</categoria>
+					</categoria>
+					<categoria id="4811" ruta="|8|5710|55|62|4790|4811|">
+						<nombre>Piezas para fagot</nombre>
+						<categoria id="4817"
+							ruta="|8|5710|55|62|4790|4811|4817|">
+							<nombre>Piezas pequeñas para fagot</nombre>
+						</categoria>
+						<categoria id="4816"
+							ruta="|8|5710|55|62|4790|4811|4816|">
+							<nombre>Tudeles para fagot</nombre>
+						</categoria>
+					</categoria>
+					<categoria id="4813" ruta="|8|5710|55|62|4790|4813|">
+						<nombre>Soportes para fagot</nombre>
+					</categoria>
+					<categoria id="4814" ruta="|8|5710|55|62|4790|4814|">
+						<nombre>Soportes y arneses para fagot.</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="4792" ruta="|8|5710|55|62|4792|">
+					<nombre>Accesorios para flauta</nombre>
+					<categoria id="4834" ruta="|8|5710|55|62|4792|4834|">
+						<nombre>Fundas y estuches para flauta</nombre>
+					</categoria>
+					<categoria id="4833" ruta="|8|5710|55|62|4792|4833|">
+						<nombre>Limpieza y cuidado de la flauta</nombre>
+						<categoria id="4839"
+							ruta="|8|5710|55|62|4792|4833|4839|">
+							<nombre>Escobillas para flautas</nombre>
+						</categoria>
+						<categoria id="4838"
+							ruta="|8|5710|55|62|4792|4833|4838|">
+							<nombre>Kits de mantenimiento para flautas</nombre>
+						</categoria>
+						<categoria id="4840"
+							ruta="|8|5710|55|62|4792|4833|4840|">
+							<nombre>Limpiadores para flautas</nombre>
+						</categoria>
+					</categoria>
+					<categoria id="4836" ruta="|8|5710|55|62|4792|4836|">
+						<nombre>Piezas para flauta</nombre>
+						<categoria id="4841"
+							ruta="|8|5710|55|62|4792|4836|4841|">
+							<nombre>Cabezas para flautas</nombre>
+						</categoria>
+						<categoria id="4842"
+							ruta="|8|5710|55|62|4792|4836|4842|">
+							<nombre>Piezas pequeñas para flautas</nombre>
+						</categoria>
+					</categoria>
+					<categoria id="4837" ruta="|8|5710|55|62|4792|4837|">
+						<nombre>Soportes y clavijas para flauta</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="503747" ruta="|8|5710|55|62|503747|">
+					<nombre>Accesorios para flauta dulce</nombre>
+					<categoria id="503748"
+						ruta="|8|5710|55|62|503747|503748|">
+						<nombre>Estuches para flauta dulce</nombre>
+					</categoria>
+					<categoria id="503749"
+						ruta="|8|5710|55|62|503747|503749|">
+						<nombre>Limpieza y cuidado de flauta dulce</nombre>
+					</categoria>
+					<categoria id="503750"
+						ruta="|8|5710|55|62|503747|503750|">
+						<nombre>Piezas para flauta dulce</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="4793" ruta="|8|5710|55|62|4793|">
+					<nombre>Accesorios para oboe</nombre>
+					<categoria id="4847" ruta="|8|5710|55|62|4793|4847|">
+						<nombre>Cañas para oboe</nombre>
+					</categoria>
+					<categoria id="4844" ruta="|8|5710|55|62|4793|4844|">
+						<nombre>Fundas y estuches para oboe</nombre>
+					</categoria>
+					<categoria id="4843" ruta="|8|5710|55|62|4793|4843|">
+						<nombre>Limpieza y cuidado del oboe</nombre>
+						<categoria id="4850"
+							ruta="|8|5710|55|62|4793|4843|4850|">
+							<nombre>Escobillas para oboe</nombre>
+						</categoria>
+						<categoria id="4849"
+							ruta="|8|5710|55|62|4793|4843|4849|">
+							<nombre>Kits de mantenimiento para oboe</nombre>
+						</categoria>
+					</categoria>
+					<categoria id="4845" ruta="|8|5710|55|62|4793|4845|">
+						<nombre>Piezas para oboe</nombre>
+						<categoria id="4851"
+							ruta="|8|5710|55|62|4793|4845|4851|">
+							<nombre>Piezas pequeñas para oboe</nombre>
+						</categoria>
+					</categoria>
+					<categoria id="4846" ruta="|8|5710|55|62|4793|4846|">
+						<nombre>Soportes y clavijas para oboe</nombre>
+					</categoria>
+					<categoria id="4848" ruta="|8|5710|55|62|4793|4848|">
+						<nombre>Soportes y cordones para oboe</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="4794" ruta="|8|5710|55|62|4794|">
+					<nombre>Accesorios para saxofón</nombre>
+					<categoria id="4854" ruta="|8|5710|55|62|4794|4854|">
+						<nombre>Abrazaderas y cubreboquillas para saxofón</nombre>
+					</categoria>
+					<categoria id="4858" ruta="|8|5710|55|62|4794|4858|">
+						<nombre>Cañas para saxofón</nombre>
+					</categoria>
+					<categoria id="4853" ruta="|8|5710|55|62|4794|4853|">
+						<nombre>Fundas y estuches para saxofón</nombre>
+					</categoria>
+					<categoria id="4852" ruta="|8|5710|55|62|4794|4852|">
+						<nombre>Limpieza y cuidado del saxofón</nombre>
+						<categoria id="4862"
+							ruta="|8|5710|55|62|4794|4852|4862|">
+							<nombre>Escobillas para saxofón</nombre>
+						</categoria>
+						<categoria id="4861"
+							ruta="|8|5710|55|62|4794|4852|4861|">
+							<nombre>Escobillones para saxofón</nombre>
+						</categoria>
+						<categoria id="4860"
+							ruta="|8|5710|55|62|4794|4852|4860|">
+							<nombre>Kits de mantenimiento para saxofón</nombre>
+						</categoria>
+					</categoria>
+					<categoria id="4856" ruta="|8|5710|55|62|4794|4856|">
+						<nombre>Piezas para saxofón</nombre>
+						<categoria id="4863"
+							ruta="|8|5710|55|62|4794|4856|4863|">
+							<nombre>Boquillas para saxofón</nombre>
+						</categoria>
+						<categoria id="4864"
+							ruta="|8|5710|55|62|4794|4856|4864|">
+							<nombre>Cuellos para saxofón</nombre>
+						</categoria>
+						<categoria id="4865"
+							ruta="|8|5710|55|62|4794|4856|4865|">
+							<nombre>Piezas pequeñas para saxofón</nombre>
+						</categoria>
+					</categoria>
+					<categoria id="4857" ruta="|8|5710|55|62|4794|4857|">
+						<nombre>Soportes y clavijas para saxofón</nombre>
+					</categoria>
+					<categoria id="4859" ruta="|8|5710|55|62|4794|4859|">
+						<nombre>Soportes y cordones para saxofón</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="4867" ruta="|8|5710|55|62|4867|">
+					<nombre>Gamuzas para instrumentos de viento-madera</nombre>
+				</categoria>
+				<categoria id="4866" ruta="|8|5710|55|62|4866|">
+					<nombre>Grasa de corcho para instrumentos de viento-madera</nombre>
+				</categoria>
+				<categoria id="4957" ruta="|8|5710|55|62|4957|">
+					<nombre>Guardacañas para instrumentos de viento-madera</nombre>
+				</categoria>
+				<categoria id="4939" ruta="|8|5710|55|62|4939|">
+					<nombre>Navajas para cañas de instrumentos de viento-madera
+					</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="3465" ruta="|8|5710|55|3465|">
+				<nombre>Accesorios para percusión</nombre>
+				<categoria id="7150" ruta="|8|5710|55|3465|7150|">
+					<nombre>Accesorios para baquetas y escobillas</nombre>
+					<categoria id="7151" ruta="|8|5710|55|3465|7150|7151|">
+						<nombre>Bolsas y soportes para baquetas y escobillas</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="7282" ruta="|8|5710|55|3465|7282|">
+					<nombre>Accesorios para percusión de mano</nombre>
+					<categoria id="7283" ruta="|8|5710|55|3465|7282|7283|">
+						<nombre>Bolsas y fundas para percusión de mano</nombre>
+					</categoria>
+					<categoria id="7284" ruta="|8|5710|55|3465|7282|7284|">
+						<nombre>Pies y soportes para percusión de mano</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="59" ruta="|8|5710|55|3465|59|">
+					<nombre>Baquetas y escobillas</nombre>
+				</categoria>
+				<categoria id="7100" ruta="|8|5710|55|3465|7100|">
+					<nombre>Estuches para platillos y tambores</nombre>
+				</categoria>
+				<categoria id="7152" ruta="|8|5710|55|3465|7152|">
+					<nombre>Llaves de afinación para tambores</nombre>
+				</categoria>
+				<categoria id="4631" ruta="|8|5710|55|3465|4631|">
+					<nombre>Mazos de percusión</nombre>
+				</categoria>
+				<categoria id="7455" ruta="|8|5710|55|3465|7455|">
+					<nombre>Módulos para baterías electrónicas</nombre>
+				</categoria>
+				<categoria id="7153" ruta="|8|5710|55|3465|7153|">
+					<nombre>Parches para tambores</nombre>
+				</categoria>
+				<categoria id="7308" ruta="|8|5710|55|3465|7308|">
+					<nombre>Soportes para percusión</nombre>
+				</categoria>
+				<categoria id="7099" ruta="|8|5710|55|3465|7099|">
+					<nombre>Soportes y taburetes para baterías</nombre>
+					<categoria id="7102" ruta="|8|5710|55|3465|7099|7102|">
+						<nombre>Elementos de montaje para baterías</nombre>
+					</categoria>
+					<categoria id="7103" ruta="|8|5710|55|3465|7099|7103|">
+						<nombre>Mazas para bombo</nombre>
+					</categoria>
+					<categoria id="7101" ruta="|8|5710|55|3465|7099|7101|">
+						<nombre>Pedales para baterías</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="7231" ruta="|8|5710|55|3465|7231|">
+					<nombre>Sordinas para platillos y tambores</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="60" ruta="|8|5710|55|60|">
+				<nombre>Accesorios para teclados</nombre>
+				<categoria id="7357" ruta="|8|5710|55|60|7357|">
+					<nombre>Bolsas y fundas para teclados</nombre>
+				</categoria>
+				<categoria id="3324" ruta="|8|5710|55|60|3324|">
+					<nombre>Pedales de sostenido</nombre>
+				</categoria>
+				<categoria id="3588" ruta="|8|5710|55|60|3588|">
+					<nombre>Soportes para teclados</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="56" ruta="|8|5710|55|56|">
+				<nombre>Amplificadores para instrumentos</nombre>
+			</categoria>
+			<categoria id="4142" ruta="|8|5710|55|4142|">
+				<nombre>Atriles para partituras</nombre>
+			</categoria>
+			<categoria id="505328" ruta="|8|5710|55|505328|">
+				<nombre>Banquetas y taburetes</nombre>
+			</categoria>
+			<categoria id="505288" ruta="|8|5710|55|505288|">
+				<nombre>Batutas</nombre>
+			</categoria>
+			<categoria id="500001" ruta="|8|5710|55|500001|">
+				<nombre>Liras de soporte y atriles</nombre>
+			</categoria>
+			<categoria id="505365" ruta="|8|5710|55|505365|">
+				<nombre>Metrónomos</nombre>
+			</categoria>
+			<categoria id="3270" ruta="|8|5710|55|3270|">
+				<nombre>Sintonizadores electrónicos</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="216" ruta="|8|5710|216|">
+			<nombre>Coleccionables</nombre>
+			<categoria id="6000" ruta="|8|5710|216|6000|">
+				<nombre>Accesorios para modelos a escala</nombre>
+			</categoria>
+			<categoria id="220" ruta="|8|5710|216|220|">
+				<nombre>Armas coleccionables</nombre>
+				<categoria id="499953" ruta="|8|5710|216|220|499953|">
+					<nombre>Armas de coleccionismo</nombre>
+				</categoria>
+				<categoria id="5311" ruta="|8|5710|216|220|5311|">
+					<nombre>Cuchillos coleccionables</nombre>
+				</categoria>
+				<categoria id="221" ruta="|8|5710|216|220|221|">
+					<nombre>Espadas coleccionables</nombre>
+				</categoria>
+				<categoria id="1340" ruta="|8|5710|216|220|1340|">
+					<nombre>Peanas y vitrinas para espadas</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="3599" ruta="|8|5710|216|3599|">
+				<nombre>Autógrafos</nombre>
+			</categoria>
+			<categoria id="3865" ruta="|8|5710|216|3865|">
+				<nombre>Coleccionables deportivos</nombre>
+				<categoria id="3515" ruta="|8|5710|216|3865|3515|">
+					<nombre>Accesorios para aficionados a los deportes</nombre>
+					<categoria id="3576" ruta="|8|5710|216|3865|3515|3576|">
+						<nombre>Accesorios para aficionados af fútbol</nombre>
+					</categoria>
+					<categoria id="1051" ruta="|8|5710|216|3865|3515|1051|">
+						<nombre>Accesorios para aficionados al automovilismo</nombre>
+					</categoria>
+					<categoria id="1084" ruta="|8|5710|216|3865|3515|1084|">
+						<nombre>Accesorios para aficionados al baloncesto</nombre>
+					</categoria>
+					<categoria id="1074" ruta="|8|5710|216|3865|3515|1074|">
+						<nombre>Accesorios para aficionados al béisbol y al sóftbol
+						</nombre>
+					</categoria>
+					<categoria id="1095" ruta="|8|5710|216|3865|3515|1095|">
+						<nombre>Accesorios para aficionados al fútbol americano</nombre>
+					</categoria>
+					<categoria id="4006" ruta="|8|5710|216|3865|3515|4006|">
+						<nombre>Accesorios para aficionados al hockey</nombre>
+					</categoria>
+					<categoria id="6187" ruta="|8|5710|216|3865|3515|6187|">
+						<nombre>Accesorios para aficionados al tenis</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="4333" ruta="|8|5710|216|3865|4333|">
+					<nombre>Objetos deportivos firmados</nombre>
+					<categoria id="4180" ruta="|8|5710|216|3865|4333|4180|">
+						<nombre>Objetos automovilísticos firmados</nombre>
+					</categoria>
+					<categoria id="4279" ruta="|8|5710|216|3865|4333|4279|">
+						<nombre>Objetos de baloncesto firmados</nombre>
+					</categoria>
+					<categoria id="8210" ruta="|8|5710|216|3865|4333|8210|">
+						<nombre>Objetos de boxeo firmados</nombre>
+					</categoria>
+					<categoria id="4149" ruta="|8|5710|216|3865|4333|4149|">
+						<nombre>Objetos de béisbol y sóftbol firmados</nombre>
+					</categoria>
+					<categoria id="4124" ruta="|8|5710|216|3865|4333|4124|">
+						<nombre>Objetos de fútbol americano firmados</nombre>
+					</categoria>
+					<categoria id="4144" ruta="|8|5710|216|3865|4333|4144|">
+						<nombre>Objetos de hockey firmados</nombre>
+					</categoria>
+					<categoria id="6186" ruta="|8|5710|216|3865|4333|6186|">
+						<nombre>Objetos deportivos de tenis firmados</nombre>
+					</categoria>
+					<categoria id="4093" ruta="|8|5710|216|3865|4333|4093|">
+						<nombre>Objetos futbolísticos firmados</nombre>
+					</categoria>
+				</categoria>
+			</categoria>
+			<categoria id="6997" ruta="|8|5710|216|6997|">
+				<nombre>Cromos coleccionables</nombre>
+			</categoria>
+			<categoria id="37" ruta="|8|5710|216|37|">
+				<nombre>Maquetas a escala</nombre>
+			</categoria>
+			<categoria id="217" ruta="|8|5710|216|217|">
+				<nombre>Monedas y divisas</nombre>
+				<categoria id="543607" ruta="|8|5710|216|217|543607|">
+					<nombre>Billetes coleccionables</nombre>
+				</categoria>
+				<categoria id="543606" ruta="|8|5710|216|217|543606|">
+					<nombre>Monedas coleccionables</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="3893" ruta="|8|5710|216|3893|">
+				<nombre>Publicidad retro</nombre>
+			</categoria>
+			<categoria id="218" ruta="|8|5710|216|218|">
+				<nombre>Rocas y fósiles</nombre>
+			</categoria>
+			<categoria id="1312" ruta="|8|5710|216|1312|">
+				<nombre>Sellos</nombre>
+			</categoria>
+			<categoria id="219" ruta="|8|5710|216|219|">
+				<nombre>Sellos postales</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="54" ruta="|8|5710|54|">
+			<nombre>Instrumentos musicales</nombre>
+			<categoria id="4983" ruta="|8|5710|54|4983|">
+				<nombre>Acordeones y concertinas</nombre>
+			</categoria>
+			<categoria id="4984" ruta="|8|5710|54|4984|">
+				<nombre>Gaitas</nombre>
+			</categoria>
+			<categoria id="77" ruta="|8|5710|54|77|">
+				<nombre>Instrumentos de cuerda</nombre>
+				<categoria id="84" ruta="|8|5710|54|77|84|">
+					<nombre>Arpas</nombre>
+				</categoria>
+				<categoria id="78" ruta="|8|5710|54|77|78|">
+					<nombre>Contrabajos</nombre>
+				</categoria>
+				<categoria id="80" ruta="|8|5710|54|77|80|">
+					<nombre>Guitarras</nombre>
+				</categoria>
+				<categoria id="85" ruta="|8|5710|54|77|85|">
+					<nombre>Violas</nombre>
+				</categoria>
+				<categoria id="86" ruta="|8|5710|54|77|86|">
+					<nombre>Violines</nombre>
+				</categoria>
+				<categoria id="79" ruta="|8|5710|54|77|79|">
+					<nombre>Violonchelos</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="63" ruta="|8|5710|54|63|">
+				<nombre>Instrumentos de metal</nombre>
+				<categoria id="65" ruta="|8|5710|54|63|65|">
+					<nombre>Eufonios</nombre>
+				</categoria>
+				<categoria id="70" ruta="|8|5710|54|63|70|">
+					<nombre>Trombones</nombre>
+				</categoria>
+				<categoria id="67" ruta="|8|5710|54|63|67|">
+					<nombre>Trompas</nombre>
+				</categoria>
+				<categoria id="505769" ruta="|8|5710|54|63|505769|">
+					<nombre>Trompas alto y barítono</nombre>
+				</categoria>
+				<categoria id="505770" ruta="|8|5710|54|63|505770|">
+					<nombre>Trompetas y cornetas</nombre>
+				</categoria>
+				<categoria id="72" ruta="|8|5710|54|63|72|">
+					<nombre>Tubas</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="75" ruta="|8|5710|54|75|">
+				<nombre>Instrumentos de percusión</nombre>
+				<categoria id="2518" ruta="|8|5710|54|75|2518|">
+					<nombre>Baterías</nombre>
+				</categoria>
+				<categoria id="2856" ruta="|8|5710|54|75|2856|">
+					<nombre>Baterías electrónicas</nombre>
+				</categoria>
+				<categoria id="2917" ruta="|8|5710|54|75|2917|">
+					<nombre>Bombos</nombre>
+				</categoria>
+				<categoria id="2797" ruta="|8|5710|54|75|2797|">
+					<nombre>Cajas claras</nombre>
+				</categoria>
+				<categoria id="7431" ruta="|8|5710|54|75|7431|">
+					<nombre>Glockenspiels y xilófonos</nombre>
+				</categoria>
+				<categoria id="6098" ruta="|8|5710|54|75|6098|">
+					<nombre>Gongs</nombre>
+				</categoria>
+				<categoria id="7232" ruta="|8|5710|54|75|7232|">
+					<nombre>Pads de práctica</nombre>
+				</categoria>
+				<categoria id="7285" ruta="|8|5710|54|75|7285|">
+					<nombre>Percusión de mano</nombre>
+					<categoria id="7291" ruta="|8|5710|54|75|7285|7291|">
+						<nombre>Cajas chinas</nombre>
+					</categoria>
+					<categoria id="7555" ruta="|8|5710|54|75|7285|7555|">
+						<nombre>Campanillas y campanas chinas</nombre>
+					</categoria>
+					<categoria id="7293" ruta="|8|5710|54|75|7285|7293|">
+						<nombre>Cencerros</nombre>
+					</categoria>
+					<categoria id="7289" ruta="|8|5710|54|75|7285|7289|">
+						<nombre>Claves y castañuelas</nombre>
+					</categoria>
+					<categoria id="7286" ruta="|8|5710|54|75|7285|7286|">
+						<nombre>Güiros y matracas</nombre>
+					</categoria>
+					<categoria id="2515" ruta="|8|5710|54|75|7285|2515|">
+						<nombre>Panderetas</nombre>
+					</categoria>
+					<categoria id="7288" ruta="|8|5710|54|75|7285|7288|">
+						<nombre>Platillos de dedos y manos</nombre>
+					</categoria>
+					<categoria id="7287" ruta="|8|5710|54|75|7285|7287|">
+						<nombre>Shakers</nombre>
+					</categoria>
+					<categoria id="7295" ruta="|8|5710|54|75|7285|7295|">
+						<nombre>Tambores de mano</nombre>
+						<categoria id="7298"
+							ruta="|8|5710|54|75|7285|7295|7298|">
+							<nombre>Bongos</nombre>
+						</categoria>
+						<categoria id="7297"
+							ruta="|8|5710|54|75|7285|7295|7297|">
+							<nombre>Cajones</nombre>
+						</categoria>
+						<categoria id="7296"
+							ruta="|8|5710|54|75|7285|7295|7296|">
+							<nombre>Congas</nombre>
+						</categoria>
+						<categoria id="7302"
+							ruta="|8|5710|54|75|7285|7295|7302|">
+							<nombre>Tablas</nombre>
+						</categoria>
+						<categoria id="7299"
+							ruta="|8|5710|54|75|7285|7295|7299|">
+							<nombre>Tambores de copa</nombre>
+						</categoria>
+						<categoria id="7300"
+							ruta="|8|5710|54|75|7285|7295|7300|">
+							<nombre>Tambores de marco</nombre>
+						</categoria>
+						<categoria id="7301"
+							ruta="|8|5710|54|75|7285|7295|7301|">
+							<nombre>Tambores parlantes</nombre>
+						</categoria>
+					</categoria>
+					<categoria id="7290" ruta="|8|5710|54|75|7285|7290|">
+						<nombre>Triángulos</nombre>
+					</categoria>
+					<categoria id="7294" ruta="|8|5710|54|75|7285|7294|">
+						<nombre>Vibraslaps</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="3043" ruta="|8|5710|54|75|3043|">
+					<nombre>Platillos</nombre>
+				</categoria>
+				<categoria id="3015" ruta="|8|5710|54|75|3015|">
+					<nombre>Platos hi-hat</nombre>
+				</categoria>
+				<categoria id="3005" ruta="|8|5710|54|75|3005|">
+					<nombre>Tambores tom-tom</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="87" ruta="|8|5710|54|87|">
+				<nombre>Instrumentos de viento madera</nombre>
+				<categoria id="4743" ruta="|8|5710|54|87|4743|">
+					<nombre>Armónicas</nombre>
+				</categoria>
+				<categoria id="4744" ruta="|8|5710|54|87|4744|">
+					<nombre>Arpas de boca</nombre>
+				</categoria>
+				<categoria id="88" ruta="|8|5710|54|87|88|">
+					<nombre>Clarinetes</nombre>
+				</categoria>
+				<categoria id="4540" ruta="|8|5710|54|87|4540|">
+					<nombre>Fagots</nombre>
+				</categoria>
+				<categoria id="89" ruta="|8|5710|54|87|89|">
+					<nombre>Flautas</nombre>
+				</categoria>
+				<categoria id="7188" ruta="|8|5710|54|87|7188|">
+					<nombre>Flautas de plástico</nombre>
+				</categoria>
+				<categoria id="7250" ruta="|8|5710|54|87|7250|">
+					<nombre>Flautas de una mano</nombre>
+				</categoria>
+				<categoria id="90" ruta="|8|5710|54|87|90|">
+					<nombre>Flautas dulces</nombre>
+				</categoria>
+				<categoria id="6721" ruta="|8|5710|54|87|6721|">
+					<nombre>Flautas irlandesas</nombre>
+				</categoria>
+				<categoria id="5481" ruta="|8|5710|54|87|5481|">
+					<nombre>Melódicas</nombre>
+				</categoria>
+				<categoria id="4541" ruta="|8|5710|54|87|4541|">
+					<nombre>Oboes</nombre>
+				</categoria>
+				<categoria id="7249" ruta="|8|5710|54|87|7249|">
+					<nombre>Ocarinas</nombre>
+				</categoria>
+				<categoria id="91" ruta="|8|5710|54|87|91|">
+					<nombre>Saxofones</nombre>
+				</categoria>
+				<categoria id="6728" ruta="|8|5710|54|87|6728|">
+					<nombre>Silbatos de tren</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="6001" ruta="|8|5710|54|6001|">
+				<nombre>Instrumentos musicales electrónicos</nombre>
+				<categoria id="6002" ruta="|8|5710|54|6001|6002|">
+					<nombre>Controladores MIDI</nombre>
+				</categoria>
+				<categoria id="245" ruta="|8|5710|54|6001|245|">
+					<nombre>Muestreadores de sonido</nombre>
+				</categoria>
+				<categoria id="6003" ruta="|8|5710|54|6001|6003|">
+					<nombre>Sintetizadores de sonido</nombre>
+				</categoria>
+				<categoria id="74" ruta="|8|5710|54|6001|74|">
+					<nombre>Teclados musicales</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="76" ruta="|8|5710|54|76|">
+				<nombre>Pianos</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="33" ruta="|8|5710|33|">
+			<nombre>Juegos malabares</nombre>
+		</categoria>
+		<categoria id="16" ruta="|8|5710|16|">
+			<nombre>Manualidades</nombre>
+			<categoria id="504643" ruta="|8|5710|16|504643|">
+				<nombre>Accesorios para herramientas de manualidades</nombre>
+				<categoria id="6136" ruta="|8|5710|16|504643|6136|">
+					<nombre>Accesorios para rueca</nombre>
+				</categoria>
+				<categoria id="4580" ruta="|8|5710|16|504643|4580|">
+					<nombre>Fundas y maletines para máquinas de coser</nombre>
+				</categoria>
+				<categoria id="232168" ruta="|8|5710|16|504643|232168|">
+					<nombre>Hojas de cúter para manualidades</nombre>
+				</categoria>
+				<categoria id="505286" ruta="|8|5710|16|504643|505286|">
+					<nombre>Mesas de extensión para máquinas de coser</nombre>
+				</categoria>
+				<categoria id="5120" ruta="|8|5710|16|504643|5120|">
+					<nombre>Pies para máquinas de coser</nombre>
+				</categoria>
+				<categoria id="503348" ruta="|8|5710|16|504643|503348|">
+					<nombre>Piezas de repuesto para máquinas de coser</nombre>
+				</categoria>
+				<categoria id="499918" ruta="|8|5710|16|504643|499918|">
+					<nombre>Placas de texto</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="504639" ruta="|8|5710|16|504639|">
+				<nombre>Herramientas para manualidades</nombre>
+				<categoria id="505393" ruta="|8|5710|16|504639|505393|">
+					<nombre>Agujas y agujas curvas</nombre>
+					<categoria id="5992"
+						ruta="|8|5710|16|504639|505393|5992|">
+						<nombre>Agujas de coser</nombre>
+					</categoria>
+					<categoria id="6139"
+						ruta="|8|5710|16|504639|505393|6139|">
+						<nombre>Agujas de tejer</nombre>
+					</categoria>
+					<categoria id="4579"
+						ruta="|8|5710|16|504639|505393|4579|">
+						<nombre>Agujas para máquinas de coser</nombre>
+					</categoria>
+					<categoria id="6127"
+						ruta="|8|5710|16|504639|505393|6127|">
+						<nombre>Ganchillos</nombre>
+					</categoria>
+					<categoria id="6168"
+						ruta="|8|5710|16|504639|505393|6168|">
+						<nombre>Ganchos para tapicería</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="6159" ruta="|8|5710|16|504639|6159|">
+					<nombre>Alfileres</nombre>
+				</categoria>
+				<categoria id="5137" ruta="|8|5710|16|504639|5137|">
+					<nombre>Alfombrillas de corte</nombre>
+				</categoria>
+				<categoria id="6133" ruta="|8|5710|16|504639|6133|">
+					<nombre>Almohadillas y esterillas para enfurtido</nombre>
+				</categoria>
+				<categoria id="5921" ruta="|8|5710|16|504639|5921|">
+					<nombre>Cajas de luz decorativas</nombre>
+				</categoria>
+				<categoria id="6156" ruta="|8|5710|16|504639|6156|">
+					<nombre>Dedales y protectores de mano para coser</nombre>
+					<categoria id="543638"
+						ruta="|8|5710|16|504639|6156|543638|">
+						<nombre>Dedales</nombre>
+					</categoria>
+					<categoria id="543639"
+						ruta="|8|5710|16|504639|6156|543639|">
+						<nombre>Protectores de mano</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="6152" ruta="|8|5710|16|504639|6152|">
+					<nombre>Esterillas para ahormar</nombre>
+				</categoria>
+				<categoria id="505386" ruta="|8|5710|16|504639|505386|">
+					<nombre>Herramientas de decoración</nombre>
+				</categoria>
+				<categoria id="504640" ruta="|8|5710|16|504639|504640|">
+					<nombre>Herramientas de gofrado y recorte</nombre>
+					<categoria id="6122"
+						ruta="|8|5710|16|504639|504640|6122|">
+						<nombre>Bolígrafos y stylus para gofrado</nombre>
+					</categoria>
+					<categoria id="6161"
+						ruta="|8|5710|16|504639|504640|6161|">
+						<nombre>Cortador de costuras</nombre>
+					</categoria>
+					<categoria id="6447"
+						ruta="|8|5710|16|504639|504640|6447|">
+						<nombre>Cortadores de hilo</nombre>
+					</categoria>
+					<categoria id="504642"
+						ruta="|8|5710|16|504639|504640|504642|">
+						<nombre>Cortadores y estampadores para manualidades</nombre>
+					</categoria>
+					<categoria id="5136"
+						ruta="|8|5710|16|504639|504640|5136|">
+						<nombre>Cúteres</nombre>
+					</categoria>
+					<categoria id="6119"
+						ruta="|8|5710|16|504639|504640|6119|">
+						<nombre>Hendidoras y plegadoras de papel</nombre>
+					</categoria>
+					<categoria id="7340"
+						ruta="|8|5710|16|504639|504640|7340|">
+						<nombre>Herramientas de calor para gofrado</nombre>
+					</categoria>
+					<categoria id="504641"
+						ruta="|8|5710|16|504639|504640|504641|">
+						<nombre>Tijeras de oficina y para manualidades</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="505387" ruta="|8|5710|16|504639|505387|">
+					<nombre>Herramientas para hilar y tejer</nombre>
+					<categoria id="6153"
+						ruta="|8|5710|16|504639|505387|6153|">
+						<nombre>Bobinadoras de hilo y lana</nombre>
+					</categoria>
+					<categoria id="6154"
+						ruta="|8|5710|16|504639|505387|6154|">
+						<nombre>Carretes de hilo y lana</nombre>
+					</categoria>
+					<categoria id="6164"
+						ruta="|8|5710|16|504639|505387|6164|">
+						<nombre>Cepillos y cardas para fibras</nombre>
+					</categoria>
+					<categoria id="6163"
+						ruta="|8|5710|16|504639|505387|6163|">
+						<nombre>Enhebradores de agujas</nombre>
+					</categoria>
+					<categoria id="6155"
+						ruta="|8|5710|16|504639|505387|6155|">
+						<nombre>Guías para hilo y lana</nombre>
+					</categoria>
+					<categoria id="6138"
+						ruta="|8|5710|16|504639|505387|6138|">
+						<nombre>Husos de mano</nombre>
+					</categoria>
+					<categoria id="6166"
+						ruta="|8|5710|16|504639|505387|6166|">
+						<nombre>Lanzadera para tejer</nombre>
+					</categoria>
+					<categoria id="6167"
+						ruta="|8|5710|16|504639|505387|6167|">
+						<nombre>Peine de tejer</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="505392" ruta="|8|5710|16|504639|505392|">
+					<nombre>Herramientas para marcar y medir</nombre>
+					<categoria id="3083"
+						ruta="|8|5710|16|504639|505392|3083|">
+						<nombre>Compases</nombre>
+					</categoria>
+					<categoria id="505420"
+						ruta="|8|5710|16|504639|505392|505420|">
+						<nombre>Herramientas para quemar madera</nombre>
+					</categoria>
+					<categoria id="6157"
+						ruta="|8|5710|16|504639|505392|6157|">
+						<nombre>Medidores y reglas para artes textiles</nombre>
+					</categoria>
+					<categoria id="5883"
+						ruta="|8|5710|16|504639|505392|5883|">
+						<nombre>Máquinas de estarcido</nombre>
+					</categoria>
+					<categoria id="18" ruta="|8|5710|16|504639|505392|18|">
+						<nombre>Pinceles</nombre>
+					</categoria>
+					<categoria id="2671"
+						ruta="|8|5710|16|504639|505392|2671|">
+						<nombre>Plantillas y tintes</nombre>
+					</categoria>
+					<categoria id="6126"
+						ruta="|8|5710|16|504639|505392|6126|">
+						<nombre>Rodillo para tinta</nombre>
+					</categoria>
+					<categoria id="4032"
+						ruta="|8|5710|16|504639|505392|4032|">
+						<nombre>Sellos decorativos</nombre>
+					</categoria>
+					<categoria id="6125"
+						ruta="|8|5710|16|504639|505392|6125|">
+						<nombre>escurridores para serigrafía</nombre>
+					</categoria>
+					<categoria id="6160"
+						ruta="|8|5710|16|504639|505392|6160|">
+						<nombre>marcadores y contadores de puntos</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="505391" ruta="|8|5710|16|504639|505391|">
+					<nombre>Herramientas para mezclar colores</nombre>
+					<categoria id="1653"
+						ruta="|8|5710|16|504639|505391|1653|">
+						<nombre>Espátulas para pintura</nombre>
+					</categoria>
+					<categoria id="1719"
+						ruta="|8|5710|16|504639|505391|1719|">
+						<nombre>Paletas</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="6151" ruta="|8|5710|16|504639|6151|">
+					<nombre>Hilos para ahormar</nombre>
+				</categoria>
+				<categoria id="6101" ruta="|8|5710|16|504639|6101|">
+					<nombre>Imperdibles</nombre>
+				</categoria>
+				<categoria id="6150" ruta="|8|5710|16|504639|6150|">
+					<nombre>Maniquíes de costura</nombre>
+				</categoria>
+				<categoria id="6158" ruta="|8|5710|16|504639|6158|">
+					<nombre>Marcos, aros y tensores</nombre>
+				</categoria>
+				<categoria id="505388" ruta="|8|5710|16|504639|505388|">
+					<nombre>Máquinas textiles</nombre>
+					<categoria id="615" ruta="|8|5710|16|504639|505388|615|">
+						<nombre>Máquinas de coser</nombre>
+					</categoria>
+					<categoria id="6134"
+						ruta="|8|5710|16|504639|505388|6134|">
+						<nombre>Máquinas y agujas para enfurtido</nombre>
+					</categoria>
+					<categoria id="6137"
+						ruta="|8|5710|16|504639|505388|6137|">
+						<nombre>Ruecas</nombre>
+					</categoria>
+					<categoria id="505422"
+						ruta="|8|5710|16|504639|505388|505422|">
+						<nombre>Telares a mano</nombre>
+					</categoria>
+					<categoria id="505421"
+						ruta="|8|5710|16|504639|505388|505421|">
+						<nombre>Telares mecánicos</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="4073" ruta="|8|5710|16|504639|4073|">
+					<nombre>Pistolas de cola</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="505370" ruta="|8|5710|16|505370|">
+				<nombre>Kits de manualidades</nombre>
+				<categoria id="4986" ruta="|8|5710|16|505370|4986|">
+					<nombre>Kits de artesanía con juguetes</nombre>
+				</categoria>
+				<categoria id="7096" ruta="|8|5710|16|505370|7096|">
+					<nombre>Kits de bordado</nombre>
+				</categoria>
+				<categoria id="4778" ruta="|8|5710|16|505370|4778|">
+					<nombre>Kits de dibujo y pintura</nombre>
+				</categoria>
+				<categoria id="6382" ruta="|8|5710|16|505370|6382|">
+					<nombre>Kits de reparación de telas</nombre>
+				</categoria>
+				<categoria id="502979" ruta="|8|5710|16|505370|502979|">
+					<nombre>Kits para fabricar joyas</nombre>
+				</categoria>
+				<categoria id="503758" ruta="|8|5710|16|505370|503758|">
+					<nombre>Kits para fabricar sellos y álbumes de recortes</nombre>
+				</categoria>
+				<categoria id="505374" ruta="|8|5710|16|505370|505374|">
+					<nombre>Kits para fabricar velas</nombre>
+				</categoria>
+				<categoria id="6989" ruta="|8|5710|16|505370|6989|">
+					<nombre>Kits para la elaboración de incienso</nombre>
+				</categoria>
+				<categoria id="6829" ruta="|8|5710|16|505370|6829|">
+					<nombre>Kits para mosaicos</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="505372" ruta="|8|5710|16|505372|">
+				<nombre>Materiales para manualidades</nombre>
+				<categoria id="505377" ruta="|8|5710|16|505372|505377|">
+					<nombre>Alambre para manualidades</nombre>
+					<categoria id="505418"
+						ruta="|8|5710|16|505372|505377|505418|">
+						<nombre>Alambre de floristería</nombre>
+					</categoria>
+					<categoria id="5062"
+						ruta="|8|5710|16|505372|505377|5062|">
+						<nombre>Limpiapipas</nombre>
+					</categoria>
+					<categoria id="6102"
+						ruta="|8|5710|16|505372|505377|6102|">
+						<nombre>alambre para joyería y bisutería</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="505381" ruta="|8|5710|16|505372|505381|">
+					<nombre>Bases y formas</nombre>
+					<categoria id="6117"
+						ruta="|8|5710|16|505372|505381|6117|">
+						<nombre>Espuma y poliestireno extrusionado para artesanía</nombre>
+					</categoria>
+					<categoria id="505403"
+						ruta="|8|5710|16|505372|505381|505403|">
+						<nombre>Formas de papel maché</nombre>
+					</categoria>
+					<categoria id="505404"
+						ruta="|8|5710|16|505372|505381|505404|">
+						<nombre>Formas y tallas en madera</nombre>
+					</categoria>
+					<categoria id="504419"
+						ruta="|8|5710|16|505372|505381|504419|">
+						<nombre>Marcos y coronas florales</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="505375" ruta="|8|5710|16|505372|505375|">
+					<nombre>Cera virgen para velas</nombre>
+				</categoria>
+				<categoria id="505383" ruta="|8|5710|16|505372|505383|">
+					<nombre>Cuero y vinilo</nombre>
+				</categoria>
+				<categoria id="505382" ruta="|8|5710|16|505372|505382|">
+					<nombre>Fibras para manualidades</nombre>
+					<categoria id="6540"
+						ruta="|8|5710|16|505372|505382|6540|">
+						<nombre>Cordones para joyería y cuentas</nombre>
+					</categoria>
+					<categoria id="6140"
+						ruta="|8|5710|16|505372|505382|6140|">
+						<nombre>Fibra sin hilar</nombre>
+					</categoria>
+					<categoria id="49" ruta="|8|5710|16|505372|505382|49|">
+						<nombre>Hilos para bordar</nombre>
+					</categoria>
+					<categoria id="2669"
+						ruta="|8|5710|16|505372|505382|2669|">
+						<nombre>Lanas</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="505376" ruta="|8|5710|16|505372|505376|">
+					<nombre>Imanes y pegatinas para manualidades</nombre>
+					<categoria id="6418"
+						ruta="|8|5710|16|505372|505376|6418|">
+						<nombre>Cinta de tela fundible</nombre>
+					</categoria>
+					<categoria id="505419"
+						ruta="|8|5710|16|505372|505376|505419|">
+						<nombre>Cinta decorativa</nombre>
+					</categoria>
+					<categoria id="7192"
+						ruta="|8|5710|16|505372|505376|7192|">
+						<nombre>Cinta floral</nombre>
+					</categoria>
+					<categoria id="36" ruta="|8|5710|16|505372|505376|36|">
+						<nombre>Imanes artesanales</nombre>
+					</categoria>
+					<categoria id="503745"
+						ruta="|8|5710|16|505372|505376|503745|">
+						<nombre>Pegamento de oficina y para manualidades</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="6142" ruta="|8|5710|16|505372|6142|">
+					<nombre>Material de relleno y acolchado</nombre>
+					<categoria id="505406"
+						ruta="|8|5710|16|505372|6142|505406|">
+						<nombre>Bolitas de relleno</nombre>
+					</categoria>
+					<categoria id="505407"
+						ruta="|8|5710|16|505372|6142|505407|">
+						<nombre>Guata y relleno</nombre>
+					</categoria>
+					<categoria id="505405"
+						ruta="|8|5710|16|505372|6142|505405|">
+						<nombre>Relleno para cojines</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="44" ruta="|8|5710|16|505372|44|">
+					<nombre>Materiales de cerámica y alfarería</nombre>
+					<categoria id="3692" ruta="|8|5710|16|505372|44|3692|">
+						<nombre>Arcilla y pasta para modelar</nombre>
+						<categoria id="543628"
+							ruta="|8|5710|16|505372|44|3692|543628|">
+							<nombre>Arcilla</nombre>
+						</categoria>
+						<categoria id="543629"
+							ruta="|8|5710|16|505372|44|3692|543629|">
+							<nombre>Pasta para modelar</nombre>
+						</categoria>
+					</categoria>
+					<categoria id="505402"
+						ruta="|8|5710|16|505372|44|505402|">
+						<nombre>Engobes</nombre>
+					</categoria>
+					<categoria id="505804"
+						ruta="|8|5710|16|505372|44|505804|">
+						<nombre>Gasa de yeso</nombre>
+					</categoria>
+					<categoria id="505401"
+						ruta="|8|5710|16|505372|44|505401|">
+						<nombre>Mezclas para papel maché</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="7402" ruta="|8|5710|16|505372|7402|">
+					<nombre>Mechas</nombre>
+				</categoria>
+				<categoria id="24" ruta="|8|5710|16|505372|24|">
+					<nombre>Papel para manualidades</nombre>
+					<categoria id="2532" ruta="|8|5710|16|505372|24|2532|">
+						<nombre>Cartulinas</nombre>
+					</categoria>
+					<categoria id="8168" ruta="|8|5710|16|505372|24|8168|">
+						<nombre>Papel de aluminio para manualidades</nombre>
+					</categoria>
+					<categoria id="505400"
+						ruta="|8|5710|16|505372|24|505400|">
+						<nombre>Papel para dibujo y pintura</nombre>
+					</categoria>
+					<categoria id="2967" ruta="|8|5710|16|505372|24|2967|">
+						<nombre>Papel para origami</nombre>
+					</categoria>
+					<categoria id="505399"
+						ruta="|8|5710|16|505372|24|505399|">
+						<nombre>Papel para álbum de recortes y cartulina</nombre>
+						<categoria id="543510"
+							ruta="|8|5710|16|505372|24|505399|543510|">
+							<nombre>Cartulina</nombre>
+						</categoria>
+						<categoria id="543511"
+							ruta="|8|5710|16|505372|24|505399|543511|">
+							<nombre>Papel para álbum de recortes</nombre>
+						</categoria>
+					</categoria>
+					<categoria id="2741" ruta="|8|5710|16|505372|24|2741|">
+						<nombre>Papel vitela</nombre>
+					</categoria>
+					<categoria id="6110" ruta="|8|5710|16|505372|24|6110|">
+						<nombre>Papeles de transferencia</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="505378" ruta="|8|5710|16|505372|505378|">
+					<nombre>Pintura, tinta y esmalte</nombre>
+					<categoria id="505414"
+						ruta="|8|5710|16|505372|505378|505414|">
+						<nombre>Almohadillas para sellos</nombre>
+					</categoria>
+					<categoria id="499879"
+						ruta="|8|5710|16|505372|505378|499879|">
+						<nombre>Esmaltes para cerámica y porcelana</nombre>
+					</categoria>
+					<categoria id="500094"
+						ruta="|8|5710|16|505372|505378|500094|">
+						<nombre>Fijadores</nombre>
+					</categoria>
+					<categoria id="6558"
+						ruta="|8|5710|16|505372|505378|6558|">
+						<nombre>Medios de pintura</nombre>
+					</categoria>
+					<categoria id="505417"
+						ruta="|8|5710|16|505372|505378|505417|">
+						<nombre>Pintura para manualidades</nombre>
+					</categoria>
+					<categoria id="505416"
+						ruta="|8|5710|16|505372|505378|505416|">
+						<nombre>Tinta artística</nombre>
+					</categoria>
+					<categoria id="505415"
+						ruta="|8|5710|16|505372|505378|505415|">
+						<nombre>Tintes artesanales</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="6121" ruta="|8|5710|16|505372|6121|">
+					<nombre>Polvo para gofrado</nombre>
+				</categoria>
+				<categoria id="7403" ruta="|8|5710|16|505372|7403|">
+					<nombre>Portamechas</nombre>
+				</categoria>
+				<categoria id="505379" ruta="|8|5710|16|505372|505379|">
+					<nombre>Recortes y adornos</nombre>
+					<categoria id="505412"
+						ruta="|8|5710|16|505372|505379|505412|">
+						<nombre>Cintas y recortes</nombre>
+					</categoria>
+					<categoria id="32" ruta="|8|5710|16|505372|505379|32|">
+						<nombre>Cuentas y abalorios</nombre>
+					</categoria>
+					<categoria id="6146"
+						ruta="|8|5710|16|505372|505379|6146|">
+						<nombre>Elástico</nombre>
+					</categoria>
+					<categoria id="1927"
+						ruta="|8|5710|16|505372|505379|1927|">
+						<nombre>Etiquetas para coser</nombre>
+					</categoria>
+					<categoria id="505410"
+						ruta="|8|5710|16|505372|505379|505410|">
+						<nombre>Lentejuelas y purpurina</nombre>
+					</categoria>
+					<categoria id="6955"
+						ruta="|8|5710|16|505372|505379|6955|">
+						<nombre>Parches de tela y apliques</nombre>
+					</categoria>
+					<categoria id="5982"
+						ruta="|8|5710|16|505372|505379|5982|">
+						<nombre>Piedras preciosas de imitación</nombre>
+					</categoria>
+					<categoria id="198" ruta="|8|5710|16|505372|505379|198|">
+						<nombre>Piedras sueltas</nombre>
+					</categoria>
+					<categoria id="5996"
+						ruta="|8|5710|16|505372|505379|5996|">
+						<nombre>Piezas de base para joyería</nombre>
+					</categoria>
+					<categoria id="505411"
+						ruta="|8|5710|16|505372|505379|505411|">
+						<nombre>Plumaje</nombre>
+					</categoria>
+					<categoria id="4054"
+						ruta="|8|5710|16|505372|505379|4054|">
+						<nombre>Vinilos decorativos</nombre>
+					</categoria>
+					<categoria id="505413"
+						ruta="|8|5710|16|505372|505379|505413|">
+						<nombre>Yoyós y diábolos</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="505380" ruta="|8|5710|16|505372|505380|">
+					<nombre>Remaches y cierres</nombre>
+					<categoria id="4226"
+						ruta="|8|5710|16|505372|505380|4226|">
+						<nombre>Botones y automáticos</nombre>
+					</categoria>
+					<categoria id="6145"
+						ruta="|8|5710|16|505372|505380|6145|">
+						<nombre>Cierres de velcro</nombre>
+					</categoria>
+					<categoria id="4174"
+						ruta="|8|5710|16|505372|505380|4174|">
+						<nombre>Cremalleras</nombre>
+					</categoria>
+					<categoria id="505408"
+						ruta="|8|5710|16|505372|505380|505408|">
+						<nombre>Hebillas y ganchos</nombre>
+					</categoria>
+					<categoria id="505409"
+						ruta="|8|5710|16|505372|505380|505409|">
+						<nombre>Ojales</nombre>
+					</categoria>
+					<categoria id="500056"
+						ruta="|8|5710|16|505372|505380|500056|">
+						<nombre>Tiradores para cremalleras</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="505384" ruta="|8|5710|16|505372|505384|">
+					<nombre>Tejidos</nombre>
+					<categoria id="7076"
+						ruta="|8|5710|16|505372|505384|7076|">
+						<nombre>Interfaces</nombre>
+					</categoria>
+					<categoria id="505397"
+						ruta="|8|5710|16|505372|505384|505397|">
+						<nombre>Lienzos para manualidades</nombre>
+						<categoria id="6144"
+							ruta="|8|5710|16|505372|505384|505397|6144|">
+							<nombre>Lienzo de plástico</nombre>
+						</categoria>
+						<categoria id="19"
+							ruta="|8|5710|16|505372|505384|505397|19|">
+							<nombre>Lienzos para pintar</nombre>
+						</categoria>
+						<categoria id="505398"
+							ruta="|8|5710|16|505372|505384|505397|505398|">
+							<nombre>Telas para bordados</nombre>
+						</categoria>
+					</categoria>
+					<categoria id="505396"
+						ruta="|8|5710|16|505372|505384|505396|">
+						<nombre>Tejido imprimible</nombre>
+					</categoria>
+					<categoria id="47" ruta="|8|5710|16|505372|505384|47|">
+						<nombre>Telas</nombre>
+					</categoria>
+				</categoria>
+			</categoria>
+			<categoria id="505371" ruta="|8|5710|16|505371|">
+				<nombre>Moldes y patrones para manualidades</nombre>
+				<categoria id="8007" ruta="|8|5710|16|505371|8007|">
+					<nombre>Moldes para artesanía</nombre>
+				</categoria>
+				<categoria id="6135" ruta="|8|5710|16|505371|6135|">
+					<nombre>Moldes para enfurtido</nombre>
+				</categoria>
+				<categoria id="3697" ruta="|8|5710|16|505371|3697|">
+					<nombre>Patrones</nombre>
+				</categoria>
+				<categoria id="505373" ruta="|8|5710|16|505371|505373|">
+					<nombre>Patrones de costura</nombre>
+				</categoria>
+				<categoria id="6999" ruta="|8|5710|16|505371|6999|">
+					<nombre>Patrones para cuentas</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="505369" ruta="|8|5710|16|505369|">
+				<nombre>Organización de materiales de manualidades</nombre>
+				<categoria id="499971" ruta="|8|5710|16|505369|499971|">
+					<nombre>Kits textiles y de costura</nombre>
+				</categoria>
+				<categoria id="505394" ruta="|8|5710|16|505369|505394|">
+					<nombre>Organizadores de agujas, alfileres y agujas curvas</nombre>
+				</categoria>
+				<categoria id="505395" ruta="|8|5710|16|505369|505395|">
+					<nombre>Organizadores de hilos y ovillos</nombre>
+				</categoria>
+			</categoria>
+		</categoria>
+		<categoria id="5999" ruta="|8|5710|5999|">
+			<nombre>Modelismo</nombre>
+			<categoria id="5151" ruta="|8|5710|5999|5151|">
+				<nombre>Accesorios para trenes en miniatura</nombre>
+			</categoria>
+			<categoria id="4175" ruta="|8|5710|5999|4175|">
+				<nombre>Kits para modelismo</nombre>
+			</categoria>
+			<categoria id="3885" ruta="|8|5710|5999|3885|">
+				<nombre>Modelismo espacial</nombre>
+			</categoria>
+			<categoria id="5150" ruta="|8|5710|5999|5150|">
+				<nombre>Trenes en miniatura y juegos de trenes</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="3577" ruta="|8|5710|3577|">
+			<nombre>Productos para elaborar cerveza y vino en casa</nombre>
+			<categoria id="502980" ruta="|8|5710|3577|502980|">
+				<nombre>Botellas sin usar</nombre>
+			</categoria>
+			<categoria id="3014" ruta="|8|5710|3577|3014|">
+				<nombre>Cereales y malta para la elaboración de cerveza</nombre>
+			</categoria>
+			<categoria id="499891" ruta="|8|5710|3577|499891|">
+				<nombre>Kits para elaborar cerveza y vino en casa</nombre>
+			</categoria>
+			<categoria id="2579" ruta="|8|5710|3577|2579|">
+				<nombre>Producción de vino</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="35" ruta="|8|5710|35|">
+			<nombre>Trucos de magia</nombre>
+		</categoria>
+	</categoria>
+</categoria>

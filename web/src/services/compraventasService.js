@@ -1,5 +1,28 @@
-/* Servicio de compraventas. Encapsula las llamadas a la API de compraventas:
-   - comprar(idProducto, idComprador, token)  → POST /api/compraventas
-   - getMisCompras(idComprador, token)         → GET /api/compraventas/compras/:idComprador
-   - getMisVentas(idVendedor, token)           → GET /api/compraventas/ventas/:idVendedor
-   - getTodasCompraventas(filtros, token)      → GET /api/compraventas?idComprador=&idVendedor= (solo admin) */
+const { crearApiClient } = require('./apiService');
+
+async function getTodasCompraventas(idComprador, idVendedor, token) {
+    const api = crearApiClient(token);
+    const response = await api.get('/api/compraventas', {
+        params: { idComprador, idVendedor }
+    });
+    return response.data;
+}
+
+async function getMisCompras(idComprador, token) {
+    const api = crearApiClient(token);
+    const response = await api.get(`/api/compraventas/compras/${idComprador}`);
+    return response.data;
+}
+
+async function getMisVentas(idVendedor, token) {
+    const api = crearApiClient(token);
+    const response = await api.get(`/api/compraventas/ventas/${idVendedor}`);
+    return response.data;
+}
+
+async function comprar(idProducto, idComprador, token) {
+    const api = crearApiClient(token);
+    await api.post('/api/compraventas', { idProducto, idComprador });
+}
+
+module.exports = { getTodasCompraventas, getMisCompras, getMisVentas, comprar };

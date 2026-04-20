@@ -2,3 +2,83 @@
       Lista todos los productos que el usuario autenticado ha comprado:
       título, precio, vendedor y fecha de compra.
       Datos obtenidos via GET /api/compraventas/compras/:idComprador --}}
+<div class="container mt-5 mb-5">
+    <div class="row">
+        
+        <div class="col-lg-3 mb-4">
+            <div class="card shadow-sm border-0">
+                <div class="card-body text-center pt-4 pb-4 border-bottom">
+                    <div class="bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                        <i class="fa-solid fa-user fs-1"></i>
+                    </div>
+                    <h5 class="fw-bold mb-0">{{usuario.nombre}} {{usuario.apellidos}}</h5>
+                    <p class="text-muted small">Miembro desde {{usuario.fechaRegistro}}</p>
+                </div>
+                <nav class="list-group list-group-flush">
+                    <a href="/perfil" class="list-group-item list-group-item-action py-3">
+                        <i class="fa-solid fa-id-card me-2"></i> Mis Datos
+                    </a>
+                    <a href="/perfil/mis-ventas" class="list-group-item list-group-item-action py-3">
+                        <i class="fa-solid fa-store me-2"></i> En Venta / Vendidos
+                    </a>
+                    <a href="/perfil/mis-compras" class="list-group-item list-group-item-action active fw-bold py-3">
+                        <i class="fa-solid fa-bag-shopping me-2"></i> Mis Compras
+                    </a>
+                    <a href="/logout" class="list-group-item list-group-item-action text-danger py-3 fw-bold bg-light">
+                        <i class="fa-solid fa-right-from-bracket me-2"></i> Cerrar Sesión
+                    </a>
+                </nav>
+            </div>
+        </div>
+
+        <section class="col-lg-9">
+            <h2 class="fw-bold mb-4">Historial de Compras</h2>
+
+            <div class="card shadow-sm border-0">
+                <div class="card-body p-0">
+                    <div class="table-responsive">
+                        <table class="table table-hover align-middle mb-0">
+                            <thead class="table-light">
+                                <tr>
+                                    <th scope="col" class="ps-4">Producto</th>
+                                    <th scope="col">Precio</th>
+                                    <th scope="col">Fecha</th>
+                                    <th scope="col">Vendedor</th>
+                                    <th scope="col">Estado</th>
+                                    <th scope="col" class="text-end pe-4">Detalle</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {{#each compras}}
+                                <tr>
+                                    <td class="ps-4">
+                                        <span class="fw-bold text-dark">{{this.titulo}}</span>
+                                    </td>
+                                    <td class="fw-bold text-success">{{this.precio}} €</td>
+                                    <td class="text-muted small">{{this.fechaCompra}}</td>
+                                    <td>{{this.vendedor}}</td>
+                                    <td>
+                                        <span class="badge {{this.badgeColor}}">{{this.estado}}</span>
+                                    </td>
+                                    <td class="text-end pe-4">
+                                        <a href="/productos/{{this.id}}" class="btn btn-sm btn-outline-primary">
+                                            <i class="fa-solid fa-circle-info"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                {{else}}
+                                <tr>
+                                    <td colspan="6" class="text-center py-5">
+                                        <p class="text-muted mb-0">Aún no has realizado ninguna compra.</p>
+                                        <a href="/productos" class="btn btn-link">Explorar catálogo</a>
+                                    </td>
+                                </tr>
+                                {{/each}}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>

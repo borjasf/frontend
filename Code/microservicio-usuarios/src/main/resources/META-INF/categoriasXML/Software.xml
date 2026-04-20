@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<categoria id="2092" ruta="|2092|">
+	<nombre>Software</nombre>
+	<categoria id="5032" ruta="|2092|5032|">
+		<nombre>Bienes y moneda digitales</nombre>
+		<categoria id="500046" ruta="|2092|5032|500046|">
+			<nombre>Arte digital</nombre>
+		</categoria>
+		<categoria id="5035" ruta="|2092|5032|5035|">
+			<nombre>Fondo de pantalla</nombre>
+		</categoria>
+		<categoria id="2065" ruta="|2092|5032|2065|">
+			<nombre>Fotografía y vídeo de stock</nombre>
+		</categoria>
+		<categoria id="5036" ruta="|2092|5032|5036|">
+			<nombre>Fuentes</nombre>
+		</categoria>
+		<categoria id="5034" ruta="|2092|5032|5034|">
+			<nombre>Iconos de ordenador</nombre>
+		</categoria>
+		<categoria id="5935" ruta="|2092|5032|5935|">
+			<nombre>Moneda virtual</nombre>
+		</categoria>
+		<categoria id="8022" ruta="|2092|5032|8022|">
+			<nombre>Plantillas de documentos</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="1279" ruta="|2092|1279|">
+		<nombre>Software de videojuegos</nombre>
+	</categoria>
+	<categoria id="313" ruta="|2092|313|">
+		<nombre>Software informático</nombre>
+		<categoria id="7225" ruta="|2092|313|7225|">
+			<nombre>Discos de restauración</nombre>
+		</categoria>
+		<categoria id="315" ruta="|2092|313|315|">
+			<nombre>Herramientas de compilación y programación</nombre>
+		</categoria>
+		<categoria id="321" ruta="|2092|313|321|">
+			<nombre>Sistemas operativos</nombre>
+		</categoria>
+		<categoria id="5300" ruta="|2092|313|5300|">
+			<nombre>Software corporativo y de productividad</nombre>
+		</categoria>
+		<categoria id="5303" ruta="|2092|313|5303|">
+			<nombre>Software de aplicaciones ofimáticas</nombre>
+		</categoria>
+		<categoria id="5304" ruta="|2092|313|5304|">
+			<nombre>Software de contabilidad</nombre>
+		</categoria>
+		<categoria id="5127" ruta="|2092|313|5127|">
+			<nombre>Software de diccionario y traducción</nombre>
+		</categoria>
+		<categoria id="319" ruta="|2092|313|319|">
+			<nombre>Software de diseño y multimedia</nombre>
+			<categoria id="5096" ruta="|2092|313|319|5096|">
+				<nombre>Software de composición musical</nombre>
+			</categoria>
+			<categoria id="6029" ruta="|2092|313|319|6029|">
+				<nombre>Software de diseño de hogar e interiores</nombre>
+			</categoria>
+			<categoria id="4951" ruta="|2092|313|319|4951|">
+				<nombre>Software de diseño gráfico</nombre>
+			</categoria>
+			<categoria id="4954" ruta="|2092|313|319|4954|">
+				<nombre>Software de diseño web</nombre>
+			</categoria>
+			<categoria id="4950" ruta="|2092|313|319|4950|">
+				<nombre>Software de edición de animación</nombre>
+			</categoria>
+			<categoria id="4952" ruta="|2092|313|319|4952|">
+				<nombre>Software de edición de sonido</nombre>
+			</categoria>
+			<categoria id="4953" ruta="|2092|313|319|4953|">
+				<nombre>Software de edición de vídeo</nombre>
+			</categoria>
+			<categoria id="4949" ruta="|2092|313|319|4949|">
+				<nombre>Software de edición no profesional</nombre>
+			</categoria>
+			<categoria id="6027" ruta="|2092|313|319|6027|">
+				<nombre>Software de modelado 3D</nombre>
+			</categoria>
+			<categoria id="6028" ruta="|2092|313|319|6028|">
+				<nombre>Software multimedia</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="5302" ruta="|2092|313|5302|">
+			<nombre>Software de red</nombre>
+		</categoria>
+		<categoria id="5299" ruta="|2092|313|5299|">
+			<nombre>Software de seguridad y antivirus</nombre>
+		</categoria>
+		<categoria id="317" ruta="|2092|313|317|">
+			<nombre>Software educativo</nombre>
+		</categoria>
+		<categoria id="318" ruta="|2092|313|318|">
+			<nombre>Software para PDA y dispositivos portátiles</nombre>
+		</categoria>
+		<categoria id="3283" ruta="|2092|313|3283|">
+			<nombre>Software y datos de mapa para GPS</nombre>
+		</categoria>
+		<categoria id="5301" ruta="|2092|313|5301|">
+			<nombre>Utilidades y software de mantenimiento para ordenadores
+			</nombre>
+		</categoria>
+	</categoria>
+</categoria>

@@ -1,0 +1,2576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<categoria id="988" ruta="|988|">
+	<nombre>Equipamiento deportivo</nombre>
+	<categoria id="1011" ruta="|988|1011|">
+		<nombre>Actividades al aire libre</nombre>
+		<categoria id="5998" ruta="|988|1011|5998|">
+			<nombre>Accesorios para sistemas de hidratación</nombre>
+		</categoria>
+		<categoria id="499844" ruta="|988|1011|499844|">
+			<nombre>Actividades y deportes de invierno</nombre>
+			<categoria id="1166" ruta="|988|1011|499844|1166|">
+				<nombre>Caminar con raquetas de nieve</nombre>
+				<categoria id="3073" ruta="|988|1011|499844|1166|3073|">
+					<nombre>Fijaciones de raquetas de nieve</nombre>
+				</categoria>
+				<categoria id="3064" ruta="|988|1011|499844|1166|3064|">
+					<nombre>Raquetas de nieve</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="499845" ruta="|988|1011|499844|499845|">
+				<nombre>Esquí y snowboard</nombre>
+				<categoria id="8203" ruta="|988|1011|499844|499845|8203|">
+					<nombre>Accesorios para gafas protectoras de esquí y snowboard
+					</nombre>
+					<categoria id="5050"
+						ruta="|988|1011|499844|499845|8203|5050|">
+						<nombre>Lentes para gafas de esquí y snowboard</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="1157" ruta="|988|1011|499844|499845|1157|">
+					<nombre>Bastones de esquí</nombre>
+				</categoria>
+				<categoria id="7224" ruta="|988|1011|499844|499845|7224|">
+					<nombre>Bolsas de esquí y snowboard</nombre>
+				</categoria>
+				<categoria id="6062" ruta="|988|1011|499844|499845|6062|">
+					<nombre>Botas de esquí</nombre>
+				</categoria>
+				<categoria id="1163" ruta="|988|1011|499844|499845|1163|">
+					<nombre>Botas de snowboard</nombre>
+				</categoria>
+				<categoria id="1161" ruta="|988|1011|499844|499845|1161|">
+					<nombre>Cascos de esquí y snowboard</nombre>
+				</categoria>
+				<categoria id="8074" ruta="|988|1011|499844|499845|8074|">
+					<nombre>Cera para esquí y snowboard</nombre>
+				</categoria>
+				<categoria id="499681"
+					ruta="|988|1011|499844|499845|499681|">
+					<nombre>Correas para esquí y snowboard</nombre>
+				</categoria>
+				<categoria id="6064" ruta="|988|1011|499844|499845|6064|">
+					<nombre>Esquíes</nombre>
+					<categoria id="1158"
+						ruta="|988|1011|499844|499845|6064|1158|">
+						<nombre>Esquíes de descenso</nombre>
+					</categoria>
+					<categoria id="3331"
+						ruta="|988|1011|499844|499845|6064|3331|">
+						<nombre>Esquíes de fondo</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="6063" ruta="|988|1011|499844|499845|6063|">
+					<nombre>Fijaciones de esquí</nombre>
+				</categoria>
+				<categoria id="1162" ruta="|988|1011|499844|499845|1162|">
+					<nombre>Fijaciones de snowboard</nombre>
+				</categoria>
+				<categoria id="3550" ruta="|988|1011|499844|499845|3550|">
+					<nombre>Gafas de esquí y snowboard</nombre>
+				</categoria>
+				<categoria id="505772"
+					ruta="|988|1011|499844|499845|505772|">
+					<nombre>Herramientas para afilar esquís y tablas de snowboard
+					</nombre>
+				</categoria>
+				<categoria id="505296"
+					ruta="|988|1011|499844|499845|505296|">
+					<nombre>Piezas de fijación de esquís</nombre>
+				</categoria>
+				<categoria id="5088" ruta="|988|1011|499844|499845|5088|">
+					<nombre>Piezas para fijaciones de snowboard</nombre>
+				</categoria>
+				<categoria id="7558" ruta="|988|1011|499844|499845|7558|">
+					<nombre>Soportes de almacenaje para esquí y snowboard</nombre>
+				</categoria>
+				<categoria id="1164" ruta="|988|1011|499844|499845|1164|">
+					<nombre>Tablas de snowboard</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="499951" ruta="|988|1011|499844|499951|">
+				<nombre>Seguridad frente a avalanchas</nombre>
+				<categoria id="499877"
+					ruta="|988|1011|499844|499951|499877|">
+					<nombre>Airbags protectores frente a avalanchas</nombre>
+				</categoria>
+				<categoria id="499952"
+					ruta="|988|1011|499844|499951|499952|">
+					<nombre>Análisis de avalanchas</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="7539" ruta="|988|1011|499844|7539|">
+				<nombre>Trineos</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="3789" ruta="|988|1011|3789|">
+			<nombre>Ala delta y paracaidismo</nombre>
+			<categoria id="4327" ruta="|988|1011|3789|4327|">
+				<nombre>Ala delta</nombre>
+			</categoria>
+			<categoria id="5877" ruta="|988|1011|3789|5877|">
+				<nombre>Monos de salto</nombre>
+			</categoria>
+			<categoria id="4023" ruta="|988|1011|3789|4023|">
+				<nombre>Paracaídas</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="1013" ruta="|988|1011|1013|">
+			<nombre>Camping y senderismo</nombre>
+			<categoria id="7154" ruta="|988|1011|1013|7154|">
+				<nombre>Accesorios de bastones de senderismo</nombre>
+			</categoria>
+			<categoria id="5655" ruta="|988|1011|1013|5655|">
+				<nombre>Accesorios para tiendas de campaña</nombre>
+				<categoria id="5657" ruta="|988|1011|1013|5655|5657|">
+					<nombre>Carpas para tiendas de campaña</nombre>
+				</categoria>
+				<categoria id="5658" ruta="|988|1011|1013|5655|5658|">
+					<nombre>Mástiles y estacas para tiendas de campaña</nombre>
+				</categoria>
+				<categoria id="5656" ruta="|988|1011|1013|5655|5656|">
+					<nombre>Protectores de suelo para tiendas de campaña</nombre>
+				</categoria>
+				<categoria id="499680" ruta="|988|1011|1013|5655|499680|">
+					<nombre>Tiendas interiores</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="3738" ruta="|988|1011|1013|3738|">
+				<nombre>Bastones de senderismo</nombre>
+			</categoria>
+			<categoria id="4785" ruta="|988|1011|1013|4785|">
+				<nombre>Brújulas</nombre>
+			</categoria>
+			<categoria id="3508" ruta="|988|1011|1013|3508|">
+				<nombre>Calientamanos químicos</nombre>
+			</categoria>
+			<categoria id="1021" ruta="|988|1011|1013|1021|">
+				<nombre>Colchonetas para dormir</nombre>
+			</categoria>
+			<categoria id="502993" ruta="|988|1011|1013|502993|">
+				<nombre>Duchas y retretes portátiles</nombre>
+				<categoria id="502994"
+					ruta="|988|1011|1013|502993|502994|">
+					<nombre>Recintos privados y duchas portátiles</nombre>
+				</categoria>
+				<categoria id="503009"
+					ruta="|988|1011|1013|502993|503009|">
+					<nombre>Urinarios y retretes portátiles</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="1019" ruta="|988|1011|1013|1019|">
+				<nombre>Faroles y lámparas de camping</nombre>
+			</categoria>
+			<categoria id="5881" ruta="|988|1011|1013|5881|">
+				<nombre>Fundas para saco de dormir</nombre>
+			</categoria>
+			<categoria id="3937" ruta="|988|1011|1013|3937|">
+				<nombre>Herramientas de camping</nombre>
+				<categoria id="3495" ruta="|988|1011|1013|3937|3495|">
+					<nombre>Cuchillos de caza</nombre>
+				</categoria>
+				<categoria id="4095" ruta="|988|1011|1013|3937|4095|">
+					<nombre>Navajas y herramientas multifunción</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="1014" ruta="|988|1011|1013|1014|">
+				<nombre>Mobiliario de camping</nombre>
+				<categoria id="4451" ruta="|988|1011|1013|1014|4451|">
+					<nombre>Accesorios para colchones hinchables y esterillas</nombre>
+				</categoria>
+				<categoria id="3089" ruta="|988|1011|1013|1014|3089|">
+					<nombre>Catres</nombre>
+				</categoria>
+				<categoria id="3695" ruta="|988|1011|1013|1014|3695|">
+					<nombre>Colchones de aire</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="3538" ruta="|988|1011|1013|3538|">
+				<nombre>Mosquiteras</nombre>
+			</categoria>
+			<categoria id="8079" ruta="|988|1011|1013|8079|">
+				<nombre>Paravientos</nombre>
+			</categoria>
+			<categoria id="1023" ruta="|988|1011|1013|1023|">
+				<nombre>Purificadores y filtros de agua portátiles</nombre>
+			</categoria>
+			<categoria id="5636" ruta="|988|1011|1013|5636|">
+				<nombre>Sacos de compresión</nombre>
+			</categoria>
+			<categoria id="1020" ruta="|988|1011|1013|1020|">
+				<nombre>Sacos de dormir</nombre>
+			</categoria>
+			<categoria id="1022" ruta="|988|1011|1013|1022|">
+				<nombre>Tiendas de campaña</nombre>
+			</categoria>
+			<categoria id="1016" ruta="|988|1011|1013|1016|">
+				<nombre>Vajillas y utensilios de cocina para camping</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="499824" ruta="|988|1011|499824|">
+			<nombre>Caza y tiro</nombre>
+			<categoria id="499840" ruta="|988|1011|499824|499840|">
+				<nombre>Accesorios de tiro y galería</nombre>
+				<categoria id="499842"
+					ruta="|988|1011|499824|499840|499842|">
+					<nombre>Apoyos para tiro</nombre>
+				</categoria>
+				<categoria id="499841"
+					ruta="|988|1011|499824|499840|499841|">
+					<nombre>Bastones y bípodes para tiro</nombre>
+				</categoria>
+				<categoria id="3170" ruta="|988|1011|499824|499840|3170|">
+					<nombre>Dianas de tiro</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="3136" ruta="|988|1011|499824|3136|">
+				<nombre>Caza</nombre>
+				<categoria id="8011" ruta="|988|1011|499824|3136|8011|">
+					<nombre>Atrayente para animales</nombre>
+					<categoria id="8080"
+						ruta="|988|1011|499824|3136|8011|8080|">
+						<nombre>Bloqueadores de olores y aromas atrayentes</nombre>
+					</categoria>
+					<categoria id="8081"
+						ruta="|988|1011|499824|3136|8011|8081|">
+						<nombre>Cebo, alimento y minerales para animales silvestres
+						</nombre>
+					</categoria>
+					<categoria id="3756"
+						ruta="|988|1011|499824|3136|8011|3756|">
+						<nombre>Reclamos sonoros para caza y fauna</nombre>
+					</categoria>
+					<categoria id="3583"
+						ruta="|988|1011|499824|3136|8011|3583|">
+						<nombre>Señuelos para caza y fauna</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="7373" ruta="|988|1011|499824|3136|7373|">
+					<nombre>Audífonos para cazadores</nombre>
+				</categoria>
+				<categoria id="6992" ruta="|988|1011|499824|3136|6992|">
+					<nombre>Comederos para animales de caza</nombre>
+				</categoria>
+				<categoria id="5917" ruta="|988|1011|499824|3136|5917|">
+					<nombre>Equipo para perro de caza</nombre>
+				</categoria>
+				<categoria id="1034" ruta="|988|1011|499824|3136|1034|">
+					<nombre>Pantallas y puestos de caza</nombre>
+				</categoria>
+				<categoria id="3748" ruta="|988|1011|499824|3136|3748|">
+					<nombre>Puestos para árboles</nombre>
+				</categoria>
+				<categoria id="3674" ruta="|988|1011|499824|3136|3674|">
+					<nombre>Trampas para animales</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="7460" ruta="|988|1011|499824|7460|">
+				<nombre>Equipamiento de protección para caza y tiro</nombre>
+				<categoria id="7518" ruta="|988|1011|499824|7460|7518|">
+					<nombre>Chaquetas de caza y tiro</nombre>
+				</categoria>
+				<categoria id="7461" ruta="|988|1011|499824|7460|7461|">
+					<nombre>Guantes de caza y tiro</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="499834" ruta="|988|1011|499824|499834|">
+				<nombre>Paintball y airsoft</nombre>
+				<categoria id="2443" ruta="|988|1011|499824|499834|2443|">
+					<nombre>Airsoft</nombre>
+					<categoria id="3116"
+						ruta="|988|1011|499824|499834|2443|3116|">
+						<nombre>Accesorios y piezas para pistolas de airsoft</nombre>
+						<categoria id="8005"
+							ruta="|988|1011|499824|499834|2443|3116|8005|">
+							<nombre>Baterías para pistolas de airsoft</nombre>
+						</categoria>
+					</categoria>
+					<categoria id="3925"
+						ruta="|988|1011|499824|499834|2443|3925|">
+						<nombre>Bolas de airsoft</nombre>
+					</categoria>
+					<categoria id="3093"
+						ruta="|988|1011|499824|499834|2443|3093|">
+						<nombre>Pistolas de airsoft</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="499835"
+					ruta="|988|1011|499824|499834|499835|">
+					<nombre>Equipamiento de protección para paintball y airsoft
+					</nombre>
+					<categoria id="499839"
+						ruta="|988|1011|499824|499834|499835|499839|">
+						<nombre>Almohadillas para paintball y airsoft</nombre>
+					</categoria>
+					<categoria id="499837"
+						ruta="|988|1011|499824|499834|499835|499837|">
+						<nombre>Chalecos para paintball y airsoft</nombre>
+					</categoria>
+					<categoria id="499838"
+						ruta="|988|1011|499824|499834|499835|499838|">
+						<nombre>Gafas protectoras y máscaras para paintball y airsoft
+						</nombre>
+					</categoria>
+					<categoria id="499836"
+						ruta="|988|1011|499824|499834|499835|499836|">
+						<nombre>Guantes para paintball y airsoft</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="1049" ruta="|988|1011|499824|499834|1049|">
+					<nombre>Paintball</nombre>
+					<categoria id="6781"
+						ruta="|988|1011|499824|499834|1049|6781|">
+						<nombre>Arneses y portapods para paintball</nombre>
+					</categoria>
+					<categoria id="3438"
+						ruta="|988|1011|499824|499834|1049|3438|">
+						<nombre>Bolas de pintura</nombre>
+					</categoria>
+					<categoria id="3408"
+						ruta="|988|1011|499824|499834|1049|3408|">
+						<nombre>Granadas de paintball</nombre>
+					</categoria>
+					<categoria id="6748"
+						ruta="|988|1011|499824|499834|1049|6748|">
+						<nombre>Lanzagranadas para paintball</nombre>
+					</categoria>
+					<categoria id="3187"
+						ruta="|988|1011|499824|499834|1049|3187|">
+						<nombre>Piezas y accesorios de pistolas de paintball</nombre>
+						<categoria id="3244"
+							ruta="|988|1011|499824|499834|1049|3187|3244|">
+							<nombre>Botellas de CO2 para paintball</nombre>
+						</categoria>
+						<categoria id="3690"
+							ruta="|988|1011|499824|499834|1049|3187|3690|">
+							<nombre>Cañones de pistola de paintball</nombre>
+						</categoria>
+						<categoria id="8514"
+							ruta="|988|1011|499824|499834|1049|3187|8514|">
+							<nombre>Chasis para tanques de aire para pistolas de paintball
+							</nombre>
+						</categoria>
+						<categoria id="3152"
+							ruta="|988|1011|499824|499834|1049|3187|3152|">
+							<nombre>Tolvas de paintball</nombre>
+						</categoria>
+					</categoria>
+					<categoria id="3234"
+						ruta="|988|1011|499824|499834|1049|3234|">
+						<nombre>Pistolas de paintball</nombre>
+					</categoria>
+				</categoria>
+			</categoria>
+			<categoria id="3125" ruta="|988|1011|499824|3125|">
+				<nombre>Tiro al plato</nombre>
+				<categoria id="3305" ruta="|988|1011|499824|3125|3305|">
+					<nombre>Máquina de tiro al plato</nombre>
+				</categoria>
+				<categoria id="3528" ruta="|988|1011|499824|3125|3528|">
+					<nombre>Platos para tiro al plato</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="1033" ruta="|988|1011|499824|1033|">
+				<nombre>Tiro con arco</nombre>
+				<categoria id="499826"
+					ruta="|988|1011|499824|1033|499826|">
+					<nombre>Accesorios para arcos y ballestas</nombre>
+				</categoria>
+				<categoria id="3291" ruta="|988|1011|499824|1033|3291|">
+					<nombre>Accesorios y piezas para flechas</nombre>
+					<categoria id="499832"
+						ruta="|988|1011|499824|1033|3291|499832|">
+						<nombre>Culatines para flechas</nombre>
+					</categoria>
+					<categoria id="499830"
+						ruta="|988|1011|499824|1033|3291|499830|">
+						<nombre>Puntas de caza y campo</nombre>
+					</categoria>
+					<categoria id="499831"
+						ruta="|988|1011|499824|1033|3291|499831|">
+						<nombre>Remeras para flechas</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="499825"
+					ruta="|988|1011|499824|1033|499825|">
+					<nombre>Arcos y ballestas</nombre>
+					<categoria id="3332"
+						ruta="|988|1011|499824|1033|499825|3332|">
+						<nombre>Arcos compuestos</nombre>
+					</categoria>
+					<categoria id="3715"
+						ruta="|988|1011|499824|1033|499825|3715|">
+						<nombre>Arcos largos y recurvos</nombre>
+					</categoria>
+					<categoria id="3505"
+						ruta="|988|1011|499824|1033|499825|3505|">
+						<nombre>Ballestas</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="3773" ruta="|988|1011|499824|1033|3773|">
+					<nombre>Brazaleras de tiro con arco</nombre>
+				</categoria>
+				<categoria id="3757" ruta="|988|1011|499824|1033|3757|">
+					<nombre>Carcajes</nombre>
+				</categoria>
+				<categoria id="3883" ruta="|988|1011|499824|1033|3883|">
+					<nombre>Dianas de tiro con arco</nombre>
+				</categoria>
+				<categoria id="3533" ruta="|988|1011|499824|1033|3533|">
+					<nombre>Flechas y dardos</nombre>
+				</categoria>
+				<categoria id="499833"
+					ruta="|988|1011|499824|1033|499833|">
+					<nombre>Guantes y disparadores para tiro con arco</nombre>
+				</categoria>
+			</categoria>
+		</categoria>
+		<categoria id="1025" ruta="|988|1011|1025|">
+			<nombre>Ciclismo</nombre>
+			<categoria id="3214" ruta="|988|1011|1025|3214|">
+				<nombre>Accesorios para bicicletas</nombre>
+				<categoria id="5540" ruta="|988|1011|1025|3214|5540|">
+					<nombre>Accesorios de ordenadores para bicicleta</nombre>
+				</categoria>
+				<categoria id="500092" ruta="|988|1011|1025|3214|500092|">
+					<nombre>Accesorios decorativos y puños de manillar para bicicletas
+					</nombre>
+				</categoria>
+				<categoria id="500067" ruta="|988|1011|1025|3214|500067|">
+					<nombre>Accesorios para asientos de bicicleta infantiles</nombre>
+				</categoria>
+				<categoria id="7448" ruta="|988|1011|1025|3214|7448|">
+					<nombre>Adornos para radios de bicicletas</nombre>
+				</categoria>
+				<categoria id="5842" ruta="|988|1011|1025|3214|5842|">
+					<nombre>Asientos para llevar niños en bicicleta</nombre>
+				</categoria>
+				<categoria id="6048" ruta="|988|1011|1025|3214|6048|">
+					<nombre>Bacas para planchas de surf para bicicletas</nombre>
+				</categoria>
+				<categoria id="3428" ruta="|988|1011|1025|3214|3428|">
+					<nombre>Bases y soportes para almacenar bicicletas</nombre>
+				</categoria>
+				<categoria id="3778" ruta="|988|1011|1025|3214|3778|">
+					<nombre>Bolsas y maletas para bicicletas</nombre>
+				</categoria>
+				<categoria id="6506" ruta="|988|1011|1025|3214|6506|">
+					<nombre>Bomba para horquillas de bicicleta</nombre>
+				</categoria>
+				<categoria id="3827" ruta="|988|1011|1025|3214|3827|">
+					<nombre>Bombas para bicicletas</nombre>
+				</categoria>
+				<categoria id="1027" ruta="|988|1011|1025|3214|1027|">
+					<nombre>Candados para bicicletas</nombre>
+				</categoria>
+				<categoria id="3341" ruta="|988|1011|1025|3214|3341|">
+					<nombre>Cestas para bicicletas</nombre>
+				</categoria>
+				<categoria id="7223" ruta="|988|1011|1025|3214|7223|">
+					<nombre>Clips y correas para pedales de bicicletas</nombre>
+				</categoria>
+				<categoria id="3868" ruta="|988|1011|1025|3214|3868|">
+					<nombre>Entrenadores de bicicletas</nombre>
+				</categoria>
+				<categoria id="3368" ruta="|988|1011|1025|3214|3368|">
+					<nombre>Espejos para bicicletas</nombre>
+				</categoria>
+				<categoria id="6445" ruta="|988|1011|1025|3214|6445|">
+					<nombre>Fundas para asientos y sillines para bicicletas</nombre>
+				</categoria>
+				<categoria id="6442" ruta="|988|1011|1025|3214|6442|">
+					<nombre>Fundas para bicicletas</nombre>
+				</categoria>
+				<categoria id="3719" ruta="|988|1011|1025|3214|3719|">
+					<nombre>Guardabarros para bicicletas</nombre>
+				</categoria>
+				<categoria id="505668" ruta="|988|1011|1025|3214|505668|">
+					<nombre>Herramientas para bicicletas</nombre>
+				</categoria>
+				<categoria id="500109" ruta="|988|1011|1025|3214|500109|">
+					<nombre>Kits de conversión eléctrica para bicicletas</nombre>
+				</categoria>
+				<categoria id="499694" ruta="|988|1011|1025|3214|499694|">
+					<nombre>Kits y parches de reparación para neumáticos de bicicletas
+					</nombre>
+				</categoria>
+				<categoria id="3558" ruta="|988|1011|1025|3214|3558|">
+					<nombre>Maletas y bolsas de transporte para bicicletas</nombre>
+				</categoria>
+				<categoria id="3243" ruta="|988|1011|1025|3214|3243|">
+					<nombre>Ordenadores para bicicletas</nombre>
+				</categoria>
+				<categoria id="4145" ruta="|988|1011|1025|3214|4145|">
+					<nombre>Portabidones para bicicletas</nombre>
+				</categoria>
+				<categoria id="1028" ruta="|988|1011|1025|3214|1028|">
+					<nombre>Portaequipajes delanteros y traseros para bicicletas
+					</nombre>
+				</categoria>
+				<categoria id="3811" ruta="|988|1011|1025|3214|3811|">
+					<nombre>Remolques para bicicletas</nombre>
+				</categoria>
+				<categoria id="3631" ruta="|988|1011|1025|3214|3631|">
+					<nombre>Ruedas de apoyo para bicicletas</nombre>
+				</categoria>
+				<categoria id="3879" ruta="|988|1011|1025|3214|3879|">
+					<nombre>Timbres y bocinas para bicicletas</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="3070" ruta="|988|1011|1025|3070|">
+				<nombre>Accesorios para monociclos</nombre>
+			</categoria>
+			<categoria id="3634" ruta="|988|1011|1025|3634|">
+				<nombre>Accesorios para triciclos</nombre>
+			</categoria>
+			<categoria id="3982" ruta="|988|1011|1025|3982|">
+				<nombre>Accesorios y complementos de ciclismo</nombre>
+				<categoria id="7474" ruta="|988|1011|1025|3982|7474|">
+					<nombre>Accesorios de calapiés para bicicletas</nombre>
+					<categoria id="7453"
+						ruta="|988|1011|1025|3982|7474|7453|">
+						<nombre>Cubiertas de calapiés para bicicletas</nombre>
+					</categoria>
+					<categoria id="7475"
+						ruta="|988|1011|1025|3982|7474|7475|">
+						<nombre>Cuñas y calzas de calapiés para bicicletas</nombre>
+					</categoria>
+					<categoria id="7476"
+						ruta="|988|1011|1025|3982|7474|7476|">
+						<nombre>Tornillos de calapiés para bicicletas</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="500028" ruta="|988|1011|1025|3982|500028|">
+					<nombre>Accesorios y repuestos para cascos de bicicleta</nombre>
+				</categoria>
+				<categoria id="3118" ruta="|988|1011|1025|3982|3118|">
+					<nombre>Calas para bicicleta</nombre>
+				</categoria>
+				<categoria id="1029" ruta="|988|1011|1025|3982|1029|">
+					<nombre>Cascos de ciclismo</nombre>
+				</categoria>
+				<categoria id="3246" ruta="|988|1011|1025|3982|3246|">
+					<nombre>Guantes de ciclismo</nombre>
+				</categoria>
+				<categoria id="8061" ruta="|988|1011|1025|3982|8061|">
+					<nombre>Protecciones acolchadas para bicicletas</nombre>
+				</categoria>
+				<categoria id="3272" ruta="|988|1011|1025|3982|3272|">
+					<nombre>Sobrecalzado de ciclismo</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="1026" ruta="|988|1011|1025|1026|">
+				<nombre>Bicicletas</nombre>
+			</categoria>
+			<categoria id="1030" ruta="|988|1011|1025|1030|">
+				<nombre>Monociclos</nombre>
+			</categoria>
+			<categoria id="3618" ruta="|988|1011|1025|3618|">
+				<nombre>Piezas para bicicletas</nombre>
+				<categoria id="499871" ruta="|988|1011|1025|3618|499871|">
+					<nombre>Adaptadores para válvulas de neumáticos de bicicletas
+					</nombre>
+				</categoria>
+				<categoria id="499685" ruta="|988|1011|1025|3618|499685|">
+					<nombre>Cables para bicicletas</nombre>
+				</categoria>
+				<categoria id="499869" ruta="|988|1011|1025|3618|499869|">
+					<nombre>Capuchones para válvulas de neumáticos de bicicletas
+					</nombre>
+				</categoria>
+				<categoria id="3639" ruta="|988|1011|1025|3618|3639|">
+					<nombre>Cuadros para bicicletas</nombre>
+				</categoria>
+				<categoria id="4572" ruta="|988|1011|1025|3618|4572|">
+					<nombre>Cámaras para bicicletas</nombre>
+				</categoria>
+				<categoria id="7477" ruta="|988|1011|1025|3618|7477|">
+					<nombre>Direcciones para bicicletas</nombre>
+				</categoria>
+				<categoria id="6960" ruta="|988|1011|1025|3618|6960|">
+					<nombre>Extensiones para manillares de bicicleta</nombre>
+				</categoria>
+				<categoria id="499684" ruta="|988|1011|1025|3618|499684|">
+					<nombre>Fundas exteriores de cables para bicicletas</nombre>
+				</categoria>
+				<categoria id="499868" ruta="|988|1011|1025|3618|499868|">
+					<nombre>Grupos para bicicletas</nombre>
+				</categoria>
+				<categoria id="4603" ruta="|988|1011|1025|3618|4603|">
+					<nombre>Horquillas para bicicletas</nombre>
+				</categoria>
+				<categoria id="4582" ruta="|988|1011|1025|3618|4582|">
+					<nombre>Manillares para bicicletas</nombre>
+				</categoria>
+				<categoria id="4571" ruta="|988|1011|1025|3618|4571|">
+					<nombre>Neumáticos para bicicletas</nombre>
+				</categoria>
+				<categoria id="8239" ruta="|988|1011|1025|3618|8239|">
+					<nombre>Patas para bicicletas</nombre>
+				</categoria>
+				<categoria id="4585" ruta="|988|1011|1025|3618|4585|">
+					<nombre>Piezas de cadenas para bicicletas</nombre>
+					<categoria id="4592"
+						ruta="|988|1011|1025|3618|4585|4592|">
+						<nombre>Bielas para bicicletas</nombre>
+					</categoria>
+					<categoria id="4587"
+						ruta="|988|1011|1025|3618|4585|4587|">
+						<nombre>Cadenas para bicicletas</nombre>
+					</categoria>
+					<categoria id="4586"
+						ruta="|988|1011|1025|3618|4585|4586|">
+						<nombre>Cassettes y piñones libres para bicicletas</nombre>
+					</categoria>
+					<categoria id="4591"
+						ruta="|988|1011|1025|3618|4585|4591|">
+						<nombre>Coronas para bicicletas</nombre>
+					</categoria>
+					<categoria id="4588"
+						ruta="|988|1011|1025|3618|4585|4588|">
+						<nombre>Mecanismo de cambio para bicicletas</nombre>
+					</categoria>
+					<categoria id="4594"
+						ruta="|988|1011|1025|3618|4585|4594|">
+						<nombre>Palancas de cambio para bicicletas</nombre>
+					</categoria>
+					<categoria id="4593"
+						ruta="|988|1011|1025|3618|4585|4593|">
+						<nombre>Pedales para bicicletas</nombre>
+					</categoria>
+					<categoria id="4590"
+						ruta="|988|1011|1025|3618|4585|4590|">
+						<nombre>Soportes inferiores para bicicletas</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="7478" ruta="|988|1011|1025|3618|7478|">
+					<nombre>Piezas de dirección para bicicletas</nombre>
+					<categoria id="7480"
+						ruta="|988|1011|1025|3618|7478|7480|">
+						<nombre>Cojinetes de dirección para bicicletas</nombre>
+					</categoria>
+					<categoria id="7479"
+						ruta="|988|1011|1025|3618|7478|7479|">
+						<nombre>Espaciadores de dirección para bicicletas</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="3740" ruta="|988|1011|1025|3618|3740|">
+					<nombre>Piezas de frenos para bicicletas</nombre>
+					<categoria id="4574"
+						ruta="|988|1011|1025|3618|3740|4574|">
+						<nombre>Brazos de freno para bicicletas</nombre>
+					</categoria>
+					<categoria id="4577"
+						ruta="|988|1011|1025|3618|3740|4577|">
+						<nombre>Conjuntos de frenos para bicicletas</nombre>
+					</categoria>
+					<categoria id="4575"
+						ruta="|988|1011|1025|3618|3740|4575|">
+						<nombre>Palancas de freno para bicicletas</nombre>
+					</categoria>
+					<categoria id="4576"
+						ruta="|988|1011|1025|3618|3740|4576|">
+						<nombre>Rotores de freno para bicicletas</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="4597" ruta="|988|1011|1025|3618|4597|">
+					<nombre>Piezas de ruedas para bicicletas</nombre>
+					<categoria id="4599"
+						ruta="|988|1011|1025|3618|4597|4599|">
+						<nombre>Concentradores para bicicletas</nombre>
+					</categoria>
+					<categoria id="4601"
+						ruta="|988|1011|1025|3618|4597|4601|">
+						<nombre>Conectores para ruedas de bicicletas</nombre>
+					</categoria>
+					<categoria id="8528"
+						ruta="|988|1011|1025|3618|4597|8528|">
+						<nombre>Ejes y sujeciones rápidas para bicicletas</nombre>
+					</categoria>
+					<categoria id="499875"
+						ruta="|988|1011|1025|3618|4597|499875|">
+						<nombre>Fondos de llanta para bicicletas</nombre>
+					</categoria>
+					<categoria id="4602"
+						ruta="|988|1011|1025|3618|4597|4602|">
+						<nombre>Llantas de rueda para bicicletas</nombre>
+					</categoria>
+					<categoria id="4600"
+						ruta="|988|1011|1025|3618|4597|4600|">
+						<nombre>Radios para bicicletas</nombre>
+					</categoria>
+					<categoria id="7538"
+						ruta="|988|1011|1025|3618|4597|7538|">
+						<nombre>Reposapiés para bicicletas</nombre>
+					</categoria>
+					<categoria id="500053"
+						ruta="|988|1011|1025|3618|4597|500053|">
+						<nombre>Repuestos para bicicletas</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="4596" ruta="|988|1011|1025|3618|4596|">
+					<nombre>Piezas pequeñas para bicicleta</nombre>
+				</categoria>
+				<categoria id="3216" ruta="|988|1011|1025|3618|3216|">
+					<nombre>Ruedas para bicicletas</nombre>
+				</categoria>
+				<categoria id="3292" ruta="|988|1011|1025|3618|3292|">
+					<nombre>Sillines para bicicletas</nombre>
+				</categoria>
+				<categoria id="4595" ruta="|988|1011|1025|3618|4595|">
+					<nombre>Tijas del tubo regulable del sillín para bicicletas
+					</nombre>
+				</categoria>
+				<categoria id="4583" ruta="|988|1011|1025|3618|4583|">
+					<nombre>Tubos del manillar para bicicletas</nombre>
+				</categoria>
+				<categoria id="4194" ruta="|988|1011|1025|3618|4194|">
+					<nombre>Tubos regulables de sillín para bicicletas</nombre>
+				</categoria>
+				<categoria id="499870" ruta="|988|1011|1025|3618|499870|">
+					<nombre>Válvulas para neumáticos de bicicletas</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="3531" ruta="|988|1011|1025|3531|">
+				<nombre>Triciclos</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="499811" ruta="|988|1011|499811|">
+			<nombre>Deportes acuáticos y navegación deportiva</nombre>
+			<categoria id="1135" ruta="|988|1011|499811|1135|">
+				<nombre>Buceo y buceo con esnórquel</nombre>
+				<categoria id="1139" ruta="|988|1011|499811|1135|1139|">
+					<nombre>Aletas de buceo</nombre>
+				</categoria>
+				<categoria id="6514" ruta="|988|1011|499811|1135|6514|">
+					<nombre>Cinturones de buceo</nombre>
+				</categoria>
+				<categoria id="1136" ruta="|988|1011|499811|1135|1136|">
+					<nombre>Compensadores de flotabilidad</nombre>
+				</categoria>
+				<categoria id="499867"
+					ruta="|988|1011|499811|1135|499867|">
+					<nombre>Conjuntos de equipamiento para buceo y esnórquel</nombre>
+				</categoria>
+				<categoria id="1142" ruta="|988|1011|499811|1135|1142|">
+					<nombre>Esnórqueles</nombre>
+				</categoria>
+				<categoria id="1140" ruta="|988|1011|499811|1135|1140|">
+					<nombre>Gafas de buceo</nombre>
+				</categoria>
+				<categoria id="1137" ruta="|988|1011|499811|1135|1137|">
+					<nombre>Ordenadores de buceo</nombre>
+				</categoria>
+				<categoria id="1141" ruta="|988|1011|499811|1135|1141|">
+					<nombre>Reguladores</nombre>
+				</categoria>
+				<categoria id="5312" ruta="|988|1011|499811|1135|5312|">
+					<nombre>Tijeras y cuchillos para bucear</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="3195" ruta="|988|1011|499811|3195|">
+				<nombre>Deportes acuáticos remolcados</nombre>
+				<categoria id="3636" ruta="|988|1011|499811|3195|3636|">
+					<nombre>Cables de remolque</nombre>
+				</categoria>
+				<categoria id="1146" ruta="|988|1011|499811|3195|1146|">
+					<nombre>Esquí acuático</nombre>
+					<categoria id="3289"
+						ruta="|988|1011|499811|3195|1146|3289|">
+						<nombre>Air chair</nombre>
+					</categoria>
+					<categoria id="6296"
+						ruta="|988|1011|499811|3195|1146|6296|">
+						<nombre>Bolsas y estuches para esquí acuático</nombre>
+					</categoria>
+					<categoria id="3350"
+						ruta="|988|1011|499811|3195|1146|3350|">
+						<nombre>Esquís acuáticos</nombre>
+					</categoria>
+					<categoria id="6302"
+						ruta="|988|1011|499811|3195|1146|6302|">
+						<nombre>Fijaciones para esquí acuático</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="7452" ruta="|988|1011|499811|3195|7452|">
+					<nombre>Guantes para deportes acuáticos de arrastre</nombre>
+				</categoria>
+				<categoria id="6301" ruta="|988|1011|499811|3195|6301|">
+					<nombre>Lanchas hinchables y botes remolcables</nombre>
+				</categoria>
+				<categoria id="3370" ruta="|988|1011|499811|3195|3370|">
+					<nombre>Surf de rodillas</nombre>
+					<categoria id="3101"
+						ruta="|988|1011|499811|3195|3370|3101|">
+						<nombre>Tablas para surf de rodillas</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="3282" ruta="|988|1011|499811|3195|3282|">
+					<nombre>Tablaestela</nombre>
+					<categoria id="505317"
+						ruta="|988|1011|499811|3195|3282|505317|">
+						<nombre>Fijaciones para tablas de kiteboard y wakeboard</nombre>
+					</categoria>
+					<categoria id="505291"
+						ruta="|988|1011|499811|3195|3282|505291|">
+						<nombre>Piezas de tablas de wakeboard</nombre>
+					</categoria>
+					<categoria id="3353"
+						ruta="|988|1011|499811|3195|3282|3353|">
+						<nombre>Tablas de tablaestela</nombre>
+					</categoria>
+				</categoria>
+			</categoria>
+			<categoria id="499813" ruta="|988|1011|499811|499813|">
+				<nombre>Equipamiento para deportes acuáticos y navegación deportiva
+				</nombre>
+				<categoria id="6496" ruta="|988|1011|499811|499813|6496|">
+					<nombre>Accesorios para chalecos salvavidas</nombre>
+				</categoria>
+				<categoria id="3376" ruta="|988|1011|499811|499813|3376|">
+					<nombre>Camisetas de protección y natación</nombre>
+				</categoria>
+				<categoria id="499687"
+					ruta="|988|1011|499811|499813|499687|">
+					<nombre>Cascos para deportes acuáticos</nombre>
+				</categoria>
+				<categoria id="1128" ruta="|988|1011|499811|499813|1128|">
+					<nombre>Chalecos salvavidas</nombre>
+				</categoria>
+				<categoria id="499814"
+					ruta="|988|1011|499811|499813|499814|">
+					<nombre>Partes de trajes de neopreno</nombre>
+					<categoria id="5399"
+						ruta="|988|1011|499811|499813|499814|5399|">
+						<nombre>Capuchas, guantes y botas para trajes de neopreno</nombre>
+					</categoria>
+					<categoria id="5400"
+						ruta="|988|1011|499811|499813|499814|5400|">
+						<nombre>Pantalones de neopreno</nombre>
+					</categoria>
+					<categoria id="5401"
+						ruta="|988|1011|499811|499813|499814|5401|">
+						<nombre>Tops de neopreno</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="1138" ruta="|988|1011|499811|499813|1138|">
+					<nombre>Trajes de buceo</nombre>
+				</categoria>
+				<categoria id="1147" ruta="|988|1011|499811|499813|1147|">
+					<nombre>Trajes de neopreno</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="5579" ruta="|988|1011|499811|5579|">
+				<nombre>Kitesurf</nombre>
+				<categoria id="5583" ruta="|988|1011|499811|5579|5583|">
+					<nombre>Arneses para kitesurf y windsurf</nombre>
+				</categoria>
+				<categoria id="5582" ruta="|988|1011|499811|5579|5582|">
+					<nombre>Cometas de kitesurf</nombre>
+				</categoria>
+				<categoria id="5584" ruta="|988|1011|499811|5579|5584|">
+					<nombre>Fundas para tabla de kitesurf</nombre>
+				</categoria>
+				<categoria id="5581" ruta="|988|1011|499811|5579|5581|">
+					<nombre>Piezas para kitesurf</nombre>
+				</categoria>
+				<categoria id="5580" ruta="|988|1011|499811|5579|5580|">
+					<nombre>Tablas de kitesurf</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="1144" ruta="|988|1011|499811|1144|">
+				<nombre>Natación</nombre>
+				<categoria id="6330" ruta="|988|1011|499811|1144|6330|">
+					<nombre>Accesorios para gafas y máscaras de natación</nombre>
+				</categoria>
+				<categoria id="6511" ruta="|988|1011|499811|1144|6511|">
+					<nombre>Aletas de natación</nombre>
+					<categoria id="2512"
+						ruta="|988|1011|499811|1144|6511|2512|">
+						<nombre>Aletas de entrenamiento</nombre>
+					</categoria>
+					<categoria id="6512"
+						ruta="|988|1011|499811|1144|6511|6512|">
+						<nombre>Monoaletas</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="7104" ruta="|988|1011|499811|1144|7104|">
+					<nombre>Ayudas de natación para niños</nombre>
+				</categoria>
+				<categoria id="6513" ruta="|988|1011|499811|1144|6513|">
+					<nombre>Cinturones de natación</nombre>
+				</categoria>
+				<categoria id="3360" ruta="|988|1011|499811|1144|3360|">
+					<nombre>Gafas y máscaras de natación</nombre>
+				</categoria>
+				<categoria id="3807" ruta="|988|1011|499811|1144|3807|">
+					<nombre>Gorros de natación</nombre>
+				</categoria>
+				<categoria id="3304" ruta="|988|1011|499811|1144|3304|">
+					<nombre>Guantes de natación</nombre>
+				</categoria>
+				<categoria id="3596" ruta="|988|1011|499811|1144|3596|">
+					<nombre>Máquinas para nadar</nombre>
+				</categoria>
+				<categoria id="6473" ruta="|988|1011|499811|1144|6473|">
+					<nombre>Palas para manos</nombre>
+				</categoria>
+				<categoria id="6550" ruta="|988|1011|499811|1144|6550|">
+					<nombre>Pesas acuáticas</nombre>
+				</categoria>
+				<categoria id="6515" ruta="|988|1011|499811|1144|6515|">
+					<nombre>Pinzas nasales de natación</nombre>
+				</categoria>
+				<categoria id="3595" ruta="|988|1011|499811|1144|3595|">
+					<nombre>Pullbuoys</nombre>
+				</categoria>
+				<categoria id="2966" ruta="|988|1011|499811|1144|2966|">
+					<nombre>Tablas de natación</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="1120" ruta="|988|1011|499811|1120|">
+				<nombre>Navegación y rafting</nombre>
+				<categoria id="6314" ruta="|988|1011|499811|1120|6314|">
+					<nombre>Accesorios para canoas</nombre>
+				</categoria>
+				<categoria id="6312" ruta="|988|1011|499811|1120|6312|">
+					<nombre>Accesorios para kayak</nombre>
+				</categoria>
+				<categoria id="3476" ruta="|988|1011|499811|1120|3476|">
+					<nombre>Balsas para el descenso de rápidos</nombre>
+				</categoria>
+				<categoria id="6097" ruta="|988|1011|499811|1120|6097|">
+					<nombre>Barcas a pedales</nombre>
+				</categoria>
+				<categoria id="3406" ruta="|988|1011|499811|1120|3406|">
+					<nombre>Botes de remo</nombre>
+				</categoria>
+				<categoria id="1124" ruta="|988|1011|499811|1120|1124|">
+					<nombre>Canoas</nombre>
+				</categoria>
+				<categoria id="499964"
+					ruta="|988|1011|499811|1120|499964|">
+					<nombre>Correas para palas</nombre>
+				</categoria>
+				<categoria id="7449" ruta="|988|1011|499811|1120|7449|">
+					<nombre>Guantes para navegación deportiva</nombre>
+				</categoria>
+				<categoria id="1127" ruta="|988|1011|499811|1120|1127|">
+					<nombre>Kayaks</nombre>
+				</categoria>
+				<categoria id="1129" ruta="|988|1011|499811|1120|1129|">
+					<nombre>Palas y remos</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="7178" ruta="|988|1011|499811|7178|">
+				<nombre>Soportes de almacenaje para embarcaciones</nombre>
+				<categoria id="8172" ruta="|988|1011|499811|7178|8172|">
+					<nombre>Estantes para almacenar embarcaciones</nombre>
+				</categoria>
+				<categoria id="8173" ruta="|988|1011|499811|7178|8173|">
+					<nombre>Estantes para almacenar planchas para deportes acuáticos
+					</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="1143" ruta="|988|1011|499811|1143|">
+				<nombre>Surf</nombre>
+				<categoria id="3525" ruta="|988|1011|499811|1143|3525|">
+					<nombre>Aletas para tablas de surf</nombre>
+				</categoria>
+				<categoria id="3762" ruta="|988|1011|499811|1143|3762|">
+					<nombre>Antideslizantes para tablas de surf</nombre>
+				</categoria>
+				<categoria id="6287" ruta="|988|1011|499811|1143|6287|">
+					<nombre>Bodyboards</nombre>
+				</categoria>
+				<categoria id="3801" ruta="|988|1011|499811|1143|3801|">
+					<nombre>Cera para tablas de surf</nombre>
+				</categoria>
+				<categoria id="3649" ruta="|988|1011|499811|1143|3649|">
+					<nombre>Correas para tablas de surf</nombre>
+				</categoria>
+				<categoria id="3579" ruta="|988|1011|499811|1143|3579|">
+					<nombre>Fundas para tablas de surf</nombre>
+				</categoria>
+				<categoria id="7451" ruta="|988|1011|499811|1143|7451|">
+					<nombre>Guantes de surf</nombre>
+				</categoria>
+				<categoria id="6288" ruta="|988|1011|499811|1143|6288|">
+					<nombre>Paddleboards</nombre>
+				</categoria>
+				<categoria id="6286" ruta="|988|1011|499811|1143|6286|">
+					<nombre>Skimboards</nombre>
+				</categoria>
+				<categoria id="3320" ruta="|988|1011|499811|1143|3320|">
+					<nombre>Tablas de surf</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="1148" ruta="|988|1011|499811|1148|">
+				<nombre>Windsurf</nombre>
+				<categoria id="3624" ruta="|988|1011|499811|1148|3624|">
+					<nombre>Piezas para tablas de windsurf</nombre>
+					<categoria id="3908"
+						ruta="|988|1011|499811|1148|3624|3908|">
+						<nombre>Aletas para tablas de windsurf</nombre>
+					</categoria>
+					<categoria id="3285"
+						ruta="|988|1011|499811|1148|3624|3285|">
+						<nombre>Mástiles para tablas de windsurf</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="3894" ruta="|988|1011|499811|1148|3894|">
+					<nombre>Tablas de windsurf</nombre>
+				</categoria>
+				<categoria id="3413" ruta="|988|1011|499811|1148|3413|">
+					<nombre>Velas de windsurf</nombre>
+				</categoria>
+			</categoria>
+		</categoria>
+		<categoria id="1031" ruta="|988|1011|1031|">
+			<nombre>Equitación</nombre>
+			<categoria id="7215" ruta="|988|1011|1031|7215|">
+				<nombre>Accesorios para riendas de caballos</nombre>
+				<categoria id="8107" ruta="|988|1011|1031|7215|8107|">
+					<nombre>Accesorios para sillas de montar</nombre>
+					<categoria id="8108"
+						ruta="|988|1011|1031|7215|8107|8108|">
+						<nombre>Almohadillas y mantillas para sillas de montar</nombre>
+					</categoria>
+					<categoria id="326122"
+						ruta="|988|1011|1031|7215|8107|326122|">
+						<nombre>Bolsas y alforjas para sillas de montar</nombre>
+					</categoria>
+					<categoria id="499959"
+						ruta="|988|1011|1031|7215|8107|499959|">
+						<nombre>Cubiertas y fundas para sillines</nombre>
+					</categoria>
+					<categoria id="7216"
+						ruta="|988|1011|1031|7215|8107|7216|">
+						<nombre>Soportes para sillas de montar</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="499820" ruta="|988|1011|1031|7215|499820|">
+					<nombre>Cajas para riendas de caballos</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="5593" ruta="|988|1011|1031|5593|">
+				<nombre>Arreos para caballos</nombre>
+				<categoria id="2756" ruta="|988|1011|1031|5593|2756|">
+					<nombre>Arneses para caballos</nombre>
+				</categoria>
+				<categoria id="4018" ruta="|988|1011|1031|5593|4018|">
+					<nombre>Bocados para caballos</nombre>
+				</categoria>
+				<categoria id="499710" ruta="|988|1011|1031|5593|499710|">
+					<nombre>Cabestros para caballos</nombre>
+				</categoria>
+				<categoria id="3426" ruta="|988|1011|1031|5593|3426|">
+					<nombre>Cabezadas</nombre>
+				</categoria>
+				<categoria id="1491" ruta="|988|1011|1031|5593|1491|">
+					<nombre>Cinchas</nombre>
+				</categoria>
+				<categoria id="499709" ruta="|988|1011|1031|5593|499709|">
+					<nombre>Cuerdas para caballos</nombre>
+				</categoria>
+				<categoria id="8109" ruta="|988|1011|1031|5593|8109|">
+					<nombre>Estribos</nombre>
+				</categoria>
+				<categoria id="2210" ruta="|988|1011|1031|5593|2210|">
+					<nombre>Monturas</nombre>
+				</categoria>
+				<categoria id="1754" ruta="|988|1011|1031|5593|1754|">
+					<nombre>Riendas</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="3257" ruta="|988|1011|1031|3257|">
+				<nombre>Cuidado de caballos</nombre>
+				<categoria id="5025" ruta="|988|1011|1031|3257|5025|">
+					<nombre>Acicalamiento de caballos</nombre>
+					<categoria id="6386"
+						ruta="|988|1011|1031|3257|5025|6386|">
+						<nombre>Cortapelos para caballos</nombre>
+					</categoria>
+					<categoria id="499818"
+						ruta="|988|1011|1031|3257|5025|499818|">
+						<nombre>Peines, cepillos y guantes para acicalar caballos</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="499819" ruta="|988|1011|1031|3257|499819|">
+					<nombre>Antihelmínticos para caballos</nombre>
+				</categoria>
+				<categoria id="5569" ruta="|988|1011|1031|3257|5569|">
+					<nombre>Botas y vendas para protección de caballos</nombre>
+				</categoria>
+				<categoria id="7481" ruta="|988|1011|1031|3257|7481|">
+					<nombre>Golosinas para caballos</nombre>
+				</categoria>
+				<categoria id="6898" ruta="|988|1011|1031|3257|6898|">
+					<nombre>Mantas y capas para caballos</nombre>
+				</categoria>
+				<categoria id="499817" ruta="|988|1011|1031|3257|499817|">
+					<nombre>Máscaras antimoscas para caballos</nombre>
+				</categoria>
+				<categoria id="7482" ruta="|988|1011|1031|3257|7482|">
+					<nombre>Pienso para caballos</nombre>
+				</categoria>
+				<categoria id="7459" ruta="|988|1011|1031|3257|7459|">
+					<nombre>Vitaminas y suplementos para caballos</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="5594" ruta="|988|1011|1031|5594|">
+				<nombre>Equipo y accesorios para equitación</nombre>
+				<categoria id="3821" ruta="|988|1011|1031|5594|3821|">
+					<nombre>Cascos de equitación</nombre>
+				</categoria>
+				<categoria id="3265" ruta="|988|1011|1031|5594|3265|">
+					<nombre>Fustas</nombre>
+				</categoria>
+				<categoria id="3084" ruta="|988|1011|1031|5594|3084|">
+					<nombre>Guantes de equitación</nombre>
+				</categoria>
+				<categoria id="6914" ruta="|988|1011|1031|5594|6914|">
+					<nombre>Pantalones de equitación</nombre>
+				</categoria>
+			</categoria>
+		</categoria>
+		<categoria id="7059" ruta="|988|1011|7059|">
+			<nombre>Escalada</nombre>
+			<categoria id="3218" ruta="|988|1011|7059|3218|">
+				<nombre>Arneses</nombre>
+			</categoria>
+			<categoria id="3454" ruta="|988|1011|7059|3454|">
+				<nombre>Ascensores y descensores para escalada</nombre>
+			</categoria>
+			<categoria id="3363" ruta="|988|1011|7059|3363|">
+				<nombre>Aseguradores</nombre>
+			</categoria>
+			<categoria id="3211" ruta="|988|1011|7059|3211|">
+				<nombre>Bolsos de magnesio</nombre>
+			</categoria>
+			<categoria id="3369" ruta="|988|1011|7059|3369|">
+				<nombre>Cinta tubular</nombre>
+			</categoria>
+			<categoria id="3322" ruta="|988|1011|7059|3322|">
+				<nombre>Colchonetas para escalada</nombre>
+			</categoria>
+			<categoria id="3825" ruta="|988|1011|7059|3825|">
+				<nombre>Cuerda de escalada</nombre>
+			</categoria>
+			<categoria id="3266" ruta="|988|1011|7059|3266|">
+				<nombre>Dispositivos de protección de escalada</nombre>
+			</categoria>
+			<categoria id="499815" ruta="|988|1011|7059|499815|">
+				<nombre>Equipos y accesorios para escalada</nombre>
+				<categoria id="3314" ruta="|988|1011|7059|499815|3314|">
+					<nombre>Cascos de escalada</nombre>
+				</categoria>
+				<categoria id="5394" ruta="|988|1011|7059|499815|5394|">
+					<nombre>Crampones</nombre>
+				</categoria>
+				<categoria id="499816"
+					ruta="|988|1011|7059|499815|499816|">
+					<nombre>Guantes para escalada</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="7060" ruta="|988|1011|7059|7060|">
+				<nombre>Herramientas para escalada en hielo</nombre>
+			</categoria>
+			<categoria id="3849" ruta="|988|1011|7059|3849|">
+				<nombre>Maillones</nombre>
+			</categoria>
+			<categoria id="3201" ruta="|988|1011|7059|3201|">
+				<nombre>Mochilas para escalada</nombre>
+			</categoria>
+			<categoria id="3746" ruta="|988|1011|7059|3746|">
+				<nombre>Mosquetones para escalada</nombre>
+			</categoria>
+			<categoria id="3518" ruta="|988|1011|7059|3518|">
+				<nombre>Presas de escalada</nombre>
+			</categoria>
+			<categoria id="7061" ruta="|988|1011|7059|7061|">
+				<nombre>Tornillos para hielo</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="1043" ruta="|988|1011|1043|">
+			<nombre>Golf</nombre>
+			<categoria id="4605" ruta="|988|1011|1043|4605|">
+				<nombre>Accesorios para bolsas de golf</nombre>
+				<categoria id="4537" ruta="|988|1011|1043|4605|4537|">
+					<nombre>Carritos para bolsas de golf</nombre>
+				</categoria>
+				<categoria id="4525" ruta="|988|1011|1043|4605|4525|">
+					<nombre>Fundas para bolsas de golf</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="3642" ruta="|988|1011|1043|3642|">
+				<nombre>Accesorios y piezas para palos de golf</nombre>
+				<categoria id="4043" ruta="|988|1011|1043|3642|4043|">
+					<nombre>Protectores de palos de golf para cabezas</nombre>
+				</categoria>
+				<categoria id="4254" ruta="|988|1011|1043|3642|4254|">
+					<nombre>Puños de palos de golf</nombre>
+				</categoria>
+				<categoria id="499780" ruta="|988|1011|1043|3642|499780|">
+					<nombre>Varillas de palos de golf</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="3578" ruta="|988|1011|1043|3578|">
+				<nombre>Banderas de golf</nombre>
+			</categoria>
+			<categoria id="1045" ruta="|988|1011|1043|1045|">
+				<nombre>Bolas de golf</nombre>
+			</categoria>
+			<categoria id="1044" ruta="|988|1011|1043|1044|">
+				<nombre>Bolsas de golf</nombre>
+			</categoria>
+			<categoria id="4466" ruta="|988|1011|1043|4466|">
+				<nombre>Guantes de golf</nombre>
+			</categoria>
+			<categoria id="8044" ruta="|988|1011|1043|8044|">
+				<nombre>Herramientas para chuletas</nombre>
+			</categoria>
+			<categoria id="7314" ruta="|988|1011|1043|7314|">
+				<nombre>Juegos de accesorios de golf</nombre>
+			</categoria>
+			<categoria id="6864" ruta="|988|1011|1043|6864|">
+				<nombre>Marcadores para bolas de golf</nombre>
+			</categoria>
+			<categoria id="3772" ruta="|988|1011|1043|3772|">
+				<nombre>Material de aprendizaje de golf</nombre>
+			</categoria>
+			<categoria id="1046" ruta="|988|1011|1043|1046|">
+				<nombre>Palos de golf</nombre>
+			</categoria>
+			<categoria id="3106" ruta="|988|1011|1043|3106|">
+				<nombre>Tees de golf</nombre>
+			</categoria>
+			<categoria id="4467" ruta="|988|1011|1043|4467|">
+				<nombre>Toallas de golf</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="499846" ruta="|988|1011|499846|">
+			<nombre>Juegos al aire libre</nombre>
+			<categoria id="1062" ruta="|988|1011|499846|1062|">
+				<nombre>Bádminton</nombre>
+				<categoria id="3907" ruta="|988|1011|499846|1062|3907|">
+					<nombre>Plumas</nombre>
+				</categoria>
+				<categoria id="3950" ruta="|988|1011|499846|1062|3950|">
+					<nombre>Raquetas y kits de bádminton</nombre>
+				</categoria>
+				<categoria id="3107" ruta="|988|1011|499846|1062|3107|">
+					<nombre>Redes de bádminton</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="3484" ruta="|988|1011|499846|3484|">
+				<nombre>Golf con disco</nombre>
+				<categoria id="3993" ruta="|988|1011|499846|3484|3993|">
+					<nombre>Bolsas de golf con disco</nombre>
+				</categoria>
+				<categoria id="3227" ruta="|988|1011|499846|3484|3227|">
+					<nombre>Cestas de golf con disco</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="7430" ruta="|988|1011|499846|7430|">
+				<nombre>Juegos de pelotas de pádel</nombre>
+			</categoria>
+			<categoria id="3787" ruta="|988|1011|499846|3787|">
+				<nombre>Juegos de tejos</nombre>
+				<categoria id="3190" ruta="|988|1011|499846|3787|3190|">
+					<nombre>Discos para juegos de tejos</nombre>
+				</categoria>
+				<categoria id="3689" ruta="|988|1011|499846|3787|3689|">
+					<nombre>Tacos para juegos de tejos</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="3405" ruta="|988|1011|499846|3405|">
+				<nombre>Juegos sobre hierba</nombre>
+			</categoria>
+			<categoria id="3390" ruta="|988|1011|499846|3390|">
+				<nombre>Pickleball</nombre>
+				<categoria id="499848"
+					ruta="|988|1011|499846|3390|499848|">
+					<nombre>Palas de pickleball</nombre>
+				</categoria>
+				<categoria id="499847"
+					ruta="|988|1011|499846|3390|499847|">
+					<nombre>Pelotas para pickleball</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="499904" ruta="|988|1011|499846|499904|">
+				<nombre>Pádel</nombre>
+				<categoria id="499850"
+					ruta="|988|1011|499846|499904|499850|">
+					<nombre>Palas de pádel</nombre>
+				</categoria>
+				<categoria id="499849"
+					ruta="|988|1011|499846|499904|499849|">
+					<nombre>Pelotas de pádel</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="3126" ruta="|988|1011|499846|3126|">
+				<nombre>Tetherball</nombre>
+				<categoria id="499883"
+					ruta="|988|1011|499846|3126|499883|">
+					<nombre>Conjuntos para espirobol</nombre>
+				</categoria>
+				<categoria id="499884"
+					ruta="|988|1011|499846|3126|499884|">
+					<nombre>Pelotas para espirobol</nombre>
+				</categoria>
+				<categoria id="499882"
+					ruta="|988|1011|499846|3126|499882|">
+					<nombre>Postes para espirobol</nombre>
+				</categoria>
+			</categoria>
+		</categoria>
+		<categoria id="7375" ruta="|988|1011|7375|">
+			<nombre>Kite buggy</nombre>
+			<categoria id="7377" ruta="|988|1011|7375|7377|">
+				<nombre>Accesorios para kitebuggy</nombre>
+			</categoria>
+			<categoria id="7376" ruta="|988|1011|7375|7376|">
+				<nombre>Kite buggies</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="499761" ruta="|988|1011|499761|">
+			<nombre>Patinaje sobre ruedas y en línea</nombre>
+			<categoria id="500029" ruta="|988|1011|499761|500029|">
+				<nombre>Esquís sobre ruedas</nombre>
+			</categoria>
+			<categoria id="2837" ruta="|988|1011|499761|2837|">
+				<nombre>Patines de cuatro ruedas</nombre>
+			</categoria>
+			<categoria id="1058" ruta="|988|1011|499761|1058|">
+				<nombre>Patines en línea</nombre>
+			</categoria>
+			<categoria id="499760" ruta="|988|1011|499761|499760|">
+				<nombre>Piezas para patines de ruedas</nombre>
+			</categoria>
+			<categoria id="499759" ruta="|988|1011|499761|499759|">
+				<nombre>Piezas para patines en línea</nombre>
+			</categoria>
+			<categoria id="499771" ruta="|988|1011|499761|499771|">
+				<nombre>Protecciones para patinaje sobre ruedas y en línea</nombre>
+				<categoria id="499775"
+					ruta="|988|1011|499761|499771|499775|">
+					<nombre>Almohadillas para patinaje sobre ruedas</nombre>
+				</categoria>
+			</categoria>
+		</categoria>
+		<categoria id="5879" ruta="|988|1011|5879|">
+			<nombre>Patinetes</nombre>
+		</categoria>
+		<categoria id="3334" ruta="|988|1011|3334|">
+			<nombre>Pesca</nombre>
+			<categoria id="8092" ruta="|988|1011|3334|8092|">
+				<nombre>Accesorios para carretes de pesca</nombre>
+				<categoria id="8208" ruta="|988|1011|3334|8092|8208|">
+					<nombre>Bobinas de recambio para carretes de pesca</nombre>
+				</categoria>
+				<categoria id="8273" ruta="|988|1011|3334|8092|8273|">
+					<nombre>Bolsas y estuches para carretes de pesca</nombre>
+				</categoria>
+				<categoria id="8094" ruta="|988|1011|3334|8092|8094|">
+					<nombre>Lubricantes para carretes de pesca</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="8093" ruta="|988|1011|3334|8093|">
+				<nombre>Accesorios para cañas de pescar</nombre>
+				<categoria id="8272" ruta="|988|1011|3334|8093|8272|">
+					<nombre>Bolsas y estuches para cañas de pescar</nombre>
+				</categoria>
+				<categoria id="499942" ruta="|988|1011|3334|8093|499942|">
+					<nombre>Contenedores de almacenamiento para cañas de pescar
+					</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="7343" ruta="|988|1011|3334|7343|">
+				<nombre>Arpones</nombre>
+			</categoria>
+			<categoria id="499823" ruta="|988|1011|3334|499823|">
+				<nombre>Artes de pesca</nombre>
+				<categoria id="3359" ruta="|988|1011|3334|499823|3359|">
+					<nombre>Anzuelos de pesca</nombre>
+				</categoria>
+				<categoria id="3603" ruta="|988|1011|3334|499823|3603|">
+					<nombre>Cebos de pesca</nombre>
+				</categoria>
+				<categoria id="3859" ruta="|988|1011|3334|499823|3859|">
+					<nombre>Flotadores de pesca</nombre>
+				</categoria>
+				<categoria id="7222" ruta="|988|1011|3334|499823|7222|">
+					<nombre>Mosquetones</nombre>
+				</categoria>
+				<categoria id="3651" ruta="|988|1011|3334|499823|3651|">
+					<nombre>Plomos de pesca</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="8064" ruta="|988|1011|3334|8064|">
+				<nombre>Avisadores de picada</nombre>
+			</categoria>
+			<categoria id="1041" ruta="|988|1011|3334|1041|">
+				<nombre>Cajas y bolsas de avíos</nombre>
+			</categoria>
+			<categoria id="4926" ruta="|988|1011|3334|4926|">
+				<nombre>Carretes de pesca</nombre>
+			</categoria>
+			<categoria id="4927" ruta="|988|1011|3334|4927|">
+				<nombre>Cañas de pescar</nombre>
+			</categoria>
+			<categoria id="3096" ruta="|988|1011|3334|3096|">
+				<nombre>Cebos vivos</nombre>
+			</categoria>
+			<categoria id="6495" ruta="|988|1011|3334|6495|">
+				<nombre>Contenedores de carnada para pesca</nombre>
+			</categoria>
+			<categoria id="7342" ruta="|988|1011|3334|7342|">
+				<nombre>Garfios de pesca</nombre>
+			</categoria>
+			<categoria id="7217" ruta="|988|1011|3334|7217|">
+				<nombre>Materiales para el atado de moscas</nombre>
+				<categoria id="7125" ruta="|988|1011|3334|7217|7125|">
+					<nombre>Cuentas para pescar</nombre>
+				</categoria>
+				<categoria id="6440" ruta="|988|1011|3334|7217|6440|">
+					<nombre>Hilos de pesca</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="3614" ruta="|988|1011|3334|3614|">
+				<nombre>Redes de pesca</nombre>
+			</categoria>
+			<categoria id="7344" ruta="|988|1011|3334|7344|">
+				<nombre>Sacanzuelos</nombre>
+			</categoria>
+			<categoria id="1037" ruta="|988|1011|3334|1037|">
+				<nombre>Sedales y emerillones de pesca</nombre>
+			</categoria>
+			<categoria id="7221" ruta="|988|1011|3334|7221|">
+				<nombre>Trampas de pesca</nombre>
+			</categoria>
+			<categoria id="5406" ruta="|988|1011|3334|5406|">
+				<nombre>Vadeadores para caza y para pesca</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="5635" ruta="|988|1011|5635|">
+			<nombre>Sistemas de hidratación</nombre>
+		</categoria>
+		<categoria id="3276" ruta="|988|1011|3276|">
+			<nombre>Skateboard</nombre>
+			<categoria id="3127" ruta="|988|1011|3276|3127|">
+				<nombre>Barandillas para skateboard</nombre>
+			</categoria>
+			<categoria id="3067" ruta="|988|1011|3276|3067|">
+				<nombre>Equipo protector para skateboard</nombre>
+				<categoria id="499776" ruta="|988|1011|3276|3067|499776|">
+					<nombre>Cascos para skateboard</nombre>
+				</categoria>
+				<categoria id="7789" ruta="|988|1011|3276|3067|7789|">
+					<nombre>Guantes para skateboard</nombre>
+				</categoria>
+				<categoria id="3488" ruta="|988|1011|3276|3067|3488|">
+					<nombre>Protecciones para skateboard</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="1059" ruta="|988|1011|3276|1059|">
+				<nombre>Monopatines</nombre>
+			</categoria>
+			<categoria id="3670" ruta="|988|1011|3276|3670|">
+				<nombre>Piezas del monopatín</nombre>
+				<categoria id="3192" ruta="|988|1011|3276|3670|3192|">
+					<nombre>Ejes del monopatín</nombre>
+				</categoria>
+				<categoria id="505817" ruta="|988|1011|3276|3670|505817|">
+					<nombre>Piezas pequeñas para monopatines</nombre>
+				</categoria>
+				<categoria id="3637" ruta="|988|1011|3276|3670|3637|">
+					<nombre>Ruedas del monopatín</nombre>
+				</categoria>
+				<categoria id="3869" ruta="|988|1011|3276|3670|3869|">
+					<nombre>Tablas de monopatín</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="3626" ruta="|988|1011|3276|3626|">
+				<nombre>Rampas para skateboard</nombre>
+			</categoria>
+		</categoria>
+	</categoria>
+	<categoria id="499713" ruta="|988|499713|">
+		<nombre>Equipamiento para atletismo</nombre>
+		<categoria id="6739" ruta="|988|499713|6739|">
+			<nombre>Accesorios para árbitros</nombre>
+			<categoria id="6731" ruta="|988|499713|6739|6731|">
+				<nombre>Banderas para jueces de línea</nombre>
+			</categoria>
+			<categoria id="499729" ruta="|988|499713|6739|499729|">
+				<nombre>Brazaletes para capitán</nombre>
+			</categoria>
+			<categoria id="499727" ruta="|988|499713|6739|499727|">
+				<nombre>Carteras para árbitros</nombre>
+			</categoria>
+			<categoria id="499731" ruta="|988|499713|6739|499731|">
+				<nombre>Contadores de béisbol</nombre>
+			</categoria>
+			<categoria id="499730" ruta="|988|499713|6739|499730|">
+				<nombre>Indicadores para árbitros de béisbol</nombre>
+			</categoria>
+			<categoria id="8505" ruta="|988|499713|6739|8505|">
+				<nombre>Marcadores</nombre>
+			</categoria>
+			<categoria id="505813" ruta="|988|499713|6739|505813|">
+				<nombre>Marcadores de límites para pistas y campos</nombre>
+			</categoria>
+			<categoria id="499732" ruta="|988|499713|6739|499732|">
+				<nombre>Monedas y discos para sorteo de campo</nombre>
+			</categoria>
+			<categoria id="6730" ruta="|988|499713|6739|6730|">
+				<nombre>Silbatos para árbitros</nombre>
+			</categoria>
+			<categoria id="499733" ruta="|988|499713|6739|499733|">
+				<nombre>Sillas y plataformas para árbitros</nombre>
+			</categoria>
+			<categoria id="6729" ruta="|988|499713|6739|6729|">
+				<nombre>Tarjetas de arbitraje</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="3354" ruta="|988|499713|3354|">
+			<nombre>Animadoras</nombre>
+			<categoria id="3953" ruta="|988|499713|3354|3953|">
+				<nombre>Pompones</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="1060" ruta="|988|499713|1060|">
+			<nombre>Atletismo</nombre>
+			<categoria id="3445" ruta="|988|499713|1060|3445|">
+				<nombre>Barras de salto de altura</nombre>
+			</categoria>
+			<categoria id="3770" ruta="|988|499713|1060|3770|">
+				<nombre>Bolas de lanzamiento de peso</nombre>
+			</categoria>
+			<categoria id="3987" ruta="|988|499713|1060|3987|">
+				<nombre>Colchonetas de salto con pértiga</nombre>
+			</categoria>
+			<categoria id="3864" ruta="|988|499713|1060|3864|">
+				<nombre>Colchonetas de salto de altura</nombre>
+			</categoria>
+			<categoria id="3478" ruta="|988|499713|1060|3478|">
+				<nombre>Discos</nombre>
+			</categoria>
+			<categoria id="3389" ruta="|988|499713|1060|3389|">
+				<nombre>Jabalinas</nombre>
+			</categoria>
+			<categoria id="3880" ruta="|988|499713|1060|3880|">
+				<nombre>Martillos de lanzamiento</nombre>
+			</categoria>
+			<categoria id="3997" ruta="|988|499713|1060|3997|">
+				<nombre>Pistolas de salida</nombre>
+			</categoria>
+			<categoria id="4020" ruta="|988|499713|1060|4020|">
+				<nombre>Pértigas</nombre>
+			</categoria>
+			<categoria id="499786" ruta="|988|499713|1060|499786|">
+				<nombre>Tacos de salida para pista</nombre>
+			</categoria>
+			<categoria id="3878" ruta="|988|499713|1060|3878|">
+				<nombre>Testigos</nombre>
+			</categoria>
+			<categoria id="3149" ruta="|988|499713|1060|3149|">
+				<nombre>Vallas</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="989" ruta="|988|499713|989|">
+			<nombre>Baile</nombre>
+			<categoria id="3269" ruta="|988|499713|989|3269|">
+				<nombre>Barras de ballet</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="1081" ruta="|988|499713|1081|">
+			<nombre>Baloncesto</nombre>
+			<categoria id="499751" ruta="|988|499713|1081|499751|">
+				<nombre>Accesorios para entrenamiento de baloncesto</nombre>
+			</categoria>
+			<categoria id="1082" ruta="|988|499713|1081|1082|">
+				<nombre>Canastas de baloncesto</nombre>
+			</categoria>
+			<categoria id="1083" ruta="|988|499713|1081|1083|">
+				<nombre>Pelotas de baloncesto</nombre>
+			</categoria>
+			<categoria id="4676" ruta="|988|499713|1081|4676|">
+				<nombre>Piezas y accesorios para canastas de baloncesto</nombre>
+				<categoria id="4192" ruta="|988|499713|1081|4676|4192|">
+					<nombre>Aros de baloncesto</nombre>
+				</categoria>
+				<categoria id="4050" ruta="|988|499713|1081|4676|4050|">
+					<nombre>Postes para canastas de baloncesto</nombre>
+				</categoria>
+				<categoria id="7251" ruta="|988|499713|1081|4676|7251|">
+					<nombre>Protectores para canastas de baloncesto</nombre>
+				</categoria>
+				<categoria id="3829" ruta="|988|499713|1081|4676|3829|">
+					<nombre>Redes de baloncesto</nombre>
+				</categoria>
+				<categoria id="4089" ruta="|988|499713|1081|4676|4089|">
+					<nombre>Tableros de baloncesto</nombre>
+				</categoria>
+			</categoria>
+		</categoria>
+		<categoria id="1047" ruta="|988|499713|1047|">
+			<nombre>Balonmano</nombre>
+			<categoria id="499785" ruta="|988|499713|1047|499785|">
+				<nombre>Balones de balonmano</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="499719" ruta="|988|499713|499719|">
+			<nombre>Boxeo y artes marciales</nombre>
+			<categoria id="4282" ruta="|988|499713|499719|4282|">
+				<nombre>Armas de artes marciales</nombre>
+			</categoria>
+			<categoria id="3717" ruta="|988|499713|499719|3717|">
+				<nombre>Cinturones de artes marciales</nombre>
+			</categoria>
+			<categoria id="499720" ruta="|988|499713|499719|499720|">
+				<nombre>Equipamiento de entrenamiento para boxeo y artes marciales
+				</nombre>
+				<categoria id="7129"
+					ruta="|988|499713|499719|499720|7129|">
+					<nombre>Accesorios para punchings y sacos de entrenamiento</nombre>
+				</categoria>
+				<categoria id="499721"
+					ruta="|988|499713|499719|499720|499721|">
+					<nombre>Escudos de trabajo</nombre>
+				</categoria>
+				<categoria id="499769"
+					ruta="|988|499713|499719|499720|499769|">
+					<nombre>Mitones para boxeo y artes marciales mixtas</nombre>
+				</categoria>
+				<categoria id="7116"
+					ruta="|988|499713|499719|499720|7116|">
+					<nombre>Muñecos para entrenamiento de lucha</nombre>
+				</categoria>
+				<categoria id="3297"
+					ruta="|988|499713|499719|499720|3297|">
+					<nombre>Punchings y sacos de entrenamiento</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="4008" ruta="|988|499713|499719|4008|">
+				<nombre>Equipo de protección para boxeo y artes marciales</nombre>
+				<categoria id="3235" ruta="|988|499713|499719|4008|3235|">
+					<nombre>Guantes y manoplas de boxeo</nombre>
+				</categoria>
+				<categoria id="499723"
+					ruta="|988|499713|499719|4008|499723|">
+					<nombre>Protectores corporales para boxeo y artes marciales
+					</nombre>
+				</categoria>
+				<categoria id="499724"
+					ruta="|988|499713|499719|4008|499724|">
+					<nombre>Protectores de barbilla para artes marciales mixtas
+					</nombre>
+				</categoria>
+				<categoria id="499722"
+					ruta="|988|499713|499719|4008|499722|">
+					<nombre>Protectores de cabeza para boxeo y artes marciales</nombre>
+				</categoria>
+				<categoria id="499725"
+					ruta="|988|499713|499719|4008|499725|">
+					<nombre>Protectores para brazos para boxeo y artes marciales
+					</nombre>
+				</categoria>
+				<categoria id="499726"
+					ruta="|988|499713|499719|4008|499726|">
+					<nombre>Vendas para manos para boxeo y artes marciales mixtas
+					</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="3411" ruta="|988|499713|499719|3411|">
+				<nombre>Piezas para rings de boxeo</nombre>
+			</categoria>
+			<categoria id="3652" ruta="|988|499713|499719|3652|">
+				<nombre>Rings de boxeo</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="1070" ruta="|988|499713|1070|">
+			<nombre>Béisbol y sóftbol</nombre>
+			<categoria id="3544" ruta="|988|499713|1070|3544|">
+				<nombre>Bases de béisbol y softball</nombre>
+			</categoria>
+			<categoria id="3790" ruta="|988|499713|1070|3790|">
+				<nombre>Bates de béisbol</nombre>
+			</categoria>
+			<categoria id="3679" ruta="|988|499713|1070|3679|">
+				<nombre>Bates de sóftbol</nombre>
+			</categoria>
+			<categoria id="1078" ruta="|988|499713|1070|1078|">
+				<nombre>Equipamiento protector para béisbol y sóftbol</nombre>
+				<categoria id="3668" ruta="|988|499713|1070|1078|3668|">
+					<nombre>Cascos de béisbol y softball</nombre>
+				</categoria>
+				<categoria id="499717"
+					ruta="|988|499713|1070|1078|499717|">
+					<nombre>Cascos y máscaras para receptores</nombre>
+				</categoria>
+				<categoria id="499716"
+					ruta="|988|499713|1070|1078|499716|">
+					<nombre>Equipamiento para receptores</nombre>
+				</categoria>
+				<categoria id="499718"
+					ruta="|988|499713|1070|1078|499718|">
+					<nombre>Espinilleras para béisbol y sóftbol</nombre>
+				</categoria>
+				<categoria id="499715"
+					ruta="|988|499713|1070|1078|499715|">
+					<nombre>Protectores de pecho para béisbol y sóftbol</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="234671" ruta="|988|499713|1070|234671|">
+				<nombre>Esterillas de lanzamiento para béisbol y sóftbol</nombre>
+			</categoria>
+			<categoria id="1076" ruta="|988|499713|1070|1076|">
+				<nombre>Guantes de béisbol y softball</nombre>
+			</categoria>
+			<categoria id="3747" ruta="|988|499713|1070|3747|">
+				<nombre>Guantes para batear de béisbol y softball</nombre>
+			</categoria>
+			<categoria id="234670" ruta="|988|499713|1070|234670|">
+				<nombre>Montículos de lanzamiento para béisbol y sóftbol</nombre>
+			</categoria>
+			<categoria id="1077" ruta="|988|499713|1070|1077|">
+				<nombre>Máquinas de lanzamiento de pelotas</nombre>
+			</categoria>
+			<categoria id="3783" ruta="|988|499713|1070|3783|">
+				<nombre>Pelotas de béisbol</nombre>
+			</categoria>
+			<categoria id="3671" ruta="|988|499713|1070|3671|">
+				<nombre>Pelotas de sóftbol</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="1087" ruta="|988|499713|1087|">
+			<nombre>Cricket</nombre>
+			<categoria id="499737" ruta="|988|499713|1087|499737|">
+				<nombre>Accesorios de bates de críquet</nombre>
+				<categoria id="499738"
+					ruta="|988|499713|1087|499737|499738|">
+					<nombre>Empuñaduras para bates de críquet</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="3815" ruta="|988|499713|1087|3815|">
+				<nombre>Bates de cricket</nombre>
+			</categoria>
+			<categoria id="499735" ruta="|988|499713|1087|499735|">
+				<nombre>Conjuntos de equipamiento para críquet</nombre>
+			</categoria>
+			<categoria id="499736" ruta="|988|499713|1087|499736|">
+				<nombre>Equipamiento de protección para críquet</nombre>
+				<categoria id="3543" ruta="|988|499713|1087|499736|3543|">
+					<nombre>Cascos de cricket</nombre>
+				</categoria>
+				<categoria id="3339" ruta="|988|499713|1087|499736|3339|">
+					<nombre>Guantes de cricket</nombre>
+				</categoria>
+				<categoria id="499739"
+					ruta="|988|499713|1087|499736|499739|">
+					<nombre>Protectores de piernas para críquet</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="3870" ruta="|988|499713|1087|3870|">
+				<nombre>Pelotas de cricket</nombre>
+			</categoria>
+			<categoria id="499734" ruta="|988|499713|1087|499734|">
+				<nombre>Stumps para críquet</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="6734" ruta="|988|499713|6734|">
+			<nombre>Equipamiento para Broomball</nombre>
+		</categoria>
+		<categoria id="499799" ruta="|988|499713|499799|">
+			<nombre>Equipamiento para atletismo de uso general</nombre>
+			<categoria id="7433" ruta="|988|499713|499799|7433|">
+				<nombre>Accesorios para bombines de balones</nombre>
+				<categoria id="7435" ruta="|988|499713|499799|7433|7435|">
+					<nombre>Agujas de bombines para balones</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="6344" ruta="|988|499713|499799|6344|">
+				<nombre>Asientos y cojines para estadios</nombre>
+			</categoria>
+			<categoria id="7397" ruta="|988|499713|499799|7397|">
+				<nombre>Bolsas y carros para pelotas</nombre>
+			</categoria>
+			<categoria id="7434" ruta="|988|499713|499799|7434|">
+				<nombre>Bombines para balones</nombre>
+			</categoria>
+			<categoria id="499903" ruta="|988|499713|499799|499903|">
+				<nombre>Carros y estantes de almacenamiento de colchonetas para
+					gimnasia y ejercicio</nombre>
+			</categoria>
+			<categoria id="499803" ruta="|988|499713|499799|499803|">
+				<nombre>Colchonetas para gimnasia</nombre>
+			</categoria>
+			<categoria id="8319" ruta="|988|499713|499799|8319|">
+				<nombre>Conos para deporte y agilidad</nombre>
+			</categoria>
+			<categoria id="499800" ruta="|988|499713|499799|499800|">
+				<nombre>Coquillas para atletismo</nombre>
+			</categoria>
+			<categoria id="499802" ruta="|988|499713|499799|499802|">
+				<nombre>Escaleras y vallas para agilidad y velocidad</nombre>
+			</categoria>
+			<categoria id="3971" ruta="|988|499713|499799|3971|">
+				<nombre>Magnesio para escalar en polvo o esprái</nombre>
+			</categoria>
+			<categoria id="3877" ruta="|988|499713|499799|3877|">
+				<nombre>Megáfonos de animación</nombre>
+			</categoria>
+			<categoria id="8222" ruta="|988|499713|499799|8222|">
+				<nombre>Máscaras de entrenamiento de altitud</nombre>
+			</categoria>
+			<categoria id="499801" ruta="|988|499713|499799|499801|">
+				<nombre>Protectores dentales para deporte</nombre>
+			</categoria>
+			<categoria id="8077" ruta="|988|499713|499799|8077|">
+				<nombre>Redes y pantallas de práctica</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="499861" ruta="|988|499713|499861|">
+			<nombre>Equipamiento para wallyball</nombre>
+		</categoria>
+		<categoria id="1006" ruta="|988|499713|1006|">
+			<nombre>Esgrima</nombre>
+			<categoria id="3622" ruta="|988|499713|1006|3622|">
+				<nombre>Armas de esgrima</nombre>
+			</categoria>
+			<categoria id="3261" ruta="|988|499713|1006|3261|">
+				<nombre>Equipo de protección para esgrima</nombre>
+				<categoria id="499740"
+					ruta="|988|499713|1006|3261|499740|">
+					<nombre>Chaquetillas y chaquetas eléctricas para esgrima</nombre>
+				</categoria>
+				<categoria id="3366" ruta="|988|499713|1006|3261|3366|">
+					<nombre>Guantes de esgrima</nombre>
+				</categoria>
+				<categoria id="3707" ruta="|988|499713|1006|3261|3707|">
+					<nombre>Máscaras de esgrima</nombre>
+				</categoria>
+			</categoria>
+		</categoria>
+		<categoria id="1111" ruta="|988|499713|1111|">
+			<nombre>Fútbol</nombre>
+			<categoria id="6055" ruta="|988|499713|1111|6055|">
+				<nombre>Accesorios para porterías de fútbol</nombre>
+			</categoria>
+			<categoria id="1112" ruta="|988|499713|1111|1112|">
+				<nombre>Balones de fútbol</nombre>
+			</categoria>
+			<categoria id="3973" ruta="|988|499713|1111|3973|">
+				<nombre>Banderines de córner</nombre>
+			</categoria>
+			<categoria id="499784" ruta="|988|499713|1111|499784|">
+				<nombre>Equipamiento de protección para fútbol</nombre>
+				<categoria id="1114" ruta="|988|499713|1111|499784|1114|">
+					<nombre>Espinilleras de fútbol</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="3141" ruta="|988|499713|1111|3141|">
+				<nombre>Guantes de portero de fútbol</nombre>
+			</categoria>
+			<categoria id="1113" ruta="|988|499713|1111|1113|">
+				<nombre>Porterías de fútbol</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="1093" ruta="|988|499713|1093|">
+			<nombre>Fútbol americano</nombre>
+			<categoria id="1094" ruta="|988|499713|1093|1094|">
+				<nombre>Balones de fútbol americano</nombre>
+			</categoria>
+			<categoria id="3998" ruta="|988|499713|1093|3998|">
+				<nombre>Equipo de entrenamiento de fútbol americano</nombre>
+				<categoria id="499779"
+					ruta="|988|499713|1093|3998|499779|">
+					<nombre>Muñecos y trineos de arrastre para fútbol americano
+					</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="1097" ruta="|988|499713|1093|1097|">
+				<nombre>Equipo de protección de fútbol americano</nombre>
+				<categoria id="3060" ruta="|988|499713|1093|1097|3060|">
+					<nombre>Accesorios del casco de fútbol americano</nombre>
+					<categoria id="3343"
+						ruta="|988|499713|1093|1097|3060|3343|">
+						<nombre>Almohadilla del casco de fútbol americano</nombre>
+					</categoria>
+					<categoria id="3247"
+						ruta="|988|499713|1093|1097|3060|3247|">
+						<nombre>Barboquejos de fútbol americano</nombre>
+					</categoria>
+					<categoria id="3090"
+						ruta="|988|499713|1093|1097|3060|3090|">
+						<nombre>Máscaras de fútbol americano</nombre>
+					</categoria>
+					<categoria id="3063"
+						ruta="|988|499713|1093|1097|3060|3063|">
+						<nombre>Viseras del casco de fútbol americano</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="1098" ruta="|988|499713|1093|1097|1098|">
+					<nombre>Cascos de fútbol americano</nombre>
+				</categoria>
+				<categoria id="499778"
+					ruta="|988|499713|1093|1097|499778|">
+					<nombre>Chalecos y camisetas con protección de costillas para
+						fútbol americano</nombre>
+				</categoria>
+				<categoria id="3621" ruta="|988|499713|1093|1097|3621|">
+					<nombre>Hombreras de fútbol americano</nombre>
+				</categoria>
+				<categoria id="3497" ruta="|988|499713|1093|1097|3497|">
+					<nombre>Protección de cuello de fútbol americano</nombre>
+				</categoria>
+				<categoria id="3510" ruta="|988|499713|1093|1097|3510|">
+					<nombre>Protección inferior de fútbol americano</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="3442" ruta="|988|499713|1093|3442|">
+				<nombre>Guantes de fútbol americano</nombre>
+			</categoria>
+			<categoria id="3492" ruta="|988|499713|1093|3492|">
+				<nombre>Postes de fútbol americano</nombre>
+			</categoria>
+			<categoria id="3656" ruta="|988|499713|1093|3656|">
+				<nombre>Tees de fútbol americano</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="1000" ruta="|988|499713|1000|">
+			<nombre>Gimnasia</nombre>
+			<categoria id="3774" ruta="|988|499713|1000|3774|">
+				<nombre>Anillas de gimnasia</nombre>
+			</categoria>
+			<categoria id="3182" ruta="|988|499713|1000|3182|">
+				<nombre>Caballo con arcos de gimnasia</nombre>
+			</categoria>
+			<categoria id="3808" ruta="|988|499713|1000|3808|">
+				<nombre>Equipo de protección para gimnasia</nombre>
+				<categoria id="499781"
+					ruta="|988|499713|1000|3808|499781|">
+					<nombre>Calleras para gimnasia</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="3779" ruta="|988|499713|1000|3779|">
+				<nombre>Potros</nombre>
+			</categoria>
+			<categoria id="503763" ruta="|988|499713|1000|503763|">
+				<nombre>Tablas de equilibrio y barras de gimnasia</nombre>
+			</categoria>
+			<categoria id="3123" ruta="|988|499713|1000|3123|">
+				<nombre>Trampolines</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="499741" ruta="|988|499713|499741|">
+			<nombre>Hockey sobre hierba y lacrosse</nombre>
+			<categoria id="499742" ruta="|988|499713|499741|499742|">
+				<nombre>Conjuntos de equipamiento para lacrosse</nombre>
+			</categoria>
+			<categoria id="499744" ruta="|988|499713|499741|499744|">
+				<nombre>Equipamiento de protección para hockey sobre hierba y
+					lacrosse</nombre>
+				<categoria id="502970"
+					ruta="|988|499713|499741|499744|502970|">
+					<nombre>Almohadillas de hombros para lacrosse y hockey sobre hierba
+					</nombre>
+				</categoria>
+				<categoria id="499746"
+					ruta="|988|499713|499741|499744|499746|">
+					<nombre>Cascos para hockey sobre hierba y lacrosse</nombre>
+				</categoria>
+				<categoria id="499745"
+					ruta="|988|499713|499741|499744|499745|">
+					<nombre>Guantes para hockey sobre hierba y lacrosse</nombre>
+				</categoria>
+				<categoria id="499747"
+					ruta="|988|499713|499741|499744|499747|">
+					<nombre>Máscaras y gafas protectoras para hockey sobre hierba y
+						lacrosse</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="3204" ruta="|988|499713|499741|3204|">
+				<nombre>Material de entrenamiento de lacrosse</nombre>
+			</categoria>
+			<categoria id="1092" ruta="|988|499713|499741|1092|">
+				<nombre>Palos de hockey sobre hierba</nombre>
+			</categoria>
+			<categoria id="3817" ruta="|988|499713|499741|3817|">
+				<nombre>Palos de lacrosse</nombre>
+			</categoria>
+			<categoria id="1089" ruta="|988|499713|499741|1089|">
+				<nombre>Pelotas de hockey sobre hierba</nombre>
+			</categoria>
+			<categoria id="3536" ruta="|988|499713|499741|3536|">
+				<nombre>Pelotas de lacrosse</nombre>
+			</categoria>
+			<categoria id="3336" ruta="|988|499713|499741|3336|">
+				<nombre>Piezas para palo de lacrosse</nombre>
+				<categoria id="3418" ruta="|988|499713|499741|3336|3418|">
+					<nombre>Cabezas del palo de lacrosse</nombre>
+				</categoria>
+				<categoria id="3785" ruta="|988|499713|499741|3336|3785|">
+					<nombre>Cuerda y malla de lacrosse</nombre>
+				</categoria>
+				<categoria id="3423" ruta="|988|499713|499741|3336|3423|">
+					<nombre>Mangos del palo de lacrosse</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="3001" ruta="|988|499713|499741|3001|">
+				<nombre>Porterías de hockey sobre hierba</nombre>
+			</categoria>
+			<categoria id="3970" ruta="|988|499713|499741|3970|">
+				<nombre>Porterías de lacrosse</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="1068" ruta="|988|499713|1068|">
+			<nombre>Lucha</nombre>
+			<categoria id="3057" ruta="|988|499713|1068|3057|">
+				<nombre>Equipo de protección para lucha</nombre>
+				<categoria id="499791"
+					ruta="|988|499713|1068|3057|499791|">
+					<nombre>Protección para la cabeza para lucha</nombre>
+				</categoria>
+				<categoria id="499790"
+					ruta="|988|499713|1068|3057|499790|">
+					<nombre>Rodilleras para lucha</nombre>
+				</categoria>
+			</categoria>
+		</categoria>
+		<categoria id="499915" ruta="|988|499713|499915|">
+			<nombre>Patinaje artístico y hockey</nombre>
+			<categoria id="3791" ruta="|988|499713|499915|3791|">
+				<nombre>Accesorios para patines de hielo</nombre>
+				<categoria id="3623" ruta="|988|499713|499915|3791|3623|">
+					<nombre>Afiladores de patines de hielo</nombre>
+				</categoria>
+				<categoria id="6708" ruta="|988|499713|499915|3791|6708|">
+					<nombre>Botas de patinaje artístico</nombre>
+				</categoria>
+				<categoria id="7000" ruta="|988|499713|499915|3791|7000|">
+					<nombre>Cuchillas para patines de hielo</nombre>
+				</categoria>
+				<categoria id="3241" ruta="|988|499713|499915|3791|3241|">
+					<nombre>Ganchos para cordones</nombre>
+				</categoria>
+				<categoria id="4019" ruta="|988|499713|499915|3791|4019|">
+					<nombre>Protectores para cuchillas</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="6077" ruta="|988|499713|499915|6077|">
+				<nombre>Discos y pelotas de hockey</nombre>
+			</categoria>
+			<categoria id="1105" ruta="|988|499713|499915|1105|">
+				<nombre>Equipo de protección de hockey</nombre>
+				<categoria id="499755"
+					ruta="|988|499713|499915|1105|499755|">
+					<nombre>Almohadillas para piernas y protectores de barbilla para
+						hockey</nombre>
+				</categoria>
+				<categoria id="6080" ruta="|988|499713|499915|1105|6080|">
+					<nombre>Cascos de hockey</nombre>
+				</categoria>
+				<categoria id="499975"
+					ruta="|988|499713|499915|1105|499975|">
+					<nombre>Cinturones y tirantes para hockey</nombre>
+				</categoria>
+				<categoria id="499756"
+					ruta="|988|499713|499915|1105|499756|">
+					<nombre>Coderas para hockey</nombre>
+				</categoria>
+				<categoria id="499890"
+					ruta="|988|499713|499915|1105|499890|">
+					<nombre>Conjuntos de equipamiento para porteros de hockey</nombre>
+				</categoria>
+				<categoria id="6078" ruta="|988|499713|499915|1105|6078|">
+					<nombre>Guantes de hockey</nombre>
+				</categoria>
+				<categoria id="499757"
+					ruta="|988|499713|499915|1105|499757|">
+					<nombre>Hombreras y protectores de pecho para hockey</nombre>
+				</categoria>
+				<categoria id="3615" ruta="|988|499713|499915|1105|3615|">
+					<nombre>Pantalones de hockey</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="7012" ruta="|988|499713|499915|7012|">
+				<nombre>Mantenimiento de palos de hockey</nombre>
+			</categoria>
+			<categoria id="6076" ruta="|988|499713|499915|6076|">
+				<nombre>Palos de hockey</nombre>
+			</categoria>
+			<categoria id="1057" ruta="|988|499713|499915|1057|">
+				<nombre>Patines de hielo</nombre>
+			</categoria>
+			<categoria id="7011" ruta="|988|499713|499915|7011|">
+				<nombre>Piezas para palos de hockey</nombre>
+				<categoria id="6942" ruta="|988|499713|499915|7011|6942|">
+					<nombre>Mangos para palos de hockey</nombre>
+				</categoria>
+				<categoria id="6852" ruta="|988|499713|499915|7011|6852|">
+					<nombre>Palas para palos de hockey</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="6074" ruta="|988|499713|499915|6074|">
+				<nombre>Porterías de hockey</nombre>
+			</categoria>
+			<categoria id="6857" ruta="|988|499713|499915|6857|">
+				<nombre>Trineos para hockey</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="7156" ruta="|988|499713|7156|">
+			<nombre>Rounders</nombre>
+			<categoria id="7158" ruta="|988|499713|7156|7158|">
+				<nombre>Bates para rounders</nombre>
+			</categoria>
+			<categoria id="7157" ruta="|988|499713|7156|7157|">
+				<nombre>Guantes para rounders</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="1110" ruta="|988|499713|1110|">
+			<nombre>Rugby</nombre>
+			<categoria id="3761" ruta="|988|499713|1110|3761|">
+				<nombre>Balones de rugby</nombre>
+			</categoria>
+			<categoria id="499782" ruta="|988|499713|1110|499782|">
+				<nombre>Equipamiento de protección para rugby</nombre>
+				<categoria id="3077" ruta="|988|499713|1110|499782|3077|">
+					<nombre>Cascos de rugby</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="3983" ruta="|988|499713|1110|3983|">
+				<nombre>Equipo de entrenamiento de rugby</nombre>
+			</categoria>
+			<categoria id="3487" ruta="|988|499713|1110|3487|">
+				<nombre>Guantes de rugby</nombre>
+			</categoria>
+			<categoria id="3881" ruta="|988|499713|1110|3881|">
+				<nombre>Postes de rugby</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="503752" ruta="|988|499713|503752|">
+			<nombre>Ráquetbol y squash</nombre>
+			<categoria id="499783" ruta="|988|499713|503752|499783|">
+				<nombre>Guantes para squash y ráquetbol</nombre>
+			</categoria>
+			<categoria id="3119" ruta="|988|499713|503752|3119|">
+				<nombre>Lentes para ráquetbol y squash</nombre>
+			</categoria>
+			<categoria id="503753" ruta="|988|499713|503752|503753|">
+				<nombre>Pelotas de ráquetbol y squash</nombre>
+			</categoria>
+			<categoria id="3714" ruta="|988|499713|503752|3714|">
+				<nombre>Raquetas de ráquetbol</nombre>
+			</categoria>
+			<categoria id="4002" ruta="|988|499713|503752|4002|">
+				<nombre>Raquetas de squash</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="1065" ruta="|988|499713|1065|">
+			<nombre>Tenis</nombre>
+			<categoria id="3658" ruta="|988|499713|1065|3658|">
+				<nombre>Accesorios para raquetas de tenis</nombre>
+				<categoria id="3352" ruta="|988|499713|1065|3658|3352|">
+					<nombre>Antivibradores de raquetas</nombre>
+				</categoria>
+				<categoria id="3403" ruta="|988|499713|1065|3658|3403|">
+					<nombre>Cintas para empuñaduras de raquetas de tenis</nombre>
+				</categoria>
+				<categoria id="3922" ruta="|988|499713|1065|3658|3922|">
+					<nombre>Cuerdas de raquetas de tenis</nombre>
+				</categoria>
+				<categoria id="3295" ruta="|988|499713|1065|3658|3295|">
+					<nombre>Protectores de raquetas de tenis</nombre>
+				</categoria>
+				<categoria id="3638" ruta="|988|499713|1065|3658|3638|">
+					<nombre>Raqueteros</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="3565" ruta="|988|499713|1065|3565|">
+				<nombre>Bote de pelotas de tenis</nombre>
+			</categoria>
+			<categoria id="3105" ruta="|988|499713|1065|3105|">
+				<nombre>Cestos recogepelotas</nombre>
+			</categoria>
+			<categoria id="3985" ruta="|988|499713|1065|3985|">
+				<nombre>Lanzador de pelotas de tenis</nombre>
+			</categoria>
+			<categoria id="3113" ruta="|988|499713|1065|3113|">
+				<nombre>Pelotas de tenis</nombre>
+			</categoria>
+			<categoria id="3906" ruta="|988|499713|1065|3906|">
+				<nombre>Raquetas de tenis</nombre>
+			</categoria>
+			<categoria id="3961" ruta="|988|499713|1065|3961|">
+				<nombre>Redes de tenis</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="1115" ruta="|988|499713|1115|">
+			<nombre>Voleibol</nombre>
+			<categoria id="499788" ruta="|988|499713|1115|499788|">
+				<nombre>Equipamiento de protección para voleibol</nombre>
+				<categoria id="499789"
+					ruta="|988|499713|1115|499788|499789|">
+					<nombre>Rodilleras para voleibol</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="499787" ruta="|988|499713|1115|499787|">
+				<nombre>Material de entrenamiento para voleibol</nombre>
+			</categoria>
+			<categoria id="1116" ruta="|988|499713|1115|1116|">
+				<nombre>Pelotas de voleibol</nombre>
+			</categoria>
+			<categoria id="1117" ruta="|988|499713|1115|1117|">
+				<nombre>Redes para voleibol</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="1145" ruta="|988|499713|1145|">
+			<nombre>Waterpolo</nombre>
+			<categoria id="3794" ruta="|988|499713|1145|3794|">
+				<nombre>Balones de waterpolo</nombre>
+			</categoria>
+			<categoria id="3575" ruta="|988|499713|1145|3575|">
+				<nombre>Gorros de waterpolo</nombre>
+			</categoria>
+			<categoria id="3678" ruta="|988|499713|1145|3678|">
+				<nombre>Porterías de waterpolo</nombre>
+			</categoria>
+		</categoria>
+	</categoria>
+	<categoria id="990" ruta="|988|990|">
+		<nombre>Fitness y musculación</nombre>
+		<categoria id="6337" ruta="|988|990|6337|">
+			<nombre>Accesorios para rodillos de espuma para estiramientos
+			</nombre>
+			<categoria id="6338" ruta="|988|990|6337|6338|">
+				<nombre>Bolsas de almacenamiento para rodillos de espuma para
+					estiramientos</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="499912" ruta="|988|990|499912|">
+			<nombre>Aparatos de musculación</nombre>
+		</categoria>
+		<categoria id="993" ruta="|988|990|993|">
+			<nombre>Balones de gimnasia</nombre>
+		</categoria>
+		<categoria id="3938" ruta="|988|990|3938|">
+			<nombre>Balones para rehabilitación</nombre>
+		</categoria>
+		<categoria id="499795" ruta="|988|990|499795|">
+			<nombre>Bancos de ejercicio</nombre>
+		</categoria>
+		<categoria id="5869" ruta="|988|990|5869|">
+			<nombre>Bandas para ejercicios</nombre>
+		</categoria>
+		<categoria id="8215" ruta="|988|990|8215|">
+			<nombre>Barras para flexiones y dominadas</nombre>
+		</categoria>
+		<categoria id="7174" ruta="|988|990|7174|">
+			<nombre>Bolas de reacción</nombre>
+		</categoria>
+		<categoria id="499792" ruta="|988|990|499792|">
+			<nombre>Cardio</nombre>
+			<categoria id="4598" ruta="|988|990|499792|4598|">
+				<nombre>Accesorios de máquinas de cardio</nombre>
+				<categoria id="499702" ruta="|988|990|499792|4598|499702|">
+					<nombre>Accesorios para bicicletas de ejercicio</nombre>
+				</categoria>
+				<categoria id="499699" ruta="|988|990|499792|4598|499699|">
+					<nombre>Accesorios para cintas de caminar</nombre>
+				</categoria>
+				<categoria id="499701" ruta="|988|990|499792|4598|499701|">
+					<nombre>Accesorios para máquinas de remo</nombre>
+				</categoria>
+				<categoria id="499703" ruta="|988|990|499792|4598|499703|">
+					<nombre>Accesorios para máquinas elípticas</nombre>
+				</categoria>
+				<categoria id="499700" ruta="|988|990|499792|4598|499700|">
+					<nombre>Accesorios para steppers</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="2614" ruta="|988|990|499792|2614|">
+				<nombre>Cuerdas de salto</nombre>
+			</categoria>
+			<categoria id="4589" ruta="|988|990|499792|4589|">
+				<nombre>Máquinas de cardio</nombre>
+				<categoria id="992" ruta="|988|990|499792|4589|992|">
+					<nombre>Bicicletas elípticas</nombre>
+				</categoria>
+				<categoria id="994" ruta="|988|990|499792|4589|994|">
+					<nombre>Bicicletas estáticas</nombre>
+				</categoria>
+				<categoria id="997" ruta="|988|990|499792|4589|997|">
+					<nombre>Cintas para correr</nombre>
+				</categoria>
+				<categoria id="995" ruta="|988|990|499792|4589|995|">
+					<nombre>Máquinas de remo</nombre>
+				</categoria>
+				<categoria id="996" ruta="|988|990|499792|4589|996|">
+					<nombre>Steps</nombre>
+					<categoria id="543610"
+						ruta="|988|990|499792|4589|996|543610|">
+						<nombre>Escaladoras</nombre>
+					</categoria>
+					<categoria id="543611"
+						ruta="|988|990|499792|4589|996|543611|">
+						<nombre>Steppers</nombre>
+					</categoria>
+				</categoria>
+			</categoria>
+		</categoria>
+		<categoria id="5693" ruta="|988|990|5693|">
+			<nombre>Cronómetros</nombre>
+		</categoria>
+		<categoria id="8471" ruta="|988|990|8471|">
+			<nombre>Cuñas de ejercicio</nombre>
+		</categoria>
+		<categoria id="6867" ruta="|988|990|6867|">
+			<nombre>Ejercitadores para manos</nombre>
+		</categoria>
+		<categoria id="4669" ruta="|988|990|4669|">
+			<nombre>Esteras para equipos de gimnasia</nombre>
+		</categoria>
+		<categoria id="499793" ruta="|988|990|499793|">
+			<nombre>Levantamiento de pesas</nombre>
+			<categoria id="3217" ruta="|988|990|499793|3217|">
+				<nombre>Accesorios para máquinas de levantamiento de pesas y bancos
+					de ejercicio</nombre>
+			</categoria>
+			<categoria id="6452" ruta="|988|990|499793|6452|">
+				<nombre>Accesorios para pesas libres</nombre>
+				<categoria id="499794" ruta="|988|990|499793|6452|499794|">
+					<nombre>Anillas de cierre para barras de pesas</nombre>
+				</categoria>
+				<categoria id="3271" ruta="|988|990|499793|6452|3271|">
+					<nombre>Barras para peso libre</nombre>
+				</categoria>
+				<categoria id="8083" ruta="|988|990|499793|6452|8083|">
+					<nombre>Estantes de almacenamiento de pesas libres</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="3654" ruta="|988|990|499793|3654|">
+				<nombre>Cinturones para levantar pesas</nombre>
+			</categoria>
+			<categoria id="3858" ruta="|988|990|499793|3858|">
+				<nombre>Guantes y soportes de mano para levantar pesas</nombre>
+			</categoria>
+			<categoria id="3542" ruta="|988|990|499793|3542|">
+				<nombre>Máquinas de levantamiento de pesas</nombre>
+			</categoria>
+			<categoria id="3164" ruta="|988|990|499793|3164|">
+				<nombre>Peso libre</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="499796" ruta="|988|990|499796|">
+			<nombre>Material para entrenar el equilibrio</nombre>
+		</categoria>
+		<categoria id="8066" ruta="|988|990|8066|">
+			<nombre>Máquinas de ejercicio con vibración</nombre>
+		</categoria>
+		<categoria id="499978" ruta="|988|990|499978|">
+			<nombre>Máquinas y equipos de ejercicio</nombre>
+		</categoria>
+		<categoria id="8062" ruta="|988|990|8062|">
+			<nombre>Paracaídas para velocidad y resistencia</nombre>
+		</categoria>
+		<categoria id="505302" ruta="|988|990|505302|">
+			<nombre>Reflectores y luces de seguridad deportivos</nombre>
+		</categoria>
+		<categoria id="5319" ruta="|988|990|5319|">
+			<nombre>Rodillos de espuma</nombre>
+		</categoria>
+		<categoria id="6103" ruta="|988|990|6103|">
+			<nombre>Ropa con peso</nombre>
+		</categoria>
+		<categoria id="499797" ruta="|988|990|499797|">
+			<nombre>Ruedas y rodillos para abdominales</nombre>
+		</categoria>
+		<categoria id="499798" ruta="|988|990|499798|">
+			<nombre>Sistemas de entrenamiento en suspensión</nombre>
+		</categoria>
+		<categoria id="355576" ruta="|988|990|355576|">
+			<nombre>Sistemas y mesas de inversión</nombre>
+		</categoria>
+		<categoria id="237166" ruta="|988|990|237166|">
+			<nombre>Steps para aeróbic</nombre>
+		</categoria>
+		<categoria id="999" ruta="|988|990|999|">
+			<nombre>Yoga y pilates</nombre>
+			<categoria id="6750" ruta="|988|990|999|6750|">
+				<nombre>Bloques para yoga y pilates</nombre>
+			</categoria>
+			<categoria id="5107" ruta="|988|990|999|5107|">
+				<nombre>Bolsas para esterillas de yoga</nombre>
+			</categoria>
+			<categoria id="3640" ruta="|988|990|999|3640|">
+				<nombre>Esteras para pilates y yoga</nombre>
+			</categoria>
+			<categoria id="3810" ruta="|988|990|999|3810|">
+				<nombre>Máquinas de pilates</nombre>
+			</categoria>
+			<categoria id="6743" ruta="|988|990|999|6743|">
+				<nombre>Toallas para yoga y pilates</nombre>
+			</categoria>
+		</categoria>
+	</categoria>
+	<categoria id="1001" ruta="|988|1001|">
+		<nombre>Juegos de interior</nombre>
+		<categoria id="1003" ruta="|988|1001|1003|">
+			<nombre>Billar</nombre>
+			<categoria id="3222" ruta="|988|1001|1003|3222|">
+				<nombre>Accesorios para tacos de billar</nombre>
+				<categoria id="499993" ruta="|988|1001|1003|3222|499993|">
+					<nombre>Fundas para palos de billar</nombre>
+				</categoria>
+				<categoria id="3720" ruta="|988|1001|1003|3222|3720|">
+					<nombre>Taqueras</nombre>
+				</categoria>
+				<categoria id="499994" ruta="|988|1001|1003|3222|499994|">
+					<nombre>Tiza para palos de billar</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="3183" ruta="|988|1001|1003|3183|">
+				<nombre>Accesorios y piezas para mesas de billar</nombre>
+				<categoria id="3754" ruta="|988|1001|1003|3183|3754|">
+					<nombre>Cepillos para mesas de billar</nombre>
+				</categoria>
+				<categoria id="8065" ruta="|988|1001|1003|3183|8065|">
+					<nombre>Fundas para mesas de billar</nombre>
+				</categoria>
+				<categoria id="3547" ruta="|988|1001|1003|3183|3547|">
+					<nombre>Telas para mesa de billar</nombre>
+				</categoria>
+				<categoria id="3574" ruta="|988|1001|1003|3183|3574|">
+					<nombre>Troneras de billar</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="3135" ruta="|988|1001|1003|3135|">
+				<nombre>Bolas de billar</nombre>
+			</categoria>
+			<categoria id="3755" ruta="|988|1001|1003|3755|">
+				<nombre>Guantes de billar</nombre>
+			</categoria>
+			<categoria id="3469" ruta="|988|1001|1003|3469|">
+				<nombre>Iluminación para mesas de billar</nombre>
+			</categoria>
+			<categoria id="3139" ruta="|988|1001|1003|3139|">
+				<nombre>Mesas de billar</nombre>
+			</categoria>
+			<categoria id="3059" ruta="|988|1001|1003|3059|">
+				<nombre>Triángulos para bolas de billar</nombre>
+			</categoria>
+			<categoria id="3910" ruta="|988|1001|1003|3910|">
+				<nombre>Violines y tacos de billar</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="1004" ruta="|988|1001|1004|">
+			<nombre>Bowling</nombre>
+			<categoria id="3219" ruta="|988|1001|1004|3219|">
+				<nombre>Bolas de bowling</nombre>
+			</categoria>
+			<categoria id="3669" ruta="|988|1001|1004|3669|">
+				<nombre>Bolos de bowling</nombre>
+			</categoria>
+			<categoria id="3698" ruta="|988|1001|1004|3698|">
+				<nombre>Bolsas para bolas de bowling</nombre>
+			</categoria>
+			<categoria id="3535" ruta="|988|1001|1004|3535|">
+				<nombre>Guantes de bowling</nombre>
+			</categoria>
+			<categoria id="3260" ruta="|988|1001|1004|3260|">
+				<nombre>Muñequeras de bowling</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="1005" ruta="|988|1001|1005|">
+			<nombre>Dardos</nombre>
+			<categoria id="3559" ruta="|988|1001|1005|3559|">
+				<nombre>Dianas</nombre>
+			</categoria>
+			<categoria id="3839" ruta="|988|1001|1005|3839|">
+				<nombre>Juegos de dardos</nombre>
+			</categoria>
+			<categoria id="3327" ruta="|988|1001|1005|3327|">
+				<nombre>Piezas de los dardos</nombre>
+				<categoria id="3109" ruta="|988|1001|1005|3327|3109|">
+					<nombre>Cañas para dardos</nombre>
+				</categoria>
+				<categoria id="3766" ruta="|988|1001|1005|3327|3766|">
+					<nombre>Colas para dardos</nombre>
+				</categoria>
+				<categoria id="3250" ruta="|988|1001|1005|3327|3250|">
+					<nombre>Puntas para dardos</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="3957" ruta="|988|1001|1005|3957|">
+				<nombre>Protector de pared para dianas</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="1007" ruta="|988|1001|1007|">
+			<nombre>Futbolín</nombre>
+			<categoria id="3641" ruta="|988|1001|1007|3641|">
+				<nombre>Bolas de futbolín</nombre>
+			</categoria>
+			<categoria id="3847" ruta="|988|1001|1007|3847|">
+				<nombre>Mesas de futbolín</nombre>
+			</categoria>
+			<categoria id="3524" ruta="|988|1001|1007|3524|">
+				<nombre>Piezas y accesorios para mesas de futbolín</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="1002" ruta="|988|1001|1002|">
+			<nombre>Hockey de mesa</nombre>
+			<categoria id="505330" ruta="|988|1001|1002|505330|">
+				<nombre>Equipamiento para hockey de mesa</nombre>
+			</categoria>
+			<categoria id="3245" ruta="|988|1001|1002|3245|">
+				<nombre>Mesas de hockey</nombre>
+			</categoria>
+			<categoria id="3548" ruta="|988|1001|1002|3548|">
+				<nombre>Piezas para mesas de hockey</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="7010" ruta="|988|1001|7010|">
+			<nombre>Mesas multijuegos</nombre>
+		</categoria>
+		<categoria id="1008" ruta="|988|1001|1008|">
+			<nombre>Ping pong</nombre>
+			<categoria id="3900" ruta="|988|1001|1008|3900|">
+				<nombre>Accesorios para paletas de ping pong</nombre>
+			</categoria>
+			<categoria id="3132" ruta="|988|1001|1008|3132|">
+				<nombre>Accesorios para robots de ping pong</nombre>
+			</categoria>
+			<categoria id="3345" ruta="|988|1001|1008|3345|">
+				<nombre>Mesas de ping pong</nombre>
+			</categoria>
+			<categoria id="3375" ruta="|988|1001|1008|3375|">
+				<nombre>Palas de ping-pong</nombre>
+			</categoria>
+			<categoria id="3964" ruta="|988|1001|1008|3964|">
+				<nombre>Pelotas de ping pong</nombre>
+			</categoria>
+			<categoria id="3788" ruta="|988|1001|1008|3788|">
+				<nombre>Postes y redes de ping pong</nombre>
+			</categoria>
+			<categoria id="3546" ruta="|988|1001|1008|3546|">
+				<nombre>Robots de ping pong</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="1009" ruta="|988|1001|1009|">
+			<nombre>Tejos de mesa</nombre>
+			<categoria id="4021" ruta="|988|1001|1009|4021|">
+				<nombre>Discos para tejo de mesa</nombre>
+			</categoria>
+			<categoria id="3148" ruta="|988|1001|1009|3148|">
+				<nombre>Mesa de tejo</nombre>
+			</categoria>
+			<categoria id="3996" ruta="|988|1001|1009|3996|">
+				<nombre>Polvo para tejos de mesa</nombre>
+			</categoria>
+		</categoria>
+	</categoria>
+</categoria>
