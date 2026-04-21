@@ -106,7 +106,22 @@ const productosService = {
         }
 
     },
-    incrementarVisualizaciones: async (id, token) => {}
+    incrementarVisualizaciones: async (id) => {
+        try {
+            // Hacemos una petición PATCH al endpoint que preparó tu compañero en Java
+            const url = `${API_BASE_URL}/${id}/visualizaciones`;
+            const response = await fetch(url, {
+                method: 'PATCH',
+                // No necesitamos Authorization porque Java tiene @PreAuthorize("permitAll()")
+            });
+
+            if (!response.ok) {
+                console.error(`Aviso: Java no pudo sumar la visualización. Código: ${response.status}`);
+            }
+        } catch (error) {
+            console.error(`Error de red al incrementar visualizaciones de ${id}:`, error.message);
+        }
+    }
 };
 
 module.exports = productosService;

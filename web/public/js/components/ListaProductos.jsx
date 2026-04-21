@@ -37,32 +37,46 @@ function ListaProductos() {
     return (
         <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-2">
             {productos.map(producto => (
-                <div className="col" key={producto.id || Math.random()}>
-                    <div className="card h-100 shadow-sm border-0">
-                        {/* Si el producto de Java no tiene imagen, ponemos un placeholder */}
-                        <img 
-                            src={producto.imagen || "https://via.placeholder.com/300x200?text=Sin+Imagen"} 
-                            className="card-img-top" 
-                            alt={producto.titulo} 
-                            style={{ height: '200px', objectFit: 'cover' }}
-                        />
-                        <div className="card-body">
-                            <h5 className="card-title fw-bold">{producto.titulo || 'Sin título'}</h5>
-                            <p className="card-text text-truncate text-muted">{producto.descripcion || 'Sin descripción'}</p>
-                            
-                            <div className="d-flex justify-content-between align-items-center mt-3">
-                                <h5 className="text-primary fw-bold mb-0">{producto.precio || 0} €</h5>
-                                <span className="badge bg-secondary">{producto.estado || 'N/A'}</span>
-                            </div>
-                        </div>
-                        <div className="card-footer bg-white border-top-0 pt-0">
-                            <a href={`/productos/${producto.id}`} className="btn btn-outline-primary w-100">
-                                Ver detalles
-                            </a>
-                        </div>
-                    </div>
+    <div className="col" key={producto.id || Math.random()}>
+        {/* Hacemos la tarjeta clickeable agregando cursor pointer y onClick */}
+        <div 
+            className="card h-100 shadow-sm border-0 position-relative"
+            style={{ cursor: 'pointer' }}
+            onClick={() => {
+                console.log(`🔗 Navegando a /productos/${producto.id}`);
+                window.location.href = `/productos/${producto.id}`;
+            }}
+        >
+            <img 
+                src={producto.imagen || "https://via.placeholder.com/300x200?text=Sin+Imagen"} 
+                className="card-img-top" 
+                alt={producto.titulo} 
+                style={{ height: '200px', objectFit: 'cover' }}
+            />
+            <div className="card-body">
+                <h5 className="card-title fw-bold">{producto.titulo || 'Sin título'}</h5>
+                <p className="card-text text-truncate text-muted">{producto.descripcion || 'Sin descripción'}</p>
+                
+                <div className="d-flex justify-content-between align-items-center mt-3">
+                    <h5 className="text-primary fw-bold mb-0">{producto.precio || 0} €</h5>
+                    <span className="badge bg-secondary">{producto.estado || 'N/A'}</span>
                 </div>
-            ))}
+            </div>
+            <div className="card-footer bg-white border-top-0 pt-0">
+                <button 
+                    type="button"
+                    className="btn btn-outline-primary w-100"
+                    onClick={(e) => {
+                        e.stopPropagation(); // Evitar doble navegación
+                        window.location.href = `/productos/${producto.id}`;
+                    }}
+                >
+                    Ver detalles
+                </button>
+            </div>
+        </div>
+    </div>
+))}
         </div>
     );
 }

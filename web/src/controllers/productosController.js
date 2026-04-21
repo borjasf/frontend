@@ -33,11 +33,27 @@ const productosController = {
             let productoVisualizar;
 
             try {
-                // Intentamos pedir el producto real a Java
+                // 1. ¡NUEVO! Disparamos el aumento de visualizaciones de forma silenciosa
+                await productosService.incrementarVisualizaciones(idProducto);
+
+                // 2. Intentamos pedir el producto real a Java (ya vendrá con el +1)
                 productoVisualizar = await productosService.getProducto(idProducto);
+                
+                // 3. Calculamos dinámicamente si el que mira es el vendedor
+                const esVendedor = res.locals.usuario && 
+                                  (res.locals.usuario.id === productoVisualizar.vendedor.id);
+
+                // Renderizamos la vista inyectando los datos
+                res.render('productos/detalle', { 
+                    title: productoVisualizar.titulo,
+                    producto: productoVisualizar,
+                    esVendedor: esVendedor // Ahora los botones cambian bien
+                });
+
             } catch (apiError) {
-                // Si Java falla, usamos un Mock con TODOS los campos del enunciado
+                // Si Java falla, usamos el Mock
                 console.log("⚠️ Usando producto de prueba (Mock) para diseño visual.");
+
                 productoVisualizar = {
                     id: idProducto,
                     titulo: "Bicicleta de Montaña Orbea (MOCK)",
@@ -48,18 +64,11 @@ const productosController = {
                     vendedor: { nombre: "Alejandro", email: "a.carrion@um.es" },
                     visualizaciones: 45,
                     envioDisponible: false,
-                    fechaPublicacion: "2026-04-15", // ¡NUEVO!
-                    lugarRecogida: "Murcia Centro", // ¡NUEVO!
+                    fechaPublicacion: "2026-04-15", 
+                    lugarRecogida: "Murcia Centro", 
                     imagen: "https://images.unsplash.com/photo-1485965120184-e220f721d03e?w=800"
                 };
             }
-
-            // Renderizamos la vista inyectando los datos
-            res.render('productos/detalle', { 
-                title: productoVisualizar.titulo,
-                producto: productoVisualizar,
-                esVendedor: false // Temporal: Simulamos que somos el comprador
-            });
 
         } catch (error) {
             console.error("Error fatal al cargar el detalle:", error);
