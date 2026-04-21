@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<categoria id="888" ruta="|888|">
+	<nombre>Vehículos y recambios</nombre>
+	<categoria id="5613" ruta="|888|5613|">
+		<nombre>Piezas y accesorios para vehículos</nombre>
+		<categoria id="3977" ruta="|888|5613|3977|">
+			<nombre>Accesorios y piezas para aviones</nombre>
+		</categoria>
+		<categoria id="3391" ruta="|888|5613|3391|">
+			<nombre>Accesorios y piezas para embarcaciones</nombre>
+			<categoria id="3315" ruta="|888|5613|3391|3315|">
+				<nombre>Atracada y anclaje</nombre>
+				<categoria id="3189" ruta="|888|5613|3391|3315|3189|">
+					<nombre>Anclas</nombre>
+				</categoria>
+				<categoria id="3655" ruta="|888|5613|3391|3315|3655|">
+					<nombre>Bicheros</nombre>
+				</categoria>
+				<categoria id="3480" ruta="|888|5613|3391|3315|3480|">
+					<nombre>Cabrestantes para anclas</nombre>
+				</categoria>
+				<categoria id="3452" ruta="|888|5613|3391|3315|3452|">
+					<nombre>Cadenas para anclas</nombre>
+				</categoria>
+				<categoria id="3572" ruta="|888|5613|3391|3315|3572|">
+					<nombre>Cornamusas</nombre>
+				</categoria>
+				<categoria id="3362" ruta="|888|5613|3391|3315|3362|">
+					<nombre>Cuerdas y sogas para anclas</nombre>
+				</categoria>
+				<categoria id="3718" ruta="|888|5613|3391|3315|3718|">
+					<nombre>Escalas para barcos</nombre>
+				</categoria>
+				<categoria id="3899" ruta="|888|5613|3391|3315|3899|">
+					<nombre>Escaleras para muelle</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="1122" ruta="|888|5613|3391|1122|">
+				<nombre>Cuidado para embarcaciones</nombre>
+				<categoria id="3866" ruta="|888|5613|3391|1122|3866|">
+					<nombre>Limpiadores para embarcaciones</nombre>
+				</categoria>
+				<categoria id="3955" ruta="|888|5613|3391|1122|3955|">
+					<nombre>Pulidores para embarcaciones</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="6293" ruta="|888|5613|3391|6293|">
+				<nombre>Iluminación para embarcaciones</nombre>
+			</categoria>
+			<categoria id="1125" ruta="|888|5613|3391|1125|">
+				<nombre>Motores y engranajes para embarcaciones</nombre>
+			</categoria>
+			<categoria id="3995" ruta="|888|5613|3391|3995|">
+				<nombre>Piezas de dirección para embarcaciones</nombre>
+				<categoria id="3308" ruta="|888|5613|3391|3995|3308|">
+					<nombre>Cables de dirección para embarcaciones</nombre>
+				</categoria>
+				<categoria id="3663" ruta="|888|5613|3391|3995|3663|">
+					<nombre>Ruedas de timones para embarcaciones</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="3619" ruta="|888|5613|3391|3619|">
+				<nombre>Piezas de escape para embarcaciones</nombre>
+				<categoria id="3232" ruta="|888|5613|3391|3619|3232|">
+					<nombre>Distribuidores para embarcaciones</nombre>
+				</categoria>
+				<categoria id="3309" ruta="|888|5613|3391|3619|3309|">
+					<nombre>Piezas y silenciadores para embarcaciones</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="3606" ruta="|888|5613|3391|3606|">
+				<nombre>Piezas de motor de embarcaciones</nombre>
+				<categoria id="3143" ruta="|888|5613|3391|3606|3143|">
+					<nombre>Alternadores para embarcaciones</nombre>
+				</categoria>
+				<categoria id="3321" ruta="|888|5613|3391|3606|3321|">
+					<nombre>Controles para motor de embarcaciones</nombre>
+				</categoria>
+				<categoria id="3507" ruta="|888|5613|3391|3606|3507|">
+					<nombre>Esclusas de motor de embarcaciones</nombre>
+				</categoria>
+				<categoria id="3806" ruta="|888|5613|3391|3606|3806|">
+					<nombre>Hélices de embarcaciones</nombre>
+				</categoria>
+				<categoria id="3743" ruta="|888|5613|3391|3606|3743|">
+					<nombre>Piezas de ignición para embarcaciones</nombre>
+				</categoria>
+				<categoria id="3463" ruta="|888|5613|3391|3606|3463|">
+					<nombre>Piezas y carburadores para embarcaciones</nombre>
+				</categoria>
+				<categoria id="3277" ruta="|888|5613|3391|3606|3277|">
+					<nombre>Piezas y pistones de embarcaciones</nombre>
+				</categoria>
+				<categoria id="3097" ruta="|888|5613|3391|3606|3097|">
+					<nombre>Propulsores para embarcaciones</nombre>
+				</categoria>
+				<categoria id="3566" ruta="|888|5613|3391|3606|3566|">
+					<nombre>Soportes para motor de embarcaciones</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="1132" ruta="|888|5613|3391|1132|">
+				<nombre>Piezas para veleros</nombre>
+			</categoria>
+			<categoria id="3400" ruta="|888|5613|3391|3400|">
+				<nombre>Sistemas de combustible para embarcaciones</nombre>
+				<categoria id="3968" ruta="|888|5613|3391|3400|3968|">
+					<nombre>Medidores de combustible para embarcaciones</nombre>
+				</categoria>
+				<categoria id="3892" ruta="|888|5613|3391|3400|3892|">
+					<nombre>Piezas y bombas de combustible para embarcaciones</nombre>
+				</categoria>
+				<categoria id="3648" ruta="|888|5613|3391|3400|3648|">
+					<nombre>Piezas y depósitos de combustible para embarcaciones
+					</nombre>
+				</categoria>
+				<categoria id="3415" ruta="|888|5613|3391|3400|3415|">
+					<nombre>Piezas y líneas de combustible para embarcaciones</nombre>
+				</categoria>
+			</categoria>
+		</categoria>
+		<categoria id="8237" ruta="|888|5613|8237|">
+			<nombre>Almacenamiento y carga de vehículos</nombre>
+			<categoria id="6454" ruta="|888|5613|8237|6454|">
+				<nombre>Accesorios para portaequipajes de vehículos motorizados
+				</nombre>
+				<categoria id="7122" ruta="|888|5613|8237|6454|7122|">
+					<nombre>Accesorios para portabicicletas para vehículos</nombre>
+				</categoria>
+				<categoria id="8086" ruta="|888|5613|8237|6454|8086|">
+					<nombre>Accesorios para portaesquíes y portatablas de snowboard
+						para vehículos</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="5512" ruta="|888|5613|8237|5512|">
+				<nombre>Bolsas y maletas para motocicletas</nombre>
+			</categoria>
+			<categoria id="8378" ruta="|888|5613|8237|8378|">
+				<nombre>Cajas de almacenamiento y organizadores para plataformas de
+					camión</nombre>
+			</categoria>
+			<categoria id="8475" ruta="|888|5613|8237|8475|">
+				<nombre>Colgadores y ganchos para reposacabezas de vehículos
+				</nombre>
+			</categoria>
+			<categoria id="2290" ruta="|888|5613|8237|2290|">
+				<nombre>Organizadores de vehículos</nombre>
+			</categoria>
+			<categoria id="3472" ruta="|888|5613|8237|3472|">
+				<nombre>Portaequipajes para vehículos motorizados</nombre>
+				<categoria id="7115" ruta="|888|5613|8237|3472|7115|">
+					<nombre>Armeros para vehículos</nombre>
+				</categoria>
+				<categoria id="2836" ruta="|888|5613|8237|3472|2836|">
+					<nombre>Portabicicletas para vehículos</nombre>
+				</categoria>
+				<categoria id="4240" ruta="|888|5613|8237|3472|4240|">
+					<nombre>Portacargas para vehículos</nombre>
+				</categoria>
+				<categoria id="6046" ruta="|888|5613|8237|3472|6046|">
+					<nombre>Portacañas para vehículos</nombre>
+				</categoria>
+				<categoria id="6047" ruta="|888|5613|8237|3472|6047|">
+					<nombre>Portaequipajes para embarcaciones</nombre>
+				</categoria>
+				<categoria id="6044" ruta="|888|5613|8237|3472|6044|">
+					<nombre>Portaequipajes para motocicletas y escúteres</nombre>
+				</categoria>
+				<categoria id="6042" ruta="|888|5613|8237|3472|6042|">
+					<nombre>Portaequipajes para tablas de surf</nombre>
+				</categoria>
+				<categoria id="6043" ruta="|888|5613|8237|3472|6043|">
+					<nombre>Portaesquís y portaequipajes para tablas de snowboard
+					</nombre>
+				</categoria>
+				<categoria id="6041" ruta="|888|5613|8237|3472|6041|">
+					<nombre>Sistemas de base de portaequipajes</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="8147" ruta="|888|5613|8237|8147|">
+				<nombre>Rampas de carga para vehículos motorizados</nombre>
+			</categoria>
+			<categoria id="6744" ruta="|888|5613|8237|6744|">
+				<nombre>Redes de carga para vehículos motorizados</nombre>
+			</categoria>
+			<categoria id="4027" ruta="|888|5613|8237|4027|">
+				<nombre>Remolques para vehículos motorizados</nombre>
+				<categoria id="4243" ruta="|888|5613|8237|4027|4243|">
+					<nombre>Tráilers de viaje</nombre>
+				</categoria>
+				<categoria id="1133" ruta="|888|5613|8237|4027|1133|">
+					<nombre>Tráilers para barcos</nombre>
+				</categoria>
+				<categoria id="4037" ruta="|888|5613|8237|4027|4037|">
+					<nombre>Tráilers para caballos y ganado</nombre>
+				</categoria>
+				<categoria id="4044" ruta="|888|5613|8237|4027|4044|">
+					<nombre>Tráilers para mercancías y transporte</nombre>
+				</categoria>
+			</categoria>
+		</categoria>
+		<categoria id="913" ruta="|888|5613|913|">
+			<nombre>Mantenimiento, cuidado y decoración de vehículos</nombre>
+			<categoria id="2495" ruta="|888|5613|913|2495|">
+				<nombre>Decoración de vehículos</nombre>
+				<categoria id="2582" ruta="|888|5613|913|2495|2582|">
+					<nombre>Accesorios para salpicaderos de vehículos</nombre>
+				</categoria>
+				<categoria id="8478" ruta="|888|5613|913|2495|8478|">
+					<nombre>Adornos para retrovisores de vehículos</nombre>
+				</categoria>
+				<categoria id="2789" ruta="|888|5613|913|2495|2789|">
+					<nombre>Ambientadores para vehículos</nombre>
+				</categoria>
+				<categoria id="2652" ruta="|888|5613|913|2495|2652|">
+					<nombre>Banderitas para vehículos</nombre>
+				</categoria>
+				<categoria id="2588" ruta="|888|5613|913|2495|2588|">
+					<nombre>Bolas para antenas de vehículos</nombre>
+				</categoria>
+				<categoria id="8469" ruta="|888|5613|913|2495|8469|">
+					<nombre>Conjuntos de accesorios de decoración para vehículos
+					</nombre>
+				</categoria>
+				<categoria id="8145" ruta="|888|5613|913|2495|8145|">
+					<nombre>Cubiertas para enganches de remolques para vehículos
+					</nombre>
+				</categoria>
+				<categoria id="8464" ruta="|888|5613|913|2495|8464|">
+					<nombre>Cubiertas para volantes de vehículos</nombre>
+				</categoria>
+				<categoria id="5995" ruta="|888|5613|913|2495|5995|">
+					<nombre>Emblemas para vehículos y decoraciones para capós</nombre>
+				</categoria>
+				<categoria id="7022" ruta="|888|5613|913|2495|7022|">
+					<nombre>Fundas para matrículas de vehículos</nombre>
+				</categoria>
+				<categoria id="8463" ruta="|888|5613|913|2495|8463|">
+					<nombre>Fundas para palancas de cambio de marchas para vehículos
+					</nombre>
+				</categoria>
+				<categoria id="7532" ruta="|888|5613|913|2495|7532|">
+					<nombre>Imanes para vehículos</nombre>
+				</categoria>
+				<categoria id="5994" ruta="|888|5613|913|2495|5994|">
+					<nombre>Marcos para matrículas de vehículos</nombre>
+				</categoria>
+				<categoria id="8298" ruta="|888|5613|913|2495|8298|">
+					<nombre>Monturas y soportes para placas de matrícula de vehículos
+					</nombre>
+				</categoria>
+				<categoria id="2667" ruta="|888|5613|913|2495|2667|">
+					<nombre>Pegatinas de parachoques</nombre>
+				</categoria>
+				<categoria id="2248" ruta="|888|5613|913|2495|2248|">
+					<nombre>Placas de matrículas de vehículos</nombre>
+				</categoria>
+				<categoria id="8142" ruta="|888|5613|913|2495|8142|">
+					<nombre>Pomos para palancas de cambio de marchas para vehículos
+					</nombre>
+				</categoria>
+				<categoria id="8202" ruta="|888|5613|913|2495|8202|">
+					<nombre>Rótulos integrales para vehículos</nombre>
+				</categoria>
+				<categoria id="2722" ruta="|888|5613|913|2495|2722|">
+					<nombre>Vinilos para vehículos</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="3436" ruta="|888|5613|913|3436|">
+				<nombre>Fundas para vehículos</nombre>
+				<categoria id="7031" ruta="|888|5613|913|3436|7031|">
+					<nombre>Capotas de lona para vehículos</nombre>
+				</categoria>
+				<categoria id="8306" ruta="|888|5613|913|3436|8306|">
+					<nombre>Cubiertas carritos de golf</nombre>
+				</categoria>
+				<categoria id="8309" ruta="|888|5613|913|3436|8309|">
+					<nombre>Cubiertas para almacenamiento de vehículos</nombre>
+					<categoria id="8311" ruta="|888|5613|913|3436|8309|8311|">
+						<nombre>Cubiertas de almacenamiento para vehículos recreativos
+						</nombre>
+					</categoria>
+					<categoria id="8310" ruta="|888|5613|913|3436|8309|8310|">
+						<nombre>Cubiertas para almacenamiento de automóviles</nombre>
+					</categoria>
+					<categoria id="8312" ruta="|888|5613|913|3436|8309|8312|">
+						<nombre>Cubiertas para almacenamiento de barcas</nombre>
+					</categoria>
+					<categoria id="8314" ruta="|888|5613|913|3436|8309|8314|">
+						<nombre>Cubiertas para almacenamiento de coches de golf</nombre>
+					</categoria>
+					<categoria id="8313" ruta="|888|5613|913|3436|8309|8313|">
+						<nombre>Cubiertas para almacenamiento de motocicletas</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="8316" ruta="|888|5613|913|3436|8316|">
+					<nombre>Cubiertas para parabrisas de vehículos motorizados</nombre>
+				</categoria>
+				<categoria id="8308" ruta="|888|5613|913|3436|8308|">
+					<nombre>Fundas para asientos de descapotables</nombre>
+				</categoria>
+				<categoria id="2494" ruta="|888|5613|913|3436|2494|">
+					<nombre>Techos rígidos para vehículos</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="8534" ruta="|888|5613|913|8534|">
+				<nombre>Garrafas para combustible portátiles</nombre>
+			</categoria>
+			<categoria id="8236" ruta="|888|5613|913|8236|">
+				<nombre>Herramientas específicas y de reparación para vehículos
+				</nombre>
+				<categoria id="5068" ruta="|888|5613|913|8236|5068|">
+					<nombre>Arrancadores de baterías para vehículos</nombre>
+				</categoria>
+				<categoria id="3326" ruta="|888|5613|913|8236|3326|">
+					<nombre>Cables de empalme para vehículos</nombre>
+				</categoria>
+				<categoria id="7414" ruta="|888|5613|913|8236|7414|">
+					<nombre>Cargadores de baterías de vehículos</nombre>
+				</categoria>
+				<categoria id="499929" ruta="|888|5613|913|8236|499929|">
+					<nombre>Comprobadores de baterías para vehículos</nombre>
+				</categoria>
+				<categoria id="6482" ruta="|888|5613|913|8236|6482|">
+					<nombre>Escáneres de diagnóstico para vehículos</nombre>
+				</categoria>
+				<categoria id="8259" ruta="|888|5613|913|8236|8259|">
+					<nombre>Herramientas de alineación y desmontaje de embragues de
+						vehículos motorizados</nombre>
+				</categoria>
+				<categoria id="8261" ruta="|888|5613|913|8236|8261|">
+					<nombre>Herramientas para reparación y recambio de neumáticos de
+						vehículos</nombre>
+				</categoria>
+				<categoria id="8260" ruta="|888|5613|913|8236|8260|">
+					<nombre>Kits de mantenimiento de frenos de vehículos motorizados
+					</nombre>
+				</categoria>
+				<categoria id="2647" ruta="|888|5613|913|8236|2647|">
+					<nombre>Kits de reparación de parabrisas</nombre>
+				</categoria>
+				<categoria id="499774" ruta="|888|5613|913|8236|499774|">
+					<nombre>Masillas para chapas de vehículos</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="2895" ruta="|888|5613|913|2895|">
+				<nombre>Limpieza de vehículos</nombre>
+				<categoria id="2894" ruta="|888|5613|913|2895|2894|">
+					<nombre>Cepillos de limpieza para coches</nombre>
+				</categoria>
+				<categoria id="499766" ruta="|888|5613|913|2895|499766|">
+					<nombre>Kits de limpieza de inyectores de combustible para
+						vehículos</nombre>
+				</categoria>
+				<categoria id="2704" ruta="|888|5613|913|2895|2704|">
+					<nombre>Limpiadores para alfombras y tapizado de automóviles
+					</nombre>
+				</categoria>
+				<categoria id="2846" ruta="|888|5613|913|2895|2846|">
+					<nombre>Limpiadores para ventanas de automóviles</nombre>
+				</categoria>
+				<categoria id="2643" ruta="|888|5613|913|2895|2643|">
+					<nombre>Protectores, pulidores y ceras para automóviles</nombre>
+				</categoria>
+				<categoria id="2590" ruta="|888|5613|913|2895|2590|">
+					<nombre>Soluciones para lavado de coches</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="2788" ruta="|888|5613|913|2788|">
+				<nombre>Líquidos para vehículos</nombre>
+				<categoria id="2735" ruta="|888|5613|913|2788|2735|">
+					<nombre>Aceite para engranajes</nombre>
+				</categoria>
+				<categoria id="3044" ruta="|888|5613|913|2788|3044|">
+					<nombre>Aceite para motores de vehículos</nombre>
+				</categoria>
+				<categoria id="2770" ruta="|888|5613|913|2788|2770|">
+					<nombre>Aditivos para el rendimiento de vehículos</nombre>
+				</categoria>
+				<categoria id="2517" ruta="|888|5613|913|2788|2517|">
+					<nombre>Aditivos para el sistema de refrigeración</nombre>
+				</categoria>
+				<categoria id="2635" ruta="|888|5613|913|2788|2635|">
+					<nombre>Anticongelantes para vehículos</nombre>
+				</categoria>
+				<categoria id="2881" ruta="|888|5613|913|2788|2881|">
+					<nombre>Desengrasantes de motor</nombre>
+				</categoria>
+				<categoria id="2916" ruta="|888|5613|913|2788|2916|">
+					<nombre>Fluido para embragues hidráulicos de vehículos</nombre>
+				</categoria>
+				<categoria id="2513" ruta="|888|5613|913|2788|2513|">
+					<nombre>Fluido para la dirección asistida de vehículos</nombre>
+				</categoria>
+				<categoria id="2688" ruta="|888|5613|913|2788|2688|">
+					<nombre>Fluido para la transmisión de vehículos</nombre>
+				</categoria>
+				<categoria id="2943" ruta="|888|5613|913|2788|2943|">
+					<nombre>Fluido para parabrisas de vehículos</nombre>
+				</categoria>
+				<categoria id="2719" ruta="|888|5613|913|2788|2719|">
+					<nombre>Limpiadores para sistemas de combustible de vehículos
+					</nombre>
+				</categoria>
+				<categoria id="3051" ruta="|888|5613|913|2788|3051|">
+					<nombre>Líquido para frenos de vehículos</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="3812" ruta="|888|5613|913|3812|">
+				<nombre>Pintura de vehículos</nombre>
+				<categoria id="8450" ruta="|888|5613|913|3812|8450|">
+					<nombre>Pintura de chapa de vehículos motorizados</nombre>
+				</categoria>
+				<categoria id="8144" ruta="|888|5613|913|3812|8144|">
+					<nombre>Pintura para mordazas de frenos de vehículos motorizados
+					</nombre>
+				</categoria>
+			</categoria>
+		</categoria>
+		<categoria id="8526" ruta="|888|5613|8526|">
+			<nombre>Material electrónico para vehículos motorizados</nombre>
+			<categoria id="5525" ruta="|888|5613|8526|5525|">
+				<nombre>Adaptadores de casetes para automóviles</nombre>
+			</categoria>
+			<categoria id="895" ruta="|888|5613|8526|895|">
+				<nombre>Altavoces para automóviles</nombre>
+			</categoria>
+			<categoria id="2833" ruta="|888|5613|8526|2833|">
+				<nombre>Altavoz de subwoofer para automóviles</nombre>
+			</categoria>
+			<categoria id="891" ruta="|888|5613|8526|891|">
+				<nombre>Amplificadores para automóviles</nombre>
+			</categoria>
+			<categoria id="894" ruta="|888|5613|8526|894|">
+				<nombre>Crossovers y ecualizadores para coches</nombre>
+			</categoria>
+			<categoria id="6968" ruta="|888|5613|8526|6968|">
+				<nombre>Cámaras de seguridad para automóviles</nombre>
+			</categoria>
+			<categoria id="5572" ruta="|888|5613|8526|5572|">
+				<nombre>Manos libres para automóviles</nombre>
+			</categoria>
+			<categoria id="5438" ruta="|888|5613|8526|5438|">
+				<nombre>Radiocasetes para automóviles</nombre>
+			</categoria>
+			<categoria id="505766" ruta="|888|5613|8526|505766|">
+				<nombre>Sistemas de entretenimiento a bordo y reproductores AV para
+					vehículos</nombre>
+			</categoria>
+			<categoria id="8483" ruta="|888|5613|8526|8483|">
+				<nombre>Soportes para monitores de vídeo para vehículos motorizados
+				</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="899" ruta="|888|5613|899|">
+			<nombre>Piezas para vehículos motorizados</nombre>
+			<categoria id="8233" ruta="|888|5613|899|8233|">
+				<nombre>Accesorios de montaje para el interior de vehículos
+					motorizados</nombre>
+			</categoria>
+			<categoria id="8238" ruta="|888|5613|899|8238|">
+				<nombre>Asientos para vehículos motorizados</nombre>
+			</categoria>
+			<categoria id="2550" ruta="|888|5613|899|2550|">
+				<nombre>Circulación de aceite de motor para vehículos motorizados
+				</nombre>
+			</categoria>
+			<categoria id="2805" ruta="|888|5613|899|2805|">
+				<nombre>Control de climatización de vehículos motorizados</nombre>
+			</categoria>
+			<categoria id="8235" ruta="|888|5613|899|8235|">
+				<nombre>Controles de vehículos motorizados</nombre>
+			</categoria>
+			<categoria id="2642" ruta="|888|5613|899|2642|">
+				<nombre>Espejos para vehículos motorizados</nombre>
+			</categoria>
+			<categoria id="2977" ruta="|888|5613|899|2977|">
+				<nombre>Frenos para vehículos motorizados</nombre>
+			</categoria>
+			<categoria id="3318" ruta="|888|5613|899|3318|">
+				<nombre>Luces para vehículos motorizados</nombre>
+			</categoria>
+			<categoria id="8137" ruta="|888|5613|899|8137|">
+				<nombre>Motores para vehículos motorizados</nombre>
+			</categoria>
+			<categoria id="8227" ruta="|888|5613|899|8227|">
+				<nombre>Piezas de bastidor y carrocería para vehículos motorizados
+				</nombre>
+			</categoria>
+			<categoria id="2935" ruta="|888|5613|899|2935|">
+				<nombre>Piezas de la suspensión de vehículos motorizados</nombre>
+			</categoria>
+			<categoria id="2641" ruta="|888|5613|899|2641|">
+				<nombre>Piezas de la transmisión y transmisión secundaria de
+					vehículos motorizados</nombre>
+			</categoria>
+			<categoria id="2820" ruta="|888|5613|899|2820|">
+				<nombre>Piezas del motor de vehículos motorizados</nombre>
+			</categoria>
+			<categoria id="2534" ruta="|888|5613|899|2534|">
+				<nombre>Piezas y accesorios para ventanillas</nombre>
+			</categoria>
+			<categoria id="8228" ruta="|888|5613|899|8228|">
+				<nombre>Remolque de vehículos motorizados</nombre>
+			</categoria>
+			<categoria id="8234" ruta="|888|5613|899|8234|">
+				<nombre>Sensores y medidores para vehículos motorizados</nombre>
+			</categoria>
+			<categoria id="2727" ruta="|888|5613|899|2727|">
+				<nombre>Sistemas de combustible para vehículos motorizados</nombre>
+			</categoria>
+			<categoria id="3020" ruta="|888|5613|899|3020|">
+				<nombre>Sistemas de ruedas para vehículos motorizados</nombre>
+				<categoria id="2989" ruta="|888|5613|899|3020|2989|">
+					<nombre>Accesorios para neumáticos de vehículos motorizados
+					</nombre>
+				</categoria>
+				<categoria id="911" ruta="|888|5613|899|3020|911|">
+					<nombre>Neumáticos para vehículos motorizados</nombre>
+					<categoria id="6093" ruta="|888|5613|899|3020|911|6093|">
+						<nombre>Neumáticos para automóviles</nombre>
+					</categoria>
+					<categoria id="6091" ruta="|888|5613|899|3020|911|6091|">
+						<nombre>Neumáticos para motocicletas</nombre>
+					</categoria>
+					<categoria id="7252" ruta="|888|5613|899|3020|911|7252|">
+						<nombre>Neumáticos para vehículos TT y UTV</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="2556" ruta="|888|5613|899|3020|2556|">
+					<nombre>Piezas de ruedas para vehículos motorizados</nombre>
+				</categoria>
+				<categoria id="2932" ruta="|888|5613|899|3020|2932|">
+					<nombre>Ruedas y llantas de automóviles</nombre>
+					<categoria id="6088" ruta="|888|5613|899|3020|2932|6088|">
+						<nombre>Llantas y ruedas de motocicletas</nombre>
+					</categoria>
+					<categoria id="6090" ruta="|888|5613|899|3020|2932|6090|">
+						<nombre>Llantas y ruedas para automoción</nombre>
+					</categoria>
+					<categoria id="7253" ruta="|888|5613|899|3020|2932|7253|">
+						<nombre>Ruedas y llantas para vehículos TT y UTV</nombre>
+					</categoria>
+				</categoria>
+			</categoria>
+			<categoria id="8231" ruta="|888|5613|899|8231|">
+				<nombre>Sistemas eléctricos y de alimentación para vehículos
+					motorizados</nombre>
+			</categoria>
+			<categoria id="8232" ruta="|888|5613|899|8232|">
+				<nombre>Tapicería y alfombrillas para vehículos motorizados</nombre>
+			</categoria>
+			<categoria id="908" ruta="|888|5613|899|908|">
+				<nombre>Tubos de escape para vehículos motorizados</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="8301" ruta="|888|5613|8301|">
+			<nombre>Seguridad y protección para vehículos</nombre>
+			<categoria id="362737" ruta="|888|5613|8301|362737|">
+				<nombre>Equipamiento protector para ATV y UTV</nombre>
+				<categoria id="362738"
+					ruta="|888|5613|8301|362737|362738|">
+					<nombre>Almohadillas para barras de ATV y UTV</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="5547" ruta="|888|5613|8301|5547|">
+				<nombre>Equipo de protección para motocicletas</nombre>
+				<categoria id="6493" ruta="|888|5613|8301|5547|6493|">
+					<nombre>Accesorios y piezas para cascos de motocicleta</nombre>
+				</categoria>
+				<categoria id="2110" ruta="|888|5613|8301|5547|2110|">
+					<nombre>Cascos para motocicletas</nombre>
+				</categoria>
+				<categoria id="5963" ruta="|888|5613|8301|5547|5963|">
+					<nombre>Coderas y muñequeras para motocicleta</nombre>
+				</categoria>
+				<categoria id="5960" ruta="|888|5613|8301|5547|5960|">
+					<nombre>Fajas para motocicletas</nombre>
+				</categoria>
+				<categoria id="5106" ruta="|888|5613|8301|5547|5106|">
+					<nombre>Gafas para motocicletas</nombre>
+				</categoria>
+				<categoria id="5908" ruta="|888|5613|8301|5547|5908|">
+					<nombre>Guantes para motocicletas</nombre>
+				</categoria>
+				<categoria id="8507" ruta="|888|5613|8301|5547|8507|">
+					<nombre>Guardamanos para motocicletas</nombre>
+				</categoria>
+				<categoria id="5961" ruta="|888|5613|8301|5547|5961|">
+					<nombre>Protector de cuello para motocicleta</nombre>
+				</categoria>
+				<categoria id="5959" ruta="|888|5613|8301|5547|5959|">
+					<nombre>Protectores de pecho y espalda para motocicleta</nombre>
+				</categoria>
+				<categoria id="5962" ruta="|888|5613|8301|5547|5962|">
+					<nombre>Rodilleras y espinilleras para motocicleta</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="2879" ruta="|888|5613|8301|2879|">
+				<nombre>Equipo de seguridad</nombre>
+				<categoria id="6966" ruta="|888|5613|8301|2879|6966|">
+					<nombre>Banderines de señalización</nombre>
+				</categoria>
+				<categoria id="8446" ruta="|888|5613|8301|2879|8446|">
+					<nombre>Barras y jaulas antivuelco para vehículos motorizados
+					</nombre>
+				</categoria>
+				<categoria id="8445" ruta="|888|5613|8301|2879|8445|">
+					<nombre>Bengalas para emergencia para carretera</nombre>
+				</categoria>
+				<categoria id="8506" ruta="|888|5613|8301|2879|8506|">
+					<nombre>Calzos para ruedas de vehículos</nombre>
+				</categoria>
+				<categoria id="8476" ruta="|888|5613|8301|2879|8476|">
+					<nombre>Cintas de cinturón de seguridad para vehículos</nombre>
+				</categoria>
+				<categoria id="8449" ruta="|888|5613|8301|2879|8449|">
+					<nombre>Cinturones de seguridad para vehículos</nombre>
+				</categoria>
+				<categoria id="326120" ruta="|888|5613|8301|2879|326120|">
+					<nombre>Fundas de cinturón de seguridad para vehículos</nombre>
+				</categoria>
+				<categoria id="8477" ruta="|888|5613|8301|2879|8477|">
+					<nombre>Hebillas de cinturón de seguridad para vehículos</nombre>
+				</categoria>
+				<categoria id="8448" ruta="|888|5613|8301|2879|8448|">
+					<nombre>Piezas para airbags de vehículos motorizados</nombre>
+				</categoria>
+				<categoria id="8447" ruta="|888|5613|8301|2879|8447|">
+					<nombre>Redes para ventanas de coche</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="2768" ruta="|888|5613|8301|2768|">
+				<nombre>Sistemas de alarmas y bloqueo</nombre>
+				<categoria id="6084" ruta="|888|5613|8301|2768|6084|">
+					<nombre>Accesorios para alarma</nombre>
+				</categoria>
+				<categoria id="6083" ruta="|888|5613|8301|2768|6083|">
+					<nombre>Alarmas y candados para motocicletas</nombre>
+				</categoria>
+				<categoria id="2750" ruta="|888|5613|8301|2768|2750|">
+					<nombre>Bloqueos para volantes de vehículos</nombre>
+				</categoria>
+				<categoria id="500077" ruta="|888|5613|8301|2768|500077|">
+					<nombre>Cepos para coches</nombre>
+				</categoria>
+				<categoria id="235921" ruta="|888|5613|8301|2768|235921|">
+					<nombre>Cierres para enganches de remolques de vehículos</nombre>
+				</categoria>
+				<categoria id="8302" ruta="|888|5613|8301|2768|8302|">
+					<nombre>Cierres y piezas para puertas de vehículos</nombre>
+					<categoria id="8305"
+						ruta="|888|5613|8301|2768|8302|8305|">
+						<nombre>Accionadores de cierres para puertas de vehículos</nombre>
+					</categoria>
+					<categoria id="8303"
+						ruta="|888|5613|8301|2768|8302|8303|">
+						<nombre>Cierres y sistemas de bloqueo para puertas de vehículos
+						</nombre>
+					</categoria>
+					<categoria id="8304"
+						ruta="|888|5613|8301|2768|8302|8304|">
+						<nombre>Seguros para puertas de vehículos</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="3024" ruta="|888|5613|8301|2768|3024|">
+					<nombre>Inmovilizadores para vehículos</nombre>
+				</categoria>
+				<categoria id="1802" ruta="|888|5613|8301|2768|1802|">
+					<nombre>Sistemas de alarmas</nombre>
+				</categoria>
+				<categoria id="2699" ruta="|888|5613|8301|2768|2699|">
+					<nombre>Sistemas remotos de apertura de vehículos</nombre>
+				</categoria>
+			</categoria>
+		</categoria>
+	</categoria>
+	<categoria id="5614" ruta="|888|5614|">
+		<nombre>Vehículos</nombre>
+		<categoria id="3395" ruta="|888|5614|3395|">
+			<nombre>Aviones</nombre>
+		</categoria>
+		<categoria id="3540" ruta="|888|5614|3540|">
+			<nombre>Embarcaciones</nombre>
+			<categoria id="3095" ruta="|888|5614|3540|3095|">
+				<nombre>Barcos a motor</nombre>
+			</categoria>
+			<categoria id="1130" ruta="|888|5614|3540|1130|">
+				<nombre>Embarcaciones personal</nombre>
+			</categoria>
+			<categoria id="3087" ruta="|888|5614|3540|3087|">
+				<nombre>Veleros</nombre>
+			</categoria>
+			<categoria id="5644" ruta="|888|5614|3540|5644|">
+				<nombre>Yates</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="1267" ruta="|888|5614|1267|">
+			<nombre>Vehículos motorizados</nombre>
+			<categoria id="3931" ruta="|888|5614|1267|3931|">
+				<nombre>Carritos de golf</nombre>
+			</categoria>
+			<categoria id="916" ruta="|888|5614|1267|916|">
+				<nombre>Coches, camiones y furgonetas</nombre>
+			</categoria>
+			<categoria id="919" ruta="|888|5614|1267|919|">
+				<nombre>Motocicletas y escúteres</nombre>
+			</categoria>
+			<categoria id="3549" ruta="|888|5614|1267|3549|">
+				<nombre>Motos de nieve</nombre>
+			</categoria>
+			<categoria id="503031" ruta="|888|5614|1267|503031|">
+				<nombre>Vehículos TT y UTV</nombre>
+				<categoria id="3018" ruta="|888|5614|1267|503031|3018|">
+					<nombre>ATV y UTV</nombre>
+				</categoria>
+				<categoria id="2528" ruta="|888|5614|1267|503031|2528|">
+					<nombre>Karts y buggies de playa</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="920" ruta="|888|5614|1267|920|">
+				<nombre>Vehículos recreativos</nombre>
+			</categoria>
+		</categoria>
+	</categoria>
+</categoria>

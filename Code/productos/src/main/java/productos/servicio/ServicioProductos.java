@@ -183,10 +183,11 @@ public class ServicioProductos implements IServiciosProductos {
 			resumen.setTitulo(producto.getTitulo());
 			resumen.setPrecio(producto.getPrecio());
 			resumen.setEstado(producto.getEstado());
+			resumen.setDescripcion(producto.getDescripcion());
 			resumen.setFechaPublicacion(producto.getFechaPublicacion());
 			resumen.setEnvioDisponible(producto.isEnvioDisponible());
 			if (producto.getCategoria() != null)
-				resumen.setCategoriaNombre(producto.getCategoria().getDescripcion());
+				resumen.setCategoriaNombre(producto.getCategoria().getNombre());
 			return resumen;
 		});
 	}

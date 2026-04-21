@@ -5,35 +5,12 @@
 <div class="container mt-5 mb-5">
     <div class="row">
         
-        <div class="col-lg-3 mb-4">
-            <div class="card shadow-sm border-0">
-                <div class="card-body text-center pt-4 pb-4 border-bottom">
-                    <div class="bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
-                        <i class="fa-solid fa-user fs-1"></i>
-                    </div>
-                    <h5 class="fw-bold mb-0">{{usuario.nombre}} {{usuario.apellidos}}</h5>
-                    <p class="text-muted small">Miembro desde {{usuario.fechaRegistro}}</p>
-                </div>
-                <div class="list-group list-group-flush">
-                    <a href="/perfil" class="list-group-item list-group-item-action py-3">
-                        <i class="fa-solid fa-id-card me-2"></i> Mis Datos
-                    </a>
-                    <a href="/perfil/mis-ventas" class="list-group-item list-group-item-action active fw-bold py-3">
-                        <i class="fa-solid fa-store me-2"></i> En Venta / Vendidos
-                    </a>
-                    <a href="/perfil/mis-compras" class="list-group-item list-group-item-action py-3">
-                        <i class="fa-solid fa-bag-shopping me-2"></i> Mis Compras
-                    </a>
-                    <a href="/logout" class="list-group-item list-group-item-action text-danger py-3 fw-bold bg-light">
-                        <i class="fa-solid fa-right-from-bracket me-2"></i> Cerrar Sesión
-                    </a>
-                </div>
-            </div>
-        </div>
+        {{!-- Reutilizamos el sidebar del perfil para mantener la consistencia visual --}}
+        {{> perfilSidebar}}
 
         <div class="col-lg-9">
             <div class="d-flex justify-content-between align-items-center mb-4">
-                <h2 class="fw-bold mb-0">Mis Anuncios</h2>
+                <h2 class="fw-bold mb-0">Historial de Ventas</h2>
                 <a href="/productos/crear" class="btn btn-success"><i class="fa-solid fa-plus me-2"></i>Publicar Nuevo</a>
             </div>
 
@@ -45,30 +22,27 @@
                                 <tr>
                                     <th scope="col" class="ps-4">Título</th>
                                     <th scope="col">Precio</th>
-                                    <th scope="col">Visitas</th>
-                                    <th scope="col">Estado</th>
-                                    <th scope="col" class="text-end pe-4">Acciones</th>
+                                    <th scope="col">Comprador</th>
+                                    <th scope="col">Fecha</th>
+                                    <th scope="col" class="text-end pe-4">Detalle</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                {{#each productos}}
+                                {{#each ventas}}
                                 <tr>
                                     <td class="ps-4 fw-bold">{{this.titulo}}</td>
                                     <td>{{this.precio}} €</td>
-                                    <td><i class="fa-regular fa-eye me-1 text-muted"></i>{{this.visualizaciones}}</td>
-                                    <td>
-                                        <span class="badge {{this.badgeColor}}">
-                                            {{this.estatus}}
-                                        </span>
-                                    </td>
+                                    <td>{{this.comprador}}</td>
+                                    <td class="text-muted small">{{this.fecha}}</td>
                                     <td class="text-end pe-4">
-                                        <a href="/productos/{{this.id}}" class="btn btn-sm btn-outline-secondary me-1" title="Ver anuncio"><i class="fa-solid fa-eye"></i></a>
-                                        <a href="/productos/{{this.id}}/editar" class="btn btn-sm btn-outline-dark" title="Editar"><i class="fa-solid fa-pen"></i></a>
+                                        <a href="/productos/{{this.idProducto}}" class="btn btn-sm btn-outline-primary" title="Ver producto">
+                                            <i class="fa-solid fa-circle-info"></i>
+                                        </a>
                                     </td>
                                 </tr>
                                 {{else}}
                                 <tr>
-                                    <td colspan="5" class="text-center py-4 text-muted">Aún no has publicado ningún producto.</td>
+                                    <td colspan="5" class="text-center py-4 text-muted">Aún no has realizado ninguna venta.</td>
                                 </tr>
                                 {{/each}}
                             </tbody>

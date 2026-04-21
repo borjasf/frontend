@@ -30,7 +30,8 @@ public class JwtRequestFilter extends OncePerRequestFilter {
             try {
                 String token = authorization.substring("Bearer ".length()).trim();
                 Claims claims = JwtUtils.validateToken(token);
-                String[] roles = claims.get("roles", String.class).split(",");
+                String rolValue = claims.get("rol", String.class);
+                String[] roles = rolValue != null ? rolValue.split(",") : new String[0];
 
                 // Establece el contexto de seguridad
                 ArrayList<GrantedAuthority> authorities = new ArrayList<GrantedAuthority>();

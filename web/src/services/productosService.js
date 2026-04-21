@@ -1,6 +1,4 @@
-/* Servicio de productos. 
-   VERSIÓN DIRECTA: El .env se mantiene intacto (con el 9090), 
-   pero aquí forzamos la ruta al 8083 para saltarnos la pasarela rota. */
+const { crearApiClient } = require('./apiService');
 
 const API_BASE_URL = 'http://localhost:9090/api/productos';
 
@@ -53,27 +51,35 @@ const productosService = {
             throw error; // Lanzamos el error para que el Controlador decida qué hacer
         }
     },
-    getCategorias: async () => {},
-    crearProducto: async (datos) => {
+    getCategorias: async () => {
         try {
-            console.log(`Enviando NUEVO PRODUCTO a Java en: ${API_BASE_URL}`, datos);
-
-            const response = await fetch(API_BASE_URL, {
+            const response = await fetch(`${API_BASE_URL}/categorias`);
+            if (!response.ok) {
+                throw new Error(`Error al obtener categorías. Código: ${response.status}`);
+            }
+            return await response.json();
+        } catch (error) {
+            console.error("Error en getCategorias:", error.message);
+            return [];
+        }
+    },
+    crearProducto: async (datos, token) => {
+        try {
+            const response = await fetch('http://localhost:8083/productos', {
                 method: 'POST',
                 headers: {
-                    'Content-Type': 'application/json'
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${token}`
                 },
                 body: JSON.stringify(datos)
             });
-
             if (!response.ok) {
-                throw new Error(`Java rechazó la creación. Código: ${response.status}`);
+                const texto = await response.text();
+                throw new Error(`Java rechazó la creación. Código: ${response.status} - ${texto}`);
             }
-
-            return await response.json();
         } catch (error) {
             console.error("Error en productosService.crearProducto:", error.message);
-            throw error; 
+            throw error;
         }
     },
     editarProducto: async (id, datos, token) => {

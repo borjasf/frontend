@@ -1,0 +1,1570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<categoria id="632" ruta="|632|">
+	<nombre>Bricolaje</nombre>
+	<categoria id="2878" ruta="|632|2878|">
+		<nombre>Accesorios de bricolaje</nombre>
+		<categoria id="500054" ruta="|632|2878|500054|">
+			<nombre>Artículos de ferretería</nombre>
+			<categoria id="2195" ruta="|632|2878|500054|2195|">
+				<nombre>Arandelas</nombre>
+			</categoria>
+			<categoria id="2230" ruta="|632|2878|500054|2230|">
+				<nombre>Bornes de tornillo</nombre>
+			</categoria>
+			<categoria id="2408" ruta="|632|2878|500054|2408|">
+				<nombre>Clavos</nombre>
+			</categoria>
+			<categoria id="7062" ruta="|632|2878|500054|7062|">
+				<nombre>Remaches</nombre>
+			</categoria>
+			<categoria id="1508" ruta="|632|2878|500054|1508|">
+				<nombre>Tacos tirafondos</nombre>
+			</categoria>
+			<categoria id="2251" ruta="|632|2878|500054|2251|">
+				<nombre>Tornillos</nombre>
+			</categoria>
+			<categoria id="1739" ruta="|632|2878|500054|1739|">
+				<nombre>Tuercas y pernos</nombre>
+			</categoria>
+			<categoria id="500055" ruta="|632|2878|500054|500055|">
+				<nombre>Varillas roscadas</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="1771" ruta="|632|2878|1771|">
+			<nombre>Bisagras</nombre>
+		</categoria>
+		<categoria id="502977" ruta="|632|2878|502977|">
+			<nombre>Cadenas, alambre y cuerda</nombre>
+			<categoria id="6904" ruta="|632|2878|502977|6904|">
+				<nombre>Alambre</nombre>
+			</categoria>
+			<categoria id="1492" ruta="|632|2878|502977|1492|">
+				<nombre>Cadenas</nombre>
+			</categoria>
+			<categoria id="5119" ruta="|632|2878|502977|5119|">
+				<nombre>Cordel</nombre>
+			</categoria>
+			<categoria id="6297" ruta="|632|2878|502977|6297|">
+				<nombre>Correas de amarre</nombre>
+			</categoria>
+			<categoria id="6298" ruta="|632|2878|502977|6298|">
+				<nombre>Cuerdas elásticas</nombre>
+			</categoria>
+			<categoria id="3053" ruta="|632|2878|502977|3053|">
+				<nombre>Sogas y cuerdas metálicas</nombre>
+			</categoria>
+			<categoria id="4469" ruta="|632|2878|502977|4469|">
+				<nombre>Tiradores de cadena</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="499933" ruta="|632|2878|499933|">
+			<nombre>Cilindros</nombre>
+		</categoria>
+		<categoria id="7557" ruta="|632|2878|7557|">
+			<nombre>Cinta indicadora y de advertencia</nombre>
+		</categoria>
+		<categoria id="7270" ruta="|632|2878|7270|">
+			<nombre>Espigas y varillas</nombre>
+		</categoria>
+		<categoria id="1318" ruta="|632|2878|1318|">
+			<nombre>Espirales</nombre>
+		</categoria>
+		<categoria id="4696" ruta="|632|2878|4696|">
+			<nombre>Ferretería para armarios</nombre>
+			<categoria id="4698" ruta="|632|2878|4696|4698|">
+				<nombre>Cierres de armarios</nombre>
+			</categoria>
+			<categoria id="232167" ruta="|632|2878|4696|232167|">
+				<nombre>Escudos para cerraduras de armarios y muebles</nombre>
+			</categoria>
+			<categoria id="4697" ruta="|632|2878|4696|4697|">
+				<nombre>Placas soporte para tiradores de armarios</nombre>
+			</categoria>
+			<categoria id="4700" ruta="|632|2878|4696|4700|">
+				<nombre>Pomos y picaportes de armarios</nombre>
+			</categoria>
+			<categoria id="4699" ruta="|632|2878|4696|4699|">
+				<nombre>Puertas de armarios</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="1816" ruta="|632|2878|1816|">
+			<nombre>Filtros y pantallas</nombre>
+		</categoria>
+		<categoria id="503773" ruta="|632|2878|503773|">
+			<nombre>Ganchos, hebillas y cierres</nombre>
+			<categoria id="502978" ruta="|632|2878|503773|502978|">
+				<nombre>Bridas de sujeción</nombre>
+			</categoria>
+			<categoria id="503764" ruta="|632|2878|503773|503764|">
+				<nombre>Eslabones y conectores de cadenas</nombre>
+			</categoria>
+			<categoria id="503770" ruta="|632|2878|503773|503770|">
+				<nombre>Ganchos de grúa, abrazaderas y grilletes</nombre>
+			</categoria>
+			<categoria id="502992" ruta="|632|2878|503773|502992|">
+				<nombre>Hebillas para cinturones de herramientas</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="505320" ruta="|632|2878|505320|">
+			<nombre>Jabalcones y riostras</nombre>
+		</categoria>
+		<categoria id="4988" ruta="|632|2878|4988|">
+			<nombre>Lonas impermeables</nombre>
+		</categoria>
+		<categoria id="6841" ruta="|632|2878|6841|">
+			<nombre>Mangueras de gas</nombre>
+		</categoria>
+		<categoria id="6770" ruta="|632|2878|6770|">
+			<nombre>Mangueras de lubricación</nombre>
+		</categoria>
+		<categoria id="6769" ruta="|632|2878|6769|">
+			<nombre>Mangueras neumáticas</nombre>
+		</categoria>
+		<categoria id="500030" ruta="|632|2878|500030|">
+			<nombre>Material de insonorización y transporte</nombre>
+		</categoria>
+		<categoria id="503731" ruta="|632|2878|503731|">
+			<nombre>Moldes de fundición de metal</nombre>
+		</categoria>
+		<categoria id="7086" ruta="|632|2878|7086|">
+			<nombre>Moldes para hormigón</nombre>
+		</categoria>
+		<categoria id="3974" ruta="|632|2878|3974|">
+			<nombre>Organización y almacenamiento de herramientas</nombre>
+			<categoria id="3280" ruta="|632|2878|3974|3280|">
+				<nombre>Armarios para herramientas</nombre>
+			</categoria>
+			<categoria id="6876" ruta="|632|2878|3974|6876|">
+				<nombre>Bolsas para herramientas</nombre>
+			</categoria>
+			<categoria id="3980" ruta="|632|2878|3974|3980|">
+				<nombre>Cajas de herramientas</nombre>
+			</categoria>
+			<categoria id="2485" ruta="|632|2878|3974|2485|">
+				<nombre>Cinturones de trabajo y de herramientas</nombre>
+			</categoria>
+			<categoria id="4031" ruta="|632|2878|3974|4031|">
+				<nombre>Fundas de herramientas</nombre>
+			</categoria>
+			<categoria id="3919" ruta="|632|2878|3974|3919|">
+				<nombre>Mesas de trabajo</nombre>
+			</categoria>
+			<categoria id="500103" ruta="|632|2878|3974|500103|">
+				<nombre>Protectores y compartimentos para herramientas</nombre>
+			</categoria>
+			<categoria id="4199" ruta="|632|2878|3974|4199|">
+				<nombre>Soporte de manguera de jardín</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="8113" ruta="|632|2878|8113|">
+			<nombre>Placas de base para postes</nombre>
+		</categoria>
+		<categoria id="8112" ruta="|632|2878|8112|">
+			<nombre>Puntas para anclaje en el suelo</nombre>
+		</categoria>
+		<categoria id="8470" ruta="|632|2878|8470|">
+			<nombre>Rieles para cajones</nombre>
+		</categoria>
+		<categoria id="499981" ruta="|632|2878|499981|">
+			<nombre>Ruedas</nombre>
+		</categoria>
+		<categoria id="7092" ruta="|632|2878|7092|">
+			<nombre>Soportes y travesaños</nombre>
+		</categoria>
+		<categoria id="1979" ruta="|632|2878|1979|">
+			<nombre>Tela protectora</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="3650" ruta="|632|3650|">
+		<nombre>Accesorios para herramientas</nombre>
+		<categoria id="4487" ruta="|632|3650|4487|">
+			<nombre>Accesorios de lijar</nombre>
+			<categoria id="3240" ruta="|632|3650|4487|3240|">
+				<nombre>Papel y esponjas de lija</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="505323" ruta="|632|3650|505323|">
+			<nombre>Accesorios para azadón y pico</nombre>
+			<categoria id="505324" ruta="|632|3650|505323|505324|">
+				<nombre>Mangos de azadón y pico</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="8117" ruta="|632|3650|8117|">
+			<nombre>Accesorios para cúteres</nombre>
+			<categoria id="8118" ruta="|632|3650|8117|8118|">
+				<nombre>Perfiles para mordiscadoras</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="6471" ruta="|632|3650|6471|">
+			<nombre>Accesorios para destornilladores eléctricos</nombre>
+		</categoria>
+		<categoria id="3744" ruta="|632|3650|3744|">
+			<nombre>Accesorios para fresadora</nombre>
+			<categoria id="3673" ruta="|632|3650|3744|3673|">
+				<nombre>Brocas fresadoras</nombre>
+			</categoria>
+			<categoria id="3300" ruta="|632|3650|3744|3300|">
+				<nombre>Mesas fresadoras</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="6939" ruta="|632|3650|6939|">
+			<nombre>Accesorios para granallado</nombre>
+			<categoria id="6940" ruta="|632|3650|6939|6940|">
+				<nombre>Muebles para pulido</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="7326" ruta="|632|3650|7326|">
+			<nombre>Accesorios para hachas</nombre>
+			<categoria id="7369" ruta="|632|3650|7326|7369|">
+				<nombre>Cabezas para hachas</nombre>
+			</categoria>
+			<categoria id="7370" ruta="|632|3650|7326|7370|">
+				<nombre>Mangos para hachas</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="7019" ruta="|632|3650|7019|">
+			<nombre>Accesorios para herramientas de pintura</nombre>
+			<categoria id="6887" ruta="|632|3650|7019|6887|">
+				<nombre>Accesorios para pintura con aerógrafo</nombre>
+			</categoria>
+			<categoria id="7020" ruta="|632|3650|7019|7020|">
+				<nombre>Accesorios para rodillos de pintura</nombre>
+			</categoria>
+			<categoria id="328062" ruta="|632|3650|7019|328062|">
+				<nombre>Soluciones de limpieza para brochas</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="3470" ruta="|632|3650|3470|">
+			<nombre>Accesorios para limadora</nombre>
+			<categoria id="3210" ruta="|632|3650|3470|3210|">
+				<nombre>Fresa perfiladora</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="2447" ruta="|632|3650|2447|">
+			<nombre>Accesorios para linterna</nombre>
+		</categoria>
+		<categoria id="7056" ruta="|632|3650|7056|">
+			<nombre>Accesorios para martillos</nombre>
+			<categoria id="7087" ruta="|632|3650|7056|7087|">
+				<nombre>Accesorios para martillos neumáticos</nombre>
+			</categoria>
+			<categoria id="7057" ruta="|632|3650|7056|7057|">
+				<nombre>Cabezales para martillos</nombre>
+			</categoria>
+			<categoria id="7055" ruta="|632|3650|7056|7055|">
+				<nombre>Empuñaduras para martillos</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="499859" ruta="|632|3650|499859|">
+			<nombre>Accesorios para rectificadoras</nombre>
+			<categoria id="499860" ruta="|632|3650|499859|499860|">
+				<nombre>Muelas y puntas de rectificado</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="5526" ruta="|632|3650|5526|">
+			<nombre>Accesorios para sensores y herramientas de medición</nombre>
+			<categoria id="5556" ruta="|632|3650|5526|5556|">
+				<nombre>Accesorios para detectores de gas</nombre>
+			</categoria>
+			<categoria id="5557" ruta="|632|3650|5526|5557|">
+				<nombre>Accesorios para herramientas de mediciones eléctricas
+				</nombre>
+			</categoria>
+			<categoria id="7415" ruta="|632|3650|5526|7415|">
+				<nombre>Accesorios para multímetros</nombre>
+			</categoria>
+			<categoria id="503007" ruta="|632|3650|5526|503007|">
+				<nombre>Accesorios para pesos</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="6549" ruta="|632|3650|6549|">
+			<nombre>Accesorios para sierras</nombre>
+			<categoria id="7345" ruta="|632|3650|6549|7345|">
+				<nombre>Accesorios para sierras circulares de mano</nombre>
+			</categoria>
+			<categoria id="7515" ruta="|632|3650|6549|7515|">
+				<nombre>Accesorios para sierras de cinta</nombre>
+			</categoria>
+			<categoria id="6501" ruta="|632|3650|6549|6501|">
+				<nombre>Accesorios para sierras de mesa</nombre>
+			</categoria>
+			<categoria id="7346" ruta="|632|3650|6549|7346|">
+				<nombre>Accesorios para sierras de vaivén</nombre>
+			</categoria>
+			<categoria id="6503" ruta="|632|3650|6549|6503|">
+				<nombre>Accesorios para sierras ingletadoras</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="3281" ruta="|632|3650|3281|">
+			<nombre>Accesorios para soldador</nombre>
+			<categoria id="3609" ruta="|632|3650|3281|3609|">
+				<nombre>Puntas para soldador</nombre>
+			</categoria>
+			<categoria id="3629" ruta="|632|3650|3281|3629|">
+				<nombre>Soporte para soldador</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="499947" ruta="|632|3650|499947|">
+			<nombre>Accesorios para soldaduras</nombre>
+		</categoria>
+		<categoria id="3944" ruta="|632|3650|3944|">
+			<nombre>Accesorios para taladros y destornilladores</nombre>
+			<categoria id="6378" ruta="|632|3650|3944|6378|">
+				<nombre>Afiladores para brocas</nombre>
+			</categoria>
+			<categoria id="1540" ruta="|632|3650|3944|1540|">
+				<nombre>Brocas de taladro y cabezales de destornillador</nombre>
+			</categoria>
+			<categoria id="7140" ruta="|632|3650|3944|7140|">
+				<nombre>Extensiones para brocas de taladro</nombre>
+			</categoria>
+			<categoria id="8276" ruta="|632|3650|3944|8276|">
+				<nombre>Portabrocas</nombre>
+			</categoria>
+			<categoria id="6806" ruta="|632|3650|3944|6806|">
+				<nombre>Sierras perforadoras</nombre>
+			</categoria>
+			<categoria id="8275" ruta="|632|3650|3944|8275|">
+				<nombre>Soportes y guías para taladros</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="8258" ruta="|632|3650|8258|">
+			<nombre>Anclajes de seguridad para herramientas</nombre>
+		</categoria>
+		<categoria id="6295" ruta="|632|3650|6295|">
+			<nombre>Baterías para herramientas eléctricas</nombre>
+		</categoria>
+		<categoria id="6292" ruta="|632|3650|6292|">
+			<nombre>Cargadores para herramientas eléctricas</nombre>
+		</categoria>
+		<categoria id="5571" ruta="|632|3650|5571|">
+			<nombre>Casquillos para herramientas</nombre>
+		</categoria>
+		<categoria id="505810" ruta="|632|3650|505810|">
+			<nombre>Chavetas para herramientas</nombre>
+		</categoria>
+		<categoria id="2380" ruta="|632|3650|2380|">
+			<nombre>Grapas industriales</nombre>
+		</categoria>
+		<categoria id="505812" ruta="|632|3650|505812|">
+			<nombre>Herramientas de cuña</nombre>
+		</categoria>
+		<categoria id="2174" ruta="|632|3650|2174|">
+			<nombre>Hojas o cuchillas</nombre>
+			<categoria id="505831" ruta="|632|3650|2174|505831|">
+				<nombre>Hojas de espátula y cúter</nombre>
+			</categoria>
+			<categoria id="2202" ruta="|632|3650|2174|2202|">
+				<nombre>Hojas de sierra</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="7472" ruta="|632|3650|7472|">
+			<nombre>Magnetizadores y desmagnetizadores</nombre>
+		</categoria>
+		<categoria id="499886" ruta="|632|3650|499886|">
+			<nombre>Palas para mezcladoras</nombre>
+		</categoria>
+		<categoria id="6907" ruta="|632|3650|6907|">
+			<nombre>Plantillas posicionadoras</nombre>
+		</categoria>
+		<categoria id="4658" ruta="|632|3650|4658|">
+			<nombre>Soportes para herramientas</nombre>
+			<categoria id="4659" ruta="|632|3650|4658|4659|">
+				<nombre>Soportes para sierras</nombre>
+			</categoria>
+		</categoria>
+	</categoria>
+	<categoria id="500096" ruta="|632|500096|">
+		<nombre>Bombas</nombre>
+		<categoria id="500101" ruta="|632|500096|500101|">
+			<nombre>Bombas de agua</nombre>
+		</categoria>
+		<categoria id="500097" ruta="|632|500096|500097|">
+			<nombre>Bombas de riego, aspersión y carga</nombre>
+		</categoria>
+		<categoria id="500099" ruta="|632|500096|500099|">
+			<nombre>Bombas para electrodomésticos</nombre>
+		</categoria>
+		<categoria id="500102" ruta="|632|500096|500102|">
+			<nombre>Bombas para lodos, aguas residuales y efluentes</nombre>
+		</categoria>
+		<categoria id="500098" ruta="|632|500096|500098|">
+			<nombre>Bombas para piscinas, fuentes y estanques</nombre>
+		</categoria>
+		<categoria id="500100" ruta="|632|500096|500100|">
+			<nombre>Sistemas de bombeo</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="543575" ruta="|632|543575|">
+		<nombre>Combustible</nombre>
+		<categoria id="543703" ruta="|632|543575|543703|">
+			<nombre>Gasóleo para calefacción</nombre>
+		</categoria>
+		<categoria id="543577" ruta="|632|543575|543577|">
+			<nombre>Propano</nombre>
+		</categoria>
+		<categoria id="543576" ruta="|632|543575|543576|">
+			<nombre>Queroseno</nombre>
+			<categoria id="543578" ruta="|632|543575|543576|543578|">
+				<nombre>Queroseno con colorantes</nombre>
+			</categoria>
+			<categoria id="543579" ruta="|632|543575|543576|543579|">
+				<nombre>Queroseno transparente</nombre>
+			</categoria>
+		</categoria>
+	</categoria>
+	<categoria id="503739" ruta="|632|503739|">
+		<nombre>Consumibles para construcción</nombre>
+		<categoria id="503744" ruta="|632|503739|503744|">
+			<nombre>Capas protectoras y selladores</nombre>
+		</categoria>
+		<categoria id="2212" ruta="|632|503739|2212|">
+			<nombre>Cinta para bricolaje</nombre>
+		</categoria>
+		<categoria id="503743" ruta="|632|503739|503743|">
+			<nombre>Consumibles para albañilería</nombre>
+			<categoria id="3031" ruta="|632|503739|503743|3031|">
+				<nombre>Ladrillos y bloques de hormigón</nombre>
+			</categoria>
+			<categoria id="499876" ruta="|632|503739|503743|499876|">
+				<nombre>Mezcla para juntas</nombre>
+			</categoria>
+			<categoria id="2282" ruta="|632|503739|503743|2282|">
+				<nombre>Mezclas de hormigón, cemento y argamasa</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="503740" ruta="|632|503739|503740|">
+			<nombre>Consumibles para pintura</nombre>
+			<categoria id="503738" ruta="|632|503739|503740|503738|">
+				<nombre>Barnices y acabados</nombre>
+			</categoria>
+			<categoria id="2474" ruta="|632|503739|503740|2474|">
+				<nombre>Ligantes de pintura</nombre>
+			</categoria>
+			<categoria id="1361" ruta="|632|503739|503740|1361|">
+				<nombre>Pinturas</nombre>
+			</categoria>
+			<categoria id="2058" ruta="|632|503739|503740|2058|">
+				<nombre>Pinturas de fondo</nombre>
+			</categoria>
+			<categoria id="1648" ruta="|632|503739|503740|1648|">
+				<nombre>Tintes</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="503741" ruta="|632|503739|503741|">
+			<nombre>Disolventes, decapantes y diluyentes</nombre>
+		</categoria>
+		<categoria id="505305" ruta="|632|503739|505305|">
+			<nombre>Imprimador para fontanería</nombre>
+		</categoria>
+		<categoria id="1753" ruta="|632|503739|1753|">
+			<nombre>Lubricantes</nombre>
+		</categoria>
+		<categoria id="503742" ruta="|632|503739|503742|">
+			<nombre>Pegamentos y adhesivos industriales</nombre>
+		</categoria>
+		<categoria id="2277" ruta="|632|503739|2277|">
+			<nombre>Productos químicos</nombre>
+			<categoria id="6795" ruta="|632|503739|2277|6795|">
+				<nombre>Amoníaco</nombre>
+			</categoria>
+			<categoria id="6191" ruta="|632|503739|2277|6191|">
+				<nombre>Descongelantes</nombre>
+			</categoria>
+			<categoria id="505319" ruta="|632|503739|2277|505319|">
+				<nombre>Espráis congelantes para circuitos eléctricos</nombre>
+			</categoria>
+			<categoria id="500088" ruta="|632|503739|2277|500088|">
+				<nombre>Gas para encendedores</nombre>
+			</categoria>
+			<categoria id="7503" ruta="|632|503739|2277|7503|">
+				<nombre>Limpiadores de cercas y terrazas</nombre>
+			</categoria>
+			<categoria id="1479" ruta="|632|503739|2277|1479|">
+				<nombre>Limpiadores de chimeneas</nombre>
+			</categoria>
+			<categoria id="7470" ruta="|632|503739|2277|7470|">
+				<nombre>Limpiadores de fosas sépticas y sumideros</nombre>
+			</categoria>
+			<categoria id="7504" ruta="|632|503739|2277|7504|">
+				<nombre>Limpiadores de hormigón y cemento</nombre>
+			</categoria>
+			<categoria id="1749" ruta="|632|503739|2277|1749|">
+				<nombre>Limpiadores para desagües</nombre>
+			</categoria>
+			<categoria id="1735" ruta="|632|503739|2277|1735|">
+				<nombre>Neutralizadores de ácido</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="1995" ruta="|632|503739|1995|">
+			<nombre>Soldadura y decapante</nombre>
+		</categoria>
+		<categoria id="505802" ruta="|632|503739|505802|">
+			<nombre>Yeso y compuestos para tapar agujeros en la pared</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="1910" ruta="|632|1910|">
+		<nombre>Depósitos de almacenamiento</nombre>
+	</categoria>
+	<categoria id="502975" ruta="|632|502975|">
+		<nombre>Depósitos y tanques de combustible</nombre>
+	</categoria>
+	<categoria id="133" ruta="|632|133|">
+		<nombre>Fontanería</nombre>
+		<categoria id="1723" ruta="|632|133|1723|">
+			<nombre>Abastecimientos para pozos</nombre>
+		</categoria>
+		<categoria id="1810" ruta="|632|133|1810|">
+			<nombre>Accesorios de fontanería</nombre>
+			<categoria id="2634" ruta="|632|133|1810|2634|">
+				<nombre>Abrazaderas de tuberías</nombre>
+			</categoria>
+			<categoria id="2710" ruta="|632|133|1810|2710|">
+				<nombre>Adaptadores de tuberías y boquillas</nombre>
+			</categoria>
+			<categoria id="499697" ruta="|632|133|1810|499697|">
+				<nombre>Bastidores y armazones de soporte para empotrado</nombre>
+			</categoria>
+			<categoria id="2068" ruta="|632|133|1810|2068|">
+				<nombre>Boquillas</nombre>
+			</categoria>
+			<categoria id="1694" ruta="|632|133|1810|1694|">
+				<nombre>Bridas para fontanería</nombre>
+			</categoria>
+			<categoria id="2359" ruta="|632|133|1810|2359|">
+				<nombre>Conectores de tuberías</nombre>
+			</categoria>
+			<categoria id="6732" ruta="|632|133|1810|6732|">
+				<nombre>Juntas y juntas tóricas</nombre>
+			</categoria>
+			<categoria id="2611" ruta="|632|133|1810|2611|">
+				<nombre>Reguladores de fontanería</nombre>
+			</categoria>
+			<categoria id="2909" ruta="|632|133|1810|2909|">
+				<nombre>Tapones de tuberías</nombre>
+			</categoria>
+			<categoria id="2466" ruta="|632|133|1810|2466|">
+				<nombre>Válvulas de fontanería</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="2570" ruta="|632|133|2570|">
+			<nombre>Conductos de abastecimiento y mangueras</nombre>
+		</categoria>
+		<categoria id="2273" ruta="|632|133|2273|">
+			<nombre>Filtración y distribución de agua</nombre>
+			<categoria id="2171" ruta="|632|133|2273|2171|">
+				<nombre>Accesorios para filtro de agua</nombre>
+				<categoria id="2406" ruta="|632|133|2273|2171|2406|">
+					<nombre>Cajas de filtro de agua</nombre>
+				</categoria>
+				<categoria id="2063" ruta="|632|133|2273|2171|2063|">
+					<nombre>Cartuchos de filtro de agua</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="1952" ruta="|632|133|2273|1952|">
+				<nombre>Descalcificadores</nombre>
+			</categoria>
+			<categoria id="1390" ruta="|632|133|2273|1390|">
+				<nombre>Destiladores de agua</nombre>
+			</categoria>
+			<categoria id="2343" ruta="|632|133|2273|2343|">
+				<nombre>Dispensadores de agua</nombre>
+				<categoria id="1354" ruta="|632|133|2273|2343|1354|">
+					<nombre>Enfriadores de agua</nombre>
+				</categoria>
+				<categoria id="1821" ruta="|632|133|2273|2343|1821|">
+					<nombre>Fuentes para beber</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="2055" ruta="|632|133|2273|2055|">
+				<nombre>Filtros de agua en línea</nombre>
+			</categoria>
+			<categoria id="5646" ruta="|632|133|2273|5646|">
+				<nombre>Sal para descalcificadores de agua</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="2203" ruta="|632|133|2203|">
+			<nombre>Kits de reparación para fontanería</nombre>
+		</categoria>
+		<categoria id="2243" ruta="|632|133|2243|">
+			<nombre>Niveladores de agua</nombre>
+		</categoria>
+		<categoria id="1673" ruta="|632|133|1673|">
+			<nombre>Piezas para fontanería</nombre>
+			<categoria id="1636" ruta="|632|133|1673|1636|">
+				<nombre>Bañeras</nombre>
+			</categoria>
+			<categoria id="2062" ruta="|632|133|1673|2062|">
+				<nombre>Baños y bidés</nombre>
+				<categoria id="1921" ruta="|632|133|1673|2062|1921|">
+					<nombre>Baños</nombre>
+				</categoria>
+				<categoria id="2376" ruta="|632|133|1673|2062|2376|">
+					<nombre>Bidés</nombre>
+				</categoria>
+				<categoria id="1746" ruta="|632|133|1673|2062|1746|">
+					<nombre>Urinarios</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="2032" ruta="|632|133|1673|2032|">
+				<nombre>Grifos</nombre>
+			</categoria>
+			<categoria id="7244" ruta="|632|133|1673|7244|">
+				<nombre>Kits y platos de ducha</nombre>
+			</categoria>
+			<categoria id="1687" ruta="|632|133|1673|1687|">
+				<nombre>Lavabos y fregaderos</nombre>
+				<categoria id="2757" ruta="|632|133|1673|1687|2757|">
+					<nombre>Fregaderos</nombre>
+				</categoria>
+				<categoria id="2886" ruta="|632|133|1673|1687|2886|">
+					<nombre>Lavabos</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="499999" ruta="|632|133|1673|499999|">
+				<nombre>Piezas de baño</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="504635" ruta="|632|133|504635|">
+			<nombre>Piezas y herramientas para componentes de fontanería</nombre>
+			<categoria id="2996" ruta="|632|133|504635|2996|">
+				<nombre>Accesorios de bañera</nombre>
+				<categoria id="5508" ruta="|632|133|504635|2996|5508|">
+					<nombre>Faldones para bañeras</nombre>
+				</categoria>
+				<categoria id="2463" ruta="|632|133|504635|2996|2463|">
+					<nombre>Grifos de bañera</nombre>
+				</categoria>
+				<categoria id="505368" ruta="|632|133|504635|2996|505368|">
+					<nombre>Patas y bases para bañeras</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="2691" ruta="|632|133|504635|2691|">
+				<nombre>Accesorios de baño y bidé</nombre>
+				<categoria id="2478" ruta="|632|133|504635|2691|2478|">
+					<nombre>Accesorios de baño</nombre>
+				</categoria>
+				<categoria id="1865" ruta="|632|133|504635|2691|1865|">
+					<nombre>Asientos deç inodoros y bidés</nombre>
+				</categoria>
+				<categoria id="5665" ruta="|632|133|504635|2691|5665|">
+					<nombre>Cisternas del inodoro</nombre>
+				</categoria>
+				<categoria id="5666" ruta="|632|133|504635|2691|5666|">
+					<nombre>Cubiertas para cisterna del inodoro</nombre>
+				</categoria>
+				<categoria id="7358" ruta="|632|133|504635|2691|7358|">
+					<nombre>Fundas para asientos de inodoros</nombre>
+				</categoria>
+				<categoria id="7446" ruta="|632|133|504635|2691|7446|">
+					<nombre>Fundas para tapas de inodoros</nombre>
+				</categoria>
+				<categoria id="504634" ruta="|632|133|504635|2691|504634|">
+					<nombre>Grifos y pulverizadores para bidés</nombre>
+				</categoria>
+				<categoria id="2817" ruta="|632|133|504635|2691|2817|">
+					<nombre>Palancas para cisterna del inodoro</nombre>
+				</categoria>
+				<categoria id="1425" ruta="|632|133|504635|2691|1425|">
+					<nombre>Válvulas de flotador y tapones</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="1489" ruta="|632|133|504635|1489|">
+				<nombre>Accesorios de grifo</nombre>
+				<categoria id="8115" ruta="|632|133|504635|1489|8115|">
+					<nombre>Aireadores para grifos</nombre>
+				</categoria>
+				<categoria id="8116" ruta="|632|133|504635|1489|8116|">
+					<nombre>Manivelas para grifos</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="1963" ruta="|632|133|504635|1963|">
+				<nombre>Accesorios de lavabo</nombre>
+				<categoria id="2410" ruta="|632|133|504635|1963|2410|">
+					<nombre>Pies de lavabo</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="2206" ruta="|632|133|504635|2206|">
+				<nombre>Artículos de ducha</nombre>
+				<categoria id="504638" ruta="|632|133|504635|2206|504638|">
+					<nombre>Adaptadores y brazos de ducha</nombre>
+				</categoria>
+				<categoria id="8320" ruta="|632|133|504635|2206|8320|">
+					<nombre>Boquillas de chorro para bañeras y duchas</nombre>
+				</categoria>
+				<categoria id="581" ruta="|632|133|504635|2206|581|">
+					<nombre>Cabezales de ducha</nombre>
+				</categoria>
+				<categoria id="8277" ruta="|632|133|504635|2206|8277|">
+					<nombre>Duchas eléctricas y a presión</nombre>
+				</categoria>
+				<categoria id="5048" ruta="|632|133|504635|2206|5048|">
+					<nombre>Filtros de agua para ducha</nombre>
+				</categoria>
+				<categoria id="2088" ruta="|632|133|504635|2206|2088|">
+					<nombre>Paneles de ducha</nombre>
+				</categoria>
+				<categoria id="7130" ruta="|632|133|504635|2206|7130|">
+					<nombre>Paredes y mamparas de ducha</nombre>
+				</categoria>
+				<categoria id="4728" ruta="|632|133|504635|2206|4728|">
+					<nombre>Platos de ducha</nombre>
+				</categoria>
+				<categoria id="1779" ruta="|632|133|504635|2206|1779|">
+					<nombre>Puertas de ducha</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="504637" ruta="|632|133|504635|504637|">
+				<nombre>Componentes de desagüe</nombre>
+				<categoria id="1932" ruta="|632|133|504635|504637|1932|">
+					<nombre>Desatascadores químicos</nombre>
+				</categoria>
+				<categoria id="1514" ruta="|632|133|504635|504637|1514|">
+					<nombre>Rejas para desagües</nombre>
+				</categoria>
+				<categoria id="2170" ruta="|632|133|504635|504637|2170|">
+					<nombre>Residuos de fontanería</nombre>
+				</categoria>
+				<categoria id="2257" ruta="|632|133|504635|504637|2257|">
+					<nombre>Revestimientos para desagües</nombre>
+				</categoria>
+				<categoria id="1319" ruta="|632|133|504635|504637|1319|">
+					<nombre>Sifones de desagüe</nombre>
+				</categoria>
+				<categoria id="2851" ruta="|632|133|504635|504637|2851|">
+					<nombre>Tapones y filtros para tuberías</nombre>
+				</categoria>
+				<categoria id="1407" ruta="|632|133|504635|504637|1407|">
+					<nombre>Varillas de desagüe</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="504636" ruta="|632|133|504635|504636|">
+				<nombre>Desagües</nombre>
+			</categoria>
+			<categoria id="1458" ruta="|632|133|504635|1458|">
+				<nombre>Placas de montaje</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="6832" ruta="|632|133|6832|">
+			<nombre>Temporizadores de riego</nombre>
+		</categoria>
+		<categoria id="2216" ruta="|632|133|2216|">
+			<nombre>Tuberías de fontanería</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="1167" ruta="|632|1167|">
+		<nombre>Herramientas</nombre>
+		<categoria id="2835" ruta="|632|1167|2835|">
+			<nombre>Abrazaderas y tornillos</nombre>
+		</categoria>
+		<categoria id="3501" ruta="|632|1167|3501|">
+			<nombre>Ahoyadoras</nombre>
+		</categoria>
+		<categoria id="1958" ruta="|632|1167|1958|">
+			<nombre>Alicates</nombre>
+		</categoria>
+		<categoria id="4419" ruta="|632|1167|4419|">
+			<nombre>Bloques de lija</nombre>
+		</categoria>
+		<categoria id="1201" ruta="|632|1167|1201|">
+			<nombre>Caballetes de aserrar</nombre>
+		</categoria>
+		<categoria id="1603" ruta="|632|1167|1603|">
+			<nombre>Cambiadores de bombillas</nombre>
+		</categoria>
+		<categoria id="126" ruta="|632|1167|126|">
+			<nombre>Carretillas de carga</nombre>
+		</categoria>
+		<categoria id="1236" ruta="|632|1167|1236|">
+			<nombre>Cautines</nombre>
+		</categoria>
+		<categoria id="6868" ruta="|632|1167|6868|">
+			<nombre>Cepilladoras</nombre>
+		</categoria>
+		<categoria id="1187" ruta="|632|1167|1187|">
+			<nombre>Cepillos carpinteros</nombre>
+		</categoria>
+		<categoria id="4672" ruta="|632|1167|4672|">
+			<nombre>Cepillos para suelos de cemento</nombre>
+		</categoria>
+		<categoria id="1174" ruta="|632|1167|1174|">
+			<nombre>Cinceles y escoplos</nombre>
+		</categoria>
+		<categoria id="1206" ruta="|632|1167|1206|">
+			<nombre>Clavadoras y grapadoras</nombre>
+		</categoria>
+		<categoria id="4325" ruta="|632|1167|4325|">
+			<nombre>Compactadores</nombre>
+		</categoria>
+		<categoria id="2015" ruta="|632|1167|2015|">
+			<nombre>Compresores</nombre>
+		</categoria>
+		<categoria id="7030" ruta="|632|1167|7030|">
+			<nombre>Cortadoras de troncos</nombre>
+		</categoria>
+		<categoria id="1180" ruta="|632|1167|1180|">
+			<nombre>Cortadores</nombre>
+			<categoria id="1454" ruta="|632|1167|1180|1454|">
+				<nombre>Cizalladoras y recortadoras de chapa con asidero</nombre>
+			</categoria>
+			<categoria id="1824" ruta="|632|1167|1180|1824|">
+				<nombre>Cortadoras de varilla</nombre>
+			</categoria>
+			<categoria id="1181" ruta="|632|1167|1180|1181|">
+				<nombre>Cortapernos</nombre>
+			</categoria>
+			<categoria id="2726" ruta="|632|1167|1180|2726|">
+				<nombre>Cortatejas/cortadoras de azulejos</nombre>
+			</categoria>
+			<categoria id="2080" ruta="|632|1167|1180|2080|">
+				<nombre>Cortatubos</nombre>
+			</categoria>
+			<categoria id="1182" ruta="|632|1167|1180|1182|">
+				<nombre>Cortavidrios</nombre>
+			</categoria>
+			<categoria id="2411" ruta="|632|1167|1180|2411|">
+				<nombre>Cúters</nombre>
+			</categoria>
+			<categoria id="7562" ruta="|632|1167|1180|7562|">
+				<nombre>Tenazas</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="5828" ruta="|632|1167|5828|">
+			<nombre>Desagües de filtros de aceite</nombre>
+		</categoria>
+		<categoria id="1563" ruta="|632|1167|1563|">
+			<nombre>Desatascadores</nombre>
+		</categoria>
+		<categoria id="1391" ruta="|632|1167|1391|">
+			<nombre>Desbarbadores</nombre>
+		</categoria>
+		<categoria id="2792" ruta="|632|1167|2792|">
+			<nombre>Deshollinador</nombre>
+		</categoria>
+		<categoria id="1203" ruta="|632|1167|1203|">
+			<nombre>Destornilladores</nombre>
+		</categoria>
+		<categoria id="1667" ruta="|632|1167|1667|">
+			<nombre>Dobladoras</nombre>
+		</categoria>
+		<categoria id="1185" ruta="|632|1167|1185|">
+			<nombre>Empuñadura/mango</nombre>
+		</categoria>
+		<categoria id="503774" ruta="|632|1167|503774|">
+			<nombre>Encendedores y cerillas</nombre>
+		</categoria>
+		<categoria id="7271" ruta="|632|1167|7271|">
+			<nombre>Ensambladoras para madera</nombre>
+		</categoria>
+		<categoria id="130" ruta="|632|1167|130|">
+			<nombre>Escaleras y andamios</nombre>
+			<categoria id="1866" ruta="|632|1167|130|1866|">
+				<nombre>Andamiaje</nombre>
+			</categoria>
+			<categoria id="6928" ruta="|632|1167|130|6928|">
+				<nombre>Escaleras de mano</nombre>
+			</categoria>
+			<categoria id="2416" ruta="|632|1167|130|2416|">
+				<nombre>Escaleras sobre ruedas</nombre>
+			</categoria>
+			<categoria id="1809" ruta="|632|1167|130|1809|">
+				<nombre>Plataformas de trabajo</nombre>
+			</categoria>
+			<categoria id="635" ruta="|632|1167|130|635|">
+				<nombre>Taburetes escaleras</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="1819" ruta="|632|1167|1819|">
+			<nombre>Escariadores</nombre>
+		</categoria>
+		<categoria id="1862" ruta="|632|1167|1862|">
+			<nombre>Escobillas para tubos</nombre>
+		</categoria>
+		<categoria id="1219" ruta="|632|1167|1219|">
+			<nombre>Esmeriladoras</nombre>
+		</categoria>
+		<categoria id="7416" ruta="|632|1167|7416|">
+			<nombre>Espejos de inspección</nombre>
+		</categoria>
+		<categoria id="2198" ruta="|632|1167|2198|">
+			<nombre>Espátulas</nombre>
+		</categoria>
+		<categoria id="5077" ruta="|632|1167|5077|">
+			<nombre>Fresadoras</nombre>
+		</categoria>
+		<categoria id="1787" ruta="|632|1167|1787|">
+			<nombre>Giramachos</nombre>
+		</categoria>
+		<categoria id="6461" ruta="|632|1167|6461|">
+			<nombre>Guía pasacables</nombre>
+		</categoria>
+		<categoria id="1171" ruta="|632|1167|1171|">
+			<nombre>Hachas</nombre>
+		</categoria>
+		<categoria id="1193" ruta="|632|1167|1193|">
+			<nombre>Herramientas de albañilería</nombre>
+			<categoria id="1799" ruta="|632|1167|1193|1799|">
+				<nombre>Cortabordes</nombre>
+			</categoria>
+			<categoria id="1450" ruta="|632|1167|1193|1450|">
+				<nombre>Ensambladores</nombre>
+			</categoria>
+			<categoria id="7484" ruta="|632|1167|1193|7484|">
+				<nombre>Esponjas para lechada</nombre>
+			</categoria>
+			<categoria id="4132" ruta="|632|1167|1193|4132|">
+				<nombre>Fratasadoras</nombre>
+			</categoria>
+			<categoria id="1668" ruta="|632|1167|1193|1668|">
+				<nombre>Herramientas para ladrillos</nombre>
+			</categoria>
+			<categoria id="2305" ruta="|632|1167|1193|2305|">
+				<nombre>Hormigoneras</nombre>
+			</categoria>
+			<categoria id="2337" ruta="|632|1167|1193|2337|">
+				<nombre>Llanas</nombre>
+			</categoria>
+			<categoria id="1555" ruta="|632|1167|1193|1555|">
+				<nombre>Líneas de construcción</nombre>
+			</categoria>
+			<categoria id="2181" ruta="|632|1167|1193|2181|">
+				<nombre>Palustres</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="2077" ruta="|632|1167|2077|">
+			<nombre>Herramientas de pintura</nombre>
+			<categoria id="2486" ruta="|632|1167|2077|2486|">
+				<nombre>Aerógrafos</nombre>
+			</categoria>
+			<categoria id="499888" ruta="|632|1167|2077|499888|">
+				<nombre>Agitadoras de pinturas</nombre>
+			</categoria>
+			<categoria id="6557" ruta="|632|1167|2077|6557|">
+				<nombre>Bandejas de pintura</nombre>
+			</categoria>
+			<categoria id="1300" ruta="|632|1167|2077|1300|">
+				<nombre>Brochas de pintura</nombre>
+			</categoria>
+			<categoria id="505325" ruta="|632|1167|2077|505325|">
+				<nombre>Coladores de pintura</nombre>
+			</categoria>
+			<categoria id="1699" ruta="|632|1167|2077|1699|">
+				<nombre>Esponjas</nombre>
+			</categoria>
+			<categoria id="2465" ruta="|632|1167|2077|2465|">
+				<nombre>Pulverizadores de pintura</nombre>
+			</categoria>
+			<categoria id="1774" ruta="|632|1167|2077|1774|">
+				<nombre>Rodillos</nombre>
+			</categoria>
+			<categoria id="6556" ruta="|632|1167|2077|6556|">
+				<nombre>Rodillos para esquinas</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="1196" ruta="|632|1167|1196|">
+			<nombre>Herramientas de recogida</nombre>
+		</categoria>
+		<categoria id="7064" ruta="|632|1167|7064|">
+			<nombre>Herramientas de remachado</nombre>
+			<categoria id="7065" ruta="|632|1167|7064|7065|">
+				<nombre>Pistolas de remachado</nombre>
+			</categoria>
+			<categoria id="7066" ruta="|632|1167|7064|7066|">
+				<nombre>Tenazas de remachado</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="5587" ruta="|632|1167|5587|">
+			<nombre>Herramientas eléctricas y multifunción</nombre>
+		</categoria>
+		<categoria id="1469" ruta="|632|1167|1469|">
+			<nombre>Herramientas para cables y alambres</nombre>
+		</categoria>
+		<categoria id="1215" ruta="|632|1167|1215|">
+			<nombre>Herramientas para calafatear</nombre>
+		</categoria>
+		<categoria id="1832" ruta="|632|1167|1832|">
+			<nombre>Herramientas para marcar</nombre>
+		</categoria>
+		<categoria id="5592" ruta="|632|1167|5592|">
+			<nombre>Iluminación de trabajo</nombre>
+		</categoria>
+		<categoria id="5873" ruta="|632|1167|5873|">
+			<nombre>Imanes de levantamiento</nombre>
+		</categoria>
+		<categoria id="4919" ruta="|632|1167|4919|">
+			<nombre>Juegos de herramientas</nombre>
+			<categoria id="4716" ruta="|632|1167|4919|4716|">
+				<nombre>Juegos combinados de herramientas eléctricas</nombre>
+			</categoria>
+			<categoria id="6965" ruta="|632|1167|4919|6965|">
+				<nombre>Juegos de herramientas manuales</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="1188" ruta="|632|1167|1188|">
+			<nombre>Lijadoras</nombre>
+		</categoria>
+		<categoria id="1923" ruta="|632|1167|1923|">
+			<nombre>Limadoras</nombre>
+		</categoria>
+		<categoria id="3745" ruta="|632|1167|3745|">
+			<nombre>Limas para herramientas</nombre>
+		</categoria>
+		<categoria id="2053" ruta="|632|1167|2053|">
+			<nombre>Limpiadores de tuberías</nombre>
+		</categoria>
+		<categoria id="338" ruta="|632|1167|338|">
+			<nombre>Linternas</nombre>
+			<categoria id="543689" ruta="|632|1167|338|543689|">
+				<nombre>Linterna</nombre>
+			</categoria>
+			<categoria id="2454" ruta="|632|1167|338|2454|">
+				<nombre>Linternas para la cabeza</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="1439" ruta="|632|1167|1439|">
+			<nombre>Llaves</nombre>
+		</categoria>
+		<categoria id="1632" ruta="|632|1167|1632|">
+			<nombre>Llaves inglesas</nombre>
+		</categoria>
+		<categoria id="1195" ruta="|632|1167|1195|">
+			<nombre>Llaves para tuercas</nombre>
+		</categoria>
+		<categoria id="1186" ruta="|632|1167|1186|">
+			<nombre>Martillos y mazos</nombre>
+			<categoria id="2208" ruta="|632|1167|1186|2208|">
+				<nombre>Martillos</nombre>
+			</categoria>
+			<categoria id="505364" ruta="|632|1167|1186|505364|">
+				<nombre>Martillos eléctricos</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="499887" ruta="|632|1167|499887|">
+			<nombre>Mezcladoras de mano motorizadas</nombre>
+		</categoria>
+		<categoria id="1584" ruta="|632|1167|1584|">
+			<nombre>Máquinas de roscar</nombre>
+		</categoria>
+		<categoria id="6938" ruta="|632|1167|6938|">
+			<nombre>Máquinas para pulir</nombre>
+		</categoria>
+		<categoria id="505315" ruta="|632|1167|505315|">
+			<nombre>Perforadoras y punzones</nombre>
+		</categoria>
+		<categoria id="3932" ruta="|632|1167|3932|">
+			<nombre>Picos y azadones</nombre>
+		</categoria>
+		<categoria id="1179" ruta="|632|1167|1179|">
+			<nombre>Pies de cabra</nombre>
+		</categoria>
+		<categoria id="1220" ruta="|632|1167|1220|">
+			<nombre>Pistolas de aire caliente</nombre>
+		</categoria>
+		<categoria id="7556" ruta="|632|1167|7556|">
+			<nombre>Pistolas de engrase</nombre>
+		</categoria>
+		<categoria id="1238" ruta="|632|1167|1238|">
+			<nombre>Pistolas para soldar y herramientas para cortar por plasma
+			</nombre>
+		</categoria>
+		<categoria id="1225" ruta="|632|1167|1225|">
+			<nombre>Pulidoras</nombre>
+		</categoria>
+		<categoria id="1202" ruta="|632|1167|1202|">
+			<nombre>Raspadores y espátulas</nombre>
+		</categoria>
+		<categoria id="1841" ruta="|632|1167|1841|">
+			<nombre>Rebajadoras</nombre>
+		</categoria>
+		<categoria id="1184" ruta="|632|1167|1184|">
+			<nombre>Roscas</nombre>
+		</categoria>
+		<categoria id="1194" ruta="|632|1167|1194|">
+			<nombre>Sacaclavos</nombre>
+		</categoria>
+		<categoria id="1644" ruta="|632|1167|1644|">
+			<nombre>Sacapuntas o afiladores</nombre>
+		</categoria>
+		<categoria id="1305" ruta="|632|1167|1305|">
+			<nombre>Sensores y herramientas de medida</nombre>
+			<categoria id="4022" ruta="|632|1167|1305|4022|">
+				<nombre>Altímetros</nombre>
+			</categoria>
+			<categoria id="500058" ruta="|632|1167|1305|500058|">
+				<nombre>Anemómetros</nombre>
+			</categoria>
+			<categoria id="3602" ruta="|632|1167|1305|3602|">
+				<nombre>Barómetros</nombre>
+			</categoria>
+			<categoria id="2192" ruta="|632|1167|1305|2192|">
+				<nombre>Calibradores de orificios y telescópicos</nombre>
+			</categoria>
+			<categoria id="1732" ruta="|632|1167|1305|1732|">
+				<nombre>Calibradores y micrómetros</nombre>
+			</categoria>
+			<categoria id="1640" ruta="|632|1167|1305|1640|">
+				<nombre>Caudalímetros y controladores de caudal</nombre>
+			</categoria>
+			<categoria id="2481" ruta="|632|1167|1305|2481|">
+				<nombre>Cinta métrica</nombre>
+			</categoria>
+			<categoria id="1850" ruta="|632|1167|1305|1850|">
+				<nombre>Compás de puntas secas</nombre>
+			</categoria>
+			<categoria id="5371" ruta="|632|1167|1305|5371|">
+				<nombre>Contadores Geiger</nombre>
+			</categoria>
+			<categoria id="6799" ruta="|632|1167|1305|6799|">
+				<nombre>Cámaras térmicas de diagnóstico por imagen</nombre>
+			</categoria>
+			<categoria id="1991" ruta="|632|1167|1305|1991|">
+				<nombre>Detectores de gas</nombre>
+			</categoria>
+			<categoria id="1698" ruta="|632|1167|1305|1698|">
+				<nombre>Escalas</nombre>
+			</categoria>
+			<categoria id="1413" ruta="|632|1167|1305|1413|">
+				<nombre>Escantillones</nombre>
+			</categoria>
+			<categoria id="1205" ruta="|632|1167|1305|1205|">
+				<nombre>Escuadras</nombre>
+			</categoria>
+			<categoria id="2330" ruta="|632|1167|1305|2330|">
+				<nombre>Guías</nombre>
+			</categoria>
+			<categoria id="503737" ruta="|632|1167|1305|503737|">
+				<nombre>Herramientas para mediciones eléctricas</nombre>
+			</categoria>
+			<categoria id="4754" ruta="|632|1167|1305|4754|">
+				<nombre>Higrómetros</nombre>
+			</categoria>
+			<categoria id="5515" ruta="|632|1167|1305|5515|">
+				<nombre>Medidores de calidad del aire</nombre>
+			</categoria>
+			<categoria id="4755" ruta="|632|1167|1305|4755|">
+				<nombre>Medidores de humedad</nombre>
+			</categoria>
+			<categoria id="4758" ruta="|632|1167|1305|4758|">
+				<nombre>Medidores de luz ultravioleta</nombre>
+			</categoria>
+			<categoria id="4074" ruta="|632|1167|1305|4074|">
+				<nombre>Medidores de pH</nombre>
+			</categoria>
+			<categoria id="4759" ruta="|632|1167|1305|4759|">
+				<nombre>Medidores de vibración</nombre>
+			</categoria>
+			<categoria id="5487" ruta="|632|1167|1305|5487|">
+				<nombre>Metros de distancia</nombre>
+			</categoria>
+			<categoria id="1191" ruta="|632|1167|1305|1191|">
+				<nombre>Niveles</nombre>
+				<categoria id="4081" ruta="|632|1167|1305|1191|4081|">
+					<nombre>Niveles de burbuja</nombre>
+				</categoria>
+				<categoria id="4931" ruta="|632|1167|1305|1191|4931|">
+					<nombre>Niveles láser</nombre>
+				</categoria>
+				<categoria id="4294" ruta="|632|1167|1305|1191|4294|">
+					<nombre>Niveles ópticos</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="1539" ruta="|632|1167|1305|1539|">
+				<nombre>Pachómetros</nombre>
+			</categoria>
+			<categoria id="1533" ruta="|632|1167|1305|1533|">
+				<nombre>Pies de rey</nombre>
+			</categoria>
+			<categoria id="1374" ruta="|632|1167|1305|1374|">
+				<nombre>Previsiones y estaciones meteorológicas</nombre>
+			</categoria>
+			<categoria id="2021" ruta="|632|1167|1305|2021|">
+				<nombre>Reglas</nombre>
+			</categoria>
+			<categoria id="1207" ruta="|632|1167|1305|1207|">
+				<nombre>Sensores de viga</nombre>
+			</categoria>
+			<categoria id="4756" ruta="|632|1167|1305|4756|">
+				<nombre>Sismómetro</nombre>
+			</categoria>
+			<categoria id="1785" ruta="|632|1167|1305|1785|">
+				<nombre>Sondas y visores</nombre>
+			</categoria>
+			<categoria id="4757" ruta="|632|1167|1305|4757|">
+				<nombre>Sonómetros</nombre>
+			</categoria>
+			<categoria id="4340" ruta="|632|1167|1305|4340|">
+				<nombre>Teodolitos</nombre>
+			</categoria>
+			<categoria id="2093" ruta="|632|1167|1305|2093|">
+				<nombre>Termopares y termopilas</nombre>
+			</categoria>
+			<categoria id="4506" ruta="|632|1167|1305|4506|">
+				<nombre>Termómetros infrarrojos</nombre>
+			</categoria>
+			<categoria id="1459" ruta="|632|1167|1305|1459|">
+				<nombre>Topómetros</nombre>
+			</categoria>
+			<categoria id="7394" ruta="|632|1167|1305|7394|">
+				<nombre>Transductores</nombre>
+			</categoria>
+			<categoria id="1198" ruta="|632|1167|1305|1198|">
+				<nombre>Transportadores de ángulos</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="1235" ruta="|632|1167|1235|">
+			<nombre>Sierras</nombre>
+			<categoria id="499985" ruta="|632|1167|1235|499985|">
+				<nombre>Mesas de corte</nombre>
+			</categoria>
+			<categoria id="3594" ruta="|632|1167|1235|3594|">
+				<nombre>Serruchos</nombre>
+			</categoria>
+			<categoria id="3224" ruta="|632|1167|1235|3224|">
+				<nombre>Sierras circulares manuales</nombre>
+			</categoria>
+			<categoria id="3516" ruta="|632|1167|1235|3516|">
+				<nombre>Sierras cortadas</nombre>
+			</categoria>
+			<categoria id="4633" ruta="|632|1167|1235|4633|">
+				<nombre>Sierras de calar</nombre>
+			</categoria>
+			<categoria id="3582" ruta="|632|1167|1235|3582|">
+				<nombre>Sierras de cinta</nombre>
+			</categoria>
+			<categoria id="3706" ruta="|632|1167|1235|3706|">
+				<nombre>Sierras de mesa</nombre>
+			</categoria>
+			<categoria id="3494" ruta="|632|1167|1235|3494|">
+				<nombre>Sierras de sable</nombre>
+			</categoria>
+			<categoria id="3725" ruta="|632|1167|1235|3725|">
+				<nombre>Sierras de vaivén</nombre>
+			</categoria>
+			<categoria id="3517" ruta="|632|1167|1235|3517|">
+				<nombre>Sierras ingletadoras</nombre>
+			</categoria>
+			<categoria id="7077" ruta="|632|1167|1235|7077|">
+				<nombre>Sierras para baldosas y albañilería</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="5927" ruta="|632|1167|5927|">
+			<nombre>Sopletes</nombre>
+		</categoria>
+		<categoria id="1221" ruta="|632|1167|1221|">
+			<nombre>Taladradores y llaves de impacto</nombre>
+		</categoria>
+		<categoria id="1217" ruta="|632|1167|1217|">
+			<nombre>Taladros</nombre>
+			<categoria id="1367" ruta="|632|1167|1217|1367|">
+				<nombre>Barrenas helicoidales</nombre>
+			</categoria>
+			<categoria id="1465" ruta="|632|1167|1217|1465|">
+				<nombre>Mortajadoras</nombre>
+			</categoria>
+			<categoria id="1216" ruta="|632|1167|1217|1216|">
+				<nombre>Taladradora de columna</nombre>
+			</categoria>
+			<categoria id="2629" ruta="|632|1167|1217|2629|">
+				<nombre>Taladros eléctricos de mano</nombre>
+			</categoria>
+			<categoria id="1994" ruta="|632|1167|1217|1994|">
+				<nombre>Taladros neumáticos</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="1663" ruta="|632|1167|1663|">
+			<nombre>Tornos</nombre>
+		</categoria>
+		<categoria id="2456" ruta="|632|1167|2456|">
+			<nombre>Vibradores industriales</nombre>
+		</categoria>
+		<categoria id="1169" ruta="|632|1167|1169|">
+			<nombre>Yunques</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="1974" ruta="|632|1974|">
+		<nombre>Llaves y cerrojos</nombre>
+		<categoria id="503730" ruta="|632|1974|503730|">
+			<nombre>Candados y pestillos</nombre>
+		</categoria>
+		<categoria id="8067" ruta="|632|1974|8067|">
+			<nombre>Cubrellaves</nombre>
+		</categoria>
+		<categoria id="6488" ruta="|632|1974|6488|">
+			<nombre>Llaves vírgenes</nombre>
+		</categoria>
+		<categoria id="1870" ruta="|632|1974|1870|">
+			<nombre>Sistemas de admisión de tarjeta de acceso</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="115" ruta="|632|115|">
+		<nombre>Materiales de construcción</nombre>
+		<categoria id="122" ruta="|632|115|122|">
+			<nombre>Aislamiento</nombre>
+		</categoria>
+		<categoria id="6343" ruta="|632|115|6343|">
+			<nombre>Artículos para puertas</nombre>
+			<categoria id="6458" ruta="|632|115|6343|6458|">
+				<nombre>Cerraduras eléctricas</nombre>
+			</categoria>
+			<categoria id="6446" ruta="|632|115|6343|6446|">
+				<nombre>Cierrapuertas</nombre>
+			</categoria>
+			<categoria id="99338" ruta="|632|115|6343|99338|">
+				<nombre>Escudos para cerraduras de puertas</nombre>
+			</categoria>
+			<categoria id="2795" ruta="|632|115|6343|2795|">
+				<nombre>Llamadores</nombre>
+			</categoria>
+			<categoria id="499970" ruta="|632|115|6343|499970|">
+				<nombre>Manijas para puertas</nombre>
+			</categoria>
+			<categoria id="503727" ruta="|632|115|6343|503727|">
+				<nombre>Marcos de puertas</nombre>
+			</categoria>
+			<categoria id="1356" ruta="|632|115|6343|1356|">
+				<nombre>Picaportes y manijas para puertas</nombre>
+			</categoria>
+			<categoria id="2972" ruta="|632|115|6343|2972|">
+				<nombre>Timbres</nombre>
+			</categoria>
+			<categoria id="2665" ruta="|632|115|6343|2665|">
+				<nombre>Topes</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="7136" ruta="|632|115|7136|">
+			<nombre>Baldosas</nombre>
+		</categoria>
+		<categoria id="503777" ruta="|632|115|503777|">
+			<nombre>Barras y mallas de refuerzo</nombre>
+		</categoria>
+		<categoria id="505300" ruta="|632|115|505300|">
+			<nombre>Componentes de impermeabilización y burletes</nombre>
+		</categoria>
+		<categoria id="6943" ruta="|632|115|6943|">
+			<nombre>Contraventanas</nombre>
+		</categoria>
+		<categoria id="120" ruta="|632|115|120|">
+			<nombre>Cristal</nombre>
+		</categoria>
+		<categoria id="2729" ruta="|632|115|2729|">
+			<nombre>Encimeras</nombre>
+		</categoria>
+		<categoria id="7004" ruta="|632|115|7004|">
+			<nombre>Escaleras</nombre>
+		</categoria>
+		<categoria id="499772" ruta="|632|115|499772|">
+			<nombre>Herrajes para ventanas</nombre>
+			<categoria id="499773" ruta="|632|115|499772|499773|">
+				<nombre>Manivelas para ventanas</nombre>
+			</categoria>
+			<categoria id="503728" ruta="|632|115|499772|503728|">
+				<nombre>Marcos de ventanas</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="125" ruta="|632|115|125|">
+			<nombre>Madera</nombre>
+		</categoria>
+		<categoria id="7112" ruta="|632|115|7112|">
+			<nombre>Molduras</nombre>
+		</categoria>
+		<categoria id="7439" ruta="|632|115|7439|">
+			<nombre>Paneles de insonorización y gomaespuma</nombre>
+		</categoria>
+		<categoria id="499949" ruta="|632|115|499949|">
+			<nombre>Pasamanos y barandillas</nombre>
+		</categoria>
+		<categoria id="503776" ruta="|632|115|503776|">
+			<nombre>Pladur</nombre>
+		</categoria>
+		<categoria id="119" ruta="|632|115|119|">
+			<nombre>Puertas</nombre>
+			<categoria id="4468" ruta="|632|115|119|4468|">
+				<nombre>Puertas de garaje</nombre>
+			</categoria>
+			<categoria id="4634" ruta="|632|115|119|4634|">
+				<nombre>Puertas para el hogar</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="7053" ruta="|632|115|7053|">
+			<nombre>Recubrimiento de paredes</nombre>
+		</categoria>
+		<categoria id="503775" ruta="|632|115|503775|">
+			<nombre>Revestimiento</nombre>
+		</categoria>
+		<categoria id="2826" ruta="|632|115|2826|">
+			<nombre>Suelos y moquetas</nombre>
+		</categoria>
+		<categoria id="123" ruta="|632|115|123|">
+			<nombre>Techo</nombre>
+			<categoria id="4544" ruta="|632|115|123|4544|">
+				<nombre>Accesorios para canalones</nombre>
+			</categoria>
+			<categoria id="121" ruta="|632|115|123|121|">
+				<nombre>Canalones</nombre>
+			</categoria>
+			<categoria id="2008" ruta="|632|115|123|2008|">
+				<nombre>Tapajuntas de techo</nombre>
+			</categoria>
+			<categoria id="8270" ruta="|632|115|123|8270|">
+				<nombre>Tejas y baldosas para techo</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="2030" ruta="|632|115|2030|">
+			<nombre>Trampas</nombre>
+		</categoria>
+		<categoria id="124" ruta="|632|115|124|">
+			<nombre>Ventanas</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="499982" ruta="|632|499982|">
+		<nombre>Motores pequeños</nombre>
+	</categoria>
+	<categoria id="127" ruta="|632|127|">
+		<nombre>Suministros eléctricos</nombre>
+		<categoria id="6375" ruta="|632|127|6375|">
+			<nombre>Accesorios para cables de extensión</nombre>
+		</categoria>
+		<categoria id="4709" ruta="|632|127|4709|">
+			<nombre>Accesorios para generadores</nombre>
+		</categoria>
+		<categoria id="4789" ruta="|632|127|4789|">
+			<nombre>Alargador eléctrico</nombre>
+		</categoria>
+		<categoria id="500049" ruta="|632|127|500049|">
+			<nombre>Armaduras, rotores y estatores</nombre>
+		</categoria>
+		<categoria id="7183" ruta="|632|127|7183|">
+			<nombre>Balastos y arranques</nombre>
+		</categoria>
+		<categoria id="2345" ruta="|632|127|2345|">
+			<nombre>Cables eléctricos</nombre>
+		</categoria>
+		<categoria id="499768" ruta="|632|127|499768|">
+			<nombre>Conductos y carcasas</nombre>
+			<categoria id="499770" ruta="|632|127|499768|499770|">
+				<nombre>Conducto eléctrico</nombre>
+			</categoria>
+			<categoria id="3797" ruta="|632|127|499768|3797|">
+				<nombre>Tubo termorretráctil</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="503729" ruta="|632|127|503729|">
+			<nombre>Conectores y terminales de cables</nombre>
+		</categoria>
+		<categoria id="6833" ruta="|632|127|6833|">
+			<nombre>Controles y sensores eléctricos</nombre>
+		</categoria>
+		<categoria id="5533" ruta="|632|127|5533|">
+			<nombre>Conversores de potencia</nombre>
+		</categoria>
+		<categoria id="6807" ruta="|632|127|6807|">
+			<nombre>Cuadros de distribución</nombre>
+		</categoria>
+		<categoria id="2274" ruta="|632|127|2274|">
+			<nombre>Cubiertas protectoras y empalmes plásticos</nombre>
+		</categoria>
+		<categoria id="1869" ruta="|632|127|1869|">
+			<nombre>Enchufes de pared</nombre>
+		</categoria>
+		<categoria id="499966" ruta="|632|127|499966|">
+			<nombre>Entradas de alimentación</nombre>
+		</categoria>
+		<categoria id="499893" ruta="|632|127|499893|">
+			<nombre>Escobillas de carbono</nombre>
+		</categoria>
+		<categoria id="2006" ruta="|632|127|2006|">
+			<nombre>Escuadras y cajas de montaje eléctricas</nombre>
+		</categoria>
+		<categoria id="1218" ruta="|632|127|1218|">
+			<nombre>Generadores</nombre>
+		</categoria>
+		<categoria id="6459" ruta="|632|127|6459|">
+			<nombre>Interruptores eléctricos</nombre>
+			<categoria id="1935" ruta="|632|127|6459|1935|">
+				<nombre>Interruptores de luz</nombre>
+			</categoria>
+			<categoria id="499932" ruta="|632|127|6459|499932|">
+				<nombre>Interruptores eléctricos de especialidad</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="5142" ruta="|632|127|5142|">
+			<nombre>Inversores de corriente</nombre>
+		</categoria>
+		<categoria id="2413" ruta="|632|127|2413|">
+			<nombre>Kits de automatización doméstica</nombre>
+		</categoria>
+		<categoria id="4715" ruta="|632|127|4715|">
+			<nombre>Kits de energía solar</nombre>
+		</categoria>
+		<categoria id="7275" ruta="|632|127|7275|">
+			<nombre>Motores eléctricos</nombre>
+		</categoria>
+		<categoria id="4714" ruta="|632|127|4714|">
+			<nombre>Paneles solares</nombre>
+		</categoria>
+		<categoria id="2377" ruta="|632|127|2377|">
+			<nombre>Placas de pared</nombre>
+		</categoria>
+		<categoria id="5627" ruta="|632|127|5627|">
+			<nombre>Protectores de enchufes</nombre>
+		</categoria>
+		<categoria id="505318" ruta="|632|127|505318|">
+			<nombre>Reguladores y transformadores de voltaje</nombre>
+		</categoria>
+		<categoria id="2028" ruta="|632|127|2028|">
+			<nombre>Rosetas</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="128" ruta="|632|128|">
+		<nombre>Vallas de jardín</nombre>
+		<categoria id="502983" ruta="|632|128|502983|">
+			<nombre>Accesorios para rejas y vallas</nombre>
+		</categoria>
+		<categoria id="499958" ruta="|632|128|499958|">
+			<nombre>Barreras de seguridad</nombre>
+		</categoria>
+		<categoria id="502984" ruta="|632|128|502984|">
+			<nombre>Celosía</nombre>
+		</categoria>
+		<categoria id="1352" ruta="|632|128|1352|">
+			<nombre>Cercados con estacas</nombre>
+		</categoria>
+		<categoria id="502973" ruta="|632|128|502973|">
+			<nombre>Paneles de vallas</nombre>
+		</categoria>
+		<categoria id="1919" ruta="|632|128|1919|">
+			<nombre>Postes de cerca</nombre>
+		</categoria>
+		<categoria id="1788" ruta="|632|128|1788|">
+			<nombre>Puertas de jardín</nombre>
+		</categoria>
+		<categoria id="502986" ruta="|632|128|502986|">
+			<nombre>Ribetes y bordes para jardín</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="499873" ruta="|632|499873|">
+		<nombre>Ventilación y calefacción</nombre>
+		<categoria id="499874" ruta="|632|499873|499874|">
+			<nombre>Conductos de aire</nombre>
+		</categoria>
+		<categoria id="1519" ruta="|632|499873|1519|">
+			<nombre>Controles de climatización</nombre>
+			<categoria id="500043" ruta="|632|499873|1519|500043|">
+				<nombre>Hidrostatos</nombre>
+			</categoria>
+			<categoria id="2238" ruta="|632|499873|1519|2238|">
+				<nombre>Paneles de control</nombre>
+			</categoria>
+			<categoria id="1897" ruta="|632|499873|1519|1897|">
+				<nombre>Termostatos</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="500090" ruta="|632|499873|500090|">
+			<nombre>Secadores de filtros</nombre>
+		</categoria>
+		<categoria id="2766" ruta="|632|499873|2766|">
+			<nombre>Tubos de ventilación y de humos</nombre>
+		</categoria>
+	</categoria>
+</categoria>

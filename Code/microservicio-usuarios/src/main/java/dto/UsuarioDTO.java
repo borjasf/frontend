@@ -10,6 +10,10 @@ public class UsuarioDTO {
 	private String telefono;
 	private boolean admin;
 
+	// Añadimos los campos que representan el número de productos en venta, vendidos y comprados
+	private int contadorCompras;                                                                                                                                 
+  	private int contadorVentas;
+
 	public UsuarioDTO() {}
 
 	public UsuarioDTO(String id, String nombre, String apellidos, String email,  String fechaNacimiento, String telefono, boolean admin) {
@@ -36,4 +40,8 @@ public class UsuarioDTO {
 	public void setTelefono(String telefono) { this.telefono = telefono; }
 	public boolean isAdmin() { return admin; }
 	public void setAdmin(boolean admin) { this.admin = admin; }
+	public int getContadorCompras() { return contadorCompras; }
+	public int getContadorVentas() { return contadorVentas; }
+	public void setContadorCompras(int c) { this.contadorCompras = c; }
+	public void setContadorVentas(int v) { this.contadorVentas = v; }
 }

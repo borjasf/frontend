@@ -31,6 +31,9 @@ import modelo.Usuario;
 import servicio.FactoriaServicios;
 import servicio.IServicioUsuario;
 
+import io.jsonwebtoken.Claims;
+import javax.servlet.http.HttpServletRequest;
+
 @Path("usuarios")
 
 public class ControladorUsuario {
@@ -39,6 +42,9 @@ public class ControladorUsuario {
 
 	@Context
 	private UriInfo uriInfo;
+
+	@Context
+	private HttpServletRequest request;
 
 	@Context
 	private SecurityContext securityContext;
@@ -76,6 +82,9 @@ public class ControladorUsuario {
 		UsuarioDTO dto = new UsuarioDTO(usuario.getId(), usuario.getNombre(), usuario.getApellidos(),
 				usuario.getEmail(),usuario.getFechaNacimiento().toString() , usuario.getTelefono(), usuario.isAdmin());
 
+		dto.setContadorCompras(usuario.getContadorCompras());
+  		dto.setContadorVentas(usuario.getContadorVentas());
+
 		return Response.status(Response.Status.OK).entity(dto).build();
 	}
 
@@ -89,7 +98,8 @@ public class ControladorUsuario {
 
 		// REGLA: "Solo el usuario podrá modificar sus datos"
 		// Comprobamos si el ID del token coincide con el ID de la URL
-		String idAutenticado = securityContext.getUserPrincipal().getName();
+		Claims claims = (Claims) request.getAttribute("claims");
+  		String idAutenticado = claims.getSubject();
 
 		if (!idAutenticado.equals(id)) {
 			return Response.status(Response.Status.FORBIDDEN)

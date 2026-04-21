@@ -1,5 +1,6 @@
 /* Controlador de productos. */
 const productosService = require('../services/productosService');
+const compraventasService = require('../services/compraventasService');
 
 const productosController = {
     // PANTALLA PRINCIPAL: Catálogo de productos
@@ -32,10 +33,10 @@ const productosController = {
             let productoVisualizar;
 
             try {
-                // 1. Intentamos pedir el producto real a Java
+                // Intentamos pedir el producto real a Java
                 productoVisualizar = await productosService.getProducto(idProducto);
             } catch (apiError) {
-                // 2. Si Java falla, usamos un Mock con TODOS los campos del enunciado
+                // Si Java falla, usamos un Mock con TODOS los campos del enunciado
                 console.log("⚠️ Usando producto de prueba (Mock) para diseño visual.");
                 productoVisualizar = {
                     id: idProducto,
@@ -53,7 +54,7 @@ const productosController = {
                 };
             }
 
-            // 3. Renderizamos la vista inyectando los datos
+            // Renderizamos la vista inyectando los datos
             res.render('productos/detalle', { 
                 title: productoVisualizar.titulo,
                 producto: productoVisualizar,
@@ -65,36 +66,32 @@ const productosController = {
             res.redirect('/productos');
         }
     },
-    mostrarCrear: (req, res) => { 
+    mostrarCrear: async (req, res) => { 
         // Inventamos un par de categorías temporales para que el formulario funcione visualmente
-        const categoriasTemporales = [
-            { id: '1', nombre: 'Electrónica' },
-            { id: '2', nombre: 'Deportes' },
-            { id: '3', nombre: 'Hogar' }
-        ];
+        const categorias = await productosService.getCategorias();
         res.render('productos/crear', { 
             title: 'Nuevo Producto',
-            categorias: categoriasTemporales
+            categorias: categorias
         }); 
     },
 
     crear: async (req, res) => {
         try {
-            // 1. Atrapamos los datos que vienen del HTML (req.body)
+            const token = req.cookies.jwt;
             const nuevoProducto = {
                 titulo: req.body.titulo,
                 precio: parseFloat(req.body.precio),
                 estado: req.body.estado,
                 descripcion: req.body.descripcion,
-                categoria_id: req.body.categoria, 
-                envioDisponible: req.body.envioDisponible === 'on' // El checkbox devuelve 'on' si está marcado
+                idCategoria: req.body.categoria,
+                envioDisponible: req.body.envioDisponible === 'on',
+                idVendedor: res.locals.usuario.id
             };
 
-            // 2. Se lo pasamos al servicio para que viaje a Java
-            await productosService.crearProducto(nuevoProducto);
+            await productosService.crearProducto(nuevoProducto, token);
 
-            // 3. Si todo va bien, redirigimos al catálogo para ver nuestro nuevo producto
-            console.log("✅ Producto creado con éxito. Redirigiendo al catálogo...");
+            // Si todo va bien, redirigimos al catálogo para ver nuestro nuevo producto
+            console.log("Producto creado con éxito. Redirigiendo al catálogo...");
             res.redirect('/productos');
 
         } catch (error) {
@@ -142,7 +139,34 @@ const productosController = {
             res.redirect(`/productos/${req.params.id}/editar`);
         }
     },
-    comprar: async (req, res) => {}
+    comprar: async (req, res) => {
+        try {
+            // Atrapamos el ID del producto que viene en la propia URL (/productos/:id/comprar)
+            const idProducto = req.params.id;
+            
+            // Extraemos el ID del comprador gracias al middleware de autenticación
+            const idComprador = res.locals.usuario.id;
+            
+            // Recuperamos el Token de la cookie para que Java confíe en nosotros
+            const token = req.cookies.jwt;
+
+            console.log(`Procesando compra: Usuario ${idComprador} solicita Producto ${idProducto}`);
+
+            // Lanzamos la orden a la API Java a través del servicio
+            await compraventasService.comprar(idProducto, idComprador, token);
+
+            // Redirigimos al usuario a su página de compras
+            res.redirect('/perfil/mis-compras');
+
+        } catch (error) {
+            console.error("Error al procesar la compra:", error.message);
+            
+            res.render('error', { 
+                mensaje: 'No se ha podido procesar tu solicitud de compra. Es posible que el producto ya esté vendido o haya un problema de conexión con el servidor.',
+                statusCode: error.response?.status || 500 
+            });
+        }
+    }
 };
 
 module.exports = productosController;

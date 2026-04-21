@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<categoria id="537" ruta="|537|">
+	<nombre>Bebés y niños pequeños</nombre>
+	<categoria id="4386" ruta="|537|4386|">
+		<nombre>Accesorios para el transporte de bebés</nombre>
+		<categoria id="4387" ruta="|537|4386|4387|">
+			<nombre>Accesorios de carritos para bebés</nombre>
+		</categoria>
+		<categoria id="4486" ruta="|537|4386|4486|">
+			<nombre>Accesorios de sillas de coche para bebés y niños</nombre>
+		</categoria>
+		<categoria id="4916" ruta="|537|4386|4916|">
+			<nombre>Accesorios para cargadores de bebés</nombre>
+		</categoria>
+		<categoria id="5845" ruta="|537|4386|5845|">
+			<nombre>Fundas para tronas y carros de la compra</nombre>
+		</categoria>
+		<categoria id="8537" ruta="|537|4386|8537|">
+			<nombre>Mantas y sacos para el transporte de bebés</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="4678" ruta="|537|4678|">
+		<nombre>Baño de bebés</nombre>
+		<categoria id="4679" ruta="|537|4678|4679|">
+			<nombre>Bañeras y asientos de baño para bebés</nombre>
+		</categoria>
+		<categoria id="7082" ruta="|537|4678|7082|">
+			<nombre>Viseras de ducha</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="5859" ruta="|537|5859|">
+		<nombre>Conjuntos de regalo para bebés</nombre>
+	</categoria>
+	<categoria id="6952" ruta="|537|6952|">
+		<nombre>Control de esfínteres</nombre>
+		<categoria id="552" ruta="|537|6952|552|">
+			<nombre>Adaptadores de inodoro</nombre>
+		</categoria>
+		<categoria id="6953" ruta="|537|6952|6953|">
+			<nombre>Kits para el control de esfínteres</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="2847" ruta="|537|2847|">
+		<nombre>Juguetes y actividades para bebés</nombre>
+		<categoria id="7191" ruta="|537|2847|7191|">
+			<nombre>Accesorios móviles para bebés</nombre>
+		</categoria>
+		<categoria id="1243" ruta="|537|2847|1243|">
+			<nombre>Alfombras de actividades y gimnasios</nombre>
+			<categoria id="543612" ruta="|537|2847|1243|543612|">
+				<nombre>Alfombrillas de ejercicio</nombre>
+			</categoria>
+			<categoria id="543613" ruta="|537|2847|1243|543613|">
+				<nombre>Gimnasios para bebés</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="1241" ruta="|537|2847|1241|">
+			<nombre>Andadores y centros de entretenimiento para bebés</nombre>
+		</categoria>
+		<categoria id="3860" ruta="|537|2847|3860|">
+			<nombre>Bloques y juegos de clasificación</nombre>
+		</categoria>
+		<categoria id="3661" ruta="|537|2847|3661|">
+			<nombre>Juegos para aprender el abecedario</nombre>
+		</categoria>
+		<categoria id="7198" ruta="|537|2847|7198|">
+			<nombre>Juguetes de actividades para bebés</nombre>
+		</categoria>
+		<categoria id="3459" ruta="|537|2847|3459|">
+			<nombre>Juguetes para arrastrar</nombre>
+		</categoria>
+		<categoria id="555" ruta="|537|2847|555|">
+			<nombre>Mecedoras y sillas para bebés</nombre>
+		</categoria>
+		<categoria id="7360" ruta="|537|2847|7360|">
+			<nombre>Mordedores para bebés</nombre>
+		</categoria>
+		<categoria id="1242" ruta="|537|2847|1242|">
+			<nombre>Móviles para bebés</nombre>
+		</categoria>
+		<categoria id="539" ruta="|537|2847|539|">
+			<nombre>Parques para bebés</nombre>
+		</categoria>
+		<categoria id="560" ruta="|537|2847|560|">
+			<nombre>Saltadores y columpios para bebés</nombre>
+		</categoria>
+		<categoria id="1244" ruta="|537|2847|1244|">
+			<nombre>Sonajeros</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="561" ruta="|537|561|">
+		<nombre>Lactancia y alimentación</nombre>
+		<categoria id="505366" ruta="|537|561|505366|">
+			<nombre>Accesorios para sacaleches</nombre>
+		</categoria>
+		<categoria id="5298" ruta="|537|561|5298|">
+			<nombre>Almohadas de lactancia</nombre>
+		</categoria>
+		<categoria id="2125" ruta="|537|561|2125|">
+			<nombre>Baberos</nombre>
+		</categoria>
+		<categoria id="5629" ruta="|537|561|5629|">
+			<nombre>Baberos para eructos</nombre>
+		</categoria>
+		<categoria id="564" ruta="|537|561|564|">
+			<nombre>Biberones</nombre>
+		</categoria>
+		<categoria id="562" ruta="|537|561|562|">
+			<nombre>Comida para bebés y niños</nombre>
+			<categoria id="5720" ruta="|537|561|562|5720|">
+				<nombre>Aperitivos para bebés</nombre>
+			</categoria>
+			<categoria id="5718" ruta="|537|561|562|5718|">
+				<nombre>Bebidas para bebés</nombre>
+			</categoria>
+			<categoria id="8436" ruta="|537|561|562|8436|">
+				<nombre>Bebidas y batidos nutritivos para niños pequeños</nombre>
+			</categoria>
+			<categoria id="5719" ruta="|537|561|562|5719|">
+				<nombre>Comida para bebés</nombre>
+			</categoria>
+			<categoria id="563" ruta="|537|561|562|563|">
+				<nombre>Fórmula infantil</nombre>
+			</categoria>
+			<categoria id="5721" ruta="|537|561|562|5721|">
+				<nombre>Papillas</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="7234" ruta="|537|561|7234|">
+			<nombre>Contenedores de leche materna</nombre>
+		</categoria>
+		<categoria id="5843" ruta="|537|561|5843|">
+			<nombre>Delantales de lactancia</nombre>
+		</categoria>
+		<categoria id="5296" ruta="|537|561|5296|">
+			<nombre>Esterilizadores y calentadores de biberones</nombre>
+		</categoria>
+		<categoria id="8075" ruta="|537|561|8075|">
+			<nombre>Fundas para almohadillas de lactancia</nombre>
+		</categoria>
+		<categoria id="503762" ruta="|537|561|503762|">
+			<nombre>Protectores y almohadillas de lactancia</nombre>
+		</categoria>
+		<categoria id="565" ruta="|537|561|565|">
+			<nombre>Sacaleches</nombre>
+		</categoria>
+		<categoria id="4768" ruta="|537|561|4768|">
+			<nombre>Temporizadores para los cuidados del bebé</nombre>
+		</categoria>
+		<categoria id="5630" ruta="|537|561|5630|">
+			<nombre>Tetinas y fundas para biberones</nombre>
+			<categoria id="543637" ruta="|537|561|5630|543637|">
+				<nombre>Bolsas desechables para biberones</nombre>
+			</categoria>
+			<categoria id="543636" ruta="|537|561|5630|543636|">
+				<nombre>Tetinas para biberones</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="6950" ruta="|537|561|6950|">
+			<nombre>Vasitos para bebés</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="548" ruta="|537|548|">
+		<nombre>Pañales y cuidado del bebé</nombre>
+		<categoria id="7001" ruta="|537|548|7001|">
+			<nombre>Accesorios para contenedores de pañales</nombre>
+		</categoria>
+		<categoria id="6971" ruta="|537|548|6971|">
+			<nombre>Bolsas para pañales usados</nombre>
+		</categoria>
+		<categoria id="5628" ruta="|537|548|5628|">
+			<nombre>Cambiadores para bebés</nombre>
+		</categoria>
+		<categoria id="502999" ruta="|537|548|502999|">
+			<nombre>Cambiadores y protectores para cambiadores</nombre>
+		</categoria>
+		<categoria id="550" ruta="|537|548|550|">
+			<nombre>Contenedores de pañales</nombre>
+		</categoria>
+		<categoria id="7200" ruta="|537|548|7200|">
+			<nombre>Dispensadores y calentadores de toallitas para bebés</nombre>
+		</categoria>
+		<categoria id="6949" ruta="|537|548|6949|">
+			<nombre>Forros para pañales</nombre>
+		</categoria>
+		<categoria id="7014" ruta="|537|548|7014|">
+			<nombre>Kits de pañales</nombre>
+		</categoria>
+		<categoria id="6883" ruta="|537|548|6883|">
+			<nombre>Organizadores de pañales</nombre>
+		</categoria>
+		<categoria id="551" ruta="|537|548|551|">
+			<nombre>Pañales</nombre>
+		</categoria>
+		<categoria id="553" ruta="|537|548|553|">
+			<nombre>Toallitas infantiles</nombre>
+		</categoria>
+		<categoria id="2949" ruta="|537|548|2949|">
+			<nombre>Tratamientos para la dermatitis</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="540" ruta="|537|540|">
+		<nombre>Protección para el bebé</nombre>
+		<categoria id="6869" ruta="|537|540|6869|">
+			<nombre>Accesorios para puertas de seguridad</nombre>
+		</categoria>
+		<categoria id="544" ruta="|537|540|544|">
+			<nombre>Barandillas de seguridad</nombre>
+		</categoria>
+		<categoria id="5049" ruta="|537|540|5049|">
+			<nombre>Correas y arneses de seguridad para bebés</nombre>
+		</categoria>
+		<categoria id="541" ruta="|537|540|541|">
+			<nombre>Interfonos para bebés</nombre>
+		</categoria>
+		<categoria id="543" ruta="|537|540|543|">
+			<nombre>Protectores y cierres de seguridad</nombre>
+		</categoria>
+		<categoria id="542" ruta="|537|540|542|">
+			<nombre>Puertas para niños y mascotas</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="6899" ruta="|537|6899|">
+		<nombre>Sacos y mantas para bebés</nombre>
+		<categoria id="543665" ruta="|537|6899|543665|">
+			<nombre>Mantas envolventes</nombre>
+		</categoria>
+		<categoria id="543664" ruta="|537|6899|543664|">
+			<nombre>Mantas para recién nacidos</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="5252" ruta="|537|5252|">
+		<nombre>Salud del bebé</nombre>
+		<categoria id="5253" ruta="|537|5252|5253|">
+			<nombre>Aspiradores nasales</nombre>
+		</categoria>
+		<categoria id="566" ruta="|537|5252|566|">
+			<nombre>Chupetes y mordedores</nombre>
+		</categoria>
+		<categoria id="7016" ruta="|537|5252|7016|">
+			<nombre>Clips y fundas para chupetes</nombre>
+		</categoria>
+		<categoria id="6290" ruta="|537|5252|6290|">
+			<nombre>Kits de salud y aseo del bebé</nombre>
+		</categoria>
+		<categoria id="7309" ruta="|537|5252|7309|">
+			<nombre>Toallitas para chupetes</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="2764" ruta="|537|2764|">
+		<nombre>Transporte de bebés</nombre>
+		<categoria id="568" ruta="|537|2764|568|">
+			<nombre>Cochecitos de bebé</nombre>
+		</categoria>
+		<categoria id="538" ruta="|537|2764|538|">
+			<nombre>Mochilas portabebés</nombre>
+		</categoria>
+		<categoria id="547" ruta="|537|2764|547|">
+			<nombre>Sillas de coche</nombre>
+		</categoria>
+	</categoria>
+</categoria>

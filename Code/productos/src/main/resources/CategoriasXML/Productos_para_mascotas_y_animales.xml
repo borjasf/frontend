@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<categoria id="1" ruta="|1|">
+	<nombre>Productos para mascotas y animales</nombre>
+	<categoria id="3237" ruta="|1|3237|">
+		<nombre>Animales vivos</nombre>
+	</categoria>
+	<categoria id="2" ruta="|1|2|">
+		<nombre>Productos para mascotas</nombre>
+		<categoria id="500084" ruta="|1|2|500084|">
+			<nombre>Accesorios de cama para mascotas</nombre>
+		</categoria>
+		<categoria id="505811" ruta="|1|2|505811|">
+			<nombre>Accesorios de exterior para mascotas</nombre>
+		</categoria>
+		<categoria id="500110" ruta="|1|2|500110|">
+			<nombre>Accesorios de mantas eléctricas para mascotas</nombre>
+		</categoria>
+		<categoria id="500026" ruta="|1|2|500026|">
+			<nombre>Accesorios para trasportines y jaulas</nombre>
+		</categoria>
+		<categoria id="7143" ruta="|1|2|7143|">
+			<nombre>Alfombrillas para comederos</nombre>
+		</categoria>
+		<categoria id="499743" ruta="|1|2|499743|">
+			<nombre>Almohadillas calefactoras para mascotas</nombre>
+		</categoria>
+		<categoria id="6250" ruta="|1|2|6250|">
+			<nombre>Arneses y collares para mascotas</nombre>
+		</categoria>
+		<categoria id="8474" ruta="|1|2|8474|">
+			<nombre>Barreras para mascotas para vehículos</nombre>
+		</categoria>
+		<categoria id="8070" ruta="|1|2|8070|">
+			<nombre>Bolsas de basura para mascotas</nombre>
+		</categoria>
+		<categoria id="5144" ruta="|1|2|5144|">
+			<nombre>Bozales para mascotas</nombre>
+		</categoria>
+		<categoria id="5092" ruta="|1|2|5092|">
+			<nombre>Cascabeles y colgantes para mascotas</nombre>
+		</categoria>
+		<categoria id="6861" ruta="|1|2|6861|">
+			<nombre>Cintas y vendajes para mascotas</nombre>
+		</categoria>
+		<categoria id="6276" ruta="|1|2|6276|">
+			<nombre>Cochecitos para mascotas</nombre>
+		</categoria>
+		<categoria id="5145" ruta="|1|2|5145|">
+			<nombre>Collares isabelinos para mascotas</nombre>
+		</categoria>
+		<categoria id="5162" ruta="|1|2|5162|">
+			<nombre>Contenedores de comida para mascotas</nombre>
+		</categoria>
+		<categoria id="502982" ruta="|1|2|502982|">
+			<nombre>Contenedores y dispensadores de bolsas de excrementos
+			</nombre>
+		</categoria>
+		<categoria id="6248" ruta="|1|2|6248|">
+			<nombre>Control de pulgas y garrapatas en mascotas</nombre>
+		</categoria>
+		<categoria id="6249" ruta="|1|2|6249|">
+			<nombre>Correas para mascotas</nombre>
+		</categoria>
+		<categoria id="6252" ruta="|1|2|6252|">
+			<nombre>Cuencos, comederos, y bebederos para mascotas</nombre>
+		</categoria>
+		<categoria id="7144" ruta="|1|2|7144|">
+			<nombre>Cuidado dental para mascotas</nombre>
+		</categoria>
+		<categoria id="6978" ruta="|1|2|6978|">
+			<nombre>Dispositivos biométricos para mascotas</nombre>
+			<categoria id="6980" ruta="|1|2|6978|6980|">
+				<nombre>Medidores de glucosa para mascotas</nombre>
+			</categoria>
+			<categoria id="6982" ruta="|1|2|6978|6982|">
+				<nombre>Podómetros para mascotas</nombre>
+			</categoria>
+			<categoria id="6981" ruta="|1|2|6978|6981|">
+				<nombre>Termómetros para mascotas</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="6983" ruta="|1|2|6983|">
+			<nombre>Equipos para el ejercicio de mascotas</nombre>
+		</categoria>
+		<categoria id="6973" ruta="|1|2|6973|">
+			<nombre>Escalones y rampas para mascotas</nombre>
+		</categoria>
+		<categoria id="6253" ruta="|1|2|6253|">
+			<nombre>Extensiones para correas de mascotas</nombre>
+		</categoria>
+		<categoria id="505297" ruta="|1|2|505297|">
+			<nombre>Herramientas y sistemas de desecho de excrementos</nombre>
+		</categoria>
+		<categoria id="505314" ruta="|1|2|505314|">
+			<nombre>Kits de adiestramiento para mascotas</nombre>
+			<categoria id="505313" ruta="|1|2|505314|505313|">
+				<nombre>Dispensadores de premios y contadores para adiestrar
+					mascotas</nombre>
+			</categoria>
+			<categoria id="6846" ruta="|1|2|505314|6846|">
+				<nombre>Empapadores para mascotas</nombre>
+			</categoria>
+			<categoria id="505304" ruta="|1|2|505314|505304|">
+				<nombre>Protectores de empapadores para mascotas</nombre>
+			</categoria>
+			<categoria id="505311" ruta="|1|2|505314|505311|">
+				<nombre>Soluciones y espráis de adiestramiento para mascotas
+				</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="8068" ruta="|1|2|8068|">
+			<nombre>Kits de primeros auxilios y emergencias para mascotas
+			</nombre>
+		</categoria>
+		<categoria id="8050" ruta="|1|2|8050|">
+			<nombre>Lubricantes y gotas oftálmicas para mascotas</nombre>
+		</categoria>
+		<categoria id="5086" ruta="|1|2|5086|">
+			<nombre>Medicamentos para mascotas</nombre>
+		</categoria>
+		<categoria id="5163" ruta="|1|2|5163|">
+			<nombre>Palas de comida para mascotas</nombre>
+		</categoria>
+		<categoria id="5087" ruta="|1|2|5087|">
+			<nombre>Parque de juegos para mascotas</nombre>
+		</categoria>
+		<categoria id="6811" ruta="|1|2|6811|">
+			<nombre>Perchas para ropa de mascotas</nombre>
+		</categoria>
+		<categoria id="5093" ruta="|1|2|5093|">
+			<nombre>Placas identificativas para mascotas</nombre>
+		</categoria>
+		<categoria id="6383" ruta="|1|2|6383|">
+			<nombre>Productos de higiene para mascotas</nombre>
+			<categoria id="6406" ruta="|1|2|6383|6406|">
+				<nombre>Champús y acondicionadores para mascotas</nombre>
+			</categoria>
+			<categoria id="6384" ruta="|1|2|6383|6384|">
+				<nombre>Cortapelos para mascotas</nombre>
+			</categoria>
+			<categoria id="7318" ruta="|1|2|6383|7318|">
+				<nombre>Esmalte de uñas para mascotas</nombre>
+			</categoria>
+			<categoria id="503733" ruta="|1|2|6383|503733|">
+				<nombre>Espráis desodorantes y colonias para mascotas</nombre>
+			</categoria>
+			<categoria id="7319" ruta="|1|2|6383|7319|">
+				<nombre>Herramientas de manicura para mascotas</nombre>
+			</categoria>
+			<categoria id="6385" ruta="|1|2|6383|6385|">
+				<nombre>Peines y cepillos para mascotas</nombre>
+			</categoria>
+			<categoria id="8167" ruta="|1|2|6383|8167|">
+				<nombre>Secadores de pelo para mascotas</nombre>
+			</categoria>
+			<categoria id="499917" ruta="|1|2|6383|499917|">
+				<nombre>Toallitas para mascotas</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="5013" ruta="|1|2|5013|">
+			<nombre>Productos para animales pequeños</nombre>
+			<categoria id="5016" ruta="|1|2|5013|5016|">
+				<nombre>Accesorios para habitáculos para animales pequeños</nombre>
+			</categoria>
+			<categoria id="5015" ruta="|1|2|5013|5015|">
+				<nombre>Alimento para animales pequeños</nombre>
+			</categoria>
+			<categoria id="5014" ruta="|1|2|5013|5014|">
+				<nombre>Artículos para camas de animales pequeños</nombre>
+			</categoria>
+			<categoria id="7517" ruta="|1|2|5013|7517|">
+				<nombre>Golosinas para animales pequeños</nombre>
+			</categoria>
+			<categoria id="5017" ruta="|1|2|5013|5017|">
+				<nombre>Jaulas y habitáculos para animales pequeños</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="4" ruta="|1|2|4|">
+			<nombre>Productos para gatos</nombre>
+			<categoria id="500059" ruta="|1|2|4|500059|">
+				<nombre>Accesorios de muebles para gatos</nombre>
+			</categoria>
+			<categoria id="7142" ruta="|1|2|4|7142|">
+				<nombre>Alfombrillas para cajones de gatos</nombre>
+			</categoria>
+			<categoria id="4999" ruta="|1|2|4|4999|">
+				<nombre>Arena higiénica para gatos</nombre>
+			</categoria>
+			<categoria id="5000" ruta="|1|2|4|5000|">
+				<nombre>Cajones de arena higiénica para gatos</nombre>
+			</categoria>
+			<categoria id="4433" ruta="|1|2|4|4433|">
+				<nombre>Camas para gatos</nombre>
+			</categoria>
+			<categoria id="3367" ruta="|1|2|4|3367|">
+				<nombre>Comida para gatos</nombre>
+				<categoria id="543683" ruta="|1|2|4|3367|543683|">
+					<nombre>Comida para gatos de prescripción veterinaria</nombre>
+				</categoria>
+				<categoria id="543684" ruta="|1|2|4|3367|543684|">
+					<nombre>Comida para gatos sin prescripción veterinaria</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="8069" ruta="|1|2|4|8069|">
+				<nombre>Forros para cajones de gatos</nombre>
+			</categoria>
+			<categoria id="5001" ruta="|1|2|4|5001|">
+				<nombre>Juguetes para gatos</nombre>
+			</categoria>
+			<categoria id="4997" ruta="|1|2|4|4997|">
+				<nombre>Mobiliario para gatos</nombre>
+			</categoria>
+			<categoria id="5002" ruta="|1|2|4|5002|">
+				<nombre>Premios para gatos</nombre>
+			</categoria>
+			<categoria id="5082" ruta="|1|2|4|5082|">
+				<nombre>Ropa para gatos</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="6" ruta="|1|2|6|">
+			<nombre>Productos para peces</nombre>
+			<categoria id="3238" ruta="|1|2|6|3238|">
+				<nombre>Acuarios</nombre>
+			</categoria>
+			<categoria id="5024" ruta="|1|2|6|5024|">
+				<nombre>Alimento para peces</nombre>
+			</categoria>
+			<categoria id="6403" ruta="|1|2|6|6403|">
+				<nombre>Comederos para peces</nombre>
+			</categoria>
+			<categoria id="500062" ruta="|1|2|6|500062|">
+				<nombre>Controladores de temperatura de acuarios</nombre>
+			</categoria>
+			<categoria id="5019" ruta="|1|2|6|5019|">
+				<nombre>Decoración de acuarios</nombre>
+			</categoria>
+			<categoria id="505307" ruta="|1|2|6|505307|">
+				<nombre>Difusores y bombas de aire para acuarios</nombre>
+			</categoria>
+			<categoria id="6085" ruta="|1|2|6|6085|">
+				<nombre>Fertilizantes para plantas acuáticas</nombre>
+			</categoria>
+			<categoria id="5020" ruta="|1|2|6|5020|">
+				<nombre>Filtros para acuarios</nombre>
+			</categoria>
+			<categoria id="5079" ruta="|1|2|6|5079|">
+				<nombre>Iluminación para acuarios</nombre>
+			</categoria>
+			<categoria id="500038" ruta="|1|2|6|500038|">
+				<nombre>Productos de limpieza de acuarios</nombre>
+			</categoria>
+			<categoria id="6951" ruta="|1|2|6|6951|">
+				<nombre>Rebosaderos para acuarios</nombre>
+			</categoria>
+			<categoria id="505306" ruta="|1|2|6|505306|">
+				<nombre>Redes para acuarios</nombre>
+			</categoria>
+			<categoria id="505303" ruta="|1|2|6|505303|">
+				<nombre>Sistemas de tuberías para lagos artificiales y acuarios
+				</nombre>
+			</categoria>
+			<categoria id="5023" ruta="|1|2|6|5023|">
+				<nombre>Soportes para acuarios</nombre>
+			</categoria>
+			<categoria id="5021" ruta="|1|2|6|5021|">
+				<nombre>Sustratos y arena para acuarios</nombre>
+			</categoria>
+			<categoria id="5161" ruta="|1|2|6|5161|">
+				<nombre>Tratamientos del agua de acuarios</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="5" ruta="|1|2|5|">
+			<nombre>Productos para perros</nombre>
+			<categoria id="7428" ruta="|1|2|5|7428|">
+				<nombre>Accesorios para casetas y cercados para perros</nombre>
+			</categoria>
+			<categoria id="4434" ruta="|1|2|5|4434|">
+				<nombre>Camas para perros</nombre>
+			</categoria>
+			<categoria id="5094" ruta="|1|2|5|5094|">
+				<nombre>Casetas para perros</nombre>
+			</categoria>
+			<categoria id="7274" ruta="|1|2|5|7274|">
+				<nombre>Casetas y cercados para perros</nombre>
+			</categoria>
+			<categoria id="8123" ruta="|1|2|5|8123|">
+				<nombre>Cintas de caminar para perros</nombre>
+			</categoria>
+			<categoria id="3530" ruta="|1|2|5|3530|">
+				<nombre>Comida para perros</nombre>
+				<categoria id="543681" ruta="|1|2|5|3530|543681|">
+					<nombre>Comida para perros de prescripción veterinaria</nombre>
+				</categoria>
+				<categoria id="543682" ruta="|1|2|5|3530|543682|">
+					<nombre>Comida para perros sin prescripción veterinaria</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="7372" ruta="|1|2|5|7372|">
+				<nombre>Fundas de pañal y cambiadores para perros</nombre>
+			</categoria>
+			<categoria id="5010" ruta="|1|2|5|5010|">
+				<nombre>Juguetes para perros</nombre>
+			</categoria>
+			<categoria id="499900" ruta="|1|2|5|499900|">
+				<nombre>Pañales para perros</nombre>
+			</categoria>
+			<categoria id="5011" ruta="|1|2|5|5011|">
+				<nombre>Premios para perros</nombre>
+			</categoria>
+			<categoria id="5004" ruta="|1|2|5|5004|">
+				<nombre>Ropa para perros</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="3" ruta="|1|2|3|">
+			<nombre>Productos para pájaros</nombre>
+			<categoria id="7385" ruta="|1|2|3|7385|">
+				<nombre>Accesorios de jaulas para pájaros</nombre>
+				<categoria id="7386" ruta="|1|2|3|7385|7386|">
+					<nombre>Bebederos y comederos de jaulas para pájaros</nombre>
+				</categoria>
+				<categoria id="499954" ruta="|1|2|3|7385|499954|">
+					<nombre>Jaulas y baños para pájaros</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="4990" ruta="|1|2|3|4990|">
+				<nombre>Comida para pájaros</nombre>
+			</categoria>
+			<categoria id="4991" ruta="|1|2|3|4991|">
+				<nombre>Escaleras y juguetes colgantes para pájaros</nombre>
+			</categoria>
+			<categoria id="4992" ruta="|1|2|3|4992|">
+				<nombre>Juguetes para pájaros</nombre>
+			</categoria>
+			<categoria id="4989" ruta="|1|2|3|4989|">
+				<nombre>Pies y jaulas para pájaros</nombre>
+			</categoria>
+			<categoria id="4993" ruta="|1|2|3|4993|">
+				<nombre>Premios para pájaros</nombre>
+			</categoria>
+			<categoria id="7398" ruta="|1|2|3|7398|">
+				<nombre>Zonas de juegos y gimnasios para pájaros</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="7" ruta="|1|2|7|">
+			<nombre>Productos para reptiles y anfibios</nombre>
+			<categoria id="5027" ruta="|1|2|7|5027|">
+				<nombre>Accesorios para terrarios de reptiles y anfibios</nombre>
+			</categoria>
+			<categoria id="5026" ruta="|1|2|7|5026|">
+				<nombre>Alimento para reptiles y anfibios</nombre>
+			</categoria>
+			<categoria id="5028" ruta="|1|2|7|5028|">
+				<nombre>Iluminación y calefacción de terrarios para reptiles y
+					anfibios</nombre>
+			</categoria>
+			<categoria id="5030" ruta="|1|2|7|5030|">
+				<nombre>Sustratos para reptiles y anfibios</nombre>
+			</categoria>
+			<categoria id="5029" ruta="|1|2|7|5029|">
+				<nombre>Terrarios para reptiles y anfibios</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="7396" ruta="|1|2|7396|">
+			<nombre>Protector solar para mascotas</nombre>
+		</categoria>
+		<categoria id="4497" ruta="|1|2|4497|">
+			<nombre>Puertas para animales domésticos</nombre>
+		</categoria>
+		<categoria id="6321" ruta="|1|2|6321|">
+			<nombre>Sistemas de contención para mascotas</nombre>
+		</categoria>
+		<categoria id="8513" ruta="|1|2|8513|">
+			<nombre>Soportes de platos para mascotas</nombre>
+		</categoria>
+		<categoria id="5081" ruta="|1|2|5081|">
+			<nombre>Suplementos y vitaminas para mascotas</nombre>
+		</categoria>
+		<categoria id="6251" ruta="|1|2|6251|">
+			<nombre>Transportines y cajas para mascotas</nombre>
+		</categoria>
+	</categoria>
+</categoria>

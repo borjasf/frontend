@@ -1,0 +1,3117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<categoria id="536" ruta="|536|">
+	<nombre>Casa y jardín</nombre>
+	<categoria id="2956" ruta="|536|2956|">
+		<nombre>Accesorios de iluminación</nombre>
+		<categoria id="7338" ruta="|536|2956|7338|">
+			<nombre>Bases para farolas</nombre>
+		</categoria>
+		<categoria id="505312" ruta="|536|2956|505312|">
+			<nombre>Combustible para candiles</nombre>
+		</categoria>
+		<categoria id="3185" ruta="|536|2956|3185|">
+			<nombre>Pantallas para lámparas</nombre>
+		</categoria>
+		<categoria id="7447" ruta="|536|2956|7447|">
+			<nombre>Soportes para farolas</nombre>
+		</categoria>
+		<categoria id="3522" ruta="|536|2956|3522|">
+			<nombre>Temporizadores para luz</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="574" ruta="|536|574|">
+		<nombre>Accesorios para el baño</nombre>
+		<categoria id="8016" ruta="|536|574|8016|">
+			<nombre>Accesorios para secadores de manos</nombre>
+		</categoria>
+		<categoria id="577" ruta="|536|574|577|">
+			<nombre>Alfombras y esterillas de baño</nombre>
+		</categoria>
+		<categoria id="4366" ruta="|536|574|4366|">
+			<nombre>Almohadas de baño</nombre>
+		</categoria>
+		<categoria id="578" ruta="|536|574|578|">
+			<nombre>Argollas de la cortina de ducha</nombre>
+		</categoria>
+		<categoria id="8114" ruta="|536|574|8114|">
+			<nombre>Asideros de seguridad</nombre>
+		</categoria>
+		<categoria id="575" ruta="|536|574|575|">
+			<nombre>Bandejas de bañera</nombre>
+		</categoria>
+		<categoria id="1962" ruta="|536|574|1962|">
+			<nombre>Barras de ducha</nombre>
+		</categoria>
+		<categoria id="2418" ruta="|536|574|2418|">
+			<nombre>Botiquines</nombre>
+		</categoria>
+		<categoria id="7509" ruta="|536|574|7509|">
+			<nombre>Cabezales de repuesto para escobillas de baño</nombre>
+		</categoria>
+		<categoria id="579" ruta="|536|574|579|">
+			<nombre>Cajas para pañuelos</nombre>
+		</categoria>
+		<categoria id="2034" ruta="|536|574|2034|">
+			<nombre>Colgadores para el baño</nombre>
+		</categoria>
+		<categoria id="580" ruta="|536|574|580|">
+			<nombre>Cortinas de ducha</nombre>
+		</categoria>
+		<categoria id="4971" ruta="|536|574|4971|">
+			<nombre>Dispensadores de jabón y loción</nombre>
+		</categoria>
+		<categoria id="583" ruta="|536|574|583|">
+			<nombre>Escobillas de baño y escobilleros</nombre>
+		</categoria>
+		<categoria id="582" ruta="|536|574|582|">
+			<nombre>Jaboneras</nombre>
+		</categoria>
+		<categoria id="6858" ruta="|536|574|6858|">
+			<nombre>Juegos de accesorios de baño</nombre>
+		</categoria>
+		<categoria id="7093" ruta="|536|574|7093|">
+			<nombre>Monturas para accesorios de baño</nombre>
+		</categoria>
+		<categoria id="584" ruta="|536|574|584|">
+			<nombre>Portarrollos</nombre>
+		</categoria>
+		<categoria id="5141" ruta="|536|574|5141|">
+			<nombre>Secadores de manos</nombre>
+		</categoria>
+		<categoria id="586" ruta="|536|574|586|">
+			<nombre>Toalleros</nombre>
+		</categoria>
+		<categoria id="585" ruta="|536|574|585|">
+			<nombre>Vasos para cepillos de dientes</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="3348" ruta="|536|3348|">
+		<nombre>Accesorios para electrodomésticos</nombre>
+		<categoria id="4548" ruta="|536|3348|4548|">
+			<nombre>Accesorios de limpiadores de vapor y de alfombras</nombre>
+		</categoria>
+		<categoria id="4667" ruta="|536|3348|4667|">
+			<nombre>Accesorios deshumificadores</nombre>
+		</categoria>
+		<categoria id="618" ruta="|536|3348|618|">
+			<nombre>Accesorios para aspiradoras</nombre>
+		</categoria>
+		<categoria id="6773" ruta="|536|3348|6773|">
+			<nombre>Accesorios para calderas y calentadores</nombre>
+		</categoria>
+		<categoria id="2751" ruta="|536|3348|2751|">
+			<nombre>Accesorios para calentadores de agua</nombre>
+			<categoria id="1835" ruta="|536|3348|2751|1835|">
+				<nombre>Bandeja para calentador</nombre>
+			</categoria>
+			<categoria id="2221" ruta="|536|3348|2751|2221|">
+				<nombre>Chimeneas para calentador</nombre>
+			</categoria>
+			<categoria id="2175" ruta="|536|3348|2751|2175|">
+				<nombre>Cilindros para agua caliente</nombre>
+			</categoria>
+			<categoria id="500063" ruta="|536|3348|2751|500063|">
+				<nombre>Depósitos de expansión para calentadores de agua</nombre>
+			</categoria>
+			<categoria id="1744" ruta="|536|3348|2751|1744|">
+				<nombre>Elementos de calentador</nombre>
+			</categoria>
+			<categoria id="1709" ruta="|536|3348|2751|1709|">
+				<nombre>Rejillas de ventilación para calentador</nombre>
+			</categoria>
+			<categoria id="2310" ruta="|536|3348|2751|2310|">
+				<nombre>Varillas de ánodo</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="2367" ruta="|536|3348|2367|">
+			<nombre>Accesorios para el aire acondicionado</nombre>
+			<categoria id="5826" ruta="|536|3348|2367|5826|">
+				<nombre>Cubiertas para aire acondicionado</nombre>
+			</categoria>
+			<categoria id="3573" ruta="|536|3348|2367|3573|">
+				<nombre>Filtros de aire acondicionado</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="3456" ruta="|536|3348|3456|">
+			<nombre>Accesorios para electrodomésticos de lavandería</nombre>
+			<categoria id="5158" ruta="|536|3348|3456|5158|">
+				<nombre>Accesorios de vaporizadores para ropa</nombre>
+			</categoria>
+			<categoria id="500085" ruta="|536|3348|3456|500085|">
+				<nombre>Accesorios para lavadoras y secadoras</nombre>
+			</categoria>
+			<categoria id="5159" ruta="|536|3348|3456|5159|">
+				<nombre>Accesorios para plancha</nombre>
+			</categoria>
+			<categoria id="5160" ruta="|536|3348|3456|5160|">
+				<nombre>Accesorios para prensas de planchado a vapor</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="4650" ruta="|536|3348|4650|">
+			<nombre>Accesorios para estufas de exteriores</nombre>
+			<categoria id="4651" ruta="|536|3348|4650|4651|">
+				<nombre>Fundas de estufas de exteriores</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="3862" ruta="|536|3348|3862|">
+			<nombre>Accesorios para humidificadores</nombre>
+			<categoria id="3402" ruta="|536|3348|3862|3402|">
+				<nombre>Filtros de humidificadores</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="3410" ruta="|536|3348|3410|">
+			<nombre>Accesorios para purificadores de aire</nombre>
+			<categoria id="3667" ruta="|536|3348|3410|3667|">
+				<nombre>Filtros purificadores de aire</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="7110" ruta="|536|3348|7110|">
+			<nombre>Accesorios para radiadores de calefacción</nombre>
+			<categoria id="7111" ruta="|536|3348|7110|7111|">
+				<nombre>Reflectores para radiadores de calefacción</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="5089" ruta="|536|3348|5089|">
+			<nombre>Accesorios para ventiladores</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="600" ruta="|536|600|">
+		<nombre>Accesorios para fumadores</nombre>
+		<categoria id="6880" ruta="|536|600|6880|">
+			<nombre>Accesorios para humidores</nombre>
+		</categoria>
+		<categoria id="6882" ruta="|536|600|6882|">
+			<nombre>Cajas para puros</nombre>
+		</categoria>
+		<categoria id="4082" ruta="|536|600|4082|">
+			<nombre>Ceniceros</nombre>
+		</categoria>
+		<categoria id="6879" ruta="|536|600|6879|">
+			<nombre>Cortadores y perforadores de puros</nombre>
+		</categoria>
+		<categoria id="6878" ruta="|536|600|6878|">
+			<nombre>Humidores</nombre>
+		</categoria>
+		<categoria id="6881" ruta="|536|600|6881|">
+			<nombre>Pitilleras</nombre>
+		</categoria>
+		<categoria id="500007" ruta="|536|600|500007|">
+			<nombre>Soportes para cigarrillos</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="2862" ruta="|536|2862|">
+		<nombre>Accesorios para hornos de leña y chimeneas</nombre>
+		<categoria id="7029" ruta="|536|2862|7029|">
+			<nombre>Accesorios para bolsas y soportes de leña</nombre>
+		</categoria>
+		<categoria id="7091" ruta="|536|2862|7091|">
+			<nombre>Bases de suelo para hornos de leña y chimeneas</nombre>
+		</categoria>
+		<categoria id="695" ruta="|536|2862|695|">
+			<nombre>Bolsas y soportes de leña</nombre>
+		</categoria>
+		<categoria id="2044" ruta="|536|2862|2044|">
+			<nombre>Fuelles</nombre>
+		</categoria>
+		<categoria id="1530" ruta="|536|2862|1530|">
+			<nombre>Herramientas para chimeneas</nombre>
+		</categoria>
+		<categoria id="625" ruta="|536|2862|625|">
+			<nombre>Leña y combustible</nombre>
+		</categoria>
+		<categoria id="7523" ruta="|536|2862|7523|">
+			<nombre>Morillos para chimeneas</nombre>
+		</categoria>
+		<categoria id="2365" ruta="|536|2862|2365|">
+			<nombre>Pantallas para chimeneas</nombre>
+		</categoria>
+		<categoria id="7109" ruta="|536|2862|7109|">
+			<nombre>Reflectores para chimeneas</nombre>
+		</categoria>
+		<categoria id="6563" ruta="|536|2862|6563|">
+			<nombre>Rejillas para chimeneas y estufas de leña</nombre>
+		</categoria>
+		<categoria id="4918" ruta="|536|2862|4918|">
+			<nombre>Ventiladores para chimeneas de leña</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="6792" ruta="|536|6792|">
+		<nombre>Chimeneas</nombre>
+	</categoria>
+	<categoria id="638" ruta="|536|638|">
+		<nombre>Cocina y comedor</nombre>
+		<categoria id="2901" ruta="|536|638|2901|">
+			<nombre>Accesorios para aparatos de cocina</nombre>
+			<categoria id="3523" ruta="|536|638|2901|3523|">
+				<nombre>Accesorios de envasado al vacío</nombre>
+				<categoria id="3124" ruta="|536|638|2901|3523|3124|">
+					<nombre>Bolsas de envasado al vacío</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="3848" ruta="|536|638|2901|3848|">
+				<nombre>Accesorios de frigorífico</nombre>
+			</categoria>
+			<categoria id="3489" ruta="|536|638|2901|3489|">
+				<nombre>Accesorios de horno de pan</nombre>
+			</categoria>
+			<categoria id="499996" ruta="|536|638|2901|499996|">
+				<nombre>Accesorios de sartenes para gofres</nombre>
+			</categoria>
+			<categoria id="3684" ruta="|536|638|2901|3684|">
+				<nombre>Accesorios para barbacoas</nombre>
+				<categoria id="5694" ruta="|536|638|2901|3684|5694|">
+					<nombre>Briquetas de carbón</nombre>
+				</categoria>
+				<categoria id="5670" ruta="|536|638|2901|3684|5670|">
+					<nombre>Carros para barbacoas</nombre>
+				</categoria>
+				<categoria id="4560" ruta="|536|638|2901|3684|4560|">
+					<nombre>Cestas y rejillas para barbacoas</nombre>
+				</categoria>
+				<categoria id="7540" ruta="|536|638|2901|3684|7540|">
+					<nombre>Chimeneas de carbón</nombre>
+				</categoria>
+				<categoria id="3855" ruta="|536|638|2901|3684|3855|">
+					<nombre>Cubiertas para barbacoas</nombre>
+				</categoria>
+				<categoria id="5671" ruta="|536|638|2901|3684|5671|">
+					<nombre>Pellets y virutas de madera para ahumar</nombre>
+				</categoria>
+				<categoria id="505667" ruta="|536|638|2901|3684|505667|">
+					<nombre>Piezas de repuesto para barbacoas exteriores</nombre>
+				</categoria>
+				<categoria id="3382" ruta="|536|638|2901|3684|3382|">
+					<nombre>Rejillas para barbacoas</nombre>
+				</categoria>
+				<categoria id="5672" ruta="|536|638|2901|3684|5672|">
+					<nombre>Tablas para barbacoas</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="505765" ruta="|536|638|2901|505765|">
+				<nombre>Accesorios para batidoras y licuadoras</nombre>
+			</categoria>
+			<categoria id="3988" ruta="|536|638|2901|3988|">
+				<nombre>Accesorios para cafeteras</nombre>
+				<categoria id="4786" ruta="|536|638|2901|3988|4786|">
+					<nombre>Accesorios para molinillo de café</nombre>
+				</categoria>
+				<categoria id="6888" ruta="|536|638|2901|3988|6888|">
+					<nombre>Calentadores para jarras de café</nombre>
+				</categoria>
+				<categoria id="4500" ruta="|536|638|2901|3988|4500|">
+					<nombre>Cesta para filtros del café</nombre>
+				</categoria>
+				<categoria id="5065" ruta="|536|638|2901|3988|5065|">
+					<nombre>Filtros de agua para cafeteras</nombre>
+				</categoria>
+				<categoria id="3450" ruta="|536|638|2901|3988|3450|">
+					<nombre>Filtros de café</nombre>
+				</categoria>
+				<categoria id="3239" ruta="|536|638|2901|3988|3239|">
+					<nombre>Jarras de café</nombre>
+				</categoria>
+				<categoria id="5066" ruta="|536|638|2901|3988|5066|">
+					<nombre>Jarras para espumar</nombre>
+				</categoria>
+				<categoria id="734" ruta="|536|638|2901|3988|734|">
+					<nombre>Molinillos de café</nombre>
+				</categoria>
+				<categoria id="503736" ruta="|536|638|2901|3988|503736|">
+					<nombre>Piezas de repuesto para cafeteras y máquinas de café
+						espresso</nombre>
+				</categoria>
+				<categoria id="3838" ruta="|536|638|2901|3988|3838|">
+					<nombre>Portafiltros</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="8087" ruta="|536|638|2901|8087|">
+				<nombre>Accesorios para campana de cocina</nombre>
+			</categoria>
+			<categoria id="7570" ruta="|536|638|2901|7570|">
+				<nombre>Accesorios para congeladores</nombre>
+			</categoria>
+			<categoria id="4653" ruta="|536|638|2901|4653|">
+				<nombre>Accesorios para deshidratadores de alimentos</nombre>
+				<categoria id="4654" ruta="|536|638|2901|4653|4654|">
+					<nombre>Bandejas para deshidratadores de alimentos</nombre>
+				</categoria>
+				<categoria id="4655" ruta="|536|638|2901|4653|4655|">
+					<nombre>Láminas para deshidratadores de alimentos</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="4519" ruta="|536|638|2901|4519|">
+				<nombre>Accesorios para exprimidores</nombre>
+			</categoria>
+			<categoria id="7006" ruta="|536|638|2901|7006|">
+				<nombre>Accesorios para fogones portátiles</nombre>
+			</categoria>
+			<categoria id="3954" ruta="|536|638|2901|3954|">
+				<nombre>Accesorios para freidoras</nombre>
+			</categoria>
+			<categoria id="502989" ruta="|536|638|2901|502989|">
+				<nombre>Accesorios para generadores de agua carbonatada</nombre>
+			</categoria>
+			<categoria id="5042" ruta="|536|638|2901|5042|">
+				<nombre>Accesorios para granizadoras y picadoras de hielo</nombre>
+			</categoria>
+			<categoria id="2540" ruta="|536|638|2901|2540|">
+				<nombre>Accesorios para hacer pasta</nombre>
+			</categoria>
+			<categoria id="4674" ruta="|536|638|2901|4674|">
+				<nombre>Accesorios para heladeras</nombre>
+				<categoria id="4675" ruta="|536|638|2901|4674|4675|">
+					<nombre>Cuencos de heladeras para frigorífico</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="500066" ruta="|536|638|2901|500066|">
+				<nombre>Accesorios para hervidores de agua</nombre>
+			</categoria>
+			<categoria id="6944" ruta="|536|638|2901|6944|">
+				<nombre>Accesorios para juegos de fondue</nombre>
+				<categoria id="503725" ruta="|536|638|2901|6944|503725|">
+					<nombre>Combustible en gel para cocinar</nombre>
+				</categoria>
+				<categoria id="6946" ruta="|536|638|2901|6944|6946|">
+					<nombre>Soporte para ollas de fondue</nombre>
+				</categoria>
+				<categoria id="6945" ruta="|536|638|2901|6944|6945|">
+					<nombre>Tenedores para fondue</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="6747" ruta="|536|638|2901|6747|">
+				<nombre>Accesorios para la eliminación de basura</nombre>
+			</categoria>
+			<categoria id="8051" ruta="|536|638|2901|8051|">
+				<nombre>Accesorios para mesas de vapor</nombre>
+				<categoria id="8053" ruta="|536|638|2901|8051|8053|">
+					<nombre>Cubetas para mesas de vapor</nombre>
+				</categoria>
+				<categoria id="8052" ruta="|536|638|2901|8051|8052|">
+					<nombre>Tapas de cubetas para mesas de vapor</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="1334" ruta="|536|638|2901|1334|">
+				<nombre>Accesorios para microondas</nombre>
+			</categoria>
+			<categoria id="5076" ruta="|536|638|2901|5076|">
+				<nombre>Accesorios para máquina de algodón dulce</nombre>
+			</categoria>
+			<categoria id="7187" ruta="|536|638|2901|7187|">
+				<nombre>Accesorios para máquinas de hielo</nombre>
+			</categoria>
+			<categoria id="5075" ruta="|536|638|2901|5075|">
+				<nombre>Accesorios para máquinas de palomitas</nombre>
+			</categoria>
+			<categoria id="8106" ruta="|536|638|2901|8106|">
+				<nombre>Accesorios para neveras de vinos</nombre>
+			</categoria>
+			<categoria id="500004" ruta="|536|638|2901|500004|">
+				<nombre>Accesorios para placas de cocción, hornos y cocinas de gas
+				</nombre>
+			</categoria>
+			<categoria id="7118" ruta="|536|638|2901|7118|">
+				<nombre>Accesorios para refrigeradores de agua</nombre>
+				<categoria id="7119" ruta="|536|638|2901|7118|7119|">
+					<nombre>Botellas para refrigeradores de agua</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="7355" ruta="|536|638|2901|7355|">
+				<nombre>Accesorios para sartenes y woks eléctricos</nombre>
+			</categoria>
+			<categoria id="7444" ruta="|536|638|2901|7444|">
+				<nombre>Accesorios para tostadoras</nombre>
+			</categoria>
+			<categoria id="4763" ruta="|536|638|2901|4763|">
+				<nombre>Accesorios para triturador de comida</nombre>
+			</categoria>
+			<categoria id="5570" ruta="|536|638|2901|5570|">
+				<nombre>Accesorios para yogurteras</nombre>
+			</categoria>
+			<categoria id="3443" ruta="|536|638|2901|3443|">
+				<nombre>Accesorios y piezas de lavavajillas</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="6478" ruta="|536|638|6478|">
+			<nombre>Accesorios para el almacenamiento de comida</nombre>
+			<categoria id="6479" ruta="|536|638|6478|6479|">
+				<nombre>Absorbentes de oxígeno</nombre>
+			</categoria>
+			<categoria id="8039" ruta="|536|638|6478|8039|">
+				<nombre>Dispensadores de film plástico</nombre>
+			</categoria>
+			<categoria id="499924" ruta="|536|638|6478|499924|">
+				<nombre>Etiquetas para alimentos y bebidas</nombre>
+			</categoria>
+			<categoria id="5837" ruta="|536|638|6478|5837|">
+				<nombre>Pinzas para bolsas y ataduras de alambre</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="8161" ruta="|536|638|8161|">
+			<nombre>Cocinas y zonas de cocina prefabricadas</nombre>
+		</categoria>
+		<categoria id="730" ruta="|536|638|730|">
+			<nombre>Electrodomésticos de cocina</nombre>
+			<categoria id="752" ruta="|536|638|730|752|">
+				<nombre>Afiladores de cuchillos</nombre>
+			</categoria>
+			<categoria id="687" ruta="|536|638|730|687|">
+				<nombre>Ahumadores de comida</nombre>
+			</categoria>
+			<categoria id="4495" ruta="|536|638|730|4495|">
+				<nombre>Asadores y hornos para asar</nombre>
+			</categoria>
+			<categoria id="2985" ruta="|536|638|730|2985|">
+				<nombre>Barbacoas</nombre>
+			</categoria>
+			<categoria id="505666" ruta="|536|638|730|505666|">
+				<nombre>Batidoras y licuadoras</nombre>
+			</categoria>
+			<categoria id="736" ruta="|536|638|730|736|">
+				<nombre>Cafeteras</nombre>
+				<categoria id="5286" ruta="|536|638|730|736|5286|">
+					<nombre>Cafetera cona (por vacío)</nombre>
+				</categoria>
+				<categoria id="2247" ruta="|536|638|730|736|2247|">
+					<nombre>Cafeteras con filtro</nombre>
+				</categoria>
+				<categoria id="1388" ruta="|536|638|730|736|1388|">
+					<nombre>Cafeteras de filtro</nombre>
+				</categoria>
+				<categoria id="1557" ruta="|536|638|730|736|1557|">
+					<nombre>Cafeteras de émbolo</nombre>
+				</categoria>
+				<categoria id="1647" ruta="|536|638|730|736|1647|">
+					<nombre>Cafeteras italianas tradicionales y eléctricas</nombre>
+				</categoria>
+				<categoria id="2422" ruta="|536|638|730|736|2422|">
+					<nombre>Máquinas de expreso</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="5287" ruta="|536|638|730|5287|">
+				<nombre>Calentadores de bebidas</nombre>
+			</categoria>
+			<categoria id="5103" ruta="|536|638|730|5103|">
+				<nombre>Calentadores de comida</nombre>
+				<categoria id="6548" ruta="|536|638|730|5103|6548|">
+					<nombre>Escalfadores</nombre>
+				</categoria>
+				<categoria id="5349" ruta="|536|638|730|5103|5349|">
+					<nombre>Lámparas para calentar comida</nombre>
+				</categoria>
+				<categoria id="504633" ruta="|536|638|730|5103|504633|">
+					<nombre>Recipientes para arroz</nombre>
+				</categoria>
+				<categoria id="4292" ruta="|536|638|730|5103|4292|">
+					<nombre>Vitrinas calientes</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="1015" ruta="|536|638|730|1015|">
+				<nombre>Cocinas de camping</nombre>
+			</categoria>
+			<categoria id="681" ruta="|536|638|730|681|">
+				<nombre>Congeladores</nombre>
+			</categoria>
+			<categoria id="3181" ruta="|536|638|730|3181|">
+				<nombre>Cortadoras de fiambres</nombre>
+			</categoria>
+			<categoria id="743" ruta="|536|638|730|743|">
+				<nombre>Deshidratadores de comida</nombre>
+			</categoria>
+			<categoria id="3293" ruta="|536|638|730|3293|">
+				<nombre>Dispensadores enfriadores de agua</nombre>
+			</categoria>
+			<categoria id="763" ruta="|536|638|730|763|">
+				<nombre>Envasados al vacío</nombre>
+			</categoria>
+			<categoria id="750" ruta="|536|638|730|750|">
+				<nombre>Exprimidores</nombre>
+			</categoria>
+			<categoria id="684" ruta="|536|638|730|684|">
+				<nombre>Extractores</nombre>
+			</categoria>
+			<categoria id="765" ruta="|536|638|730|765|">
+				<nombre>Filtros de agua</nombre>
+			</categoria>
+			<categoria id="738" ruta="|536|638|730|738|">
+				<nombre>Freidoras</nombre>
+			</categoria>
+			<categoria id="686" ruta="|536|638|730|686|">
+				<nombre>Frigoríficos</nombre>
+			</categoria>
+			<categoria id="749" ruta="|536|638|730|749|">
+				<nombre>Granizadoras y picadoras de hielo</nombre>
+			</categoria>
+			<categoria id="748" ruta="|536|638|730|748|">
+				<nombre>Heladeras</nombre>
+			</categoria>
+			<categoria id="751" ruta="|536|638|730|751|">
+				<nombre>Hervidores eléctricos</nombre>
+			</categoria>
+			<categoria id="685" ruta="|536|638|730|685|">
+				<nombre>Hornillas</nombre>
+			</categoria>
+			<categoria id="732" ruta="|536|638|730|732|">
+				<nombre>Horno de pan</nombre>
+			</categoria>
+			<categoria id="683" ruta="|536|638|730|683|">
+				<nombre>Hornos</nombre>
+			</categoria>
+			<categoria id="753" ruta="|536|638|730|753|">
+				<nombre>Hornos microondas</nombre>
+			</categoria>
+			<categoria id="4720" ruta="|536|638|730|4720|">
+				<nombre>Juegos para fondues</nombre>
+			</categoria>
+			<categoria id="680" ruta="|536|638|730|680|">
+				<nombre>Lavavajillas</nombre>
+			</categoria>
+			<categoria id="744" ruta="|536|638|730|744|">
+				<nombre>Molinos y trituradoras de comida</nombre>
+			</categoria>
+			<categoria id="3319" ruta="|536|638|730|3319|">
+				<nombre>Máquinas de algodón dulce</nombre>
+			</categoria>
+			<categoria id="5156" ruta="|536|638|730|5156|">
+				<nombre>Máquinas de granizados</nombre>
+			</categoria>
+			<categoria id="3526" ruta="|536|638|730|3526|">
+				<nombre>Máquinas de hacer espuma de leche</nombre>
+			</categoria>
+			<categoria id="4161" ruta="|536|638|730|4161|">
+				<nombre>Máquinas de hielo</nombre>
+			</categoria>
+			<categoria id="756" ruta="|536|638|730|756|">
+				<nombre>Máquinas de palomitas</nombre>
+			</categoria>
+			<categoria id="5090" ruta="|536|638|730|5090|">
+				<nombre>Máquinas para derretir chocolate</nombre>
+			</categoria>
+			<categoria id="5577" ruta="|536|638|730|5577|">
+				<nombre>Máquinas para hacer leche de soja</nombre>
+			</categoria>
+			<categoria id="4482" ruta="|536|638|730|4482|">
+				<nombre>Máquinas para hacer mochi</nombre>
+			</categoria>
+			<categoria id="755" ruta="|536|638|730|755|">
+				<nombre>Máquinas para hacer pasta</nombre>
+			</categoria>
+			<categoria id="5057" ruta="|536|638|730|5057|">
+				<nombre>Máquinas para leche de soja</nombre>
+			</categoria>
+			<categoria id="4539" ruta="|536|638|730|4539|">
+				<nombre>Neveras para vino</nombre>
+			</categoria>
+			<categoria id="4532" ruta="|536|638|730|4532|">
+				<nombre>Ollas de vapor para alimentos</nombre>
+				<categoria id="757" ruta="|536|638|730|4532|757|">
+					<nombre>Arroceras</nombre>
+				</categoria>
+				<categoria id="739" ruta="|536|638|730|4532|739|">
+					<nombre>Cocedores de huevos</nombre>
+				</categoria>
+				<categoria id="6279" ruta="|536|638|730|4532|6279|">
+					<nombre>Hornos de agua</nombre>
+				</categoria>
+				<categoria id="737" ruta="|536|638|730|4532|737|">
+					<nombre>Ollas de cocción lenta</nombre>
+				</categoria>
+				<categoria id="760" ruta="|536|638|730|4532|760|">
+					<nombre>Ollas de vapor</nombre>
+				</categoria>
+				<categoria id="6523" ruta="|536|638|730|4532|6523|">
+					<nombre>Ollas térmicas</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="679" ruta="|536|638|730|679|">
+				<nombre>Placas de cocina</nombre>
+			</categoria>
+			<categoria id="747" ruta="|536|638|730|747|">
+				<nombre>Placas para calentar</nombre>
+			</categoria>
+			<categoria id="6524" ruta="|536|638|730|6524|">
+				<nombre>Planchas de gas</nombre>
+			</categoria>
+			<categoria id="7165" ruta="|536|638|730|7165|">
+				<nombre>Planchas y parrillas eléctricas</nombre>
+			</categoria>
+			<categoria id="6543" ruta="|536|638|730|6543|">
+				<nombre>Preparadores de bebidas calientes</nombre>
+			</categoria>
+			<categoria id="4528" ruta="|536|638|730|4528|">
+				<nombre>Teteras eléctricas</nombre>
+			</categoria>
+			<categoria id="5289" ruta="|536|638|730|5289|">
+				<nombre>Tostadores y parrillas</nombre>
+				<categoria id="6278" ruta="|536|638|730|5289|6278|">
+					<nombre>Aparatos para hacer pizza</nombre>
+				</categoria>
+				<categoria id="764" ruta="|536|638|730|5289|764|">
+					<nombre>Gofreras</nombre>
+				</categoria>
+				<categoria id="761" ruta="|536|638|730|5289|761|">
+					<nombre>Hornos tostadores</nombre>
+				</categoria>
+				<categoria id="6819" ruta="|536|638|730|5289|6819|">
+					<nombre>Máquinas de donuts</nombre>
+				</categoria>
+				<categoria id="6516" ruta="|536|638|730|5289|6516|">
+					<nombre>Máquinas de pretzels</nombre>
+				</categoria>
+				<categoria id="5318" ruta="|536|638|730|5289|5318|">
+					<nombre>Máquinas para hacer magdalenas</nombre>
+				</categoria>
+				<categoria id="5291" ruta="|536|638|730|5289|5291|">
+					<nombre>Máquinas para hacer pizellas o ferratellas</nombre>
+				</categoria>
+				<categoria id="5292" ruta="|536|638|730|5289|5292|">
+					<nombre>Máquinas para hacer quesadillas y tortillas</nombre>
+				</categoria>
+				<categoria id="759" ruta="|536|638|730|5289|759|">
+					<nombre>Sandwicheras</nombre>
+				</categoria>
+				<categoria id="762" ruta="|536|638|730|5289|762|">
+					<nombre>Tostadores</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="688" ruta="|536|638|730|688|">
+				<nombre>Trituradores de basura</nombre>
+			</categoria>
+			<categoria id="610" ruta="|536|638|730|610|">
+				<nombre>Trituradores de desechos</nombre>
+			</categoria>
+			<categoria id="4421" ruta="|536|638|730|4421|">
+				<nombre>Woks y sartenes eléctricas</nombre>
+			</categoria>
+			<categoria id="766" ruta="|536|638|730|766|">
+				<nombre>Yogurteras</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="668" ruta="|536|638|668|">
+			<nombre>Herramientas y utensilios de cocina</nombre>
+			<categoria id="3248" ruta="|536|638|668|3248|">
+				<nombre>Ablandadores de carne</nombre>
+			</categoria>
+			<categoria id="733" ruta="|536|638|668|733|">
+				<nombre>Abrelatas</nombre>
+			</categoria>
+			<categoria id="6522" ruta="|536|638|668|6522|">
+				<nombre>Acanaladores</nombre>
+			</categoria>
+			<categoria id="4788" ruta="|536|638|668|4788|">
+				<nombre>Accesorios de molinillo para especias</nombre>
+			</categoria>
+			<categoria id="7365" ruta="|536|638|668|7365|">
+				<nombre>Accesorios para cortapizzas</nombre>
+			</categoria>
+			<categoria id="6411" ruta="|536|638|668|6411|">
+				<nombre>Accesorios para cuchillos eléctricos</nombre>
+				<categoria id="6412" ruta="|536|638|668|6411|6412|">
+					<nombre>Hojas de recambio para cuchillos eléctricos</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="4705" ruta="|536|638|668|4705|">
+				<nombre>Accesorios para rodillos de cocina</nombre>
+				<categoria id="4707" ruta="|536|638|668|4705|4707|">
+					<nombre>Anillos niveladores para rodillos de cocina</nombre>
+				</categoria>
+				<categoria id="4706" ruta="|536|638|668|4705|4706|">
+					<nombre>Fundas para rodillos de cocina</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="7331" ruta="|536|638|668|7331|">
+				<nombre>Accesorios para termómetros de cocina</nombre>
+			</categoria>
+			<categoria id="4332" ruta="|536|638|668|4332|">
+				<nombre>Amasadores</nombre>
+			</categoria>
+			<categoria id="670" ruta="|536|638|668|670|">
+				<nombre>Apartadores y guantes para horno</nombre>
+			</categoria>
+			<categoria id="4247" ruta="|536|638|668|4247|">
+				<nombre>Aplastadores de latas</nombre>
+			</categoria>
+			<categoria id="6974" ruta="|536|638|668|6974|">
+				<nombre>Azucareros</nombre>
+			</categoria>
+			<categoria id="4746" ruta="|536|638|668|4746|">
+				<nombre>Bandejas cubiteras</nombre>
+			</categoria>
+			<categoria id="3597" ruta="|536|638|668|3597|">
+				<nombre>Batidores de varillas</nombre>
+			</categoria>
+			<categoria id="7329" ruta="|536|638|668|7329|">
+				<nombre>Bolsas de cocción al vapor</nombre>
+			</categoria>
+			<categoria id="4771" ruta="|536|638|668|4771|">
+				<nombre>Bolsas para horno</nombre>
+			</categoria>
+			<categoria id="4559" ruta="|536|638|668|4559|">
+				<nombre>Coladores de té</nombre>
+			</categoria>
+			<categoria id="653" ruta="|536|638|668|653|">
+				<nombre>Coladores y filtros</nombre>
+			</categoria>
+			<categoria id="3206" ruta="|536|638|668|3206|">
+				<nombre>Cortadoras de cocina</nombre>
+			</categoria>
+			<categoria id="3421" ruta="|536|638|668|3421|">
+				<nombre>Cortadores de pizza</nombre>
+			</categoria>
+			<categoria id="6723" ruta="|536|638|668|6723|">
+				<nombre>Cortapastas extensibles con ruedas</nombre>
+			</categoria>
+			<categoria id="3713" ruta="|536|638|668|3713|">
+				<nombre>Cronómetros de cocina</nombre>
+			</categoria>
+			<categoria id="3175" ruta="|536|638|668|3175|">
+				<nombre>Cucharas para bolas</nombre>
+				<categoria id="3258" ruta="|536|638|668|3175|3258|">
+					<nombre>Cucharas cortamelón</nombre>
+				</categoria>
+				<categoria id="3202" ruta="|536|638|668|3175|3202|">
+					<nombre>Cucharas de helados</nombre>
+				</categoria>
+				<categoria id="3708" ruta="|536|638|668|3175|3708|">
+					<nombre>Palas para hielo</nombre>
+				</categoria>
+				<categoria id="502966" ruta="|536|638|668|3175|502966|">
+					<nombre>Palas para palomitas y patatas fritas</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="3620" ruta="|536|638|668|3620|">
+				<nombre>Cucharones</nombre>
+			</categoria>
+			<categoria id="665" ruta="|536|638|668|665|">
+				<nombre>Cuchillos de cocina</nombre>
+			</categoria>
+			<categoria id="741" ruta="|536|638|668|741|">
+				<nombre>Cuchillos eléctricos</nombre>
+			</categoria>
+			<categoria id="4530" ruta="|536|638|668|4530|">
+				<nombre>Cuencos para mezclar</nombre>
+			</categoria>
+			<categoria id="639" ruta="|536|638|668|639|">
+				<nombre>Delantales</nombre>
+			</categoria>
+			<categoria id="7149" ruta="|536|638|668|7149|">
+				<nombre>Dispensadores de bebidas</nombre>
+			</categoria>
+			<categoria id="3723" ruta="|536|638|668|3723|">
+				<nombre>Dispensadores de comida</nombre>
+			</categoria>
+			<categoria id="4777" ruta="|536|638|668|4777|">
+				<nombre>Dispensadores de condimentos</nombre>
+			</categoria>
+			<categoria id="503005" ruta="|536|638|668|503005|">
+				<nombre>Embudos</nombre>
+			</categoria>
+			<categoria id="3268" ruta="|536|638|668|3268|">
+				<nombre>Escurreplatos</nombre>
+			</categoria>
+			<categoria id="3914" ruta="|536|638|668|3914|">
+				<nombre>Escurridores de ensalada</nombre>
+			</categoria>
+			<categoria id="6388" ruta="|536|638|668|6388|">
+				<nombre>Espumaderas</nombre>
+			</categoria>
+			<categoria id="3196" ruta="|536|638|668|3196|">
+				<nombre>Espátulas de cocina</nombre>
+			</categoria>
+			<categoria id="5080" ruta="|536|638|668|5080|">
+				<nombre>Esteras antideslizantes para fregaderos</nombre>
+			</categoria>
+			<categoria id="7247" ruta="|536|638|668|7247|">
+				<nombre>Esterillas para sushi</nombre>
+			</categoria>
+			<categoria id="4765" ruta="|536|638|668|4765|">
+				<nombre>Juegos de utensilios de cocina</nombre>
+			</categoria>
+			<categoria id="6497" ruta="|536|638|668|6497|">
+				<nombre>Mezcladores de aliños</nombre>
+			</categoria>
+			<categoria id="8006" ruta="|536|638|668|8006|">
+				<nombre>Moldes de cocina</nombre>
+			</categoria>
+			<categoria id="3850" ruta="|536|638|668|3850|">
+				<nombre>Moldes de galletas</nombre>
+			</categoria>
+			<categoria id="6787" ruta="|536|638|668|6787|">
+				<nombre>Moldes para gelatina</nombre>
+			</categoria>
+			<categoria id="6749" ruta="|536|638|668|6749|">
+				<nombre>Moldes y sellos para pasta</nombre>
+			</categoria>
+			<categoria id="4762" ruta="|536|638|668|4762|">
+				<nombre>Molinillos para especias</nombre>
+			</categoria>
+			<categoria id="3999" ruta="|536|638|668|3999|">
+				<nombre>Morteros</nombre>
+			</categoria>
+			<categoria id="2948" ruta="|536|638|668|2948|">
+				<nombre>Organizadores de cocina</nombre>
+				<categoria id="3831" ruta="|536|638|668|2948|3831|">
+					<nombre>Bandejas de cubiertos y utensilios</nombre>
+				</categoria>
+				<categoria id="8012" ruta="|536|638|668|2948|8012|">
+					<nombre>Contenedores para utensilios de cocina</nombre>
+				</categoria>
+				<categoria id="5059" ruta="|536|638|668|2948|5059|">
+					<nombre>Dispensadores y soportes de pajitas</nombre>
+				</categoria>
+				<categoria id="3061" ruta="|536|638|668|2948|3061|">
+					<nombre>Dispensadores y soportes de papel de cocina</nombre>
+				</categoria>
+				<categoria id="3177" ruta="|536|638|668|2948|3177|">
+					<nombre>Encimeras y organizadores de bebidas</nombre>
+				</categoria>
+				<categoria id="2344" ruta="|536|638|668|2948|2344|">
+					<nombre>Especieros</nombre>
+				</categoria>
+				<categoria id="3479" ruta="|536|638|668|2948|3479|">
+					<nombre>Estanterías para cristalería</nombre>
+				</categoria>
+				<categoria id="6487" ruta="|536|638|668|2948|6487|">
+					<nombre>Organizadores de armarios de cocina</nombre>
+				</categoria>
+				<categoria id="6480" ruta="|536|638|668|2948|6480|">
+					<nombre>Organizadores de latas</nombre>
+				</categoria>
+				<categoria id="4322" ruta="|536|638|668|2948|4322|">
+					<nombre>Palilleros y dispensadores de palillos</nombre>
+				</categoria>
+				<categoria id="5157" ruta="|536|638|668|2948|5157|">
+					<nombre>Portacuchillos y bloques para cuchillos</nombre>
+				</categoria>
+				<categoria id="6415" ruta="|536|638|668|2948|6415|">
+					<nombre>Recipientes para azucarillos</nombre>
+				</categoria>
+				<categoria id="3072" ruta="|536|638|668|2948|3072|">
+					<nombre>Servilleteros y dispensadores de servilletas</nombre>
+				</categoria>
+				<categoria id="3845" ruta="|536|638|668|2948|3845|">
+					<nombre>Soportes para sartenes</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="6746" ruta="|536|638|668|6746|">
+				<nombre>Organizadores de fregadero</nombre>
+			</categoria>
+			<categoria id="3768" ruta="|536|638|668|3768|">
+				<nombre>Palas de horno</nombre>
+			</categoria>
+			<categoria id="6408" ruta="|536|638|668|6408|">
+				<nombre>Palas para pasteles</nombre>
+			</categoria>
+			<categoria id="3835" ruta="|536|638|668|3835|">
+				<nombre>Parrillas de enfriamiento</nombre>
+			</categoria>
+			<categoria id="5109" ruta="|536|638|668|5109|">
+				<nombre>Pasapurés</nombre>
+			</categoria>
+			<categoria id="4708" ruta="|536|638|668|4708|">
+				<nombre>Paños de amasar</nombre>
+			</categoria>
+			<categoria id="3521" ruta="|536|638|668|3521|">
+				<nombre>Peladores y descorazonadores</nombre>
+			</categoria>
+			<categoria id="3430" ruta="|536|638|668|3430|">
+				<nombre>Pinceles de cocina</nombre>
+			</categoria>
+			<categoria id="6554" ruta="|536|638|668|6554|">
+				<nombre>Pinchos y brochetas para comida</nombre>
+			</categoria>
+			<categoria id="4005" ruta="|536|638|668|4005|">
+				<nombre>Pinzas de cocina</nombre>
+			</categoria>
+			<categoria id="3347" ruta="|536|638|668|3347|">
+				<nombre>Pipetas para salsas</nombre>
+			</categoria>
+			<categoria id="7485" ruta="|536|638|668|7485|">
+				<nombre>Pistolas para cecinas</nombre>
+			</categoria>
+			<categoria id="505316" ruta="|536|638|668|505316|">
+				<nombre>Plantillas para comida y bebida</nombre>
+			</categoria>
+			<categoria id="6342" ruta="|536|638|668|6342|">
+				<nombre>Prensa para galletas</nombre>
+			</categoria>
+			<categoria id="3385" ruta="|536|638|668|3385|">
+				<nombre>Prensadores de ajos</nombre>
+			</categoria>
+			<categoria id="4630" ruta="|536|638|668|4630|">
+				<nombre>Productos para la decoración de pasteles</nombre>
+			</categoria>
+			<categoria id="3156" ruta="|536|638|668|3156|">
+				<nombre>Ralladores de comida</nombre>
+			</categoria>
+			<categoria id="3256" ruta="|536|638|668|3256|">
+				<nombre>Raspadores de cocina</nombre>
+				<categoria id="3086" ruta="|536|638|668|3256|3086|">
+					<nombre>Espátulas de goma</nombre>
+				</categoria>
+				<categoria id="3633" ruta="|536|638|668|3256|3633|">
+					<nombre>Espátulas de parrilla</nombre>
+				</categoria>
+				<categoria id="3419" ruta="|536|638|668|3256|3419|">
+					<nombre>Rasquetas</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="4334" ruta="|536|638|668|4334|">
+				<nombre>Reposacucharas</nombre>
+			</categoria>
+			<categoria id="3467" ruta="|536|638|668|3467|">
+				<nombre>Rodillos de cocina</nombre>
+			</categoria>
+			<categoria id="5928" ruta="|536|638|668|5928|">
+				<nombre>Soplete para cocinar</nombre>
+			</categoria>
+			<categoria id="666" ruta="|536|638|668|666|">
+				<nombre>Tablas de cortar</nombre>
+			</categoria>
+			<categoria id="5370" ruta="|536|638|668|5370|">
+				<nombre>Tamices de harina</nombre>
+			</categoria>
+			<categoria id="3475" ruta="|536|638|668|3475|">
+				<nombre>Tazas y cucharas medidoras</nombre>
+			</categoria>
+			<categoria id="3381" ruta="|536|638|668|3381|">
+				<nombre>Tenazas para alimentos</nombre>
+				<categoria id="3685" ruta="|536|638|668|3381|3685|">
+					<nombre>Cascanueces</nombre>
+					<categoria id="4214" ruta="|536|638|668|3381|3685|4214|">
+						<nombre>Cascanueces decorativos</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="3586" ruta="|536|638|668|3381|3586|">
+					<nombre>Pinzas para mariscos</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="5078" ruta="|536|638|668|5078|">
+				<nombre>Tenedores trinchantes</nombre>
+			</categoria>
+			<categoria id="3091" ruta="|536|638|668|3091|">
+				<nombre>Termómetros de cocina</nombre>
+			</categoria>
+			<categoria id="5251" ruta="|536|638|668|5251|">
+				<nombre>Tijeras de cocina</nombre>
+			</categoria>
+			<categoria id="3294" ruta="|536|638|668|3294|">
+				<nombre>Trituradores</nombre>
+			</categoria>
+			<categoria id="6526" ruta="|536|638|668|6526|">
+				<nombre>Vinagreras</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="2920" ruta="|536|638|2920|">
+			<nombre>Objetos para llevar comida y bebida</nombre>
+			<categoria id="4520" ruta="|536|638|2920|4520|">
+				<nombre>Aislantes térmicos para bebidas</nombre>
+				<categoria id="4521" ruta="|536|638|2920|4520|4521|">
+					<nombre>Aislantes térmicos para latas y botellas</nombre>
+				</categoria>
+				<categoria id="4522" ruta="|536|638|2920|4520|4522|">
+					<nombre>Aislantes térmicos para tazas</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="2507" ruta="|536|638|2920|2507|">
+				<nombre>Bolsas aislantes</nombre>
+			</categoria>
+			<categoria id="6449" ruta="|536|638|2920|6449|">
+				<nombre>Bolsas para transportar vino</nombre>
+			</categoria>
+			<categoria id="669" ruta="|536|638|2920|669|">
+				<nombre>Bolsas y contenedores para el almuerzo</nombre>
+			</categoria>
+			<categoria id="3809" ruta="|536|638|2920|3809|">
+				<nombre>Botellas de agua</nombre>
+			</categoria>
+			<categoria id="3435" ruta="|536|638|2920|3435|">
+				<nombre>Cantimploras</nombre>
+			</categoria>
+			<categoria id="671" ruta="|536|638|2920|671|">
+				<nombre>Cestas de picnic</nombre>
+			</categoria>
+			<categoria id="1444" ruta="|536|638|2920|1444|">
+				<nombre>Frascos</nombre>
+			</categoria>
+			<categoria id="1017" ruta="|536|638|2920|1017|">
+				<nombre>Neveras</nombre>
+			</categoria>
+			<categoria id="5060" ruta="|536|638|2920|5060|">
+				<nombre>Tapones de botellas</nombre>
+			</categoria>
+			<categoria id="3800" ruta="|536|638|2920|3800|">
+				<nombre>Termos</nombre>
+			</categoria>
+			<categoria id="4722" ruta="|536|638|2920|4722|">
+				<nombre>Termos dispensadores</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="2626" ruta="|536|638|2626|">
+			<nombre>Recipiente para comida</nombre>
+			<categoria id="3591" ruta="|536|638|2626|3591|">
+				<nombre>Bolsas de comida</nombre>
+			</categoria>
+			<categoria id="2644" ruta="|536|638|2626|2644|">
+				<nombre>Botes de galletas</nombre>
+			</categoria>
+			<categoria id="6534" ruta="|536|638|2626|6534|">
+				<nombre>Cubos de caramelos</nombre>
+			</categoria>
+			<categoria id="3110" ruta="|536|638|2626|3110|">
+				<nombre>Envoltorios de comida</nombre>
+				<categoria id="3750" ruta="|536|638|2626|3110|3750|">
+					<nombre>Film plástico</nombre>
+				</categoria>
+				<categoria id="1496" ruta="|536|638|2626|3110|1496|">
+					<nombre>Papel de aluminio</nombre>
+				</categoria>
+				<categoria id="3956" ruta="|536|638|2626|3110|3956|">
+					<nombre>Papel de cera</nombre>
+				</categoria>
+				<categoria id="5642" ruta="|536|638|2626|3110|5642|">
+					<nombre>Papel vegetal</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="667" ruta="|536|638|2626|667|">
+				<nombre>Fiambreras</nombre>
+			</categoria>
+			<categoria id="3337" ruta="|536|638|2626|3337|">
+				<nombre>Paneras</nombre>
+			</categoria>
+			<categoria id="6481" ruta="|536|638|2626|6481|">
+				<nombre>Tapas para tuppers</nombre>
+			</categoria>
+			<categoria id="5134" ruta="|536|638|2626|5134|">
+				<nombre>Tarros de miel</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="672" ruta="|536|638|672|">
+			<nombre>Utensilios de mesa</nombre>
+			<categoria id="6425" ruta="|536|638|672|6425|">
+				<nombre>Accesorios para utensilios de servir</nombre>
+				<categoria id="6434" ruta="|536|638|672|6425|6434|">
+					<nombre>Soportes para poncheras</nombre>
+				</categoria>
+				<categoria id="6426" ruta="|536|638|672|6425|6426|">
+					<nombre>Soportes para soperas</nombre>
+				</categoria>
+				<categoria id="6427" ruta="|536|638|672|6425|6427|">
+					<nombre>Tapas para soperas</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="677" ruta="|536|638|672|677|">
+				<nombre>Apartadores</nombre>
+			</categoria>
+			<categoria id="652" ruta="|536|638|672|652|">
+				<nombre>Cafeteras y teteras</nombre>
+			</categoria>
+			<categoria id="674" ruta="|536|638|672|674|">
+				<nombre>Cristalería</nombre>
+				<categoria id="2712" ruta="|536|638|672|674|2712|">
+					<nombre>Copas</nombre>
+				</categoria>
+				<categoria id="6958" ruta="|536|638|672|674|6958|">
+					<nombre>Juegos de cristalería</nombre>
+				</categoria>
+				<categoria id="6051" ruta="|536|638|672|674|6051|">
+					<nombre>Platos de café y té</nombre>
+				</categoria>
+				<categoria id="2169" ruta="|536|638|672|674|2169|">
+					<nombre>Tazas</nombre>
+				</categoria>
+				<categoria id="6049" ruta="|536|638|672|674|6049|">
+					<nombre>Tazas de café y té</nombre>
+				</categoria>
+				<categoria id="2951" ruta="|536|638|672|674|2951|">
+					<nombre>Vasos</nombre>
+				</categoria>
+				<categoria id="2694" ruta="|536|638|672|674|2694|">
+					<nombre>Vasos de chupito</nombre>
+				</categoria>
+				<categoria id="7568" ruta="|536|638|672|674|7568|">
+					<nombre>Vasos y jarras de cerveza</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="675" ruta="|536|638|672|675|">
+				<nombre>Cubiertos</nombre>
+				<categoria id="6439" ruta="|536|638|672|675|6439|">
+					<nombre>Accesorios para palillos</nombre>
+				</categoria>
+				<categoria id="3939" ruta="|536|638|672|675|3939|">
+					<nombre>Cucharas</nombre>
+				</categoria>
+				<categoria id="3844" ruta="|536|638|672|675|3844|">
+					<nombre>Cuchillos de mesa</nombre>
+				</categoria>
+				<categoria id="5647" ruta="|536|638|672|675|5647|">
+					<nombre>Juegos de cubertería</nombre>
+				</categoria>
+				<categoria id="3699" ruta="|536|638|672|675|3699|">
+					<nombre>Palillos</nombre>
+				</categoria>
+				<categoria id="4015" ruta="|536|638|672|675|4015|">
+					<nombre>Tenedores</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="6740" ruta="|536|638|672|6740|">
+				<nombre>Juegos de café y té</nombre>
+			</categoria>
+			<categoria id="8046" ruta="|536|638|672|8046|">
+				<nombre>Pesos y pinzas para manteles</nombre>
+			</categoria>
+			<categoria id="676" ruta="|536|638|672|676|">
+				<nombre>Saleros y pimenteros</nombre>
+			</categoria>
+			<categoria id="4026" ruta="|536|638|672|4026|">
+				<nombre>Utensilios de servir</nombre>
+				<categoria id="3373" ruta="|536|638|672|4026|3373|">
+					<nombre>Azucareros y lecheras</nombre>
+				</categoria>
+				<categoria id="4009" ruta="|536|638|672|4026|4009|">
+					<nombre>Bandejas</nombre>
+				</categoria>
+				<categoria id="5135" ruta="|536|638|672|4026|5135|">
+					<nombre>Bandejas para tartas</nombre>
+				</categoria>
+				<categoria id="7550" ruta="|536|638|672|4026|7550|">
+					<nombre>Copas para huevos</nombre>
+				</categoria>
+				<categoria id="3802" ruta="|536|638|672|4026|3802|">
+					<nombre>Fuentes para servir</nombre>
+				</categoria>
+				<categoria id="3330" ruta="|536|638|672|4026|3330|">
+					<nombre>Jarras y decantadores</nombre>
+				</categoria>
+				<categoria id="6086" ruta="|536|638|672|4026|6086|">
+					<nombre>Platos para mantequilla</nombre>
+				</categoria>
+				<categoria id="4735" ruta="|536|638|672|4026|4735|">
+					<nombre>Poncheras</nombre>
+				</categoria>
+				<categoria id="3703" ruta="|536|638|672|4026|3703|">
+					<nombre>Salseras</nombre>
+				</categoria>
+				<categoria id="3941" ruta="|536|638|672|4026|3941|">
+					<nombre>Soperas</nombre>
+				</categoria>
+				<categoria id="4372" ruta="|536|638|672|4026|4372|">
+					<nombre>Soportes para tarta</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="673" ruta="|536|638|672|673|">
+				<nombre>Vajilla</nombre>
+				<categoria id="3498" ruta="|536|638|672|673|3498|">
+					<nombre>Cuencos</nombre>
+				</categoria>
+				<categoria id="5537" ruta="|536|638|672|673|5537|">
+					<nombre>Juegos de vajilla</nombre>
+				</categoria>
+				<categoria id="3553" ruta="|536|638|672|673|3553|">
+					<nombre>Platos</nombre>
+				</categoria>
+			</categoria>
+		</categoria>
+		<categoria id="649" ruta="|536|638|649|">
+			<nombre>Utensilios para bares</nombre>
+			<categoria id="7008" ruta="|536|638|649|7008|">
+				<nombre>Adornos para copas de vino</nombre>
+			</categoria>
+			<categoria id="651" ruta="|536|638|649|651|">
+				<nombre>Cocteleras y accesorios</nombre>
+				<categoria id="3427" ruta="|536|638|649|651|3427|">
+					<nombre>Abridores</nombre>
+				</categoria>
+				<categoria id="6956" ruta="|536|638|649|651|6956|">
+					<nombre>Cocteleras</nombre>
+				</categoria>
+				<categoria id="505327" ruta="|536|638|649|651|505327|">
+					<nombre>Gusanillos para colar cócteles</nombre>
+				</categoria>
+				<categoria id="503757" ruta="|536|638|649|651|503757|">
+					<nombre>Maza de mortero</nombre>
+				</categoria>
+				<categoria id="4222" ruta="|536|638|649|651|4222|">
+					<nombre>Picadoras de hielo</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="7139" ruta="|536|638|649|7139|">
+				<nombre>Cortacápsulas</nombre>
+			</categoria>
+			<categoria id="7569" ruta="|536|638|649|7569|">
+				<nombre>Cubos de piedra para whisky y palos enfriadores de vino
+				</nombre>
+			</categoria>
+			<categoria id="650" ruta="|536|638|649|650|">
+				<nombre>Decantadores</nombre>
+			</categoria>
+			<categoria id="7075" ruta="|536|638|649|7075|">
+				<nombre>Fuentes de absenta</nombre>
+			</categoria>
+			<categoria id="1817" ruta="|536|638|649|1817|">
+				<nombre>Grifos y dispensadores de cerveza</nombre>
+			</categoria>
+			<categoria id="6957" ruta="|536|638|649|6957|">
+				<nombre>Juegos de utensilios para bebidas</nombre>
+			</categoria>
+			<categoria id="4563" ruta="|536|638|649|4563|">
+				<nombre>Oxigenadores de vino</nombre>
+			</categoria>
+			<categoria id="2363" ruta="|536|638|649|2363|">
+				<nombre>Posavasos</nombre>
+			</categoria>
+			<categoria id="505806" ruta="|536|638|649|505806|">
+				<nombre>Refrigeradores de bebidas</nombre>
+			</categoria>
+			<categoria id="2976" ruta="|536|638|649|2976|">
+				<nombre>Sacacorchos</nombre>
+			</categoria>
+			<categoria id="8493" ruta="|536|638|649|8493|">
+				<nombre>Soportes para botellas de vino</nombre>
+			</categoria>
+			<categoria id="7238" ruta="|536|638|649|7238|">
+				<nombre>Soportes para posavasos</nombre>
+			</categoria>
+			<categoria id="499990" ruta="|536|638|649|499990|">
+				<nombre>Tapones</nombre>
+			</categoria>
+			<categoria id="4562" ruta="|536|638|649|4562|">
+				<nombre>Tapones para botellas</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="6070" ruta="|536|638|6070|">
+			<nombre>Utensilios para cocinar y para hornear</nombre>
+			<categoria id="4424" ruta="|536|638|6070|4424|">
+				<nombre>Accesorios para cocinar</nombre>
+				<categoria id="4501" ruta="|536|638|6070|4424|4501|">
+					<nombre>Accesorios para ollas a presión</nombre>
+				</categoria>
+				<categoria id="4427" ruta="|536|638|6070|4424|4427|">
+					<nombre>Accesorios para woks</nombre>
+					<categoria id="4663" ruta="|536|638|6070|4424|4427|4663|">
+						<nombre>Cepillos de woks</nombre>
+					</categoria>
+					<categoria id="4662" ruta="|536|638|6070|4424|4427|4662|">
+						<nombre>Soportes para woks</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="4529" ruta="|536|638|6070|4424|4529|">
+					<nombre>Cestos para cocer al vapor</nombre>
+				</categoria>
+				<categoria id="4661" ruta="|536|638|6070|4424|4661|">
+					<nombre>Mangos para sartenes y ollas</nombre>
+				</categoria>
+				<categoria id="4660" ruta="|536|638|6070|4424|4660|">
+					<nombre>Tapaderas para sartenes y ollas</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="4502" ruta="|536|638|6070|4502|">
+				<nombre>Accesorios para hornear</nombre>
+				<categoria id="4503" ruta="|536|638|6070|4502|4503|">
+					<nombre>Papel y silicona para hornear</nombre>
+				</categoria>
+				<categoria id="7131" ruta="|536|638|6070|4502|7131|">
+					<nombre>Pesos para hornear</nombre>
+				</categoria>
+				<categoria id="4726" ruta="|536|638|6070|4502|4726|">
+					<nombre>Rejillas para fuentes de hornos</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="6071" ruta="|536|638|6070|6071|">
+				<nombre>Juegos de utensilios para cocinar y para hornear</nombre>
+			</categoria>
+			<categoria id="654" ruta="|536|638|6070|654|">
+				<nombre>Utensilios para cocinar</nombre>
+				<categoria id="4721" ruta="|536|638|6070|654|4721|">
+					<nombre>Batería de cocina</nombre>
+				</categoria>
+				<categoria id="655" ruta="|536|638|6070|654|655|">
+					<nombre>Cacerolas</nombre>
+				</categoria>
+				<categoria id="656" ruta="|536|638|6070|654|656|">
+					<nombre>Cacerolas para baño María</nombre>
+				</categoria>
+				<categoria id="661" ruta="|536|638|6070|654|661|">
+					<nombre>Cacillos</nombre>
+				</categoria>
+				<categoria id="659" ruta="|536|638|6070|654|659|">
+					<nombre>Hervidores de agua</nombre>
+				</categoria>
+				<categoria id="660" ruta="|536|638|6070|654|660|">
+					<nombre>Ollas a presión</nombre>
+				</categoria>
+				<categoria id="663" ruta="|536|638|6070|654|663|">
+					<nombre>Ollas altas</nombre>
+				</categoria>
+				<categoria id="657" ruta="|536|638|6070|654|657|">
+					<nombre>Ollas de hierro</nombre>
+				</categoria>
+				<categoria id="4459" ruta="|536|638|6070|654|4459|">
+					<nombre>Paelleras</nombre>
+				</categoria>
+				<categoria id="658" ruta="|536|638|6070|654|658|">
+					<nombre>Planchas</nombre>
+				</categoria>
+				<categoria id="5110" ruta="|536|638|6070|654|5110|">
+					<nombre>Prensas para barbacoa</nombre>
+				</categoria>
+				<categoria id="6838" ruta="|536|638|6070|654|6838|">
+					<nombre>Sartenes para crepes</nombre>
+				</categoria>
+				<categoria id="662" ruta="|536|638|6070|654|662|">
+					<nombre>Sartenes para freír</nombre>
+				</categoria>
+				<categoria id="4423" ruta="|536|638|6070|654|4423|">
+					<nombre>Sartenes para saltear</nombre>
+				</categoria>
+				<categoria id="5340" ruta="|536|638|6070|654|5340|">
+					<nombre>Tajines y römertopf</nombre>
+				</categoria>
+				<categoria id="6518" ruta="|536|638|6070|654|6518|">
+					<nombre>Vasijas para conservas y fermentación</nombre>
+				</categoria>
+				<categoria id="664" ruta="|536|638|6070|654|664|">
+					<nombre>Woks</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="640" ruta="|536|638|6070|640|">
+				<nombre>Utensilios para hornear</nombre>
+				<categoria id="6756" ruta="|536|638|6070|640|6756|">
+					<nombre>Bandejas para grill</nombre>
+				</categoria>
+				<categoria id="648" ruta="|536|638|6070|640|648|">
+					<nombre>Bandejas para hornear</nombre>
+				</categoria>
+				<categoria id="641" ruta="|536|638|6070|640|641|">
+					<nombre>Bandejas para hornear galletas</nombre>
+				</categoria>
+				<categoria id="647" ruta="|536|638|6070|640|647|">
+					<nombre>Fuentes para soufflé y quesadillas</nombre>
+				</categoria>
+				<categoria id="4764" ruta="|536|638|6070|640|4764|">
+					<nombre>Juegos de utensilios para hornear</nombre>
+				</categoria>
+				<categoria id="644" ruta="|536|638|6070|640|644|">
+					<nombre>Moldes para magdalenas</nombre>
+				</categoria>
+				<categoria id="642" ruta="|536|638|6070|640|642|">
+					<nombre>Moldes para pan</nombre>
+				</categoria>
+				<categoria id="2843" ruta="|536|638|6070|640|2843|">
+					<nombre>Moldes para pizza</nombre>
+				</categoria>
+				<categoria id="645" ruta="|536|638|6070|640|645|">
+					<nombre>Moldes para quiche y tarta</nombre>
+				</categoria>
+				<categoria id="643" ruta="|536|638|6070|640|643|">
+					<nombre>Moldes para tartas</nombre>
+				</categoria>
+				<categoria id="646" ruta="|536|638|6070|640|646|">
+					<nombre>Piedras para pizza</nombre>
+				</categoria>
+			</categoria>
+		</categoria>
+	</categoria>
+	<categoria id="696" ruta="|536|696|">
+		<nombre>Decoración</nombre>
+		<categoria id="230911" ruta="|536|696|230911|">
+			<nombre>Accesorios de casas para pájaros</nombre>
+		</categoria>
+		<categoria id="5521" ruta="|536|696|5521|">
+			<nombre>Accesorios de comederos para pájaros</nombre>
+		</categoria>
+		<categoria id="6254" ruta="|536|696|6254|">
+			<nombre>Accesorios de elementos decorativos para ventanas</nombre>
+			<categoria id="6256" ruta="|536|696|6254|6256|">
+				<nombre>Anillas para cortinas y visillos</nombre>
+			</categoria>
+			<categoria id="6257" ruta="|536|696|6254|6257|">
+				<nombre>Barras para cortinas y visillos</nombre>
+			</categoria>
+			<categoria id="6255" ruta="|536|696|6254|6255|">
+				<nombre>Borlas y alzapaños</nombre>
+			</categoria>
+			<categoria id="8042" ruta="|536|696|6254|8042|">
+				<nombre>Piezas de repuesto para cortinas y persianas</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="500121" ruta="|536|696|500121|">
+			<nombre>Accesorios de fragancias para el hogar</nombre>
+			<categoria id="500122" ruta="|536|696|500121|500122|">
+				<nombre>Apagavelas</nombre>
+			</categoria>
+			<categoria id="6336" ruta="|536|696|500121|6336|">
+				<nombre>Calentadores de velas y aceite</nombre>
+			</categoria>
+			<categoria id="2784" ruta="|536|696|500121|2784|">
+				<nombre>Candelabros</nombre>
+			</categoria>
+			<categoria id="4741" ruta="|536|696|500121|4741|">
+				<nombre>Portainciensos</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="7419" ruta="|536|696|7419|">
+			<nombre>Accesorios para banderas y mangas de viento</nombre>
+			<categoria id="503010" ruta="|536|696|7419|503010|">
+				<nombre>Kits y herramientas para montar conos de viento y banderas
+				</nombre>
+			</categoria>
+			<categoria id="7420" ruta="|536|696|7419|7420|">
+				<nombre>Luces para mástiles de banderas y mangas de viento</nombre>
+			</categoria>
+			<categoria id="7421" ruta="|536|696|7419|7421|">
+				<nombre>Mástiles de banderas y mangas de viento</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="6333" ruta="|536|696|6333|">
+			<nombre>Accesorios para buzones</nombre>
+			<categoria id="7052" ruta="|536|696|6333|7052|">
+				<nombre>Armarios de buzones</nombre>
+			</categoria>
+			<categoria id="7176" ruta="|536|696|6333|7176|">
+				<nombre>Banderas para buzones</nombre>
+			</categoria>
+			<categoria id="7177" ruta="|536|696|6333|7177|">
+				<nombre>Cubiertas para buzones</nombre>
+			</categoria>
+			<categoria id="6334" ruta="|536|696|6333|6334|">
+				<nombre>Postes para buzones</nombre>
+			</categoria>
+			<categoria id="7339" ruta="|536|696|6333|7339|">
+				<nombre>Puertas de recambio para buzones</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="3221" ruta="|536|696|3221|">
+			<nombre>Adornos de pared</nombre>
+		</categoria>
+		<categoria id="6547" ruta="|536|696|6547|">
+			<nombre>Adornos para césped y esculturas para jardín</nombre>
+		</categoria>
+		<categoria id="598" ruta="|536|696|598|">
+			<nombre>Alfombras</nombre>
+		</categoria>
+		<categoria id="6266" ruta="|536|696|6266|">
+			<nombre>Alimentos artificiales</nombre>
+		</categoria>
+		<categoria id="4456" ruta="|536|696|4456|">
+			<nombre>Almohadas lumbares</nombre>
+		</categoria>
+		<categoria id="7173" ruta="|536|696|7173|">
+			<nombre>Atrapasoles</nombre>
+		</categoria>
+		<categoria id="7172" ruta="|536|696|7172|">
+			<nombre>Atrapasueños</nombre>
+		</categoria>
+		<categoria id="6456" ruta="|536|696|6456|">
+			<nombre>Bandejas decorativas</nombre>
+		</categoria>
+		<categoria id="701" ruta="|536|696|701|">
+			<nombre>Banderas y mangas de viento</nombre>
+		</categoria>
+		<categoria id="4233" ruta="|536|696|4233|">
+			<nombre>Baúles</nombre>
+		</categoria>
+		<categoria id="6535" ruta="|536|696|6535|">
+			<nombre>Bolas de nieve</nombre>
+		</categoria>
+		<categoria id="6457" ruta="|536|696|6457|">
+			<nombre>Boles decorativos</nombre>
+		</categoria>
+		<categoria id="6317" ruta="|536|696|6317|">
+			<nombre>Botellas decorativas</nombre>
+		</categoria>
+		<categoria id="706" ruta="|536|696|706|">
+			<nombre>Buzones de correo</nombre>
+		</categoria>
+		<categoria id="709" ruta="|536|696|709|">
+			<nombre>Cadenas de lluvia</nombre>
+		</categoria>
+		<categoria id="3473" ruta="|536|696|3473|">
+			<nombre>Cajas de música</nombre>
+		</categoria>
+		<categoria id="7206" ruta="|536|696|7206|">
+			<nombre>Campanas decorativas</nombre>
+		</categoria>
+		<categoria id="714" ruta="|536|696|714|">
+			<nombre>Carillones de viento</nombre>
+		</categoria>
+		<categoria id="573" ruta="|536|696|573|">
+			<nombre>Cestas</nombre>
+		</categoria>
+		<categoria id="4454" ruta="|536|696|4454|">
+			<nombre>Cojines</nombre>
+		</categoria>
+		<categoria id="6927" ruta="|536|696|6927|">
+			<nombre>Cojines para otomanas</nombre>
+		</categoria>
+		<categoria id="4453" ruta="|536|696|4453|">
+			<nombre>Cojines para sillas y sofás</nombre>
+		</categoria>
+		<categoria id="6993" ruta="|536|696|6993|">
+			<nombre>Comederos para fauna silvestre</nombre>
+			<categoria id="6994" ruta="|536|696|6993|6994|">
+				<nombre>Comederos para ardillas</nombre>
+			</categoria>
+			<categoria id="6995" ruta="|536|696|6993|6995|">
+				<nombre>Comederos para mariposas</nombre>
+			</categoria>
+			<categoria id="698" ruta="|536|696|6993|698|">
+				<nombre>Comederos para pájaros</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="6267" ruta="|536|696|6267|">
+			<nombre>Coronas y guirnaldas</nombre>
+		</categoria>
+		<categoria id="596" ruta="|536|696|596|">
+			<nombre>Decoraciones festivas y estacionales</nombre>
+			<categoria id="505809" ruta="|536|696|596|505809|">
+				<nombre>Accesorios y conjuntos de aldeas en miniatura</nombre>
+			</categoria>
+			<categoria id="3144" ruta="|536|696|596|3144|">
+				<nombre>Adornos festivos</nombre>
+			</categoria>
+			<categoria id="6532" ruta="|536|696|596|6532|">
+				<nombre>Arreglos ornamentales festivos</nombre>
+			</categoria>
+			<categoria id="5991" ruta="|536|696|596|5991|">
+				<nombre>Calcetines navideños</nombre>
+			</categoria>
+			<categoria id="5359" ruta="|536|696|596|5359|">
+				<nombre>Calendarios de Adviento</nombre>
+			</categoria>
+			<categoria id="5990" ruta="|536|696|596|5990|">
+				<nombre>Colgadores para calcetines navideños</nombre>
+			</categoria>
+			<categoria id="5504" ruta="|536|696|596|5504|">
+				<nombre>Cubrepié del árbol de Navidad</nombre>
+			</categoria>
+			<categoria id="499804" ruta="|536|696|596|499804|">
+				<nombre>Ganchos para adornos festivos</nombre>
+			</categoria>
+			<categoria id="499805" ruta="|536|696|596|499805|">
+				<nombre>Kits de decoración de huevos de Pascua</nombre>
+			</categoria>
+			<categoria id="5930" ruta="|536|696|596|5930|">
+				<nombre>Muñecas tradicionales japonesas</nombre>
+			</categoria>
+			<categoria id="6531" ruta="|536|696|596|6531|">
+				<nombre>Portales</nombre>
+			</categoria>
+			<categoria id="6603" ruta="|536|696|596|6603|">
+				<nombre>Soportes para árboles de Navidad</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="6935" ruta="|536|696|6935|">
+			<nombre>Ecosferas</nombre>
+		</categoria>
+		<categoria id="595" ruta="|536|696|595|">
+			<nombre>Espejos</nombre>
+		</categoria>
+		<categoria id="2675" ruta="|536|696|2675|">
+			<nombre>Felpudos</nombre>
+		</categoria>
+		<categoria id="5609" ruta="|536|696|5609|">
+			<nombre>Figuritas</nombre>
+		</categoria>
+		<categoria id="6265" ruta="|536|696|6265|">
+			<nombre>Flora artificial</nombre>
+		</categoria>
+		<categoria id="602" ruta="|536|696|602|">
+			<nombre>Floreros</nombre>
+		</categoria>
+		<categoria id="6936" ruta="|536|696|6936|">
+			<nombre>Flores secas</nombre>
+		</categoria>
+		<categoria id="592" ruta="|536|696|592|">
+			<nombre>Fragancias para el hogar</nombre>
+			<categoria id="5847" ruta="|536|696|592|5847|">
+				<nombre>Aceites aromáticos</nombre>
+			</categoria>
+			<categoria id="3898" ruta="|536|696|592|3898|">
+				<nombre>Ambientadores</nombre>
+			</categoria>
+			<categoria id="6767" ruta="|536|696|592|6767|">
+				<nombre>Figuras de cera</nombre>
+			</categoria>
+			<categoria id="3686" ruta="|536|696|592|3686|">
+				<nombre>Incienso</nombre>
+			</categoria>
+			<categoria id="4740" ruta="|536|696|592|4740|">
+				<nombre>Popurrí</nombre>
+			</categoria>
+			<categoria id="588" ruta="|536|696|592|588|">
+				<nombre>Velas</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="702" ruta="|536|696|702|">
+			<nombre>Fuentes y estanques</nombre>
+			<categoria id="2921" ruta="|536|696|702|2921|">
+				<nombre>Accesorios para estanques y fuentes</nombre>
+			</categoria>
+			<categoria id="2763" ruta="|536|696|702|2763|">
+				<nombre>Estanques</nombre>
+			</categoria>
+			<categoria id="6763" ruta="|536|696|702|6763|">
+				<nombre>Fuentes y cascadas</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="599" ruta="|536|696|599|">
+			<nombre>Fundas</nombre>
+		</categoria>
+		<categoria id="3262" ruta="|536|696|3262|">
+			<nombre>Globos terráqueos</nombre>
+		</categoria>
+		<categoria id="4295" ruta="|536|696|4295|">
+			<nombre>Huchas</nombre>
+		</categoria>
+		<categoria id="5876" ruta="|536|696|5876|">
+			<nombre>Imanes para el frigorífico</nombre>
+		</categoria>
+		<categoria id="6530" ruta="|536|696|6530|">
+			<nombre>Imanes para ventanas</nombre>
+		</categoria>
+		<categoria id="7113" ruta="|536|696|7113|">
+			<nombre>Jarrones decorativos</nombre>
+		</categoria>
+		<categoria id="500078" ruta="|536|696|500078|">
+			<nombre>Jaulas para pájaros y animales</nombre>
+			<categoria id="699" ruta="|536|696|500078|699|">
+				<nombre>Pajareras</nombre>
+			</categoria>
+			<categoria id="500080" ruta="|536|696|500078|500080|">
+				<nombre>Refugios para mariposas</nombre>
+			</categoria>
+			<categoria id="500079" ruta="|536|696|500078|500079|">
+				<nombre>Refugios para murciélagos</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="5885" ruta="|536|696|5885|">
+			<nombre>Letreros originales</nombre>
+		</categoria>
+		<categoria id="597" ruta="|536|696|597|">
+			<nombre>Marcos para fotos</nombre>
+		</categoria>
+		<categoria id="5922" ruta="|536|696|5922|">
+			<nombre>Marcos tipo caja</nombre>
+		</categoria>
+		<categoria id="499693" ruta="|536|696|499693|">
+			<nombre>Medidores para niños</nombre>
+		</categoria>
+		<categoria id="2839" ruta="|536|696|2839|">
+			<nombre>Molinillos de viento</nombre>
+		</categoria>
+		<categoria id="7382" ruta="|536|696|7382|">
+			<nombre>Números y letras para casas</nombre>
+		</categoria>
+		<categoria id="9" ruta="|536|696|9|">
+			<nombre>Obras de arte</nombre>
+			<categoria id="500044" ruta="|536|696|9|500044|">
+				<nombre>Carteles, copias y arte visual</nombre>
+			</categoria>
+			<categoria id="11" ruta="|536|696|9|11|">
+				<nombre>Figuras, esculturas y estatuas</nombre>
+			</categoria>
+			<categoria id="500045" ruta="|536|696|9|500045|">
+				<nombre>Tapicería decorativa</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="2334" ruta="|536|696|2334|">
+			<nombre>Papel pintado</nombre>
+		</categoria>
+		<categoria id="5708" ruta="|536|696|5708|">
+			<nombre>Percheros para sombreros y abrigos</nombre>
+		</categoria>
+		<categoria id="704" ruta="|536|696|704|">
+			<nombre>Piedras de jardín y caminos de piedras</nombre>
+		</categoria>
+		<categoria id="505827" ruta="|536|696|505827|">
+			<nombre>Piezas de reloj</nombre>
+		</categoria>
+		<categoria id="697" ruta="|536|696|697|">
+			<nombre>Pilas para pájaros</nombre>
+		</categoria>
+		<categoria id="7422" ruta="|536|696|7422|">
+			<nombre>Pináculos</nombre>
+		</categoria>
+		<categoria id="708" ruta="|536|696|708|">
+			<nombre>Placas decorativas</nombre>
+		</categoria>
+		<categoria id="5875" ruta="|536|696|5875|">
+			<nombre>Platos decorativos</nombre>
+		</categoria>
+		<categoria id="710" ruta="|536|696|710|">
+			<nombre>Pluviómetros</nombre>
+		</categoria>
+		<categoria id="7436" ruta="|536|696|7436|">
+			<nombre>Ranuras de correo</nombre>
+		</categoria>
+		<categoria id="7380" ruta="|536|696|7380|">
+			<nombre>Recortables de cartón</nombre>
+		</categoria>
+		<categoria id="6424" ruta="|536|696|6424|">
+			<nombre>Rellenos para jarrones y decoraciones para mesas</nombre>
+		</categoria>
+		<categoria id="3890" ruta="|536|696|3890|">
+			<nombre>Relojes</nombre>
+			<categoria id="4546" ruta="|536|696|3890|4546|">
+				<nombre>Despertadores</nombre>
+			</categoria>
+			<categoria id="6912" ruta="|536|696|3890|6912|">
+				<nombre>Relojes de escritorio y estantería</nombre>
+			</categoria>
+			<categoria id="3840" ruta="|536|696|3890|3840|">
+				<nombre>Relojes de pared</nombre>
+			</categoria>
+			<categoria id="3696" ruta="|536|696|3890|3696|">
+				<nombre>Relojes de pie</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="503000" ruta="|536|696|503000|">
+			<nombre>Relojes de arena</nombre>
+		</categoria>
+		<categoria id="711" ruta="|536|696|711|">
+			<nombre>Relojes de sol</nombre>
+		</categoria>
+		<categoria id="572" ruta="|536|696|572|">
+			<nombre>Rótulos para casas</nombre>
+		</categoria>
+		<categoria id="6324" ruta="|536|696|6324|">
+			<nombre>Servilleteros</nombre>
+		</categoria>
+		<categoria id="587" ruta="|536|696|587|">
+			<nombre>Sujetalibros</nombre>
+		</categoria>
+		<categoria id="603" ruta="|536|696|603|">
+			<nombre>Tratamientos de la ventana</nombre>
+			<categoria id="2621" ruta="|536|696|603|2621|">
+				<nombre>Cenefas y cornisas</nombre>
+			</categoria>
+			<categoria id="2882" ruta="|536|696|603|2882|">
+				<nombre>Cortinas y visillos</nombre>
+			</categoria>
+			<categoria id="5989" ruta="|536|696|603|5989|">
+				<nombre>Láminas para ventana</nombre>
+			</categoria>
+			<categoria id="4375" ruta="|536|696|603|4375|">
+				<nombre>Mosquiteras para ventanas</nombre>
+			</categoria>
+			<categoria id="2885" ruta="|536|696|603|2885|">
+				<nombre>Persianas y estores</nombre>
+			</categoria>
+			<categoria id="6492" ruta="|536|696|603|6492|">
+				<nombre>Vitrales</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="4770" ruta="|536|696|4770|">
+			<nombre>Velas sin llama</nombre>
+		</categoria>
+		<categoria id="712" ruta="|536|696|712|">
+			<nombre>Veletas y decoración de tejados</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="604" ruta="|536|604|">
+		<nombre>Electrodomésticos</nombre>
+		<categoria id="500081" ruta="|536|604|500081|">
+			<nombre>Aparatos de limpieza por ultrasonidos</nombre>
+		</categoria>
+		<categoria id="619" ruta="|536|604|619|">
+			<nombre>Aspiradoras</nombre>
+		</categoria>
+		<categoria id="621" ruta="|536|604|621|">
+			<nombre>Calentadores de agua</nombre>
+		</categoria>
+		<categoria id="1626" ruta="|536|604|1626|">
+			<nombre>Control del clima</nombre>
+			<categoria id="3082" ruta="|536|604|1626|3082|">
+				<nombre>Calderas</nombre>
+			</categoria>
+			<categoria id="611" ruta="|536|604|1626|611|">
+				<nombre>Calentadores de ambiente</nombre>
+			</categoria>
+			<categoria id="7328" ruta="|536|604|1626|7328|">
+				<nombre>Calentadores de conductos</nombre>
+			</categoria>
+			<categoria id="607" ruta="|536|604|1626|607|">
+				<nombre>Deshumidificadores</nombre>
+			</categoria>
+			<categoria id="6727" ruta="|536|604|1626|6727|">
+				<nombre>Enfriadores por evaporación</nombre>
+			</categoria>
+			<categoria id="2649" ruta="|536|604|1626|2649|">
+				<nombre>Estufas para terrazas</nombre>
+			</categoria>
+			<categoria id="613" ruta="|536|604|1626|613|">
+				<nombre>Humidificadores</nombre>
+			</categoria>
+			<categoria id="606" ruta="|536|604|1626|606|">
+				<nombre>Purificadores de aire</nombre>
+			</categoria>
+			<categoria id="2060" ruta="|536|604|1626|2060|">
+				<nombre>Radiadores</nombre>
+			</categoria>
+			<categoria id="605" ruta="|536|604|1626|605|">
+				<nombre>Sistemas de aire acondicionado</nombre>
+			</categoria>
+			<categoria id="6709" ruta="|536|604|1626|6709|">
+				<nombre>Sistemas de vaporización exteriores</nombre>
+			</categoria>
+			<categoria id="608" ruta="|536|604|1626|608|">
+				<nombre>Ventiladores</nombre>
+				<categoria id="7527" ruta="|536|604|1626|608|7527|">
+					<nombre>Atomizadores y ventiladores de mano eléctricos</nombre>
+				</categoria>
+				<categoria id="8090" ruta="|536|604|1626|608|8090|">
+					<nombre>Ventiladores de pared</nombre>
+				</categoria>
+				<categoria id="2535" ruta="|536|604|1626|608|2535|">
+					<nombre>Ventiladores de pie y de sobremesa</nombre>
+				</categoria>
+				<categoria id="1700" ruta="|536|604|1626|608|1700|">
+					<nombre>Ventiladores de techo</nombre>
+				</categoria>
+				<categoria id="4485" ruta="|536|604|1626|608|4485|">
+					<nombre>Ventiladores extractores</nombre>
+				</categoria>
+			</categoria>
+		</categoria>
+		<categoria id="2706" ruta="|536|604|2706|">
+			<nombre>Electrodomésticos para cuidado de la ropa</nombre>
+			<categoria id="2549" ruta="|536|604|2706|2549|">
+				<nombre>Lavadoras</nombre>
+			</categoria>
+			<categoria id="5139" ruta="|536|604|2706|5139|">
+				<nombre>Planchas y sistemas de planchado</nombre>
+			</categoria>
+			<categoria id="5140" ruta="|536|604|2706|5140|">
+				<nombre>Prensas de vapor</nombre>
+			</categoria>
+			<categoria id="2612" ruta="|536|604|2706|2612|">
+				<nombre>Secadoras</nombre>
+			</categoria>
+			<categoria id="2849" ruta="|536|604|2706|2849|">
+				<nombre>Unidades lavadora-secadora</nombre>
+			</categoria>
+			<categoria id="5138" ruta="|536|604|2706|5138|">
+				<nombre>Vaporizadores para ropa</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="616" ruta="|536|604|616|">
+			<nombre>Limpiadores de vapor de alfombras y suelos</nombre>
+			<categoria id="543602" ruta="|536|604|616|543602|">
+				<nombre>Abrillantadoras</nombre>
+			</categoria>
+			<categoria id="543600" ruta="|536|604|616|543600|">
+				<nombre>Limpiadores de alfombras a vapor</nombre>
+			</categoria>
+			<categoria id="543601" ruta="|536|604|616|543601|">
+				<nombre>Limpiadores de alfombras con detergente</nombre>
+			</categoria>
+			<categoria id="543603" ruta="|536|604|616|543603|">
+				<nombre>Mopas a vapor</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="6741" ruta="|536|604|6741|">
+			<nombre>Mandos a distancia para puertas de garaje</nombre>
+		</categoria>
+		<categoria id="5294" ruta="|536|604|5294|">
+			<nombre>Pulidoras de suelos</nombre>
+		</categoria>
+		<categoria id="235920" ruta="|536|604|235920|">
+			<nombre>Secadoras de suelos y alfombras</nombre>
+		</categoria>
+		<categoria id="4483" ruta="|536|604|4483|">
+			<nombre>Secadores de futones</nombre>
+		</categoria>
+		<categoria id="609" ruta="|536|604|609|">
+			<nombre>Sistemas de apertura para puertas de garaje</nombre>
+		</categoria>
+		<categoria id="7121" ruta="|536|604|7121|">
+			<nombre>Vaporizadores para papel pintado</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="2639" ruta="|536|2639|">
+		<nombre>Estufas de leña</nombre>
+	</categoria>
+	<categoria id="6173" ruta="|536|6173|">
+		<nombre>Fundas y estuches para sombrillas</nombre>
+	</categoria>
+	<categoria id="594" ruta="|536|594|">
+		<nombre>Iluminación</nombre>
+		<categoria id="1436" ruta="|536|594|1436|">
+			<nombre>Alumbrado de emergencia</nombre>
+		</categoria>
+		<categoria id="7399" ruta="|536|594|7399|">
+			<nombre>Antorchas tiki y lámparas de aceite</nombre>
+		</categoria>
+		<categoria id="2425" ruta="|536|594|2425|">
+			<nombre>Bombillas</nombre>
+			<categoria id="3329" ruta="|536|594|2425|3329|">
+				<nombre>Bombillas con diodos led</nombre>
+			</categoria>
+			<categoria id="2944" ruta="|536|594|2425|2944|">
+				<nombre>Bombillas incandescentes</nombre>
+			</categoria>
+			<categoria id="2947" ruta="|536|594|2425|2947|">
+				<nombre>Lámparas fluorescentes compactas</nombre>
+			</categoria>
+			<categoria id="2690" ruta="|536|594|2425|2690|">
+				<nombre>Tubos fluorescentes</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="1546" ruta="|536|594|1546|">
+			<nombre>Focos y reflectores</nombre>
+		</categoria>
+		<categoria id="6274" ruta="|536|594|6274|">
+			<nombre>Iluminación en rieles</nombre>
+			<categoria id="6272" ruta="|536|594|6274|6272|">
+				<nombre>Accesorios de iluminación en rieles</nombre>
+			</categoria>
+			<categoria id="4932" ruta="|536|594|6274|4932|">
+				<nombre>Dispositivos de iluminación en rieles</nombre>
+			</categoria>
+			<categoria id="6273" ruta="|536|594|6274|6273|">
+				<nombre>Rieles para iluminación</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="2370" ruta="|536|594|2370|">
+			<nombre>Iluminación para cuadros</nombre>
+		</categoria>
+		<categoria id="7400" ruta="|536|594|7400|">
+			<nombre>Iluminación para senderos de jardín</nombre>
+		</categoria>
+		<categoria id="7401" ruta="|536|594|7401|">
+			<nombre>Luces empotrables de jardín</nombre>
+		</categoria>
+		<categoria id="500003" ruta="|536|594|500003|">
+			<nombre>Luces flotantes</nombre>
+		</categoria>
+		<categoria id="505826" ruta="|536|594|505826|">
+			<nombre>Luces nocturnas e iluminación ambiente</nombre>
+		</categoria>
+		<categoria id="3006" ruta="|536|594|3006|">
+			<nombre>Lámparas Fijas</nombre>
+			<categoria id="6073" ruta="|536|594|3006|6073|">
+				<nombre>Apliques de pared</nombre>
+			</categoria>
+			<categoria id="2524" ruta="|536|594|3006|2524|">
+				<nombre>Apliques de techo</nombre>
+			</categoria>
+			<categoria id="2809" ruta="|536|594|3006|2809|">
+				<nombre>Iluminación bajo muebles</nombre>
+			</categoria>
+			<categoria id="2249" ruta="|536|594|3006|2249|">
+				<nombre>Lámparas de araña</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="4636" ruta="|536|594|4636|">
+			<nombre>Lámparas móviles</nombre>
+		</categoria>
+		<categoria id="2608" ruta="|536|594|2608|">
+			<nombre>Mangueras y guirnaldas de luces</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="689" ruta="|536|689|">
+		<nombre>Jardín</nombre>
+		<categoria id="4564" ruta="|536|689|4564|">
+			<nombre>Accesorios para maquinaria de jardinería</nombre>
+			<categoria id="4566" ruta="|536|689|4564|4566|">
+				<nombre>Accesorios de cortadoras de césped</nombre>
+				<categoria id="6542" ruta="|536|689|4564|4566|6542|">
+					<nombre>Accesorios para segadoras de peine</nombre>
+				</categoria>
+				<categoria id="6541" ruta="|536|689|4564|4566|6541|">
+					<nombre>Barredoras de césped</nombre>
+				</categoria>
+				<categoria id="4645" ruta="|536|689|4564|4566|4645|">
+					<nombre>Bolsas para cortadoras de césped</nombre>
+				</categoria>
+				<categoria id="4643" ruta="|536|689|4564|4566|4643|">
+					<nombre>Correas de cortadoras de césped</nombre>
+				</categoria>
+				<categoria id="4641" ruta="|536|689|4564|4566|4641|">
+					<nombre>Cuchillas de cortadoras de césped</nombre>
+				</categoria>
+				<categoria id="499872" ruta="|536|689|4564|4566|499872|">
+					<nombre>Cámaras de aire para neumáticos de cortacéspedes</nombre>
+				</categoria>
+				<categoria id="4642" ruta="|536|689|4564|4566|4642|">
+					<nombre>Fundas para cortadoras de césped</nombre>
+				</categoria>
+				<categoria id="499923" ruta="|536|689|4564|4566|499923|">
+					<nombre>Kits de mulch para cortacésped</nombre>
+				</categoria>
+				<categoria id="499921" ruta="|536|689|4564|4566|499921|">
+					<nombre>Kits de rayado de césped</nombre>
+				</categoria>
+				<categoria id="6095" ruta="|536|689|4564|4566|6095|">
+					<nombre>Neumáticos de cortadoras de césped</nombre>
+				</categoria>
+				<categoria id="499960" ruta="|536|689|4564|4566|499960|">
+					<nombre>Placas de mulch para cortacésped</nombre>
+				</categoria>
+				<categoria id="4644" ruta="|536|689|4564|4566|4644|">
+					<nombre>Poleas de cortadoras de césped</nombre>
+				</categoria>
+				<categoria id="6094" ruta="|536|689|4564|4566|6094|">
+					<nombre>Ruedas de cortadoras de césped</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="4567" ruta="|536|689|4564|4567|">
+				<nombre>Accesorios de fresadoras de nieve</nombre>
+			</categoria>
+			<categoria id="4565" ruta="|536|689|4564|4565|">
+				<nombre>Accesorios de motosierras</nombre>
+				<categoria id="4647" ruta="|536|689|4564|4565|4647|">
+					<nombre>Barras de motosierras</nombre>
+				</categoria>
+				<categoria id="4646" ruta="|536|689|4564|4565|4646|">
+					<nombre>Cadenas de motosierras</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="7563" ruta="|536|689|4564|7563|">
+				<nombre>Accesorios para cortabordes</nombre>
+			</categoria>
+			<categoria id="7265" ruta="|536|689|4564|7265|">
+				<nombre>Accesorios para cortasetos</nombre>
+			</categoria>
+			<categoria id="7169" ruta="|536|689|4564|7169|">
+				<nombre>Accesorios para desbrozadoras</nombre>
+				<categoria id="8034" ruta="|536|689|4564|7169|8034|">
+					<nombre>Cubiertas para cabezales de desbrozadoras</nombre>
+				</categoria>
+				<categoria id="7170" ruta="|536|689|4564|7169|7170|">
+					<nombre>Cuchillas y cabezales para desbrozadoras</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="6328" ruta="|536|689|4564|6328|">
+				<nombre>Accesorios para limpiadoras a presión</nombre>
+			</categoria>
+			<categoria id="7168" ruta="|536|689|4564|7168|">
+				<nombre>Accesorios para sopladores de hojas</nombre>
+				<categoria id="7171" ruta="|536|689|4564|7168|7171|">
+					<nombre>Tubos para sopladores de hojas</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="5867" ruta="|536|689|4564|5867|">
+				<nombre>Accesorios y piezas para tractores</nombre>
+				<categoria id="499880" ruta="|536|689|4564|5867|499880|">
+					<nombre>Neumáticos para tractores</nombre>
+				</categoria>
+				<categoria id="499881" ruta="|536|689|4564|5867|499881|">
+					<nombre>Ruedas para tractores</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="7333" ruta="|536|689|4564|7333|">
+				<nombre>Baterías para equipos motorizados para uso exterior</nombre>
+			</categoria>
+			<categoria id="8485" ruta="|536|689|4564|8485|">
+				<nombre>Complementos para equipos motorizados multifunción para uso
+					exterior</nombre>
+				<categoria id="8488" ruta="|536|689|4564|8485|8488|">
+					<nombre>Complementos para arados y multicultores</nombre>
+				</categoria>
+				<categoria id="7564" ruta="|536|689|4564|8485|7564|">
+					<nombre>Complementos para cortabordes</nombre>
+				</categoria>
+				<categoria id="7334" ruta="|536|689|4564|8485|7334|">
+					<nombre>Complementos para cortasetos</nombre>
+				</categoria>
+				<categoria id="7335" ruta="|536|689|4564|8485|7335|">
+					<nombre>Complementos para desbrozadoras</nombre>
+				</categoria>
+				<categoria id="8489" ruta="|536|689|4564|8485|8489|">
+					<nombre>Complementos para sierras de pértiga</nombre>
+				</categoria>
+				<categoria id="8487" ruta="|536|689|4564|8485|8487|">
+					<nombre>Complementos para sopladores de suelo y de hojas</nombre>
+				</categoria>
+			</categoria>
+		</categoria>
+		<categoria id="2918" ruta="|536|689|2918|">
+			<nombre>Artículos de exterior</nombre>
+			<categoria id="499955" ruta="|536|689|2918|499955|">
+				<nombre>Accesorios de columpios para porche</nombre>
+			</categoria>
+			<categoria id="6737" ruta="|536|689|2918|6737|">
+				<nombre>Accesorios para hamacas</nombre>
+			</categoria>
+			<categoria id="6751" ruta="|536|689|2918|6751|">
+				<nombre>Accesorios para sombrillas</nombre>
+				<categoria id="5493" ruta="|536|689|2918|6751|5493|">
+					<nombre>Bases para sombrillas</nombre>
+				</categoria>
+				<categoria id="7107" ruta="|536|689|2918|6751|7107|">
+					<nombre>Fundas para sombrillas</nombre>
+				</categoria>
+				<categoria id="499948" ruta="|536|689|2918|6751|499948|">
+					<nombre>Kits para cercados de sombrillas exteriores</nombre>
+				</categoria>
+				<categoria id="8020" ruta="|536|689|2918|6751|8020|">
+					<nombre>Luces de sombrilla para exteriores</nombre>
+				</categoria>
+				<categoria id="7108" ruta="|536|689|2918|6751|7108|">
+					<nombre>Telas para sombrillas y toldos</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="499908" ruta="|536|689|2918|499908|">
+				<nombre>Acessorios para toldos</nombre>
+			</categoria>
+			<categoria id="718" ruta="|536|689|2918|718|">
+				<nombre>Balancines de jardín</nombre>
+			</categoria>
+			<categoria id="2613" ruta="|536|689|2918|2613|">
+				<nombre>Estructuras de exteriores</nombre>
+				<categoria id="6105" ruta="|536|689|2918|2613|6105|">
+					<nombre>Accesorios para pabellones y cenadores</nombre>
+					<categoria id="6108" ruta="|536|689|2918|2613|6105|6108|">
+						<nombre>Cubiertas para pabellones y cenadores</nombre>
+					</categoria>
+					<categoria id="6106" ruta="|536|689|2918|2613|6105|6106|">
+						<nombre>Estructuras para pabellones y cenadores</nombre>
+					</categoria>
+					<categoria id="6107" ruta="|536|689|2918|2613|6105|6107|">
+						<nombre>Kits de pantalla para toldos y cenadores</nombre>
+					</categoria>
+					<categoria id="7424" ruta="|536|689|2918|2613|6105|7424|">
+						<nombre>Pesos para cenadores</nombre>
+					</categoria>
+					<categoria id="7423" ruta="|536|689|2918|2613|6105|7423|">
+						<nombre>Postes para cenadores</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="720" ruta="|536|689|2918|2613|720|">
+					<nombre>Cobertizos, garajes y almacenes</nombre>
+				</categoria>
+				<categoria id="716" ruta="|536|689|2918|2613|716|">
+					<nombre>Pabellones y cenadores</nombre>
+				</categoria>
+				<categoria id="700" ruta="|536|689|2918|2613|700|">
+					<nombre>Puentes de jardín</nombre>
+				</categoria>
+				<categoria id="703" ruta="|536|689|2918|2613|703|">
+					<nombre>Pérgolas, arcos y enrejados de jardín</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="717" ruta="|536|689|2918|717|">
+				<nombre>Hamacas</nombre>
+			</categoria>
+			<categoria id="5910" ruta="|536|689|2918|5910|">
+				<nombre>Protectores para exterior</nombre>
+				<categoria id="5911" ruta="|536|689|2918|5910|5911|">
+					<nombre>Esteras de playa</nombre>
+				</categoria>
+				<categoria id="5913" ruta="|536|689|2918|5910|5913|">
+					<nombre>Mantas de picnic</nombre>
+				</categoria>
+				<categoria id="5912" ruta="|536|689|2918|5910|5912|">
+					<nombre>Poncho de exterior</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="719" ruta="|536|689|2918|719|">
+				<nombre>Sombrillas</nombre>
+			</categoria>
+			<categoria id="499907" ruta="|536|689|2918|499907|">
+				<nombre>Toldos</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="2962" ruta="|536|689|2962|">
+			<nombre>Jardinería</nombre>
+			<categoria id="5632" ruta="|536|689|2962|5632|">
+				<nombre>Accesorios de jardinería</nombre>
+				<categoria id="5633" ruta="|536|689|2962|5632|5633|">
+					<nombre>Bolsas de jardinería</nombre>
+				</categoria>
+				<categoria id="7184" ruta="|536|689|2962|5632|7184|">
+					<nombre>Mesas de jardinería</nombre>
+				</categoria>
+				<categoria id="503756" ruta="|536|689|2962|5632|503756|">
+					<nombre>Reclinatorios, asientos y scooters de jardinería</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="505326" ruta="|536|689|2962|505326|">
+				<nombre>Accesorios para herramientas de jardinería</nombre>
+				<categoria id="505321" ruta="|536|689|2962|505326|505321|">
+					<nombre>Cabezales de herramientas para jardinería</nombre>
+				</categoria>
+				<categoria id="505322" ruta="|536|689|2962|505326|505322|">
+					<nombre>Mangos para herramientas de jardinería</nombre>
+				</categoria>
+				<categoria id="4972" ruta="|536|689|2962|505326|4972|">
+					<nombre>Piezas para carretillas</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="6413" ruta="|536|689|2962|6413|">
+				<nombre>Accesorios para mallas antihierbas</nombre>
+				<categoria id="6421" ruta="|536|689|2962|6413|6421|">
+					<nombre>Cinta para mallas antihierbas</nombre>
+				</categoria>
+				<categoria id="6422" ruta="|536|689|2962|6413|6422|">
+					<nombre>Ganchos y grapas para mallas antihierbas</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="6834" ruta="|536|689|2962|6834|">
+				<nombre>Barriles de lluvia</nombre>
+			</categoria>
+			<categoria id="4085" ruta="|536|689|2962|4085|">
+				<nombre>Compostaje</nombre>
+				<categoria id="690" ruta="|536|689|2962|4085|690|">
+					<nombre>Abono</nombre>
+				</categoria>
+				<categoria id="6840" ruta="|536|689|2962|4085|6840|">
+					<nombre>Aireadores de compost</nombre>
+				</categoria>
+				<categoria id="6436" ruta="|536|689|2962|4085|6436|">
+					<nombre>Compostadores</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="691" ruta="|536|689|2962|691|">
+				<nombre>Control de enfermedades</nombre>
+			</categoria>
+			<categoria id="499894" ruta="|536|689|2962|499894|">
+				<nombre>Enrejados y soportes para plantas</nombre>
+			</categoria>
+			<categoria id="113" ruta="|536|689|2962|113|">
+				<nombre>Fertilizantes</nombre>
+			</categoria>
+			<categoria id="3103" ruta="|536|689|2962|3103|">
+				<nombre>Herbicidas</nombre>
+			</categoria>
+			<categoria id="3173" ruta="|536|689|2962|3173|">
+				<nombre>Herramientas de jardín</nombre>
+				<categoria id="3616" ruta="|536|689|2962|3173|3616|">
+					<nombre>Carretillas</nombre>
+				</categoria>
+				<categoria id="3828" ruta="|536|689|2962|3173|3828|">
+					<nombre>Esparcidores</nombre>
+				</categoria>
+				<categoria id="4000" ruta="|536|689|2962|3173|4000|">
+					<nombre>Herramientas de cultivo</nombre>
+				</categoria>
+				<categoria id="7537" ruta="|536|689|2962|3173|7537|">
+					<nombre>Herramientas para plantar bulbos</nombre>
+				</categoria>
+				<categoria id="3071" ruta="|536|689|2962|3173|3071|">
+					<nombre>Horcas de jardinería</nombre>
+				</categoria>
+				<categoria id="505292" ruta="|536|689|2962|3173|505292|">
+					<nombre>Machetes y hoces de jardinería</nombre>
+				</categoria>
+				<categoria id="2147" ruta="|536|689|2962|3173|2147|">
+					<nombre>Palas y picos</nombre>
+				</categoria>
+				<categoria id="3644" ruta="|536|689|2962|3173|3644|">
+					<nombre>Paletas de jardín</nombre>
+				</categoria>
+				<categoria id="1967" ruta="|536|689|2962|3173|1967|">
+					<nombre>Pulverizadores de jardín y césped</nombre>
+				</categoria>
+				<categoria id="3388" ruta="|536|689|2962|3173|3388|">
+					<nombre>Rastrillos</nombre>
+				</categoria>
+				<categoria id="499922" ruta="|536|689|2962|3173|499922|">
+					<nombre>Rodillos para césped</nombre>
+				</categoria>
+				<categoria id="6967" ruta="|536|689|2962|3173|6967|">
+					<nombre>Sierras de podar</nombre>
+				</categoria>
+				<categoria id="3841" ruta="|536|689|2962|3173|3841|">
+					<nombre>Tijeras de podar</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="693" ruta="|536|689|2962|693|">
+				<nombre>Invernaderos</nombre>
+			</categoria>
+			<categoria id="721" ruta="|536|689|2962|721|">
+				<nombre>Macetas y tiestos</nombre>
+			</categoria>
+			<categoria id="6381" ruta="|536|689|2962|6381|">
+				<nombre>Mallas antihierbas</nombre>
+			</categoria>
+			<categoria id="2988" ruta="|536|689|2962|2988|">
+				<nombre>Mantillo</nombre>
+			</categoria>
+			<categoria id="500033" ruta="|536|689|2962|500033|">
+				<nombre>Platillos y cubetas para macetas</nombre>
+			</categoria>
+			<categoria id="499962" ruta="|536|689|2962|499962|">
+				<nombre>Recipientes para macetas y sembradoras</nombre>
+			</categoria>
+			<categoria id="6428" ruta="|536|689|2962|6428|">
+				<nombre>Soportes para macetas</nombre>
+			</categoria>
+			<categoria id="1794" ruta="|536|689|2962|1794|">
+				<nombre>Tierra y arena</nombre>
+				<categoria id="543677" ruta="|536|689|2962|1794|543677|">
+					<nombre>Arena</nombre>
+				</categoria>
+				<categoria id="543678" ruta="|536|689|2962|1794|543678|">
+					<nombre>Tierra</nombre>
+				</categoria>
+			</categoria>
+		</categoria>
+		<categoria id="3798" ruta="|536|689|3798|">
+			<nombre>Maquinaria de jardinería</nombre>
+			<categoria id="500034" ruta="|536|689|3798|500034|">
+				<nombre>Aireadores y sopladores de césped</nombre>
+			</categoria>
+			<categoria id="6789" ruta="|536|689|3798|6789|">
+				<nombre>Aspiradoras de césped</nombre>
+			</categoria>
+			<categoria id="500016" ruta="|536|689|3798|500016|">
+				<nombre>Barredoras eléctricas</nombre>
+			</categoria>
+			<categoria id="7332" ruta="|536|689|3798|7332|">
+				<nombre>Cabezales para equipos motorizados para uso exterior
+				</nombre>
+			</categoria>
+			<categoria id="694" ruta="|536|689|3798|694|">
+				<nombre>Cortadoras de césped</nombre>
+				<categoria id="6258" ruta="|536|689|3798|694|6258|">
+					<nombre>Cortadoras de césped de arrastre</nombre>
+				</categoria>
+				<categoria id="3730" ruta="|536|689|3798|694|3730|">
+					<nombre>Cortadoras de césped de empuje</nombre>
+				</categoria>
+				<categoria id="6788" ruta="|536|689|3798|694|6788|">
+					<nombre>Robots cortacésped</nombre>
+				</categoria>
+				<categoria id="3311" ruta="|536|689|3798|694|3311|">
+					<nombre>Tractores cortacésped</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="3120" ruta="|536|689|3798|3120|">
+				<nombre>Cortasetos</nombre>
+			</categoria>
+			<categoria id="1223" ruta="|536|689|3798|1223|">
+				<nombre>Desbrozadoras</nombre>
+			</categoria>
+			<categoria id="1541" ruta="|536|689|3798|1541|">
+				<nombre>Fresadoras de nieve</nombre>
+			</categoria>
+			<categoria id="7245" ruta="|536|689|3798|7245|">
+				<nombre>Juegos de equipos motorizados para uso exterior</nombre>
+			</categoria>
+			<categoria id="1226" ruta="|536|689|3798|1226|">
+				<nombre>Limpiadoras a presión</nombre>
+			</categoria>
+			<categoria id="2204" ruta="|536|689|3798|2204|">
+				<nombre>Motocultivadores</nombre>
+			</categoria>
+			<categoria id="3610" ruta="|536|689|3798|3610|">
+				<nombre>Motosierras</nombre>
+			</categoria>
+			<categoria id="2218" ruta="|536|689|3798|2218|">
+				<nombre>Recortadoras de césped</nombre>
+			</categoria>
+			<categoria id="3340" ruta="|536|689|3798|3340|">
+				<nombre>Sopladores</nombre>
+			</categoria>
+			<categoria id="5866" ruta="|536|689|3798|5866|">
+				<nombre>Tractores</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="5362" ruta="|536|689|5362|">
+			<nombre>Quitanieves</nombre>
+			<categoria id="5363" ruta="|536|689|5362|5363|">
+				<nombre>Palas para nieve</nombre>
+			</categoria>
+			<categoria id="5364" ruta="|536|689|5362|5364|">
+				<nombre>Rasquetas para hielo y nieve</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="3568" ruta="|536|689|3568|">
+			<nombre>Sistemas de riego</nombre>
+			<categoria id="3780" ruta="|536|689|3568|3780|">
+				<nombre>Accesorios de aspersión</nombre>
+				<categoria id="1302" ruta="|536|689|3568|3780|1302|">
+					<nombre>Controles de aspersión</nombre>
+				</categoria>
+				<categoria id="3491" ruta="|536|689|3568|3780|3491|">
+					<nombre>Válvulas de aspersión</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="505814" ruta="|536|689|3568|505814|">
+				<nombre>Accesorios para regaderas</nombre>
+			</categoria>
+			<categoria id="7561" ruta="|536|689|3568|7561|">
+				<nombre>Aspersores y cabezales de aspersores</nombre>
+			</categoria>
+			<categoria id="4201" ruta="|536|689|3568|4201|">
+				<nombre>Boquillas de mangueras de jardín</nombre>
+			</categoria>
+			<categoria id="230912" ruta="|536|689|3568|230912|">
+				<nombre>Globos y conos de autorriego</nombre>
+			</categoria>
+			<categoria id="2313" ruta="|536|689|3568|2313|">
+				<nombre>Mangueras de jardín</nombre>
+			</categoria>
+			<categoria id="6318" ruta="|536|689|3568|6318|">
+				<nombre>Regaderas</nombre>
+			</categoria>
+			<categoria id="4718" ruta="|536|689|3568|4718|">
+				<nombre>Válvulas y adaptadores para mangueras de jardín</nombre>
+			</categoria>
+		</categoria>
+	</categoria>
+	<categoria id="729" ruta="|536|729|">
+		<nombre>Piscina y spa</nombre>
+		<categoria id="2832" ruta="|536|729|2832|">
+			<nombre>Accesorios para piscinas y jacuzzis</nombre>
+			<categoria id="500050" ruta="|536|729|2832|500050|">
+				<nombre>Accesorios para cubiertas de piscina</nombre>
+			</categoria>
+			<categoria id="6996" ruta="|536|729|2832|6996|">
+				<nombre>Cepillos para piscinas</nombre>
+			</categoria>
+			<categoria id="5654" ruta="|536|729|2832|5654|">
+				<nombre>Climatizadores de piscina</nombre>
+			</categoria>
+			<categoria id="2860" ruta="|536|729|2832|2860|">
+				<nombre>Colchonetas y flotadores para piscina</nombre>
+			</categoria>
+			<categoria id="2994" ruta="|536|729|2832|2994|">
+				<nombre>Cubiertas para piscina</nombre>
+			</categoria>
+			<categoria id="6766" ruta="|536|729|2832|6766|">
+				<nombre>Escaleras y rampas de piscina</nombre>
+			</categoria>
+			<categoria id="2981" ruta="|536|729|2832|2981|">
+				<nombre>Filtros para piscinas y jacuzzis</nombre>
+			</categoria>
+			<categoria id="2755" ruta="|536|729|2832|2755|">
+				<nombre>Filtros y coladores</nombre>
+			</categoria>
+			<categoria id="500042" ruta="|536|729|2832|500042|">
+				<nombre>Generadores de cloro para piscinas y baños</nombre>
+			</categoria>
+			<categoria id="2672" ruta="|536|729|2832|2672|">
+				<nombre>Juguetes para piscinas</nombre>
+			</categoria>
+			<categoria id="505815" ruta="|536|729|2832|505815|">
+				<nombre>Kits de mantenimiento de piscinas y jacuzzis</nombre>
+			</categoria>
+			<categoria id="7496" ruta="|536|729|2832|7496|">
+				<nombre>Kits para terrazas con piscina</nombre>
+			</categoria>
+			<categoria id="2997" ruta="|536|729|2832|2997|">
+				<nombre>Limpiafondos y aspiradores para piscinas</nombre>
+			</categoria>
+			<categoria id="3017" ruta="|536|729|2832|3017|">
+				<nombre>Limpieza y desinfección de piscinas</nombre>
+			</categoria>
+			<categoria id="503751" ruta="|536|729|2832|503751|">
+				<nombre>Lonas para piscinas</nombre>
+			</categoria>
+			<categoria id="6771" ruta="|536|729|2832|6771|">
+				<nombre>Mangueras para limpiar piscinas</nombre>
+			</categoria>
+			<categoria id="2939" ruta="|536|729|2832|2939|">
+				<nombre>Plataformas de salto</nombre>
+			</categoria>
+			<categoria id="5546" ruta="|536|729|2832|5546|">
+				<nombre>Toboganes acuáticos para piscinas</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="543687" ruta="|536|729|543687|">
+			<nombre>Accesorios para sauna</nombre>
+			<categoria id="543632" ruta="|536|729|543687|543632|">
+				<nombre>Calderas para sauna</nombre>
+			</categoria>
+			<categoria id="543633" ruta="|536|729|543687|543633|">
+				<nombre>Cubos y cucharones para sauna</nombre>
+			</categoria>
+			<categoria id="543631" ruta="|536|729|543687|543631|">
+				<nombre>Kits de construcción de saunas</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="2810" ruta="|536|729|2810|">
+			<nombre>Piscinas</nombre>
+		</categoria>
+		<categoria id="3992" ruta="|536|729|3992|">
+			<nombre>Saunas</nombre>
+		</categoria>
+		<categoria id="2982" ruta="|536|729|2982|">
+			<nombre>Spas</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="985" ruta="|536|985|">
+		<nombre>Plantas</nombre>
+		<categoria id="984" ruta="|536|985|984|">
+			<nombre>Flores</nombre>
+		</categoria>
+		<categoria id="505285" ruta="|536|985|505285|">
+			<nombre>Kits para plantar flores y plantas</nombre>
+		</categoria>
+		<categoria id="5590" ruta="|536|985|5590|">
+			<nombre>Plantas acuáticas</nombre>
+		</categoria>
+		<categoria id="6762" ruta="|536|985|6762|">
+			<nombre>Plantas de interior y exterior</nombre>
+			<categoria id="543559" ruta="|536|985|6762|543559|">
+				<nombre>Arbustos y matas</nombre>
+			</categoria>
+			<categoria id="543558" ruta="|536|985|6762|543558|">
+				<nombre>Plantas de interior en maceta</nombre>
+			</categoria>
+			<categoria id="543560" ruta="|536|985|6762|543560|">
+				<nombre>Plantas de jardín y paisajismo</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="2802" ruta="|536|985|2802|">
+			<nombre>Semillas</nombre>
+			<categoria id="543561" ruta="|536|985|2802|543561|">
+				<nombre>Bulbos de flores y plantas</nombre>
+			</categoria>
+			<categoria id="543562" ruta="|536|985|2802|543562|">
+				<nombre>Semillas y cintas de semillas</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="1684" ruta="|536|985|1684|">
+			<nombre>Árboles</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="5835" ruta="|536|5835|">
+		<nombre>Preparación en caso de emergencias</nombre>
+		<categoria id="4490" ruta="|536|5835|4490|">
+			<nombre>Alarmas para terremotos</nombre>
+		</categoria>
+		<categoria id="4491" ruta="|536|5835|4491|">
+			<nombre>Fijaciones para muebles</nombre>
+		</categoria>
+		<categoria id="5836" ruta="|536|5835|5836|">
+			<nombre>Kits de comida para emergencias</nombre>
+		</categoria>
+		<categoria id="7058" ruta="|536|5835|7058|">
+			<nombre>Kits y herramientas de emergencia</nombre>
+		</categoria>
+		<categoria id="6897" ruta="|536|5835|6897|">
+			<nombre>Mantas de emergencia</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="630" ruta="|536|630|">
+		<nombre>Productos del hogar</nombre>
+		<categoria id="7406" ruta="|536|630|7406|">
+			<nombre>Absorbedores de humedad</nombre>
+		</categoria>
+		<categoria id="5056" ruta="|536|630|5056|">
+			<nombre>Accesorios para compactadora de basura</nombre>
+		</categoria>
+		<categoria id="6757" ruta="|536|630|6757|">
+			<nombre>Accesorios para contenedores de residuos</nombre>
+			<categoria id="6765" ruta="|536|630|6757|6765|">
+				<nombre>Carritos para contenedores de residuos</nombre>
+			</categoria>
+			<categoria id="6758" ruta="|536|630|6757|6758|">
+				<nombre>Ruedas para contenedores de residuos</nombre>
+			</categoria>
+			<categoria id="500115" ruta="|536|630|6757|500115|">
+				<nombre>Señales y etiquetas para contenedores de residuos</nombre>
+			</categoria>
+			<categoria id="6726" ruta="|536|630|6757|6726|">
+				<nombre>Soportes para contenedores de residuos</nombre>
+			</categoria>
+			<categoria id="4717" ruta="|536|630|6757|4717|">
+				<nombre>Tapaderas para contenedores de residuos</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="3307" ruta="|536|630|3307|">
+			<nombre>Acolchado para alfombras</nombre>
+		</categoria>
+		<categoria id="8522" ruta="|536|630|8522|">
+			<nombre>Alfombras para suelos de garajes</nombre>
+		</categoria>
+		<categoria id="499885" ruta="|536|630|499885|">
+			<nombre>Alfombrillas para escalones</nombre>
+		</categoria>
+		<categoria id="2374" ruta="|536|630|2374|">
+			<nombre>Bolsas de basura</nombre>
+		</categoria>
+		<categoria id="4516" ruta="|536|630|4516|">
+			<nombre>Contenedores de residuos</nombre>
+			<categoria id="500039" ruta="|536|630|4516|500039|">
+				<nombre>Contenedores</nombre>
+			</categoria>
+			<categoria id="4517" ruta="|536|630|4516|4517|">
+				<nombre>Contenedores de reciclaje</nombre>
+			</categoria>
+			<categoria id="5143" ruta="|536|630|4516|5143|">
+				<nombre>Contenedores de residuos peligrosos</nombre>
+			</categoria>
+			<categoria id="637" ruta="|536|630|4516|637|">
+				<nombre>Cubos de la basura y papeleras</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="728" ruta="|536|630|728|">
+			<nombre>Control de plagas</nombre>
+			<categoria id="4220" ruta="|536|630|728|4220|">
+				<nombre>Matamoscas</nombre>
+			</categoria>
+			<categoria id="2869" ruta="|536|630|728|2869|">
+				<nombre>Pesticidas</nombre>
+			</categoria>
+			<categoria id="2865" ruta="|536|630|728|2865|">
+				<nombre>Repelentes</nombre>
+				<categoria id="512" ruta="|536|630|728|2865|512|">
+					<nombre>Repelentes de insectos para el hogar</nombre>
+				</categoria>
+				<categoria id="7137" ruta="|536|630|728|2865|7137|">
+					<nombre>Repelentes para animales</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="2631" ruta="|536|630|728|2631|">
+				<nombre>Trampas para control de plagas</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="628" ruta="|536|630|628|">
+			<nombre>Cuidado del calzado</nombre>
+			<categoria id="1659" ruta="|536|630|628|1659|">
+				<nombre>Betunes y ceras para zapatos</nombre>
+			</categoria>
+			<categoria id="2301" ruta="|536|630|628|2301|">
+				<nombre>Bolsas para zapatos</nombre>
+			</categoria>
+			<categoria id="5601" ruta="|536|630|628|5601|">
+				<nombre>Calzadores</nombre>
+			</categoria>
+			<categoria id="1874" ruta="|536|630|628|1874|">
+				<nombre>Cepillos para zapatos</nombre>
+			</categoria>
+			<categoria id="5600" ruta="|536|630|628|5600|">
+				<nombre>Descalzadores de botas</nombre>
+			</categoria>
+			<categoria id="2431" ruta="|536|630|628|2431|">
+				<nombre>Hormas y ensanchadores de zapatos</nombre>
+			</categoria>
+			<categoria id="8033" ruta="|536|630|628|8033|">
+				<nombre>Kits para el cuidado del calzado</nombre>
+			</categoria>
+			<categoria id="8031" ruta="|536|630|628|8031|">
+				<nombre>Limpiabarros</nombre>
+			</categoria>
+			<categoria id="8032" ruta="|536|630|628|8032|">
+				<nombre>Pulidoras para calzado</nombre>
+			</categoria>
+			<categoria id="2371" ruta="|536|630|628|2371|">
+				<nombre>Secadores para zapatos</nombre>
+			</categoria>
+			<categoria id="5604" ruta="|536|630|628|5604|">
+				<nombre>Tintes y tratamientos para el calzado</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="7351" ruta="|536|630|7351|">
+			<nombre>Forros para cajones y estanterías</nombre>
+		</categoria>
+		<categoria id="499674" ruta="|536|630|499674|">
+			<nombre>Láminas y franjas protectoras para suelos</nombre>
+		</categoria>
+		<categoria id="636" ruta="|536|630|636|">
+			<nombre>Organización y almacenamiento</nombre>
+			<categoria id="4360" ruta="|536|630|636|4360|">
+				<nombre>Almacenamiento de fotos</nombre>
+				<categoria id="4237" ruta="|536|630|636|4360|4237|">
+					<nombre>Cajas para fotos</nombre>
+				</categoria>
+				<categoria id="40" ruta="|536|630|636|4360|40|">
+					<nombre>Álbumes de fotos</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="5558" ruta="|536|630|636|5558|">
+				<nombre>Almacenamiento de ropa y armarios</nombre>
+				<categoria id="7514" ruta="|536|630|636|5558|7514|">
+					<nombre>Cajas para sombreros</nombre>
+				</categoria>
+				<categoria id="5716" ruta="|536|630|636|5558|5716|">
+					<nombre>Galanes de noche</nombre>
+				</categoria>
+				<categoria id="3722" ruta="|536|630|636|5558|3722|">
+					<nombre>Organizadores con cargadores</nombre>
+				</categoria>
+				<categoria id="5714" ruta="|536|630|636|5558|5714|">
+					<nombre>Organizadores de vestidores y perchas de barra</nombre>
+				</categoria>
+				<categoria id="631" ruta="|536|630|636|5558|631|">
+					<nombre>Perchas</nombre>
+				</categoria>
+				<categoria id="5559" ruta="|536|630|636|5558|5559|">
+					<nombre>Zapateros y organizadores de calzado</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="3561" ruta="|536|630|636|3561|">
+				<nombre>Bolsas para almacenaje</nombre>
+			</categoria>
+			<categoria id="7255" ruta="|536|630|636|7255|">
+				<nombre>Cajones de almacenaje doméstico</nombre>
+			</categoria>
+			<categoria id="6986" ruta="|536|630|636|6986|">
+				<nombre>Cestas para almacenaje</nombre>
+			</categoria>
+			<categoria id="5631" ruta="|536|630|636|5631|">
+				<nombre>Contenedores para almacenaje</nombre>
+			</categoria>
+			<categoria id="5128" ruta="|536|630|636|5128|">
+				<nombre>Estuches de cubiertos</nombre>
+			</categoria>
+			<categoria id="8058" ruta="|536|630|636|8058|">
+				<nombre>Organizadores para cajones domésticos</nombre>
+			</categoria>
+			<categoria id="2446" ruta="|536|630|636|2446|">
+				<nombre>Perchas y estanterías</nombre>
+				<categoria id="5707" ruta="|536|630|636|2446|5707|">
+					<nombre>Ganchos para uso general</nombre>
+				</categoria>
+				<categoria id="5494" ruta="|536|630|636|2446|5494|">
+					<nombre>Paragüeros</nombre>
+				</categoria>
+				<categoria id="499930" ruta="|536|630|636|2446|499930|">
+					<nombre>Perchas y colgadores para tablas de planchar</nombre>
+				</categoria>
+			</categoria>
+		</categoria>
+		<categoria id="623" ruta="|536|630|623|">
+			<nombre>Productos de limpieza para el hogar</nombre>
+			<categoria id="4677" ruta="|536|630|623|4677|">
+				<nombre>Aspiradoras manuales</nombre>
+			</categoria>
+			<categoria id="499767" ruta="|536|630|623|499767|">
+				<nombre>Cabezales para cepillos de limpieza y recambios</nombre>
+			</categoria>
+			<categoria id="4670" ruta="|536|630|623|4670|">
+				<nombre>Cepillos frotadores</nombre>
+			</categoria>
+			<categoria id="499892" ruta="|536|630|623|499892|">
+				<nombre>Cepillos para escobas</nombre>
+			</categoria>
+			<categoria id="6437" ruta="|536|630|623|6437|">
+				<nombre>Cubos o baldes</nombre>
+			</categoria>
+			<categoria id="2857" ruta="|536|630|623|2857|">
+				<nombre>Escobas</nombre>
+			</categoria>
+			<categoria id="2796" ruta="|536|630|623|2796|">
+				<nombre>Esponjas y estropajos</nombre>
+			</categoria>
+			<categoria id="6264" ruta="|536|630|623|6264|">
+				<nombre>Flecos para fregonas y recambios</nombre>
+			</categoria>
+			<categoria id="2713" ruta="|536|630|623|2713|">
+				<nombre>Fregonas</nombre>
+			</categoria>
+			<categoria id="5113" ruta="|536|630|623|5113|">
+				<nombre>Guantes de limpieza</nombre>
+			</categoria>
+			<categoria id="2610" ruta="|536|630|623|2610|">
+				<nombre>Limpiacristales</nombre>
+			</categoria>
+			<categoria id="4671" ruta="|536|630|623|4671|">
+				<nombre>Mangos para escobas y fregonas</nombre>
+			</categoria>
+			<categoria id="2250" ruta="|536|630|623|2250|">
+				<nombre>Plumeros</nombre>
+			</categoria>
+			<categoria id="4973" ruta="|536|630|623|4973|">
+				<nombre>Productos para limpieza del hogar</nombre>
+				<categoria id="7552" ruta="|536|630|623|4973|7552|">
+					<nombre>Abrillantadores</nombre>
+				</categoria>
+				<categoria id="5825" ruta="|536|630|623|4973|5825|">
+					<nombre>Cera y productos de limpieza de muebles</nombre>
+				</categoria>
+				<categoria id="500065" ruta="|536|630|623|4973|500065|">
+					<nombre>Desincrustadores y descalcificadores</nombre>
+				</categoria>
+				<categoria id="6474" ruta="|536|630|623|4973|6474|">
+					<nombre>Desinfectantes domésticos</nombre>
+				</categoria>
+				<categoria id="4975" ruta="|536|630|623|4973|4975|">
+					<nombre>Lavaplatos</nombre>
+				</categoria>
+				<categoria id="4978" ruta="|536|630|623|4973|4978|">
+					<nombre>Limpiadores de hornos y parrillas</nombre>
+				</categoria>
+				<categoria id="7510" ruta="|536|630|623|4973|7510|">
+					<nombre>Limpiadores de lavavajillas</nombre>
+				</categoria>
+				<categoria id="8043" ruta="|536|630|623|4973|8043|">
+					<nombre>Limpiadores de tejidos y tapizados</nombre>
+				</categoria>
+				<categoria id="7330" ruta="|536|630|623|4973|7330|">
+					<nombre>Limpiadores multiusos</nombre>
+				</categoria>
+				<categoria id="7462" ruta="|536|630|623|4973|7462|">
+					<nombre>Limpiadores para lavadoras</nombre>
+				</categoria>
+				<categoria id="7426" ruta="|536|630|623|4973|7426|">
+					<nombre>Limpiadores y abrillantadores para acero inoxidable
+					</nombre>
+				</categoria>
+				<categoria id="4974" ruta="|536|630|623|4973|4974|">
+					<nombre>Productos de limpieza para alfombras</nombre>
+				</categoria>
+				<categoria id="4981" ruta="|536|630|623|4973|4981|">
+					<nombre>Productos de limpieza para baños</nombre>
+				</categoria>
+				<categoria id="4977" ruta="|536|630|623|4973|4977|">
+					<nombre>Productos de limpieza para parqué</nombre>
+				</categoria>
+				<categoria id="4976" ruta="|536|630|623|4973|4976|">
+					<nombre>Productos de limpieza para superficies y cristales</nombre>
+					<categoria id="543649"
+						ruta="|536|630|623|4973|4976|543649|">
+						<nombre>Limpiacristal</nombre>
+					</categoria>
+					<categoria id="543650"
+						ruta="|536|630|623|4973|4976|543650|">
+						<nombre>Limpiadores multisuperficies</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="4980" ruta="|536|630|623|4973|4980|">
+					<nombre>Productos de limpieza para tazas de inodoro</nombre>
+				</categoria>
+				<categoria id="4979" ruta="|536|630|623|4973|4979|">
+					<nombre>Quitamanchas y neutralizadores de olores de mascotas
+					</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="6419" ruta="|536|630|623|6419|">
+				<nombre>Protectores para tejidos y tapizados</nombre>
+			</categoria>
+			<categoria id="6263" ruta="|536|630|623|6263|">
+				<nombre>Recambios para plumeros</nombre>
+			</categoria>
+			<categoria id="4515" ruta="|536|630|623|4515|">
+				<nombre>Recogedores</nombre>
+			</categoria>
+			<categoria id="8071" ruta="|536|630|623|8071|">
+				<nombre>Toallas para talleres</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="2530" ruta="|536|630|2530|">
+			<nombre>Productos de papel para el hogar</nombre>
+			<categoria id="629" ruta="|536|630|2530|629|">
+				<nombre>Papel higiénico</nombre>
+			</categoria>
+			<categoria id="624" ruta="|536|630|2530|624|">
+				<nombre>Pañuelos faciales</nombre>
+			</categoria>
+			<categoria id="3846" ruta="|536|630|2530|3846|">
+				<nombre>Servilletas de papel</nombre>
+			</categoria>
+			<categoria id="2742" ruta="|536|630|2530|2742|">
+				<nombre>Toallas de papel</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="627" ruta="|536|630|627|">
+			<nombre>Productos para lavado de ropa</nombre>
+			<categoria id="6387" ruta="|536|630|627|6387|">
+				<nombre>Almidón para ropa</nombre>
+			</categoria>
+			<categoria id="6240" ruta="|536|630|627|6240|">
+				<nombre>Ambientadores para tejidos</nombre>
+			</categoria>
+			<categoria id="634" ruta="|536|630|627|634|">
+				<nombre>Cestas para ropa</nombre>
+			</categoria>
+			<categoria id="5085" ruta="|536|630|627|5085|">
+				<nombre>Cestas y bolsas de ropa</nombre>
+			</categoria>
+			<categoria id="2754" ruta="|536|630|627|2754|">
+				<nombre>Detergente para ropa</nombre>
+			</categoria>
+			<categoria id="5084" ruta="|536|630|627|5084|">
+				<nombre>Ecobolas lavadora</nombre>
+			</categoria>
+			<categoria id="7502" ruta="|536|630|627|7502|">
+				<nombre>Espráis quita-arrugas y antiestáticos</nombre>
+			</categoria>
+			<categoria id="4656" ruta="|536|630|627|4656|">
+				<nombre>Fundas para tablas de planchar</nombre>
+			</categoria>
+			<categoria id="7320" ruta="|536|630|627|7320|">
+				<nombre>Kits de limpieza en seco</nombre>
+			</categoria>
+			<categoria id="4982" ruta="|536|630|627|4982|">
+				<nombre>Lejía</nombre>
+			</categoria>
+			<categoria id="5705" ruta="|536|630|627|5705|">
+				<nombre>Máquina de afeitar de tela</nombre>
+			</categoria>
+			<categoria id="5704" ruta="|536|630|627|5704|">
+				<nombre>Pinzas de la ropa</nombre>
+			</categoria>
+			<categoria id="7457" ruta="|536|630|627|7457|">
+				<nombre>Protectores para la ropa</nombre>
+			</categoria>
+			<categoria id="4657" ruta="|536|630|627|4657|">
+				<nombre>Quitamanchas para tejidos</nombre>
+			</categoria>
+			<categoria id="499931" ruta="|536|630|627|499931|">
+				<nombre>Recambios para tablas de planchar</nombre>
+			</categoria>
+			<categoria id="3080" ruta="|536|630|627|3080|">
+				<nombre>Rodillos antipelusas</nombre>
+			</categoria>
+			<categoria id="499937" ruta="|536|630|627|499937|">
+				<nombre>Soportes para planchas</nombre>
+			</categoria>
+			<categoria id="2794" ruta="|536|630|627|2794|">
+				<nombre>Suavizantes para ropa y toallitas para secadoras</nombre>
+			</categoria>
+			<categoria id="633" ruta="|536|630|627|633|">
+				<nombre>Tablas de planchar</nombre>
+			</categoria>
+			<categoria id="2677" ruta="|536|630|627|2677|">
+				<nombre>Tendederos y perchas</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="7214" ruta="|536|630|7214|">
+			<nombre>Protectores del suelo para mobiliario</nombre>
+		</categoria>
+		<categoria id="3355" ruta="|536|630|3355|">
+			<nombre>Termómetros para la casa</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="1679" ruta="|536|1679|">
+		<nombre>Protección contra inundaciones, gases e incendios</nombre>
+		<categoria id="1871" ruta="|536|1679|1871|">
+			<nombre>Alarmas contra incendios</nombre>
+		</categoria>
+		<categoria id="1639" ruta="|536|1679|1639|">
+			<nombre>Armarios y cajas para extintores</nombre>
+		</categoria>
+		<categoria id="1934" ruta="|536|1679|1934|">
+			<nombre>Aspersores contra incendios</nombre>
+		</categoria>
+		<categoria id="7227" ruta="|536|1679|7227|">
+			<nombre>Detectores de calor</nombre>
+		</categoria>
+		<categoria id="1306" ruta="|536|1679|1306|">
+			<nombre>Detectores de fugas</nombre>
+		</categoria>
+		<categoria id="499673" ruta="|536|1679|499673|">
+			<nombre>Detectores de humos y monóxido de carbono</nombre>
+			<categoria id="2164" ruta="|536|1679|499673|2164|">
+				<nombre>Detectores de dióxido de carbono</nombre>
+			</categoria>
+			<categoria id="1471" ruta="|536|1679|499673|1471|">
+				<nombre>Detectores de humo</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="1434" ruta="|536|1679|1434|">
+			<nombre>Extintores</nombre>
+		</categoria>
+		<categoria id="7226" ruta="|536|1679|7226|">
+			<nombre>Paneles de control de alarmas antincendios</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="4171" ruta="|536|4171|">
+		<nombre>Ropa de casa</nombre>
+		<categoria id="601" ruta="|536|4171|601|">
+			<nombre>Mantelería</nombre>
+			<categoria id="6322" ruta="|536|4171|601|6322|">
+				<nombre>Faldas para mesas</nombre>
+			</categoria>
+			<categoria id="4143" ruta="|536|4171|601|4143|">
+				<nombre>Manteles</nombre>
+			</categoria>
+			<categoria id="2547" ruta="|536|4171|601|2547|">
+				<nombre>Manteles individuales</nombre>
+			</categoria>
+			<categoria id="4203" ruta="|536|4171|601|4203|">
+				<nombre>Servilletas de tela</nombre>
+			</categoria>
+			<categoria id="6325" ruta="|536|4171|601|6325|">
+				<nombre>Tapetes</nombre>
+			</categoria>
+			<categoria id="4343" ruta="|536|4171|601|4343|">
+				<nombre>Tapetes de ganchillo</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="569" ruta="|536|4171|569|">
+			<nombre>Ropa de cama</nombre>
+			<categoria id="2700" ruta="|536|4171|569|2700|">
+				<nombre>Almohadas</nombre>
+			</categoria>
+			<categoria id="505287" ruta="|536|4171|569|505287|">
+				<nombre>Colchas y edredones</nombre>
+			</categoria>
+			<categoria id="2974" ruta="|536|4171|569|2974|">
+				<nombre>Cubrecanapés</nombre>
+			</categoria>
+			<categoria id="505803" ruta="|536|4171|569|505803|">
+				<nombre>Doseles</nombre>
+			</categoria>
+			<categoria id="1599" ruta="|536|4171|569|1599|">
+				<nombre>Esterillas para siesta</nombre>
+			</categoria>
+			<categoria id="2927" ruta="|536|4171|569|2927|">
+				<nombre>Fundas de almohada y de cojines</nombre>
+			</categoria>
+			<categoria id="2541" ruta="|536|4171|569|2541|">
+				<nombre>Fundas de nórdico</nombre>
+			</categoria>
+			<categoria id="1985" ruta="|536|4171|569|1985|">
+				<nombre>Mantas</nombre>
+			</categoria>
+			<categoria id="4452" ruta="|536|4171|569|4452|">
+				<nombre>Protectores para colchones</nombre>
+				<categoria id="2991" ruta="|536|4171|569|4452|2991|">
+					<nombre>Cubrecolchones</nombre>
+				</categoria>
+				<categoria id="4420" ruta="|536|4171|569|4452|4420|">
+					<nombre>Fundas para colchones</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="2314" ruta="|536|4171|569|2314|">
+				<nombre>Sábanas</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="505832" ruta="|536|4171|505832|">
+			<nombre>Sets de ropa de cocina</nombre>
+		</categoria>
+		<categoria id="4077" ruta="|536|4171|4077|">
+			<nombre>Toallas</nombre>
+			<categoria id="4257" ruta="|536|4171|4077|4257|">
+				<nombre>Paños de cocina</nombre>
+			</categoria>
+			<categoria id="576" ruta="|536|4171|4077|576|">
+				<nombre>Toallas de baño y manoplas</nombre>
+			</categoria>
+			<categoria id="4126" ruta="|536|4171|4077|4126|">
+				<nombre>Toallas de playa</nombre>
+			</categoria>
+		</categoria>
+	</categoria>
+	<categoria id="359" ruta="|536|359|">
+		<nombre>Seguridad empresarial y del hogar</nombre>
+		<categoria id="499865" ruta="|536|359|499865|">
+			<nombre>Accesorios para cajas de seguridad</nombre>
+		</categoria>
+		<categoria id="363" ruta="|536|359|363|">
+			<nombre>Alumbrado de seguridad</nombre>
+		</categoria>
+		<categoria id="3819" ruta="|536|359|3819|">
+			<nombre>Cajas fuertes</nombre>
+		</categoria>
+		<categoria id="5491" ruta="|536|359|5491|">
+			<nombre>Cámaras de vigilancia ocultas</nombre>
+		</categoria>
+		<categoria id="364" ruta="|536|359|364|">
+			<nombre>Cámaras y monitores de seguridad</nombre>
+		</categoria>
+		<categoria id="500025" ruta="|536|359|500025|">
+			<nombre>Espejos de vigilancia y seguridad</nombre>
+		</categoria>
+		<categoria id="2161" ruta="|536|359|2161|">
+			<nombre>Sensores de movimiento</nombre>
+		</categoria>
+		<categoria id="365" ruta="|536|359|365|">
+			<nombre>Sensores de sistemas de seguridad</nombre>
+		</categoria>
+		<categoria id="3873" ruta="|536|359|3873|">
+			<nombre>Sistemas de alarmas para el hogar</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="4358" ruta="|536|4358|">
+		<nombre>Sombrillas y paraguas</nombre>
+	</categoria>
+</categoria>

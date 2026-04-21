@@ -60,7 +60,8 @@ public class JwtTokenFilter implements ContainerRequestFilter {
 
 				this.servletRequest.setAttribute("claims", claims);
 
-				Set<String> roles = new HashSet<>(Arrays.asList(claims.get("roles", String.class).split(",")));
+				String rolValue = claims.get("rol", String.class);
+				Set<String> roles = rolValue != null ? new HashSet<>(Arrays.asList(rolValue.split(","))) : new HashSet<>();
 
 				// Consulta si la operación está protegida por rol
 				if (this.resourceInfo.getResourceMethod().isAnnotationPresent(RolesAllowed.class)) {

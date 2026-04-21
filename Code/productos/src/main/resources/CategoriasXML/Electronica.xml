@@ -1,0 +1,1277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<categoria id="222" ruta="|222|">
+	<nombre>Electrónica</nombre>
+	<categoria id="3895" ruta="|222|3895|">
+		<nombre>Accesorios GPS</nombre>
+		<categoria id="3781" ruta="|222|3895|3781|">
+			<nombre>Fundas para GPS</nombre>
+		</categoria>
+		<categoria id="3213" ruta="|222|3895|3213|">
+			<nombre>Soporte para GPS de vehículo</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="2082" ruta="|222|2082|">
+		<nombre>Accesorios electrónicos</nombre>
+		<categoria id="279" ruta="|222|2082|279|">
+			<nombre>Accesorios informáticos</nombre>
+			<categoria id="280" ruta="|222|2082|279|280|">
+				<nombre>Accesorios para dispositivos portátiles</nombre>
+				<categoria id="4737" ruta="|222|2082|279|280|4737|">
+					<nombre>Accesorios para PDA</nombre>
+					<categoria id="4739" ruta="|222|2082|279|280|4737|4739|">
+						<nombre>Fundas para PDA</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="4736" ruta="|222|2082|279|280|4736|">
+					<nombre>Accesorios para lectores de libros electrónicos</nombre>
+					<categoria id="4738" ruta="|222|2082|279|280|4736|4738|">
+						<nombre>Estuches para lectores de libros electrónicos</nombre>
+					</categoria>
+				</categoria>
+			</categoria>
+			<categoria id="1993" ruta="|222|2082|279|1993|">
+				<nombre>Alfombrillas de ratón</nombre>
+			</categoria>
+			<categoria id="5669" ruta="|222|2082|279|5669|">
+				<nombre>Almohadillas y recambios de lápiz óptico</nombre>
+			</categoria>
+			<categoria id="5489" ruta="|222|2082|279|5489|">
+				<nombre>Bases y elevadores para ordenadores</nombre>
+			</categoria>
+			<categoria id="300" ruta="|222|2082|279|300|">
+				<nombre>Estaciones de conexión para portátiles</nombre>
+			</categoria>
+			<categoria id="7530" ruta="|222|2082|279|7530|">
+				<nombre>Fundas para ordenadores</nombre>
+			</categoria>
+			<categoria id="5308" ruta="|222|2082|279|5308|">
+				<nombre>Lápices ópticos</nombre>
+			</categoria>
+			<categoria id="6979" ruta="|222|2082|279|6979|">
+				<nombre>Plataformas y bandejas para teclados</nombre>
+			</categoria>
+			<categoria id="6291" ruta="|222|2082|279|6291|">
+				<nombre>Reposamuñecas para teclado y ratón</nombre>
+			</categoria>
+			<categoria id="500040" ruta="|222|2082|279|500040|">
+				<nombre>Sets de accesorios para ordenadores</nombre>
+			</categoria>
+			<categoria id="499956" ruta="|222|2082|279|499956|">
+				<nombre>Soportes para tablets</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="5476" ruta="|222|2082|5476|">
+			<nombre>Accesorios para antenas</nombre>
+			<categoria id="5477" ruta="|222|2082|5476|5477|">
+				<nombre>Escuadras y soportes para antenas</nombre>
+			</categoria>
+			<categoria id="6016" ruta="|222|2082|5476|6016|">
+				<nombre>LNB para satélite</nombre>
+			</categoria>
+			<categoria id="5478" ruta="|222|2082|5476|5478|">
+				<nombre>Rotadores de antenas</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="3422" ruta="|222|2082|3422|">
+			<nombre>Accesorios para memorias</nombre>
+			<categoria id="3672" ruta="|222|2082|3422|3672|">
+				<nombre>Fundas tarjetas memoria</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="258" ruta="|222|2082|258|">
+			<nombre>Adaptadores</nombre>
+			<categoria id="7182" ruta="|222|2082|258|7182|">
+				<nombre>Adaptadores USB</nombre>
+			</categoria>
+			<categoria id="4463" ruta="|222|2082|258|4463|">
+				<nombre>Adaptadores de audio y vídeo</nombre>
+			</categoria>
+			<categoria id="146" ruta="|222|2082|258|146|">
+				<nombre>Adaptadores de tarjetas de memoria</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="5473" ruta="|222|2082|5473|">
+			<nombre>Amplificadores de señal</nombre>
+		</categoria>
+		<categoria id="1718" ruta="|222|2082|1718|">
+			<nombre>Antenas</nombre>
+		</categoria>
+		<categoria id="3328" ruta="|222|2082|3328|">
+			<nombre>Cableado</nombre>
+			<categoria id="6402" ruta="|222|2082|3328|6402|">
+				<nombre>Bandejas portacables</nombre>
+			</categoria>
+			<categoria id="4016" ruta="|222|2082|3328|4016|">
+				<nombre>Bridas sujetacables</nombre>
+			</categoria>
+			<categoria id="3764" ruta="|222|2082|3328|3764|">
+				<nombre>Grapas para cables</nombre>
+			</categoria>
+			<categoria id="499686" ruta="|222|2082|3328|499686|">
+				<nombre>Marcadores de identificación para hilos y cables</nombre>
+			</categoria>
+			<categoria id="5273" ruta="|222|2082|3328|5273|">
+				<nombre>Paneles de parcheo</nombre>
+			</categoria>
+			<categoria id="500036" ruta="|222|2082|3328|500036|">
+				<nombre>Pistolas para tensar y cortar bridas sujeta-cables</nombre>
+			</categoria>
+			<categoria id="6780" ruta="|222|2082|3328|6780|">
+				<nombre>Revestimientos para cables</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="259" ruta="|222|2082|259|">
+			<nombre>Cables</nombre>
+			<categoria id="1480" ruta="|222|2082|259|1480|">
+				<nombre>Cableado de red</nombre>
+			</categoria>
+			<categoria id="1763" ruta="|222|2082|259|1763|">
+				<nombre>Cables de alimentación</nombre>
+			</categoria>
+			<categoria id="500035" ruta="|222|2082|259|500035|">
+				<nombre>Cables de almacenamiento y transmisión de datos</nombre>
+			</categoria>
+			<categoria id="1867" ruta="|222|2082|259|1867|">
+				<nombre>Cables de audio y vídeo</nombre>
+			</categoria>
+			<categoria id="3541" ruta="|222|2082|259|3541|">
+				<nombre>Cables de teléfono</nombre>
+			</categoria>
+			<categoria id="3461" ruta="|222|2082|259|3461|">
+				<nombre>Cables para conmutador KVM</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="285" ruta="|222|2082|285|">
+			<nombre>Componentes para ordenadores</nombre>
+			<categoria id="6475" ruta="|222|2082|285|6475|">
+				<nombre>Accesorios para dispositivos de entrada</nombre>
+				<categoria id="8008" ruta="|222|2082|285|6475|8008|">
+					<nombre>Accesorios para mandos de videojuegos</nombre>
+				</categoria>
+				<categoria id="500052" ruta="|222|2082|285|6475|500052|">
+					<nombre>Accesorios para ratones y ratones de bola</nombre>
+				</categoria>
+				<categoria id="503003" ruta="|222|2082|285|6475|503003|">
+					<nombre>Cubiertas y teclas para teclados</nombre>
+				</categoria>
+				<categoria id="6476" ruta="|222|2082|285|6475|6476|">
+					<nombre>Soportes para lectores de códigos de barras</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="292" ruta="|222|2082|285|292|">
+				<nombre>CPU</nombre>
+			</categoria>
+			<categoria id="296" ruta="|222|2082|285|296|">
+				<nombre>Cajas de ordenadores y servidores</nombre>
+			</categoria>
+			<categoria id="293" ruta="|222|2082|285|293|">
+				<nombre>Carcasas de ordenadores</nombre>
+			</categoria>
+			<categoria id="8158" ruta="|222|2082|285|8158|">
+				<nombre>Carcasas y protectores metálicos para torres de ordenador
+				</nombre>
+			</categoria>
+			<categoria id="6932" ruta="|222|2082|285|6932|">
+				<nombre>Chasis para servidores blade</nombre>
+			</categoria>
+			<categoria id="311" ruta="|222|2082|285|311|">
+				<nombre>Concentradores USB/FireWire</nombre>
+			</categoria>
+			<categoria id="2414" ruta="|222|2082|285|2414|">
+				<nombre>Dispositivos de almacenamiento</nombre>
+				<categoria id="1623" ruta="|222|2082|285|2414|1623|">
+					<nombre>Accesorios para discos duros</nombre>
+					<categoria id="4417" ruta="|222|2082|285|2414|1623|4417|">
+						<nombre>Bases de conexión de discos duros</nombre>
+					</categoria>
+					<categoria id="381" ruta="|222|2082|285|2414|1623|381|">
+						<nombre>Maletines para discos duros</nombre>
+					</categoria>
+					<categoria id="505767"
+						ruta="|222|2082|285|2414|1623|505767|">
+						<nombre>Soportes y carcasas para discos duros</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="380" ruta="|222|2082|285|2414|380|">
+					<nombre>Discos duros</nombre>
+				</categoria>
+				<categoria id="1301" ruta="|222|2082|285|2414|1301|">
+					<nombre>Disqueteras</nombre>
+				</categoria>
+				<categoria id="5268" ruta="|222|2082|285|2414|5268|">
+					<nombre>Duplicadoras de disco</nombre>
+					<categoria id="5271" ruta="|222|2082|285|2414|5268|5271|">
+						<nombre>Duplicadoras de disco duro</nombre>
+					</categoria>
+					<categoria id="5112" ruta="|222|2082|285|2414|5268|5112|">
+						<nombre>Duplicadoras de unidades USB</nombre>
+					</categoria>
+					<categoria id="376" ruta="|222|2082|285|2414|5268|376|">
+						<nombre>Torres duplicadoras CD/DVD</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="5272" ruta="|222|2082|285|2414|5272|">
+					<nombre>Matrices de disco duro</nombre>
+				</categoria>
+				<categoria id="3712" ruta="|222|2082|285|2414|3712|">
+					<nombre>Memorias USB</nombre>
+				</categoria>
+				<categoria id="5269" ruta="|222|2082|285|2414|5269|">
+					<nombre>Sistemas de almacenamiento de red</nombre>
+				</categoria>
+				<categoria id="385" ruta="|222|2082|285|2414|385|">
+					<nombre>Unidades de cintas magnéticas</nombre>
+				</categoria>
+				<categoria id="377" ruta="|222|2082|285|2414|377|">
+					<nombre>Unidades de disco óptico</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="1928" ruta="|222|2082|285|1928|">
+				<nombre>Dispositivos de entrada</nombre>
+				<categoria id="5309" ruta="|222|2082|285|1928|5309|">
+					<nombre>Bolígrafos digitales</nombre>
+				</categoria>
+				<categoria id="1562" ruta="|222|2082|285|1928|1562|">
+					<nombre>Conmutadores KVM</nombre>
+				</categoria>
+				<categoria id="301" ruta="|222|2082|285|1928|301|">
+					<nombre>Controladores de juegos</nombre>
+					<categoria id="543589"
+						ruta="|222|2082|285|1928|301|543589|">
+						<nombre>Gaming pads</nombre>
+					</categoria>
+					<categoria id="543588"
+						ruta="|222|2082|285|1928|301|543588|">
+						<nombre>Joysticks para videjuegos</nombre>
+					</categoria>
+					<categoria id="543593"
+						ruta="|222|2082|285|1928|301|543593|">
+						<nombre>Mandos de juegos de instrumentos musicales</nombre>
+					</categoria>
+					<categoria id="543590"
+						ruta="|222|2082|285|1928|301|543590|">
+						<nombre>Mandos inalámbricos para videojuegos</nombre>
+					</categoria>
+					<categoria id="543591"
+						ruta="|222|2082|285|1928|301|543591|">
+						<nombre>Volantes para videojuegos</nombre>
+					</categoria>
+				</categoria>
+				<categoria id="499950" ruta="|222|2082|285|1928|499950|">
+					<nombre>Dispositivos de entrada para el control por gestos</nombre>
+				</categoria>
+				<categoria id="139" ruta="|222|2082|285|1928|139|">
+					<nombre>Lectores de códigos de barras</nombre>
+				</categoria>
+				<categoria id="5366" ruta="|222|2082|285|1928|5366|">
+					<nombre>Lectores de huellas digitales</nombre>
+				</categoria>
+				<categoria id="3580" ruta="|222|2082|285|1928|3580|">
+					<nombre>Lectores de tarjetas de memoria</nombre>
+				</categoria>
+				<categoria id="505801" ruta="|222|2082|285|1928|505801|">
+					<nombre>Lectores de tarjetas electrónicas</nombre>
+				</categoria>
+				<categoria id="308" ruta="|222|2082|285|1928|308|">
+					<nombre>Paneles táctiles</nombre>
+				</categoria>
+				<categoria id="304" ruta="|222|2082|285|1928|304|">
+					<nombre>Ratones y trackballs</nombre>
+				</categoria>
+				<categoria id="302" ruta="|222|2082|285|1928|302|">
+					<nombre>Tabletas gráficas</nombre>
+				</categoria>
+				<categoria id="303" ruta="|222|2082|285|1928|303|">
+					<nombre>Teclados</nombre>
+				</categoria>
+				<categoria id="4512" ruta="|222|2082|285|1928|4512|">
+					<nombre>Teclados numéricos</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="291" ruta="|222|2082|285|291|">
+				<nombre>Fuentes de alimentación para ordenadores</nombre>
+			</categoria>
+			<categoria id="294" ruta="|222|2082|285|294|">
+				<nombre>Paquetes básicos</nombre>
+			</categoria>
+			<categoria id="295" ruta="|222|2082|285|295|">
+				<nombre>Piezas de refrigeración del sistema para ordenadores
+				</nombre>
+			</categoria>
+			<categoria id="7349" ruta="|222|2082|285|7349|">
+				<nombre>Piezas de repuesto para tablets</nombre>
+				<categoria id="45262" ruta="|222|2082|285|7349|45262|">
+					<nombre>Altavoces de repuesto para tablets</nombre>
+				</categoria>
+				<categoria id="500013" ruta="|222|2082|285|7349|500013|">
+					<nombre>Digitalizadores de pantalla y pantallas para tablets
+					</nombre>
+				</categoria>
+				<categoria id="503002" ruta="|222|2082|285|7349|503002|">
+					<nombre>Embellecedores y carcasas para tablets</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="8162" ruta="|222|2082|285|8162|">
+				<nombre>Piezas para lectores de libros electrónicos</nombre>
+				<categoria id="8163" ruta="|222|2082|285|8162|8163|">
+					<nombre>Pantallas de repuesto para lectores de libros electrónicos
+					</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="4224" ruta="|222|2082|285|4224|">
+				<nombre>Repuestos para portátiles</nombre>
+				<categoria id="43617" ruta="|222|2082|285|4224|43617|">
+					<nombre>Altavoces de repuesto para portátiles</nombre>
+				</categoria>
+				<categoria id="6416" ruta="|222|2082|285|4224|6416|">
+					<nombre>Bisagras para portátiles</nombre>
+				</categoria>
+				<categoria id="7501" ruta="|222|2082|285|4224|7501|">
+					<nombre>Cables de repuesto para portátiles</nombre>
+				</categoria>
+				<categoria id="4270" ruta="|222|2082|285|4224|4270|">
+					<nombre>Carcasas de portátiles</nombre>
+				</categoria>
+				<categoria id="8160" ruta="|222|2082|285|4224|8160|">
+					<nombre>Digitalizadores para pantallas de portátiles</nombre>
+				</categoria>
+				<categoria id="4102" ruta="|222|2082|285|4224|4102|">
+					<nombre>Pantallas de repuesto para portátiles</nombre>
+				</categoria>
+				<categoria id="4301" ruta="|222|2082|285|4224|4301|">
+					<nombre>Teclados de repuesto para portátiles</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="287" ruta="|222|2082|285|287|">
+				<nombre>Tarjetas de expansión para ordenadores</nombre>
+				<categoria id="505299" ruta="|222|2082|285|287|505299|">
+					<nombre>Adaptadores y tarjetas de interfaz de red</nombre>
+				</categoria>
+				<categoria id="1487" ruta="|222|2082|285|287|1487|">
+					<nombre>Adaptadores y tarjetas sintonizadoras de televisión
+					</nombre>
+				</categoria>
+				<categoria id="503755" ruta="|222|2082|285|287|503755|">
+					<nombre>Placas hija</nombre>
+				</categoria>
+				<categoria id="286" ruta="|222|2082|285|287|286|">
+					<nombre>Tarjetas de audio</nombre>
+				</categoria>
+				<categoria id="297" ruta="|222|2082|285|287|297|">
+					<nombre>Tarjetas de vídeo</nombre>
+				</categoria>
+			</categoria>
+		</categoria>
+		<categoria id="8156" ruta="|222|2082|8156|">
+			<nombre>Divisores y conmutadores de audio y vídeo</nombre>
+			<categoria id="499944" ruta="|222|2082|8156|499944|">
+				<nombre>Divisores y conmutadores DVI</nombre>
+			</categoria>
+			<categoria id="8164" ruta="|222|2082|8156|8164|">
+				<nombre>Divisores y conmutadores HDMI</nombre>
+			</categoria>
+			<categoria id="499945" ruta="|222|2082|8156|499945|">
+				<nombre>Divisores y conmutadores VGA</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="275" ruta="|222|2082|275|">
+			<nombre>Electricidad</nombre>
+			<categoria id="1375" ruta="|222|2082|275|1375|">
+				<nombre>Accesorios UPS</nombre>
+			</categoria>
+			<categoria id="7166" ruta="|222|2082|275|7166|">
+				<nombre>Accesorios de baterías</nombre>
+				<categoria id="7167" ruta="|222|2082|275|7166|7167|">
+					<nombre>Cargadores de baterías de uso general</nombre>
+				</categoria>
+				<categoria id="3130" ruta="|222|2082|275|7166|3130|">
+					<nombre>Cargadores de baterías para cámaras</nombre>
+				</categoria>
+				<categoria id="499928" ruta="|222|2082|275|7166|499928|">
+					<nombre>Comprobadores de baterías de uso general</nombre>
+				</categoria>
+				<categoria id="6817" ruta="|222|2082|275|7166|6817|">
+					<nombre>Controladores de carga</nombre>
+				</categoria>
+				<categoria id="8243" ruta="|222|2082|275|7166|8243|">
+					<nombre>Portapilas</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="6933" ruta="|222|2082|275|6933|">
+				<nombre>Accesorios para cargadores y adaptadores de corriente
+				</nombre>
+			</categoria>
+			<categoria id="7135" ruta="|222|2082|275|7135|">
+				<nombre>Adaptadores de viaje</nombre>
+			</categoria>
+			<categoria id="1348" ruta="|222|2082|275|1348|">
+				<nombre>Baterías auxiliares</nombre>
+			</categoria>
+			<categoria id="5274" ruta="|222|2082|275|5274|">
+				<nombre>Cajas de electricidad</nombre>
+			</categoria>
+			<categoria id="505295" ruta="|222|2082|275|505295|">
+				<nombre>Cargadores y adaptadores de alimentación</nombre>
+			</categoria>
+			<categoria id="5380" ruta="|222|2082|275|5380|">
+				<nombre>Dispositivos de protección contra sobretensiones</nombre>
+			</categoria>
+			<categoria id="2978" ruta="|222|2082|275|2978|">
+				<nombre>Pilas de combustible</nombre>
+			</categoria>
+			<categoria id="276" ruta="|222|2082|275|276|">
+				<nombre>Pilas y baterías</nombre>
+				<categoria id="4928" ruta="|222|2082|275|276|4928|">
+					<nombre>Baterías multiusos</nombre>
+				</categoria>
+				<categoria id="5133" ruta="|222|2082|275|276|5133|">
+					<nombre>Baterías para PDA</nombre>
+				</categoria>
+				<categoria id="6289" ruta="|222|2082|275|276|6289|">
+					<nombre>Baterías para SAI</nombre>
+				</categoria>
+				<categoria id="1722" ruta="|222|2082|275|276|1722|">
+					<nombre>Baterías para cámaras</nombre>
+				</categoria>
+				<categoria id="2222" ruta="|222|2082|275|276|2222|">
+					<nombre>Baterías para cámaras de vídeo</nombre>
+				</categoria>
+				<categoria id="7551" ruta="|222|2082|275|276|7551|">
+					<nombre>Baterías para lectores de libros electrónicos</nombre>
+				</categoria>
+				<categoria id="500117" ruta="|222|2082|275|276|500117|">
+					<nombre>Baterías para mandos y videoconsolas</nombre>
+				</categoria>
+				<categoria id="1745" ruta="|222|2082|275|276|1745|">
+					<nombre>Baterías para móviles</nombre>
+				</categoria>
+				<categoria id="1564" ruta="|222|2082|275|276|1564|">
+					<nombre>Baterías para portátiles</nombre>
+				</categoria>
+				<categoria id="499810" ruta="|222|2082|275|276|499810|">
+					<nombre>Baterías para reproductores de MP3</nombre>
+				</categoria>
+				<categoria id="7438" ruta="|222|2082|275|276|7438|">
+					<nombre>Baterías para tablets</nombre>
+				</categoria>
+				<categoria id="1880" ruta="|222|2082|275|276|1880|">
+					<nombre>Baterías para teléfonos inalámbricos</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="3160" ruta="|222|2082|275|3160|">
+				<nombre>Supresores de sobretensión y regletas</nombre>
+			</categoria>
+			<categoria id="6790" ruta="|222|2082|275|6790|">
+				<nombre>Unidades de control eléctrico</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="5695" ruta="|222|2082|5695|">
+			<nombre>Inhibidores de señales</nombre>
+			<categoria id="5612" ruta="|222|2082|5695|5612|">
+				<nombre>Inhibidores de GPS</nombre>
+			</categoria>
+			<categoria id="5696" ruta="|222|2082|5695|5696|">
+				<nombre>Inhibidores de telefonía móvil</nombre>
+			</categoria>
+			<categoria id="5589" ruta="|222|2082|5695|5589|">
+				<nombre>Interceptores de radares</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="4617" ruta="|222|2082|4617|">
+			<nombre>Limpiadores de dispositivos electrónicos</nombre>
+		</categoria>
+		<categoria id="5466" ruta="|222|2082|5466|">
+			<nombre>Láminas y películas para dispositivos electrónicos</nombre>
+			<categoria id="5467" ruta="|222|2082|5466|5467|">
+				<nombre>Filtros de privacidad</nombre>
+			</categoria>
+			<categoria id="5523" ruta="|222|2082|5466|5523|">
+				<nombre>Pegatinas para dispositivos electrónicos</nombre>
+			</categoria>
+			<categoria id="5468" ruta="|222|2082|5466|5468|">
+				<nombre>Protectores de pantalla</nombre>
+			</categoria>
+			<categoria id="5469" ruta="|222|2082|5466|5469|">
+				<nombre>Protectores para teclados</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="341" ruta="|222|2082|341|">
+			<nombre>Mandos a distancia</nombre>
+		</categoria>
+		<categoria id="288" ruta="|222|2082|288|">
+			<nombre>Memorias</nombre>
+			<categoria id="1733" ruta="|222|2082|288|1733|">
+				<nombre>Memoria RAM</nombre>
+			</categoria>
+			<categoria id="1665" ruta="|222|2082|288|1665|">
+				<nombre>Memoria caché</nombre>
+			</categoria>
+			<categoria id="2130" ruta="|222|2082|288|2130|">
+				<nombre>Memoria de solo lectura</nombre>
+			</categoria>
+			<categoria id="1767" ruta="|222|2082|288|1767|">
+				<nombre>Memoria de vídeo</nombre>
+			</categoria>
+			<categoria id="384" ruta="|222|2082|288|384|">
+				<nombre>Memoria flash</nombre>
+				<categoria id="3387" ruta="|222|2082|288|384|3387|">
+					<nombre>Tarjetas de memoria flash</nombre>
+				</categoria>
+			</categoria>
+		</categoria>
+		<categoria id="367" ruta="|222|2082|367|">
+			<nombre>Soportes multimedia vírgenes</nombre>
+		</categoria>
+		<categoria id="499878" ruta="|222|2082|499878|">
+			<nombre>Trípodes y soportes de pie sencillo para teléfonos móviles y
+				tablets</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="1270" ruta="|222|1270|">
+		<nombre>Accesorios para videoconsolas</nombre>
+		<categoria id="1505" ruta="|222|1270|1505|">
+			<nombre>Accesorios para consolas de sobremesa</nombre>
+		</categoria>
+		<categoria id="2070" ruta="|222|1270|2070|">
+			<nombre>Accesorios para consolas portátiles</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="3356" ruta="|222|3356|">
+		<nombre>Artículos para videojuegos</nombre>
+		<categoria id="3676" ruta="|222|3356|3676|">
+			<nombre>Accesorios para muebles de videojuegos</nombre>
+		</categoria>
+		<categoria id="3946" ruta="|222|3356|3946|">
+			<nombre>Accesorios para máquinas de pinball</nombre>
+		</categoria>
+		<categoria id="8085" ruta="|222|3356|8085|">
+			<nombre>Juegos arcade de baloncesto</nombre>
+		</categoria>
+		<categoria id="3117" ruta="|222|3356|3117|">
+			<nombre>Muebles de videojuegos de arcade</nombre>
+		</categoria>
+		<categoria id="3140" ruta="|222|3356|3140|">
+			<nombre>Máquinas de pinball</nombre>
+		</categoria>
+		<categoria id="3681" ruta="|222|3356|3681|">
+			<nombre>Máquinas de skee ball</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="223" ruta="|222|223|">
+		<nombre>Audio</nombre>
+		<categoria id="1420" ruta="|222|223|1420|">
+			<nombre>Accesorios de audio</nombre>
+			<categoria id="5395" ruta="|222|223|1420|5395|">
+				<nombre>Accesorios del sistema de karaoke</nombre>
+				<categoria id="5396" ruta="|222|223|1420|5395|5396|">
+					<nombre>Chips de canciones</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="7163" ruta="|222|223|1420|7163|">
+				<nombre>Accesorios para altavoces</nombre>
+				<categoria id="8047" ruta="|222|223|1420|7163|8047|">
+					<nombre>Bolsas para soportes de altavoces</nombre>
+				</categoria>
+				<categoria id="500112" ruta="|222|223|1420|7163|500112|">
+					<nombre>Estuches, carcasas y fundas para altavoces</nombre>
+				</categoria>
+				<categoria id="500120" ruta="|222|223|1420|7163|500120|">
+					<nombre>Kits y componentes para altavoces</nombre>
+				</categoria>
+				<categoria id="8049" ruta="|222|223|1420|7163|8049|">
+					<nombre>Soportes para altavoces</nombre>
+				</categoria>
+				<categoria id="500119" ruta="|222|223|1420|7163|500119|">
+					<nombre>Transductores táctiles</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="505797" ruta="|222|223|1420|505797|">
+				<nombre>Accesorios para auriculares</nombre>
+				<categoria id="503004" ruta="|222|223|1420|505797|503004|">
+					<nombre>Almohadillas para auriculares y gomas para auriculares de
+						tapón</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="3306" ruta="|222|223|1420|3306|">
+				<nombre>Accesorios para micrófonos</nombre>
+			</categoria>
+			<categoria id="2372" ruta="|222|223|1420|2372|">
+				<nombre>Accesorios para platos de tocadiscos</nombre>
+			</categoria>
+			<categoria id="239" ruta="|222|223|1420|239|">
+				<nombre>Accesorios para radios por satélite</nombre>
+			</categoria>
+			<categoria id="503008" ruta="|222|223|1420|503008|">
+				<nombre>Accesorios para receptores de vídeo y audio</nombre>
+			</categoria>
+			<categoria id="232" ruta="|222|223|1420|232|">
+				<nombre>Accesorios para reproductores MP3</nombre>
+				<categoria id="3055" ruta="|222|223|1420|232|3055|">
+					<nombre>Fundas para reproductores MP3</nombre>
+				</categoria>
+				<categoria id="7566" ruta="|222|223|1420|232|7566|">
+					<nombre>Juegos de accesorios para teléfonos móviles y reproductores
+						de MP3</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="3912" ruta="|222|223|1420|3912|">
+				<nombre>Soportes para micrófonos</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="4921" ruta="|222|223|4921|">
+			<nombre>DJ y audio especializado</nombre>
+			<categoria id="4922" ruta="|222|223|4921|4922|">
+				<nombre>Reproductores de CD para DJ</nombre>
+			</categoria>
+			<categoria id="4923" ruta="|222|223|4921|4923|">
+				<nombre>Sistemas DJ</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="2165" ruta="|222|223|2165|">
+			<nombre>Equipo de sonido</nombre>
+			<categoria id="249" ruta="|222|223|2165|249|">
+				<nombre>Altavoces</nombre>
+			</categoria>
+			<categoria id="224" ruta="|222|223|2165|224|">
+				<nombre>Amplificadores de sonido</nombre>
+				<categoria id="4493" ruta="|222|223|2165|224|4493|">
+					<nombre>Amplificadores de auriculares</nombre>
+				</categoria>
+				<categoria id="5381" ruta="|222|223|2165|224|5381|">
+					<nombre>Amplificadores estéreo</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="505771" ruta="|222|223|2165|505771|">
+				<nombre>Auriculares</nombre>
+				<categoria id="543627" ruta="|222|223|2165|505771|543627|">
+					<nombre>Auriculares con micrófono</nombre>
+				</categoria>
+				<categoria id="543626" ruta="|222|223|2165|505771|543626|">
+					<nombre>Auriculares de diadema</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="6546" ruta="|222|223|2165|6546|">
+				<nombre>Cajas directas</nombre>
+			</categoria>
+			<categoria id="6545" ruta="|222|223|2165|6545|">
+				<nombre>Canales de grabación</nombre>
+			</categoria>
+			<categoria id="505298" ruta="|222|223|2165|505298|">
+				<nombre>Equipos de grabación en estudio</nombre>
+			</categoria>
+			<categoria id="236" ruta="|222|223|2165|236|">
+				<nombre>Mesas de mezclas</nombre>
+			</categoria>
+			<categoria id="234" ruta="|222|223|2165|234|">
+				<nombre>Micrófonos</nombre>
+			</categoria>
+			<categoria id="246" ruta="|222|223|2165|246|">
+				<nombre>Procesadores de señales</nombre>
+				<categoria id="5596" ruta="|222|223|2165|246|5596|">
+					<nombre>Compresores y puertas de ruido</nombre>
+				</categoria>
+				<categoria id="248" ruta="|222|223|2165|246|248|">
+					<nombre>Ecualizadores</nombre>
+				</categoria>
+				<categoria id="5435" ruta="|222|223|2165|246|5435|">
+					<nombre>Filtros crossover</nombre>
+				</categoria>
+				<categoria id="247" ruta="|222|223|2165|246|247|">
+					<nombre>Pedales de efectos</nombre>
+				</categoria>
+				<categoria id="3945" ruta="|222|223|2165|246|3945|">
+					<nombre>Preamplificadores de micrófono</nombre>
+				</categoria>
+				<categoria id="5369" ruta="|222|223|2165|246|5369|">
+					<nombre>Preamplificadores de sonido</nombre>
+				</categoria>
+				<categoria id="5597" ruta="|222|223|2165|246|5597|">
+					<nombre>Sistemas de gestión de megafonía</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="241" ruta="|222|223|2165|241|">
+				<nombre>Receptores de audio y vídeo</nombre>
+			</categoria>
+			<categoria id="5129" ruta="|222|223|2165|5129|">
+				<nombre>Transmisores de audio</nombre>
+				<categoria id="5130" ruta="|222|223|2165|5129|5130|">
+					<nombre>Transmisores Bluetooth</nombre>
+				</categoria>
+				<categoria id="4035" ruta="|222|223|2165|5129|4035|">
+					<nombre>Transmisores FM</nombre>
+				</categoria>
+			</categoria>
+		</categoria>
+		<categoria id="3727" ruta="|222|223|3727|">
+			<nombre>Equipos para escenario</nombre>
+			<categoria id="3242" ruta="|222|223|3727|3242|">
+				<nombre>Transmisores inalámbricos</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="2154" ruta="|222|223|2154|">
+			<nombre>Megafonía</nombre>
+		</categoria>
+		<categoria id="8159" ruta="|222|223|8159|">
+			<nombre>Megáfonos</nombre>
+		</categoria>
+		<categoria id="242" ruta="|222|223|242|">
+			<nombre>Reproducción y grabación de sonido</nombre>
+			<categoria id="225" ruta="|222|223|242|225|">
+				<nombre>Equipos estéreo portátiles</nombre>
+			</categoria>
+			<categoria id="5434" ruta="|222|223|242|5434|">
+				<nombre>Grabadoras de varias pistas</nombre>
+			</categoria>
+			<categoria id="244" ruta="|222|223|242|244|">
+				<nombre>Grabadoras de voz</nombre>
+			</categoria>
+			<categoria id="4652" ruta="|222|223|242|4652|">
+				<nombre>Gramolas</nombre>
+			</categoria>
+			<categoria id="256" ruta="|222|223|242|256|">
+				<nombre>Gramófonos y tocadiscos</nombre>
+			</categoria>
+			<categoria id="6886" ruta="|222|223|242|6886|">
+				<nombre>Radios</nombre>
+			</categoria>
+			<categoria id="233" ruta="|222|223|242|233|">
+				<nombre>Reproductores MP3</nombre>
+			</categoria>
+			<categoria id="226" ruta="|222|223|242|226|">
+				<nombre>Reproductores y grabadoras de CD</nombre>
+			</categoria>
+			<categoria id="235" ruta="|222|223|242|235|">
+				<nombre>Reproductores y grabadoras de MiniDisc</nombre>
+			</categoria>
+			<categoria id="8271" ruta="|222|223|242|8271|">
+				<nombre>Reproductores y grabadoras de bobina abierta</nombre>
+			</categoria>
+			<categoria id="243" ruta="|222|223|242|243|">
+				<nombre>Reproductores y grabadoras de casetes</nombre>
+			</categoria>
+			<categoria id="252" ruta="|222|223|242|252|">
+				<nombre>Sistemas de cine en casa</nombre>
+			</categoria>
+			<categoria id="230" ruta="|222|223|242|230|">
+				<nombre>Sistemas de karaokes</nombre>
+			</categoria>
+			<categoria id="251" ruta="|222|223|242|251|">
+				<nombre>Sistemas estéreo</nombre>
+			</categoria>
+		</categoria>
+	</categoria>
+	<categoria id="1801" ruta="|222|1801|">
+		<nombre>Componentes</nombre>
+		<categoria id="7395" ruta="|222|1801|7395|">
+			<nombre>Acelerómetros</nombre>
+		</categoria>
+		<categoria id="1977" ruta="|222|1801|1977|">
+			<nombre>Conectores de componentes eléctricos</nombre>
+		</categoria>
+		<categoria id="2182" ruta="|222|1801|2182|">
+			<nombre>Convertidores</nombre>
+			<categoria id="503001" ruta="|222|1801|2182|503001|">
+				<nombre>Conversores de audio</nombre>
+			</categoria>
+			<categoria id="2205" ruta="|222|1801|2182|2205|">
+				<nombre>Convertidores de barrido</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="1544" ruta="|222|1801|1544|">
+			<nombre>Duplicadores</nombre>
+		</categoria>
+		<categoria id="1337" ruta="|222|1801|1337|">
+			<nombre>Moduladores</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="3702" ruta="|222|3702|">
+		<nombre>Componentes y placas de circuitos</nombre>
+		<categoria id="500027" ruta="|222|3702|500027|">
+			<nombre>Accesorios para placas de circuito</nombre>
+		</categoria>
+		<categoria id="7259" ruta="|222|3702|7259|">
+			<nombre>Descodificadores y codificadores de circuitos</nombre>
+		</categoria>
+		<categoria id="3635" ruta="|222|3702|3635|">
+			<nombre>Elementos pasivos de circuitos</nombre>
+			<categoria id="3220" ruta="|222|3702|3635|3220|">
+				<nombre>Condensadores</nombre>
+			</categoria>
+			<categoria id="3121" ruta="|222|3702|3635|3121|">
+				<nombre>Inductores</nombre>
+			</categoria>
+			<categoria id="7260" ruta="|222|3702|3635|7260|">
+				<nombre>Osciladores electrónicos</nombre>
+			</categoria>
+			<categoria id="3424" ruta="|222|3702|3635|3424|">
+				<nombre>Resistencias</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="7258" ruta="|222|3702|7258|">
+			<nombre>Filtros electrónicos</nombre>
+		</categoria>
+		<categoria id="3889" ruta="|222|3702|3889|">
+			<nombre>Prototipos de circuitos</nombre>
+			<categoria id="4010" ruta="|222|3702|3889|4010|">
+				<nombre>Placas de pruebas</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="3991" ruta="|222|3702|3991|">
+			<nombre>Semiconductores</nombre>
+			<categoria id="7257" ruta="|222|3702|3991|7257|">
+				<nombre>Chips y circuitos integrados</nombre>
+			</categoria>
+			<categoria id="3632" ruta="|222|3702|3991|3632|">
+				<nombre>Diodos</nombre>
+			</categoria>
+			<categoria id="3949" ruta="|222|3702|3991|3949|">
+				<nombre>Microcontroladores</nombre>
+			</categoria>
+			<categoria id="3094" ruta="|222|3702|3991|3094|">
+				<nombre>Transistores</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="7264" ruta="|222|3702|7264|">
+			<nombre>Tarjetas de circuito impreso</nombre>
+			<categoria id="3416" ruta="|222|3702|7264|3416|">
+				<nombre>Placa de desarrollo</nombre>
+			</categoria>
+			<categoria id="499889" ruta="|222|3702|7264|499889|">
+				<nombre>Placas de circuitos para aparatos de ejercicio</nombre>
+			</categoria>
+			<categoria id="298419" ruta="|222|3702|7264|298419|">
+				<nombre>Placas de circuitos para cámaras</nombre>
+			</categoria>
+			<categoria id="8545" ruta="|222|3702|7264|8545|">
+				<nombre>Placas de circuitos para electrodomésticos</nombre>
+			</categoria>
+			<categoria id="499675" ruta="|222|3702|7264|499675|">
+				<nombre>Placas de circuitos para escáneres</nombre>
+			</categoria>
+			<categoria id="8544" ruta="|222|3702|7264|8544|">
+				<nombre>Placas de circuitos para máquinas impresoras, fotocopiadoras
+					y fax</nombre>
+			</categoria>
+			<categoria id="499898" ruta="|222|3702|7264|499898|">
+				<nombre>Placas de circuitos para ordenadores</nombre>
+				<categoria id="8546" ruta="|222|3702|7264|499898|8546|">
+					<nombre>Placas de circuitos para discos duros</nombre>
+				</categoria>
+				<categoria id="499899"
+					ruta="|222|3702|7264|499898|499899|">
+					<nombre>Placas inversoras para ordenadores</nombre>
+				</categoria>
+				<categoria id="289" ruta="|222|3702|7264|499898|289|">
+					<nombre>Placas madre</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="8549" ruta="|222|3702|7264|8549|">
+				<nombre>Placas de circuitos para piscinas y spa</nombre>
+			</categoria>
+			<categoria id="8516" ruta="|222|3702|7264|8516|">
+				<nombre>Placas de circuitos para televisores</nombre>
+			</categoria>
+		</categoria>
+	</categoria>
+	<categoria id="262" ruta="|222|262|">
+		<nombre>Comunicación</nombre>
+		<categoria id="5404" ruta="|222|262|5404|">
+			<nombre>Accesorios de intercomunicadores</nombre>
+		</categoria>
+		<categoria id="263" ruta="|222|262|263|">
+			<nombre>Accesorios para sistemas de comunicación por radio</nombre>
+		</categoria>
+		<categoria id="268" ruta="|222|262|268|">
+			<nombre>Buscapersonas</nombre>
+		</categoria>
+		<categoria id="2471" ruta="|222|262|2471|">
+			<nombre>Comunicación por radio</nombre>
+			<categoria id="2106" ruta="|222|262|2471|2106|">
+				<nombre>Equipos de radioaficionados</nombre>
+			</categoria>
+			<categoria id="4415" ruta="|222|262|2471|4415|">
+				<nombre>Escáneres de radio</nombre>
+			</categoria>
+			<categoria id="273" ruta="|222|262|2471|273|">
+				<nombre>Radios de dos vías</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="266" ruta="|222|262|266|">
+			<nombre>Contestadores automáticos</nombre>
+		</categoria>
+		<categoria id="5275" ruta="|222|262|5275|">
+			<nombre>Identificadores de llamada</nombre>
+		</categoria>
+		<categoria id="360" ruta="|222|262|360|">
+			<nombre>Intercomunicadores</nombre>
+		</categoria>
+		<categoria id="270" ruta="|222|262|270|">
+			<nombre>Telefonía</nombre>
+			<categoria id="265" ruta="|222|262|270|265|">
+				<nombre>Accesorios de telefonía</nombre>
+				<categoria id="269" ruta="|222|262|270|265|269|">
+					<nombre>Tarjetas de teléfono</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="264" ruta="|222|262|270|264|">
+				<nombre>Accesorios para móviles</nombre>
+				<categoria id="8111" ruta="|222|262|270|264|8111|">
+					<nombre>Accesorios para cámaras de teléfonos móviles</nombre>
+				</categoria>
+				<categoria id="4550" ruta="|222|262|270|264|4550|">
+					<nombre>Correas y adornos para móviles</nombre>
+				</categoria>
+				<categoria id="2353" ruta="|222|262|270|264|2353|">
+					<nombre>Fundas para móviles</nombre>
+				</categoria>
+				<categoria id="499916" ruta="|222|262|270|264|499916|">
+					<nombre>Herramientas para extraer tarjetas SIM</nombre>
+				</categoria>
+				<categoria id="7347" ruta="|222|262|270|264|7347|">
+					<nombre>Piezas de repuesto para teléfonos móviles</nombre>
+				</categoria>
+				<categoria id="5566" ruta="|222|262|270|264|5566|">
+					<nombre>Soportes de teléfonos móviles para coches</nombre>
+				</categoria>
+				<categoria id="6030" ruta="|222|262|270|264|6030|">
+					<nombre>Tarjetas SIM y de prepago para teléfonos móviles</nombre>
+					<categoria id="543516"
+						ruta="|222|262|270|264|6030|543516|">
+						<nombre>Tarjetas SIM</nombre>
+					</categoria>
+					<categoria id="543515"
+						ruta="|222|262|270|264|6030|543515|">
+						<nombre>Tarjetas de prepago para teléfonos móviles</nombre>
+					</categoria>
+				</categoria>
+			</categoria>
+			<categoria id="271" ruta="|222|262|270|271|">
+				<nombre>Teléfonos fijos</nombre>
+			</categoria>
+			<categoria id="272" ruta="|222|262|270|272|">
+				<nombre>Teléfonos inalámbricos</nombre>
+			</categoria>
+			<categoria id="267" ruta="|222|262|270|267|">
+				<nombre>Teléfonos móviles</nombre>
+				<categoria id="543513" ruta="|222|262|270|267|543513|">
+					<nombre>Teléfonos móviles de contrato</nombre>
+				</categoria>
+				<categoria id="543512" ruta="|222|262|270|267|543512|">
+					<nombre>Teléfonos móviles de prepago</nombre>
+				</categoria>
+				<categoria id="543514" ruta="|222|262|270|267|543514|">
+					<nombre>Teléfonos móviles libres</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="4666" ruta="|222|262|270|4666|">
+				<nombre>Teléfonos para conferencias</nombre>
+			</categoria>
+			<categoria id="1924" ruta="|222|262|270|1924|">
+				<nombre>Teléfonos por satélite</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="274" ruta="|222|262|274|">
+			<nombre>Videoconferencias</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="912" ruta="|222|912|">
+		<nombre>Detectores de radares</nombre>
+	</categoria>
+	<categoria id="4488" ruta="|222|4488|">
+		<nombre>Dispositivos para el cobro de peajes</nombre>
+	</categoria>
+	<categoria id="340" ruta="|222|340|">
+		<nombre>Electrónuca náutica</nombre>
+		<categoria id="8473" ruta="|222|340|8473|">
+			<nombre>Altavoces náuticos</nombre>
+		</categoria>
+		<categoria id="1550" ruta="|222|340|1550|">
+			<nombre>Ecosondas</nombre>
+		</categoria>
+		<categoria id="2178" ruta="|222|340|2178|">
+			<nombre>GPS y trazadores gráficos náuticos</nombre>
+		</categoria>
+		<categoria id="1552" ruta="|222|340|1552|">
+			<nombre>Radar náutico</nombre>
+		</categoria>
+		<categoria id="4450" ruta="|222|340|4450|">
+			<nombre>Radios náuticas</nombre>
+		</categoria>
+		<categoria id="8134" ruta="|222|340|8134|">
+			<nombre>Receptores náuticos de audio y vídeo</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="345" ruta="|222|345|">
+		<nombre>Fax, escáner, copiadora e impresora</nombre>
+		<categoria id="284" ruta="|222|345|284|">
+			<nombre>Accesorios para escáner</nombre>
+		</categoria>
+		<categoria id="499682" ruta="|222|345|499682|">
+			<nombre>Accesorios para impresoras 3D</nombre>
+		</categoria>
+		<categoria id="502990" ruta="|222|345|502990|">
+			<nombre>Accesorios para máquinas de fax, impresoras y fotocopiadoras
+			</nombre>
+			<categoria id="5258" ruta="|222|345|502990|5258|">
+				<nombre>Consumibles para impresoras</nombre>
+				<categoria id="5261" ruta="|222|345|502990|5258|5261|">
+					<nombre>Cabezales de impresión</nombre>
+				</categoria>
+				<categoria id="356" ruta="|222|345|502990|5258|356|">
+					<nombre>Cartuchos de tinta y tóner</nombre>
+				</categoria>
+				<categoria id="7362" ruta="|222|345|502990|5258|7362|">
+					<nombre>Cartuchos recargados de tinta y tóner</nombre>
+				</categoria>
+				<categoria id="5260" ruta="|222|345|502990|5258|5260|">
+					<nombre>Cintas para impresoras</nombre>
+				</categoria>
+				<categoria id="5266" ruta="|222|345|502990|5258|5266|">
+					<nombre>Filtros para impresoras</nombre>
+				</categoria>
+				<categoria id="5262" ruta="|222|345|502990|5258|5262|">
+					<nombre>Kits de mantenimiento de impresoras</nombre>
+				</categoria>
+				<categoria id="5259" ruta="|222|345|502990|5258|5259|">
+					<nombre>Kits de tambores de impresoras</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="5265" ruta="|222|345|502990|5265|">
+				<nombre>Duplexores para impresora</nombre>
+			</categoria>
+			<categoria id="1683" ruta="|222|345|502990|1683|">
+				<nombre>Memoria para impresora</nombre>
+			</categoria>
+			<categoria id="502991" ruta="|222|345|502990|502991|">
+				<nombre>Piezas de repuesto para máquinas de fax, impresoras y
+					fotocopiadoras</nombre>
+			</categoria>
+			<categoria id="5459" ruta="|222|345|502990|5459|">
+				<nombre>Soportes para impresoras</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="306" ruta="|222|345|306|">
+			<nombre>Escáneres</nombre>
+		</categoria>
+		<categoria id="6865" ruta="|222|345|6865|">
+			<nombre>Impresoras 3D</nombre>
+		</categoria>
+		<categoria id="500106" ruta="|222|345|500106|">
+			<nombre>Impresoras, fotocopiadoras y faxes</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="6544" ruta="|222|6544|">
+		<nombre>Localizadores GPS</nombre>
+	</categoria>
+	<categoria id="278" ruta="|222|278|">
+		<nombre>Ordenadores</nombre>
+		<categoria id="8539" ruta="|222|278|8539|">
+			<nombre>Clientes livianos y delgados</nombre>
+			<categoria id="543669" ruta="|222|278|8539|543669|">
+				<nombre>Ordenadores de cliente cero</nombre>
+			</categoria>
+			<categoria id="543668" ruta="|222|278|8539|543668|">
+				<nombre>Ordenadores de cliente ligero</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="298" ruta="|222|278|298|">
+			<nombre>Dispositivos portátiles</nombre>
+			<categoria id="3539" ruta="|222|278|298|3539|">
+				<nombre>Libros electrónicos</nombre>
+			</categoria>
+			<categoria id="3769" ruta="|222|278|298|3769|">
+				<nombre>PDA</nombre>
+			</categoria>
+			<categoria id="5256" ruta="|222|278|298|5256|">
+				<nombre>Recopiladores de datos</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="500002" ruta="|222|278|500002|">
+			<nombre>Gafas inteligentes</nombre>
+		</categoria>
+		<categoria id="5255" ruta="|222|278|5255|">
+			<nombre>Kioscos interactivos</nombre>
+		</categoria>
+		<categoria id="502995" ruta="|222|278|502995|">
+			<nombre>Mesas táctiles</nombre>
+		</categoria>
+		<categoria id="325" ruta="|222|278|325|">
+			<nombre>Ordenadores de sobremesa</nombre>
+		</categoria>
+		<categoria id="328" ruta="|222|278|328|">
+			<nombre>Ordenadores portátiles</nombre>
+		</categoria>
+		<categoria id="5254" ruta="|222|278|5254|">
+			<nombre>Ordenadores tipo Barebone</nombre>
+		</categoria>
+		<categoria id="331" ruta="|222|278|331|">
+			<nombre>Servidores informáticos</nombre>
+		</categoria>
+		<categoria id="4745" ruta="|222|278|4745|">
+			<nombre>Tablets</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="500091" ruta="|222|500091|">
+		<nombre>Radares de velocidad</nombre>
+	</categoria>
+	<categoria id="342" ruta="|222|342|">
+		<nombre>Redes</nombre>
+		<categoria id="5576" ruta="|222|342|5576|">
+			<nombre>Accesorios para módems</nombre>
+		</categoria>
+		<categoria id="6508" ruta="|222|342|6508|">
+			<nombre>Adaptadores de Power over Ethernet</nombre>
+		</categoria>
+		<categoria id="290" ruta="|222|342|290|">
+			<nombre>Adaptadores y tarjetas de red</nombre>
+		</categoria>
+		<categoria id="2455" ruta="|222|342|2455|">
+			<nombre>Concentradores y conmutadores</nombre>
+		</categoria>
+		<categoria id="2479" ruta="|222|342|2479|">
+			<nombre>Concentradores y multiplexores</nombre>
+		</categoria>
+		<categoria id="3742" ruta="|222|342|3742|">
+			<nombre>Dispositivos firewall y seguridad de red</nombre>
+		</categoria>
+		<categoria id="343" ruta="|222|342|343|">
+			<nombre>Módems</nombre>
+		</categoria>
+		<categoria id="1350" ruta="|222|342|1350|">
+			<nombre>Puentes y enrutadores</nombre>
+			<categoria id="5497" ruta="|222|342|1350|5497|">
+				<nombre>Enrutadores inalámbricos</nombre>
+			</categoria>
+			<categoria id="2358" ruta="|222|342|1350|2358|">
+				<nombre>Enrutadores y puertas de enlace VoIP</nombre>
+			</categoria>
+			<categoria id="5659" ruta="|222|342|1350|5659|">
+				<nombre>Puentes de red</nombre>
+			</categoria>
+			<categoria id="5496" ruta="|222|342|1350|5496|">
+				<nombre>Puntos de acceso inalámbrico</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="2121" ruta="|222|342|2121|">
+			<nombre>Repetidores y transceptores</nombre>
+		</categoria>
+		<categoria id="3425" ruta="|222|342|3425|">
+			<nombre>Servidores de impresión</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="339" ruta="|222|339|">
+		<nombre>Sistemas de navegación GPS</nombre>
+	</categoria>
+	<categoria id="1294" ruta="|222|1294|">
+		<nombre>Videoconsolas</nombre>
+	</categoria>
+	<categoria id="386" ruta="|222|386|">
+		<nombre>Vídeo</nombre>
+		<categoria id="2027" ruta="|222|386|2027|">
+			<nombre>Accesorios de vídeo</nombre>
+			<categoria id="283" ruta="|222|386|2027|283|">
+				<nombre>Accesorios para monitores de ordenador</nombre>
+				<categoria id="5516" ruta="|222|386|2027|283|5516|">
+					<nombre>Calibradores de color</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="393" ruta="|222|386|2027|393|">
+				<nombre>Accesorios para proyectores</nombre>
+				<categoria id="5599" ruta="|222|386|2027|393|5599|">
+					<nombre>Cortinas para pantallas de proyección y trípodes</nombre>
+				</categoria>
+				<categoria id="394" ruta="|222|386|2027|393|394|">
+					<nombre>Lámparas de repuesto para proyectores</nombre>
+				</categoria>
+				<categoria id="395" ruta="|222|386|2027|393|395|">
+					<nombre>Pantallas para proyección</nombre>
+				</categoria>
+				<categoria id="4570" ruta="|222|386|2027|393|4570|">
+					<nombre>Soportes para pantallas de proyección</nombre>
+				</categoria>
+				<categoria id="5257" ruta="|222|386|2027|393|5257|">
+					<nombre>Soportes para proyectores</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="403" ruta="|222|386|2027|403|">
+				<nombre>Accesorios y piezas para televisores</nombre>
+				<categoria id="43616" ruta="|222|386|2027|403|43616|">
+					<nombre>Altavoces de repuesto para TV</nombre>
+				</categoria>
+				<categoria id="5503" ruta="|222|386|2027|403|5503|">
+					<nombre>Decodificadores para TV</nombre>
+				</categoria>
+				<categoria id="5471" ruta="|222|386|2027|403|5471|">
+					<nombre>Lámparas de repuesto para el televisor</nombre>
+				</categoria>
+				<categoria id="4458" ruta="|222|386|2027|403|4458|">
+					<nombre>Soportes para monitores y televisor</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="4760" ruta="|222|386|2027|4760|">
+				<nombre>Gafas 3D</nombre>
+			</categoria>
+			<categoria id="2145" ruta="|222|386|2027|2145|">
+				<nombre>Rebobinadores</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="1368" ruta="|222|386|1368|">
+			<nombre>Equipo de producción y hardware de edición de vídeo</nombre>
+		</categoria>
+		<categoria id="387" ruta="|222|386|387|">
+			<nombre>Grabadores y reproductores de vídeo</nombre>
+			<categoria id="389" ruta="|222|386|387|389|">
+				<nombre>Grabadores DVD</nombre>
+			</categoria>
+			<categoria id="390" ruta="|222|386|387|390|">
+				<nombre>Grabadores de vídeo digitales</nombre>
+			</categoria>
+			<categoria id="388" ruta="|222|386|387|388|">
+				<nombre>Reproductores DVD y Blu-ray</nombre>
+			</categoria>
+			<categoria id="5276" ruta="|222|386|387|5276|">
+				<nombre>Reproductores multimedia domésticos y de streaming</nombre>
+			</categoria>
+			<categoria id="391" ruta="|222|386|387|391|">
+				<nombre>Videograbadoras</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="305" ruta="|222|386|305|">
+			<nombre>Monitores de ordenador</nombre>
+		</categoria>
+		<categoria id="1634" ruta="|222|386|1634|">
+			<nombre>Multiplexores de vídeo</nombre>
+		</categoria>
+		<categoria id="396" ruta="|222|386|396|">
+			<nombre>Proyectores</nombre>
+			<categoria id="399" ruta="|222|386|396|399|">
+				<nombre>Proyectores de diapositivas</nombre>
+			</categoria>
+			<categoria id="397" ruta="|222|386|396|397|">
+				<nombre>Proyectores multimedia</nombre>
+			</categoria>
+			<categoria id="398" ruta="|222|386|396|398|">
+				<nombre>Retroproyectores</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="5278" ruta="|222|386|5278|">
+			<nombre>Servidores de vídeo</nombre>
+		</categoria>
+		<categoria id="5561" ruta="|222|386|5561|">
+			<nombre>Televisión por cable y satélite</nombre>
+			<categoria id="5562" ruta="|222|386|5561|5562|">
+				<nombre>Receptores de televisión por cable</nombre>
+			</categoria>
+			<categoria id="401" ruta="|222|386|5561|401|">
+				<nombre>Receptores satélite</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="404" ruta="|222|386|404|">
+			<nombre>Televisores</nombre>
+		</categoria>
+		<categoria id="5450" ruta="|222|386|5450|">
+			<nombre>Transmisores de vídeo</nombre>
+		</categoria>
+	</categoria>
+</categoria>

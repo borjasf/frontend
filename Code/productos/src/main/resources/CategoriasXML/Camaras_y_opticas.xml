@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<categoria id="141" ruta="|141|">
+	<nombre>Cámaras y ópticas</nombre>
+	<categoria id="2096" ruta="|141|2096|">
+		<nombre>Accesorios ópticos y de cámara</nombre>
+		<categoria id="160" ruta="|141|2096|160|">
+			<nombre>Accesorios para lentes ópticas</nombre>
+			<categoria id="5542" ruta="|141|2096|160|5542|">
+				<nombre>Accesorios para catalejos</nombre>
+			</categoria>
+			<categoria id="5282" ruta="|141|2096|160|5282|">
+				<nombre>Accesorios para prismáticos y monoculares</nombre>
+			</categoria>
+			<categoria id="5283" ruta="|141|2096|160|5283|">
+				<nombre>Accesorios para sistemas telemétricos</nombre>
+			</categoria>
+			<categoria id="5284" ruta="|141|2096|160|5284|">
+				<nombre>Accesorios para telescopios</nombre>
+			</categoria>
+			<categoria id="5543" ruta="|141|2096|160|5543|">
+				<nombre>Accesorios para visores y mirillas de armas</nombre>
+			</categoria>
+			<categoria id="4274" ruta="|141|2096|160|4274|">
+				<nombre>Accesorios ópticos térmicos</nombre>
+			</categoria>
+			<categoria id="5545" ruta="|141|2096|160|5545|">
+				<nombre>Maletines y bolsos para lentes ópticas</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="2911" ruta="|141|2096|2911|">
+			<nombre>Accesorios para objetivos de cámaras</nombre>
+			<categoria id="5588" ruta="|141|2096|2911|5588|">
+				<nombre>Adaptadores de filtros y objetivos</nombre>
+			</categoria>
+			<categoria id="4441" ruta="|141|2096|2911|4441|">
+				<nombre>Bolsas para objetivos</nombre>
+			</categoria>
+			<categoria id="4416" ruta="|141|2096|2911|4416|">
+				<nombre>Convertidores de lentes</nombre>
+			</categoria>
+			<categoria id="147" ruta="|141|2096|2911|147|">
+				<nombre>Filtros del objetivo</nombre>
+			</categoria>
+			<categoria id="2627" ruta="|141|2096|2911|2627|">
+				<nombre>Parasoles</nombre>
+			</categoria>
+			<categoria id="2829" ruta="|141|2096|2911|2829|">
+				<nombre>Tapas de objetivos</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="4638" ruta="|141|2096|4638|">
+			<nombre>Accesorios para trípodes y monopiés</nombre>
+			<categoria id="4639" ruta="|141|2096|4638|4639|">
+				<nombre>Cabezales para trípodes y monopiés</nombre>
+			</categoria>
+			<categoria id="4640" ruta="|141|2096|4638|4640|">
+				<nombre>Fundas para trípodes y monopiés</nombre>
+			</categoria>
+			<categoria id="503726" ruta="|141|2096|4638|503726|">
+				<nombre>Manivelas para trípodes</nombre>
+			</categoria>
+			<categoria id="3035" ruta="|141|2096|4638|3035|">
+				<nombre>Monturas y anillos para trípodes</nombre>
+			</categoria>
+			<categoria id="503016" ruta="|141|2096|4638|503016|">
+				<nombre>Varillas para trípodes</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="143" ruta="|141|2096|143|">
+			<nombre>Accesorios y piezas para cámaras</nombre>
+			<categoria id="8535" ruta="|141|2096|143|8535|">
+				<nombre>Accesorios para carcasas de cámaras subacuáticas</nombre>
+			</categoria>
+			<categoria id="5937" ruta="|141|2096|143|5937|">
+				<nombre>Accesorios para cámaras de vigilancia</nombre>
+			</categoria>
+			<categoria id="5479" ruta="|141|2096|143|5479|">
+				<nombre>Accesorios para el flash de cámaras</nombre>
+			</categoria>
+			<categoria id="503019" ruta="|141|2096|143|503019|">
+				<nombre>Accesorios para visores y parasoles para cámaras</nombre>
+			</categoria>
+			<categoria id="500037" ruta="|141|2096|143|500037|">
+				<nombre>Agarres para cámaras</nombre>
+			</categoria>
+			<categoria id="6308" ruta="|141|2096|143|6308|">
+				<nombre>Bolsas y fundas para cámaras</nombre>
+			</categoria>
+			<categoria id="296247" ruta="|141|2096|143|296247|">
+				<nombre>Botones y perillas de repuesto para cámaras</nombre>
+			</categoria>
+			<categoria id="6307" ruta="|141|2096|143|6307|">
+				<nombre>Carcasas para cámaras subacuáticas</nombre>
+			</categoria>
+			<categoria id="8174" ruta="|141|2096|143|8174|">
+				<nombre>Conjuntos de accesorios para cámaras</nombre>
+			</categoria>
+			<categoria id="5532" ruta="|141|2096|143|5532|">
+				<nombre>Controles remotos para cámaras</nombre>
+			</categoria>
+			<categoria id="5429" ruta="|141|2096|143|5429|">
+				<nombre>Correas para cámaras</nombre>
+			</categoria>
+			<categoria id="500104" ruta="|141|2096|143|500104|">
+				<nombre>Dispositivos para el enfoque de cámaras</nombre>
+			</categoria>
+			<categoria id="461567" ruta="|141|2096|143|461567|">
+				<nombre>Engranajes para cámaras</nombre>
+			</categoria>
+			<categoria id="499998" ruta="|141|2096|143|499998|">
+				<nombre>Estabilizadores y soportes para cámaras</nombre>
+			</categoria>
+			<categoria id="148" ruta="|141|2096|143|148|">
+				<nombre>Flashes de la cámara</nombre>
+			</categoria>
+			<categoria id="2394" ruta="|141|2096|143|2394|">
+				<nombre>Luces de cámara de vídeo</nombre>
+			</categoria>
+			<categoria id="500107" ruta="|141|2096|143|500107|">
+				<nombre>Monitores para cámaras</nombre>
+			</categoria>
+			<categoria id="296246" ruta="|141|2096|143|296246|">
+				<nombre>Paneles y tapas de repuesto para cuerpos de cámaras</nombre>
+			</categoria>
+			<categoria id="296249" ruta="|141|2096|143|296249|">
+				<nombre>Pantallas y visores de repuesto para cámaras</nombre>
+			</categoria>
+			<categoria id="153" ruta="|141|2096|143|153|">
+				<nombre>Película fotográfica</nombre>
+			</categoria>
+			<categoria id="298420" ruta="|141|2096|143|298420|">
+				<nombre>Respaldos digitales para cámaras</nombre>
+			</categoria>
+			<categoria id="296248" ruta="|141|2096|143|296248|">
+				<nombre>Sensores de imágenes para cámaras</nombre>
+			</categoria>
+			<categoria id="503020" ruta="|141|2096|143|503020|">
+				<nombre>Silenciadores y carcasas insonorizadas para cámaras</nombre>
+			</categoria>
+			<categoria id="2987" ruta="|141|2096|143|2987|">
+				<nombre>Soportes de flash</nombre>
+			</categoria>
+			<categoria id="461568" ruta="|141|2096|143|461568|">
+				<nombre>Unidades de zoom para objetivos de cámaras</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="463625" ruta="|141|2096|463625|">
+			<nombre>Cables de repuesto para cámaras y ópticas</nombre>
+		</categoria>
+		<categoria id="149" ruta="|141|2096|149|">
+			<nombre>Objetivos para cámaras y videocámaras</nombre>
+			<categoria id="4432" ruta="|141|2096|149|4432|">
+				<nombre>Objetivos para cámaras</nombre>
+			</categoria>
+			<categoria id="5346" ruta="|141|2096|149|5346|">
+				<nombre>Objetivos para cámaras de vigilancia</nombre>
+			</categoria>
+			<categoria id="5280" ruta="|141|2096|149|5280|">
+				<nombre>Objetivos para cámaras de vídeo</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="150" ruta="|141|2096|150|">
+			<nombre>Trípodes y monopiés</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="142" ruta="|141|142|">
+		<nombre>Cámaras</nombre>
+		<categoria id="499976" ruta="|141|142|499976|">
+			<nombre>Boroscopios</nombre>
+		</categoria>
+		<categoria id="154" ruta="|141|142|154|">
+			<nombre>Cámaras de cine</nombre>
+		</categoria>
+		<categoria id="4024" ruta="|141|142|4024|">
+			<nombre>Cámaras de fotos desechables</nombre>
+		</categoria>
+		<categoria id="362" ruta="|141|142|362|">
+			<nombre>Cámaras de vigilancia</nombre>
+		</categoria>
+		<categoria id="155" ruta="|141|142|155|">
+			<nombre>Cámaras de vídeo</nombre>
+		</categoria>
+		<categoria id="152" ruta="|141|142|152|">
+			<nombre>Cámaras digitales</nombre>
+		</categoria>
+		<categoria id="5402" ruta="|141|142|5402|">
+			<nombre>Cámaras trampa</nombre>
+		</categoria>
+		<categoria id="312" ruta="|141|142|312|">
+			<nombre>Cámaras web</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="39" ruta="|141|39|">
+		<nombre>Fotografía</nombre>
+		<categoria id="503735" ruta="|141|39|503735|">
+			<nombre>Accesorios de exposición de fotografías</nombre>
+		</categoria>
+		<categoria id="4368" ruta="|141|39|4368|">
+			<nombre>Almacenamiento de diapositivas y negativos</nombre>
+		</categoria>
+		<categoria id="41" ruta="|141|39|41|">
+			<nombre>Cuarto oscuro</nombre>
+			<categoria id="2520" ruta="|141|39|41|2520|">
+				<nombre>Equipo de ampliación</nombre>
+				<categoria id="2698" ruta="|141|39|41|2520|2698|">
+					<nombre>Ampliadoras fotográficas</nombre>
+				</categoria>
+				<categoria id="2815" ruta="|141|39|41|2520|2815|">
+					<nombre>Analizadores fotográficos</nombre>
+				</categoria>
+				<categoria id="3029" ruta="|141|39|41|2520|3029|">
+					<nombre>Herramientas de enfoque</nombre>
+				</categoria>
+				<categoria id="2969" ruta="|141|39|41|2520|2969|">
+					<nombre>Marginadores</nombre>
+				</categoria>
+				<categoria id="2543" ruta="|141|39|41|2520|2543|">
+					<nombre>Temporizadores del cuarto oscuro</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="2234" ruta="|141|39|41|2234|">
+				<nombre>Equipo de revelado y procesamiento</nombre>
+				<categoria id="2650" ruta="|141|39|41|2234|2650|">
+					<nombre>Carretes y tanques para revelado</nombre>
+				</categoria>
+				<categoria id="2516" ruta="|141|39|41|2234|2516|">
+					<nombre>Material y equipo de retoques</nombre>
+				</categoria>
+				<categoria id="2625" ruta="|141|39|41|2234|2625|">
+					<nombre>Mesa de reproducción</nombre>
+				</categoria>
+				<categoria id="2999" ruta="|141|39|41|2234|2999|">
+					<nombre>Pilas para revelado</nombre>
+				</categoria>
+				<categoria id="2728" ruta="|141|39|41|2234|2728|">
+					<nombre>Secadores, pilas y bandejas de revelado</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="2600" ruta="|141|39|41|2600|">
+				<nombre>Luces de seguridad</nombre>
+			</categoria>
+			<categoria id="2804" ruta="|141|39|41|2804|">
+				<nombre>Papel fotográfico</nombre>
+			</categoria>
+			<categoria id="1622" ruta="|141|39|41|1622|">
+				<nombre>Productos químicos para fotografía</nombre>
+			</categoria>
+		</categoria>
+		<categoria id="42" ruta="|141|39|42|">
+			<nombre>Iluminación y estudio</nombre>
+			<categoria id="503018" ruta="|141|39|42|503018|">
+				<nombre>Accesorios para flash e iluminación de estudio</nombre>
+			</categoria>
+			<categoria id="5499" ruta="|141|39|42|5499|">
+				<nombre>Accesorios para fotómetros</nombre>
+			</categoria>
+			<categoria id="503017" ruta="|141|39|42|503017|">
+				<nombre>Accesorios para soportes y plataformas de estudio</nombre>
+			</categoria>
+			<categoria id="2475" ruta="|141|39|42|2475|">
+				<nombre>Controles de iluminación</nombre>
+				<categoria id="5432" ruta="|141|39|42|2475|5432|">
+					<nombre>Cajas de luz</nombre>
+				</categoria>
+				<categoria id="3056" ruta="|141|39|42|2475|3056|">
+					<nombre>Difusores para flash</nombre>
+				</categoria>
+				<categoria id="2490" ruta="|141|39|42|2475|2490|">
+					<nombre>Filtros y gobos de iluminación</nombre>
+				</categoria>
+				<categoria id="5431" ruta="|141|39|42|2475|5431|">
+					<nombre>Reflectores de flash</nombre>
+				</categoria>
+			</categoria>
+			<categoria id="2926" ruta="|141|39|42|2926|">
+				<nombre>Flashes e iluminaciones de estudio</nombre>
+			</categoria>
+			<categoria id="1611" ruta="|141|39|42|1611|">
+				<nombre>Fondos</nombre>
+			</categoria>
+			<categoria id="1548" ruta="|141|39|42|1548|">
+				<nombre>Fotómetros</nombre>
+			</categoria>
+			<categoria id="2007" ruta="|141|39|42|2007|">
+				<nombre>Montajes de estudio</nombre>
+			</categoria>
+		</categoria>
+	</categoria>
+	<categoria id="156" ruta="|141|156|">
+		<nombre>Productos ópticos</nombre>
+		<categoria id="4164" ruta="|141|156|4164|">
+			<nombre>Monoculares</nombre>
+		</categoria>
+		<categoria id="157" ruta="|141|156|157|">
+			<nombre>Prismáticos</nombre>
+		</categoria>
+		<categoria id="161" ruta="|141|156|161|">
+			<nombre>Sistemas telemétricos</nombre>
+		</categoria>
+		<categoria id="4040" ruta="|141|156|4040|">
+			<nombre>Visores</nombre>
+			<categoria id="1695" ruta="|141|156|4040|1695|">
+				<nombre>Miras y visores para armas</nombre>
+			</categoria>
+			<categoria id="165" ruta="|141|156|4040|165|">
+				<nombre>Telescopios</nombre>
+			</categoria>
+			<categoria id="4136" ruta="|141|156|4040|4136|">
+				<nombre>Telescopios de observación</nombre>
+			</categoria>
+		</categoria>
+	</categoria>
+</categoria>

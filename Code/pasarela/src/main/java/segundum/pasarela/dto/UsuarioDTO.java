@@ -1,4 +1,8 @@
 package segundum.pasarela.dto;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class UsuarioDTO {
 	private String id;
 	private String nombre;

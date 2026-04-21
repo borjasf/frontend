@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<categoria id="783" ruta="|783|">
+	<nombre>Multimedia</nombre>
+	<categoria id="839" ruta="|783|839|">
+		<nombre>DVD y vídeo</nombre>
+		<categoria id="543528" ruta="|783|839|543528|">
+			<nombre>Cintas VHS de cine y televisión</nombre>
+		</categoria>
+		<categoria id="543527" ruta="|783|839|543527|">
+			<nombre>DVDs de cine y televisión</nombre>
+		</categoria>
+		<categoria id="543529" ruta="|783|839|543529|">
+			<nombre>Descargas digitales de cine y televisión</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="784" ruta="|783|784|">
+		<nombre>Libros</nombre>
+		<categoria id="543541" ruta="|783|784|543541|">
+			<nombre>Audiolibros</nombre>
+		</categoria>
+		<categoria id="543542" ruta="|783|784|543542|">
+			<nombre>E-books</nombre>
+		</categoria>
+		<categoria id="543543" ruta="|783|784|543543|">
+			<nombre>Libros impresos</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="5037" ruta="|783|5037|">
+		<nombre>Manuales de productos</nombre>
+		<categoria id="5040" ruta="|783|5037|5040|">
+			<nombre>Manuales de aparatos de cocina</nombre>
+		</categoria>
+		<categoria id="5861" ruta="|783|5037|5861|">
+			<nombre>Manuales de aparatos de ejercicio y fitness</nombre>
+		</categoria>
+		<categoria id="499821" ruta="|783|5037|499821|">
+			<nombre>Manuales de cámaras y ópticas</nombre>
+		</categoria>
+		<categoria id="5039" ruta="|783|5037|5039|">
+			<nombre>Manuales de electrodomésticos</nombre>
+		</categoria>
+		<categoria id="5038" ruta="|783|5037|5038|">
+			<nombre>Manuales de electrónica</nombre>
+		</categoria>
+		<categoria id="5860" ruta="|783|5037|5860|">
+			<nombre>Manuales de juguetes y modelos</nombre>
+		</categoria>
+		<categoria id="5041" ruta="|783|5037|5041|">
+			<nombre>Manuales de mantenimiento de vehículos</nombre>
+		</categoria>
+		<categoria id="499866" ruta="|783|5037|499866|">
+			<nombre>Manuales de suministros de oficina</nombre>
+		</categoria>
+		<categoria id="7516" ruta="|783|5037|7516|">
+			<nombre>Manuales para equipos y herramientas eléctricos</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="855" ruta="|783|855|">
+		<nombre>Música y grabaciones</nombre>
+		<categoria id="543522" ruta="|783|855|543522|">
+			<nombre>CDs de música</nombre>
+		</categoria>
+		<categoria id="543524" ruta="|783|855|543524|">
+			<nombre>Casetes de música</nombre>
+		</categoria>
+		<categoria id="543526" ruta="|783|855|543526|">
+			<nombre>Descargas de música digital</nombre>
+		</categoria>
+		<categoria id="543525" ruta="|783|855|543525|">
+			<nombre>Palabra hablada y grabaciones de campo</nombre>
+		</categoria>
+		<categoria id="543523" ruta="|783|855|543523|">
+			<nombre>Vinilos y LPs</nombre>
+		</categoria>
+	</categoria>
+	<categoria id="887" ruta="|783|887|">
+		<nombre>Partituras</nombre>
+	</categoria>
+	<categoria id="499995" ruta="|783|499995|">
+		<nombre>Planos para proyectos de carpintería y madera</nombre>
+	</categoria>
+	<categoria id="886" ruta="|783|886|">
+		<nombre>Revistas y periódicos</nombre>
+		<categoria id="543540" ruta="|783|886|543540|">
+			<nombre>Periódicos</nombre>
+		</categoria>
+		<categoria id="543539" ruta="|783|886|543539|">
+			<nombre>Revistas</nombre>
+		</categoria>
+	</categoria>
+</categoria>

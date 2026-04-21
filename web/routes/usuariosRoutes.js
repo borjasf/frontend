@@ -15,8 +15,10 @@ const usuariosController = require('../src/controllers/usuariosController');
 // GET /perfil -> Llama a verPerfil en el controlador
 router.get('/perfil', usuariosController.verPerfil);
 
-// POST /perfil -> Llama a editarPerfil (para el futuro PATCH)
-router.post('/perfil', usuariosController.editarPerfil);
+//Añadimos las rutas para poder editar el perfil
+router.get('/perfil/editar', usuariosController.mostrarEditarPerfil);
+router.post('/perfil/editar', usuariosController.editarPerfil);
+router.post('/perfil/cambiar-contrasena', usuariosController.cambiarContrasena);
 
 // GET /perfil/mis-ventas -> Llama a misVentas para mostrar los productos que el usuario tiene en venta
 router.get('/perfil/mis-ventas', usuariosController.misVentas);

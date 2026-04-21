@@ -11,6 +11,7 @@ public class ProductoResumen {
     private EstadoProducto estado;
     private LocalDateTime fechaPublicacion;
     private boolean envioDisponible;
+    private String descripcion;
     private String categoriaNombre; // Solo el nombre, sin cargar la entidad
 
     public ProductoResumen() {
@@ -21,6 +22,13 @@ public class ProductoResumen {
     }
     public void setId(String id) {
         this.id = id;
+    }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
     }
 
     public String getTitulo() {
