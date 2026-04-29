@@ -7,7 +7,7 @@
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/productos" class="text-decoration-none">Catálogo</a></li>
-            <li class="breadcrumb-item active" aria-current="page">{{producto.categoria.nombre}}</li>
+            <li class="breadcrumb-item active" aria-current="page">{{producto.nombreCategoria}}</li>
         </ol>
     </nav>
 
@@ -15,14 +15,19 @@
         <div class="row g-0">
             
             <figure class="col-md-6 bg-light m-0 d-flex align-items-center justify-content-center">
-                <img src="{{producto.imagen}}" class="img-fluid object-fit-cover w-100 h-100" style="min-height: 400px; max-height: 600px;" alt="Fotografía de {{producto.titulo}}">
+                <img id="imagenProducto" src="{{#if rutaImagen}}{{rutaImagen}}{{else}}https://via.placeholder.com/800x600?text=Sin+foto{{/if}}" class="img-fluid object-fit-cover w-100 h-100" style="min-height: 400px; max-height: 600px;" alt="Fotografía de {{producto.titulo}}">
             </figure>
 
             <section class="col-md-6 p-4 p-lg-5 d-flex flex-column">
                 
                 <header class="mb-4">
                     <div class="d-flex justify-content-between align-items-center mb-2">
-                        <span class="badge bg-primary text-uppercase">{{producto.estado}}</span>
+                        <div>
+                            <span class="badge bg-primary text-uppercase">{{producto.estado}}</span>
+                            {{#if estaVendido}}
+                            <span class="badge bg-danger text-uppercase ms-2">Vendido</span>
+                            {{/if}}
+                        </div>
                         <small class="text-muted"><i class="fa-regular fa-eye me-1"></i>{{producto.visualizaciones}} visitas</small>
                     </div>
                     <h1 class="fw-bold h2 mb-1">{{producto.titulo}}</h1>
@@ -40,12 +45,15 @@
                         <i class="fa-solid fa-user-circle fs-3 text-secondary me-3"></i>
                         <div>
                             <p class="mb-0 small text-muted">Vendido por</p>
-                            <p class="mb-0 fw-bold">{{producto.vendedor.nombre}}</p>
+                            <p class="mb-0 fw-bold">{{producto.nombreVendedor}}</p>
                         </div>
                     </div>
                     
                     <div class="text-secondary small mb-2">
-                        <i class="fa-solid fa-location-dot me-2"></i>Lugar de recogida: <strong>{{producto.lugarRecogida}}</strong>
+                        <i class="fa-solid fa-location-dot me-2"></i><strong>Lugar de recogida:</strong> {{producto.lugarRecogida.descripcion}}<br>
+                        <span style="margin-left: 22px; display: inline-block; font-size: 0.85rem;">
+                            <i class="fa-solid fa-map-pin"></i> Lat: {{producto.lugarRecogida.latitud}}, Lon: {{producto.lugarRecogida.longitud}}
+                        </span>
                     </div>
 
                     {{#if producto.envioDisponible}}
@@ -72,11 +80,17 @@
                             </div>
                         </div>
                     {{else}}
-                        <form action="/productos/{{producto.id}}/comprar" method="POST">
-                            <button type="submit" class="btn btn-success btn-lg w-100 py-3 fw-bold">
-                                <i class="fa-solid fa-cart-arrow-down me-2"></i>Solicitar Compra
+                        {{#if estaVendido}}
+                            <button type="button" class="btn btn-secondary btn-lg w-100 py-3 fw-bold" disabled>
+                                <i class="fa-solid fa-ban me-2"></i>Producto Vendido
                             </button>
-                        </form>
+                        {{else}}
+                            <form action="/productos/{{producto.id}}/comprar" method="POST">
+                                <button type="submit" class="btn btn-success btn-lg w-100 py-3 fw-bold">
+                                    <i class="fa-solid fa-cart-arrow-down me-2"></i>Comprar artículo
+                                </button>
+                            </form>
+                        {{/if}}
                     {{/if}}
                 </footer>
 

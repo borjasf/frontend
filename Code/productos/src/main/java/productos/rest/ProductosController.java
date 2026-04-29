@@ -13,6 +13,7 @@ import org.springframework.hateoas.EntityModel;
 import org.springframework.hateoas.PagedModel;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PatchMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -70,7 +71,10 @@ public class ProductosController implements ProductosApi {
 				nuevoProducto.getEstado(),
 				nuevoProducto.getIdCategoria(), 
 				nuevoProducto.isEnvioDisponible(), 
-				nuevoProducto.getIdVendedor());
+				nuevoProducto.getIdVendedor(),
+				nuevoProducto.getLugarRecogida(),
+				nuevoProducto.getLatitud(),
+				nuevoProducto.getLongitud());
 	
 		 // Construye la URL completa del nuevo recurso
 		 URI nuevaURL = ServletUriComponentsBuilder.fromCurrentRequest()
@@ -118,6 +122,14 @@ public class ProductosController implements ProductosApi {
 		return ResponseEntity.noContent().build();
 	}
 
+	// REGLA: Usuario registrado (rol USUARIO) y propietario del producto.
+	@PreAuthorize("hasRole('USUARIO')")
+	@DeleteMapping("/{id}")
+	public ResponseEntity<Void> eliminarProducto(@PathVariable String id) throws Exception {
+		this.servicio.eliminarProducto(id);
+		return ResponseEntity.noContent().build();
+	}
+
 	// REGLA: Pública.
 	@PreAuthorize("permitAll()")
 	@PatchMapping("/{id}/visualizaciones")
@@ -147,6 +159,14 @@ public class ProductosController implements ProductosApi {
 		return this.pagedResourcesAssemblerDTO.toModel(resultado, productoDTOAssembler);
 	}
 
+	// REGLA: Pública (se utiliza internamente por microservicio de Compraventas).
+	@PreAuthorize("permitAll()")
+	@PatchMapping("/{id}/vendido")
+	public ResponseEntity<Void> marcarComoVendido(@PathVariable String id) throws Exception {
+		this.servicio.marcarComoVendido(id);
+		return ResponseEntity.noContent().build();
+	}
+
 	// REGLA: Pública.
 	@PreAuthorize("permitAll()")
 	@GetMapping
@@ -154,4 +174,12 @@ public class ProductosController implements ProductosApi {
 		Page<ProductoResumen> resultado = this.servicio.getListadoPaginado(paginacion);
 		return this.pagedResourcesAssembler.toModel(resultado, productosResumenAssembler);
 	}
+
+	//Regla para poder obtener el numero de productos en venta de un usuario 
+	 @PreAuthorize("permitAll()")
+  	@GetMapping("/vendedor/{idVendedor}")
+  	public ResponseEntity<List<ProductoDTO>> getProductosPorVendedor(
+          @PathVariable String idVendedor) throws Exception {
+      return ResponseEntity.ok(this.servicio.getProductosPorVendedor(idVendedor));
+  	}
 }

@@ -40,4 +40,21 @@ public class ProductosAdapter implements IProductosPort {
 			throw new RuntimeException("Error de conexión con el microservicio Productos", e);
 		}
 	}
+
+	@Override
+	public void marcarComoVendido(String idProducto) {
+		try {
+			Response<Void> response = api.marcarComoVendido(idProducto).execute();
+			
+			if (!response.isSuccessful()) {
+				if (response.code() == 404) {
+					throw new IllegalArgumentException("No existe un producto con id: " + idProducto);
+				} else {
+					throw new RuntimeException("Error al marcar producto como vendido. HTTP " + response.code());
+				}
+			}
+		} catch (IOException e) {
+			throw new RuntimeException("Error de conexión al marcar producto como vendido", e);
+		}
+	}
 }

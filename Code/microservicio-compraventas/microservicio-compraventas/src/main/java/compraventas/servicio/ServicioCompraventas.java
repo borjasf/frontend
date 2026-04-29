@@ -41,6 +41,10 @@ public class ServicioCompraventas implements IServicioCompraventas {
 		if (producto.isVendido()) {
 		    throw new IllegalArgumentException("El producto ya ha sido vendido y no puede comprarse.");
 		}
+		
+		if (producto.getVendedor().equals(idComprador)) {
+			throw new IllegalArgumentException("No puedes comprar tu propio producto.");
+		}
 
 		UsuarioExterno comprador = usuariosPort.obtenerUsuario(idComprador);
 
@@ -65,6 +69,9 @@ public class ServicioCompraventas implements IServicioCompraventas {
 		cv.setFecha(LocalDateTime.now());
 
 		Compraventa guardada = repositorio.save(cv);
+		
+		// Marcar el producto como vendido
+		productosPort.marcarComoVendido(idProducto);
 		
 		// Construimos el evento y lo publicamos en el bus
         EventoCompraventaCreada evento = new EventoCompraventaCreada(

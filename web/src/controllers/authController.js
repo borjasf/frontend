@@ -8,31 +8,33 @@ const authService = require('../services/authService');
 
 async function registro(req, res) {
    try {
-         const { nombre, apellidos,email, password, fechaNacimiento, isAdmin } = req.body;
-         await authService.registro({
-        nombre,
-        apellidos,
-        email,
-        clave: password,
-        fechaNacimiento,
-        admin: isAdmin === 'on'
-      });
-         res.redirect('/login');
-      }catch (error) {
-         console.error('Error en el registro:', error);
-         res.status(500).send('Error al registrar el usuario');
-      }
+      const { nombre, apellidos, email, password, fechaNacimiento, isAdmin } = req.body;
+      await authService.registro({ nombre, apellidos, email, clave: password, fechaNacimiento, admin: isAdmin === 'on' });
+      res.redirect('/login');
+   } catch (error) {
+      console.error('Error en el registro:', error);
+      res.render('auth/registro', { title: 'Registro', layout: 'layouts/auth', error: 'No se pudo crear la cuenta. El email ya puede estar en uso.' });
+   }
 }
 
 async function login(req, res) {
    try {
       const { email, password } = req.body;
       const data = await authService.login(email, password);
+      console.log('Respuesta de login del API:', data);
+      console.log('Token recibido:', data.token ? data.token.substring(0, 20) + '...' : 'NO TOKEN');
       res.cookie('jwt', data.token, { httpOnly: true });
-      res.redirect('/productos'); // Redirige al catálogo tras el login
+      console.log('Cookie jwt establecida');
+      
+      // Redirigir a /admin si es administrador, sino a /productos
+      if (data.rol === 'ADMINISTRADOR') {
+         res.redirect('/admin');
+      } else {
+         res.redirect('/productos');
+      }
    } catch (error) {
       console.error('Error en el login:', error);
-      res.status(401).send('Credenciales inválidas');
+      res.render('auth/login', { title: 'Iniciar sesión', layout: 'layouts/auth', error: 'Credenciales incorrectas. Revisa tu email y contraseña.' });
    }
 }
 

@@ -19,6 +19,9 @@ public class NuevoProductoDTO {
 	private boolean envioDisponible;
 	@NotNull
 	private String idVendedor;
+	private String lugarRecogida;
+	private double latitud;
+	private double longitud;
 	
 	//POJO 
 	public NuevoProductoDTO() {
@@ -78,6 +81,30 @@ public class NuevoProductoDTO {
 
 	public void setIdVendedor(String idVendedor) {
 		this.idVendedor = idVendedor;
+	}
+	
+	public String getLugarRecogida() {
+		return lugarRecogida;
+	}
+
+	public void setLugarRecogida(String lugarRecogida) {
+		this.lugarRecogida = lugarRecogida;
+	}
+	
+	public double getLatitud() {
+		return latitud;
+	}
+
+	public void setLatitud(double latitud) {
+		this.latitud = latitud;
+	}
+	
+	public double getLongitud() {
+		return longitud;
+	}
+
+	public void setLongitud(double longitud) {
+		this.longitud = longitud;
 	}
 	
 	

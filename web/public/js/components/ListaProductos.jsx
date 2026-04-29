@@ -47,12 +47,32 @@ function ListaProductos() {
                 window.location.href = `/productos/${producto.id}`;
             }}
         >
-            <img 
-                src={producto.imagen || "https://via.placeholder.com/300x200?text=Sin+Imagen"} 
-                className="card-img-top" 
-                alt={producto.titulo} 
-                style={{ height: '200px', objectFit: 'cover' }}
-            />
+            <div style={{ position: 'relative' }}>
+                <img 
+                    src={producto.imagen || "https://via.placeholder.com/300x200?text=Sin+Imagen"} 
+                    className="card-img-top" 
+                    alt={producto.titulo} 
+                    style={{ height: '200px', objectFit: 'cover' }}
+                />
+                {producto.vendido && (
+                    <div style={{
+                        position: 'absolute',
+                        top: '10px',
+                        right: '10px',
+                        backgroundColor: 'rgba(220, 53, 69, 0.9)',
+                        color: 'white',
+                        padding: '8px 12px',
+                        borderRadius: '4px',
+                        fontWeight: 'bold',
+                        fontSize: '12px',
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '4px'
+                    }}>
+                        <i className="fa-solid fa-ban"></i> VENDIDO
+                    </div>
+                )}
+            </div>
             <div className="card-body">
                 <h5 className="card-title fw-bold">{producto.titulo || 'Sin título'}</h5>
                 <p className="card-text text-truncate text-muted">{producto.descripcion || 'Sin descripción'}</p>

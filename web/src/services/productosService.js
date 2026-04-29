@@ -77,6 +77,25 @@ const productosService = {
                 const texto = await response.text();
                 throw new Error(`Java rechazó la creación. Código: ${response.status} - ${texto}`);
             }
+            
+            // Intentar extraer el ID del producto creado
+            // Spring Boot típicamente retorna Location header: /api/productos/{id}
+            const location = response.headers.get('Location');
+            if (location) {
+                const idProducto = location.split('/').pop();
+                console.log(`Producto creado con ID: ${idProducto}`);
+                return idProducto;
+            }
+            
+            // Si no hay Location, intentar del body
+            const body = await response.json();
+            if (body && body.id) {
+                console.log(`Producto creado con ID: ${body.id}`);
+                return body.id;
+            }
+            
+            console.warn('No se pudo extraer el ID del producto creado');
+            return null;
         } catch (error) {
             console.error("Error en productosService.crearProducto:", error.message);
             throw error;
@@ -120,6 +139,38 @@ const productosService = {
             }
         } catch (error) {
             console.error(`Error de red al incrementar visualizaciones de ${id}:`, error.message);
+        }
+    },
+    deleteProducto: async (id, token) => {
+        try {
+            const url = `${API_BASE_URL}/${id}`;
+            const response = await fetch(url, {
+                method: 'DELETE',
+                headers: {
+                    'Authorization': `Bearer ${token}`
+                }
+            });
+
+            if (!response.ok) {
+                throw new Error(`Java rechazó la eliminación. Código: ${response.status}`);
+            }
+        } catch (error) {
+            console.error(`Error en productosService.deleteProducto (${id}):`, error.message);
+            throw error;
+        }
+    },
+
+    getCountProductosEnVenta: async (idVendedor) => {
+        try {
+            const response = await fetch(`${API_BASE_URL}/vendedor/${idVendedor}`);
+            if (!response.ok) {
+                return 0; // Si Java responde con error, asumimos que no hay productos en venta
+            }
+            const data = await response.json();
+            return data.filter(p => !p.vendido).length;
+        } catch (error) {
+            console.error("Error en getCountProductosEnVenta:", error.message);
+            return 0;
         }
     }
 };

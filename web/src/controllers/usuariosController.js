@@ -3,6 +3,7 @@
    - editarPerfil: procesa el PATCH /api/usuarios/:id para actualizar datos del usuario */
 /* Controlador de perfil de usuario. */
 const usuariosService = require('../services/usuariosService');
+const productosService = require('../services/productosService');
 const compraventasService = require('../services/compraventasService');
 
 const usuariosController = {
@@ -14,13 +15,25 @@ const usuariosController = {
             const token = req.cookies.jwt;
 
             // Le pedimos a Java tus datos reales
-             const data = await usuariosService.getUsuario(idUsuario, token);
-            const usuarioReal = data.resumen || data;   // extrae resumen HATEOAS
+           const [data, dataVentas, dataCompras] = await Promise.all([
+                usuariosService.getUsuario(idUsuario, token),
+                compraventasService.getMisVentas(idUsuario, token),
+                compraventasService.getMisCompras(idUsuario, token)
+            ]);
+
+            const usuarioReal = data.resumen || data;
+            const countEnVenta = await productosService.getCountProductosEnVenta(idUsuario);
+            const vendidos = dataVentas.page?.totalElements || 0;
+            const comprados = dataCompras.page?.totalElements || 0;
 
             res.render('usuario/perfil', {
                 title: 'Mi Panel de Control',
                 usuario: usuarioReal,
-                stats: { enVenta: 0, vendidos: usuarioReal.contadorVentas || 0, comprados: usuarioReal.contadorCompras || 0 },
+                stats: { 
+                    enVenta: countEnVenta, 
+                    vendidos: vendidos, 
+                    comprados: comprados 
+                },
                 activoPerfil: true
             });
             

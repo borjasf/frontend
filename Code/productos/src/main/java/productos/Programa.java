@@ -52,40 +52,29 @@ public class Programa {
 				EstadoProducto.COMO_NUEVO, 
 				idCategoria, 
 				true, 
-				idUsuarioVendedor 
-			);
-			System.out.println("--> Producto creado con ID: " + idProductoPrueba);
+			idUsuarioVendedor,
+			"Murcia Centro",
+			37.9922,
+			-1.1307
+		);
+		System.out.println("--> Producto creado con ID: " + idProductoPrueba);
 
-			if (idProductoPrueba != null) {
-				
-				// --- Asignar Lugar ---
-				System.out.println("\n[Prueba H5] Asignar Lugar Recogida...");
-				servicioProductos.asignarLugarRecogida(idProductoPrueba, "Junto a estatua Plaza Héroes de Cavite", -0.985, 37.598);
+		if (idProductoPrueba != null) {
+			// --- Modificar ---
+			System.out.println("\n[Prueba H4] Modificar Producto...");
+			servicioProductos.modificarProducto(idProductoPrueba, 17.0, "Caja 12 pastillas + pincel. Poco uso. Algún color gastado.");
 
-				// --- Modificar ---
-				System.out.println("\n[Prueba H4] Modificar Producto...");
-				servicioProductos.modificarProducto(idProductoPrueba, 17.0, "Caja 12 pastillas + pincel. Poco uso. Algún color gastado.");
+			// --- Visualización ---
+			System.out.println("\n[Prueba] Añadir Visualización...");
+			servicioProductos.anadirVisualizacion(idProductoPrueba);
 
-				// --- Visualización ---
-				System.out.println("\n[Prueba] Añadir Visualización...");
-				servicioProductos.anadirVisualizacion(idProductoPrueba);
-
-				// --- Historial del Mes ---
-				System.out.println("\n[Prueba H6] Historial del Mes...");
-				int mesActual = LocalDate.now().getMonthValue();
-				int anoActual = LocalDate.now().getYear();
-				
-				//Primero creamos el objeto de paginacion, por ejemplo, para obtener la primera página con 10 elementos
-				Pageable paginacion = PageRequest.of(0, 10); // Página 0 (primera) con 10 elementos por página
-				
-				Page<ProductoDTO> historial = servicioProductos.historialDelMesPaginado(mesActual, anoActual, paginacion);
-				
-				System.out.println("--> Historial obtenido. Productos en esta página: " + historial.getNumberOfElements() + " de un total de " + historial.getTotalElements());
-				historial.getContent().forEach(p -> System.out.println("    - " + p.getTitulo() + " (Precio: " + p.getPrecio() + ")"));
-
-				// --- Buscar Productos ---
-				System.out.println("\n[Prueba H7] Buscar Productos...");
-				System.out.println("   Buscando 'pincel'...");
+			// --- Historial del Mes ---
+			System.out.println("\n[Prueba H6] Historial del Mes...");
+			int mesActual = LocalDate.now().getMonthValue();
+			int anoActual = LocalDate.now().getYear();
+			
+			//Primero creamos el objeto de paginacion, por ejemplo, para obtener la primera página con 10 elementos
+			Pageable paginacion = PageRequest.of(0, 10); // Página 0 (primera) con 10 elementos por página
 
 				Page<ProductoDTO> encontrados1 = servicioProductos.buscarProductosPaginado(null, "pincel", null, null, paginacion);
 				encontrados1.getContent().forEach(p -> System.out.println("       - " + p.getTitulo() + " (ID: "+p.getId()+")"));

@@ -44,7 +44,8 @@
 
                     <div class="mb-3">
                         <label class="form-label fw-bold">Lugar de recogida</label>
-                        <input type="text" class="form-control bg-light" value="{{producto.lugarRecogida}}" disabled>
+                            <input type="text" class="form-control bg-light" value="{{producto.lugarRecogida.descripcion}}" disabled>
+                            <small class="form-text text-muted">Latitud: {{producto.lugarRecogida.latitud}} | Longitud: {{producto.lugarRecogida.longitud}}</small>
                     </div>
 
                     <div class="mb-3">

@@ -16,9 +16,11 @@ import modelo.LugarRecogida;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -49,7 +51,7 @@ public class ServicioProductos implements IServiciosProductos {
 	
 	@Override
 	public String altaProducto(String titulo, String descripcion, double precio, EstadoProducto estado,
-							String idCategoria, boolean envioDisponible, String idVendedor)
+							String idCategoria, boolean envioDisponible, String idVendedor, String lugarRecogida, double latitud, double longitud)
 							throws EntidadNoEncontrada, IllegalArgumentException {
 
 		if (titulo == null || titulo.trim().isEmpty() || precio < 0 || estado == null || idCategoria == null || idVendedor == null) {
@@ -73,6 +75,11 @@ public class ServicioProductos implements IServiciosProductos {
 		nuevoProducto.setVendedor(vendedor);
 		nuevoProducto.setFechaPublicacion(LocalDateTime.now());
 		nuevoProducto.setVisualizaciones(0);
+		
+		// Establecer lugar de recogida si se proporciona
+		if (lugarRecogida != null && !lugarRecogida.trim().isEmpty()) {
+			nuevoProducto.setLugarRecogida(new LugarRecogida(lugarRecogida, longitud, latitud));
+		}
 
 		// Usamos save() de CrudRepository
 		return repositorioProducto.save(nuevoProducto).getId();
@@ -177,19 +184,26 @@ public class ServicioProductos implements IServiciosProductos {
 
 	@Override
 	public Page<ProductoResumen> getListadoPaginado(Pageable pageable) {
-		return this.repositorioProducto.findAll(pageable).map(producto -> {
-			ProductoResumen resumen = new ProductoResumen();
-			resumen.setId(producto.getId());
-			resumen.setTitulo(producto.getTitulo());
-			resumen.setPrecio(producto.getPrecio());
-			resumen.setEstado(producto.getEstado());
-			resumen.setDescripcion(producto.getDescripcion());
-			resumen.setFechaPublicacion(producto.getFechaPublicacion());
-			resumen.setEnvioDisponible(producto.isEnvioDisponible());
-			if (producto.getCategoria() != null)
-				resumen.setCategoriaNombre(producto.getCategoria().getNombre());
-			return resumen;
-		});
+		Page<Producto> pagina = this.repositorioProducto.findAll(pageable);
+		
+		List<ProductoResumen> contenidoFiltrado = pagina.getContent().stream()
+			.filter(producto -> !producto.isVendido())
+			.map(producto -> {
+				ProductoResumen resumen = new ProductoResumen();
+				resumen.setId(producto.getId());
+				resumen.setTitulo(producto.getTitulo());
+				resumen.setPrecio(producto.getPrecio());
+				resumen.setEstado(producto.getEstado());
+				resumen.setDescripcion(producto.getDescripcion());
+				resumen.setFechaPublicacion(producto.getFechaPublicacion());
+				resumen.setEnvioDisponible(producto.isEnvioDisponible());
+				if (producto.getCategoria() != null)
+					resumen.setCategoriaNombre(producto.getCategoria().getNombre());
+				return resumen;
+			})
+			.collect(Collectors.toList());
+		
+		return new PageImpl<>(contenidoFiltrado, pageable, pagina.getTotalElements());
 	}
 	
 	@Override
@@ -229,7 +243,12 @@ public class ServicioProductos implements IServiciosProductos {
 	    Page<Producto> paginaProductos = repositorioProductoAdHoc.findProductosByCriteria(
 	            idsCategoriasParaBuscar, textoDescripcion, estadoMinimo, precioMax, paginacion);
 	    
-	    return paginaProductos.map(producto -> ProductoDTO.fromEntity(producto));
+	    List<ProductoDTO> contenidoFiltrado = paginaProductos.getContent().stream()
+	    	.filter(producto -> !producto.isVendido())
+	    	.map(producto -> ProductoDTO.fromEntity(producto))
+	    	.collect(Collectors.toList());
+	    
+	    return new PageImpl<>(contenidoFiltrado, paginacion, paginaProductos.getTotalElements());
 	}
 	
 	@Override
@@ -237,5 +256,17 @@ public class ServicioProductos implements IServiciosProductos {
 		Producto producto = getProducto(idProducto);
 		producto.setVendido(true);
 		repositorioProducto.save(producto);
+	}
+
+	@Override
+	public void eliminarProducto(String idProducto) throws EntidadNoEncontrada {
+		Producto producto = getProducto(idProducto);
+		
+		String idAutenticado = (String) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+		if (!idAutenticado.equals(producto.getVendedor().getId())) { 
+			throw new AccessDeniedException("Error: No puedes eliminar un producto que no te pertenece.");
+		}
+		
+		repositorioProducto.delete(producto);
 	}
 }

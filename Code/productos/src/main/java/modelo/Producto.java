@@ -19,7 +19,7 @@ public class Producto {
 	private String descripcion;
 	private double precio;
 	
-	@Enumerated(EnumType.STRING)
+	@Enumerated(EnumType.ORDINAL)
 	private EstadoProducto estado;
 	
 	private LocalDateTime fechaPublicacion;

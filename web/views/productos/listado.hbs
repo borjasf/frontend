@@ -39,6 +39,13 @@
     } catch(error) {
         window.PRODUCTOS_INICIALES = {};
     }
+    
+    try {
+        window.CATEGORIAS_INICIALES = {{{ categoriasInyectadas }}};
+        console.log("🟢 2.5 Categorías recibidas:", window.CATEGORIAS_INICIALES);
+    } catch(error) {
+        window.CATEGORIAS_INICIALES = [];
+    }
 </script>
 
 <script crossorigin src="https://cdn.jsdelivr.net/npm/react@18.2.0/umd/react.production.min.js"></script>
@@ -48,7 +55,7 @@
 <script type="text/babel">
     console.log("🚀 3. Babel y React han superado los bloqueos.");
 
-    const { useState } = React;
+    const { useState, useEffect } = React;
     const { createRoot } = ReactDOM;
 
     function FiltrosBusqueda() {
@@ -63,11 +70,28 @@
             precioMax: urlParams.get('precioMax') || ''
         });
 
-        const categorias = [
-            { id: '1', nombre: 'Electrónica' },
-            { id: '2', nombre: 'Deportes' },
-            { id: '3', nombre: 'Hogar' }
-        ];
+        // Estado para las categorías cargadas dinámicamente desde la API
+        const [categorias, setCategorias] = useState([]);
+        const [cargandoCategorias, setCargandoCategorias] = useState(true);
+
+        // Efecto para cargar las categorías desde los datos inyectados por Node.js
+        useEffect(() => {
+            // Leemos las categorías que Node.js inyectó en la página
+            const categoriasInyectadas = window.CATEGORIAS_INICIALES || [];
+            
+            if (Array.isArray(categoriasInyectadas) && categoriasInyectadas.length > 0) {
+                // Si vinieron categorías reales desde el servidor
+                setCategorias(categoriasInyectadas);
+            } else {
+                // Fallback a categorías hardcodeadas en caso de que Node.js no las haya podido cargar
+                setCategorias([
+                    { id: '1', nombre: 'Electrónica' },
+                    { id: '2', nombre: 'Deportes' },
+                    { id: '3', nombre: 'Hogar' }
+                ]);
+            }
+            setCargandoCategorias(false);
+        }, []);
 
         const handleChange = (e) => {
             const { name, value } = e.target;
@@ -114,13 +138,14 @@
                 </div>
 
                 <div>
-                    <label className="form-label fw-bold small mb-1">Estado</label>
+                    <label className="form-label fw-bold small mb-1">Estado mínimo</label>
                     <select className="form-select form-select-sm" name="estado" value={filtros.estado} onChange={handleChange}>
                         <option value="">Cualquier estado</option>
-                        <option value="NUEVO">Nuevo</option>
-                        <option value="COMO_NUEVO">Como nuevo</option>
-                        <option value="BUENO">Buen estado</option>
-                        <option value="ACEPTABLE">Aceptable</option>
+                        <option value="NUEVO">Nuevo o mejor</option>
+                        <option value="COMO_NUEVO">Como nuevo o mejor</option>
+                        <option value="BUEN_ESTADO">Buen estado o mejor</option>
+                        <option value="ACEPTABLE">Aceptable o mejor</option>
+                        <option value="PARA_REPARAR">Para reparar</option>
                     </select>
                 </div>
 
@@ -211,7 +236,11 @@
 // 1. Añadimos position-relative al card
 <div className="card h-100 shadow-sm border-0 position-relative" key={producto.id || Math.random()}>
     <div className="img-tarjeta bg-light d-flex align-items-center justify-content-center border-bottom">
-        <i className="fa-solid fa-tag fa-3x text-secondary opacity-50"></i>
+        {producto.rutaImagen ? (
+            <img src={producto.rutaImagen} alt={producto.titulo} className="w-100 h-100 object-fit-cover" />
+        ) : (
+            <i className="fa-solid fa-tag fa-3x text-secondary opacity-50"></i>
+        )}
     </div>
     <div className="card-body d-flex flex-column">
         <h5 className="card-title fw-bold">{producto.titulo || 'Sin título'}</h5>

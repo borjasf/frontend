@@ -1,6 +1,21 @@
 /* Controlador de productos. */
 const productosService = require('../services/productosService');
 const compraventasService = require('../services/compraventasService');
+const fs = require('fs');
+const path = require('path');
+
+// Función auxiliar para agregar rutaImagen a un producto
+const agregarRutaImagen = (producto) => {
+    const extensiones = ['.jpg', '.jpeg', '.png', '.gif', '.webp'];
+    for (const ext of extensiones) {
+        const rutaLocal = path.join(__dirname, `../../public/uploads/${producto.id}_imagen${ext}`);
+        if (fs.existsSync(rutaLocal)) {
+            producto.rutaImagen = `/uploads/${producto.id}_imagen${ext}`;
+            return producto;
+        }
+    }
+    return producto;
+};
 
 const productosController = {
     // PANTALLA PRINCIPAL: Catálogo de productos
@@ -15,13 +30,36 @@ const productosController = {
             };
 
             const respuestaAPI = await productosService.obtenerProductos(filtros);
+            
+            // NUEVO: Agregar rutas de imágenes locales a cada producto
+            let arrayProductos = [];
+            if (respuestaAPI._embedded) {
+                arrayProductos = Object.values(respuestaAPI._embedded)[0] || [];
+            } else if (respuestaAPI.content) {
+                arrayProductos = respuestaAPI.content;
+            } else if (Array.isArray(respuestaAPI)) {
+                arrayProductos = respuestaAPI;
+            }
+            
+            arrayProductos.forEach(agregarRutaImagen);
+            
+            // Cargar las categorías desde la API
+            let categorias = [];
+            try {
+                categorias = await productosService.getCategorias();
+            } catch (error) {
+                console.warn("No se pudieron cargar las categorías:", error.message);
+                // Fallback a categorías vacías - React mostrará el fallback hardcodeado
+                categorias = [];
+            }
 
             res.render('productos/listado', {
                 title: 'Catálogo de Productos',
-                productosInyectados: JSON.stringify(respuestaAPI)
+                productosInyectados: JSON.stringify(respuestaAPI),
+                categoriasInyectadas: JSON.stringify(categorias)
             });
 
-        } catch (error) {
+        }catch (error) {
             console.error("Error al cargar el listado de productos:", error);
             res.render('error', { mensaje: 'No se pudieron cargar los productos. Inténtalo más tarde.' });
         }
@@ -41,24 +79,50 @@ const productosController = {
                 
                 // 3. Calculamos dinámicamente si el que mira es el vendedor
                 const esVendedor = res.locals.usuario && 
-                                  (res.locals.usuario.id === productoVisualizar.vendedor.id);
+                                  (res.locals.usuario.id === productoVisualizar.vendedor);
+                
+                // 4. Verificamos si el producto ya ha sido vendido
+                const estaVendido = productoVisualizar.vendido === true;
 
+                const fechaPublicacion = productoVisualizar.fechaPublicacion; 
+                if (Array.isArray(fechaPublicacion)) {
+                    productoVisualizar.fechaPublicacion = `${String(fechaPublicacion[2]).padStart(2,'0')}-${String(fechaPublicacion[1]).padStart(2,'0')}-${fechaPublicacion[0]}`;
+                } else if (typeof fechaPublicacion === 'string') {
+                    productoVisualizar.fechaPublicacion = fechaPublicacion.substring(0, 10).split('-').reverse().join('-');
+                }
+                
+                // 5. NUEVO: Verificar si existe imagen local uploadada
+                const fs = require('fs');
+                const path = require('path');
+                const extensiones = ['.jpg', '.jpeg', '.png', '.gif', '.webp'];
+                let rutaImagen = null;
+                
+                for (const ext of extensiones) {
+                    const rutaLocal = path.join(__dirname, `../../public/uploads/${idProducto}_imagen${ext}`);
+                    if (fs.existsSync(rutaLocal)) {
+                        rutaImagen = `/uploads/${idProducto}_imagen${ext}`;
+                        break;
+                    }
+                }
+                
                 // Renderizamos la vista inyectando los datos
                 res.render('productos/detalle', { 
                     title: productoVisualizar.titulo,
                     producto: productoVisualizar,
-                    esVendedor: esVendedor // Ahora los botones cambian bien
+                    rutaImagen: rutaImagen, // Nueva: ruta de la imagen local si existe
+                    esVendedor: esVendedor, // Ahora los botones cambian bien
+                    estaVendido: estaVendido // Pasamos el estado de venta
                 });
 
             } catch (apiError) {
-                // Si Java falla, usamos el Mock
+                // Si Java falla, seguimos usando el Mock de tu compañero
                 console.log("⚠️ Usando producto de prueba (Mock) para diseño visual.");
 
                 productoVisualizar = {
                     id: idProducto,
                     titulo: "Bicicleta de Montaña Orbea (MOCK)",
                     precio: 350.00,
-                    estado: "BUENO",
+                    estado: "BUEN_ESTADO",
                     categoria: { nombre: "Deportes" },
                     descripcion: "Bicicleta en perfecto estado, ideal para rutas de montaña. Cuadro de aluminio, frenos de disco y suspensión delantera. Se vende por falta de uso.",
                     vendedor: { nombre: "Alejandro", email: "a.carrion@um.es" },
@@ -66,8 +130,16 @@ const productosController = {
                     envioDisponible: false,
                     fechaPublicacion: "2026-04-15", 
                     lugarRecogida: "Murcia Centro", 
-                    imagen: "https://images.unsplash.com/photo-1485965120184-e220f721d03e?w=800"
+                    imagen: "https://images.unsplash.com/photo-1485965120184-e220f721d03e?w=800",
+                    vendido: false
                 };
+
+                res.render('productos/detalle', { 
+                    title: productoVisualizar.titulo,
+                    producto: productoVisualizar,
+                    esVendedor: false,
+                    estaVendido: false
+                });
             }
 
         } catch (error) {
@@ -93,11 +165,31 @@ const productosController = {
                 estado: req.body.estado,
                 descripcion: req.body.descripcion,
                 idCategoria: req.body.categoria,
+                lugarRecogida: req.body.lugarRecogida,
+                latitud: parseFloat(req.body.latitud) || 0,
+                longitud: parseFloat(req.body.longitud) || 0,
                 envioDisponible: req.body.envioDisponible === 'on',
                 idVendedor: res.locals.usuario.id
             };
 
-            await productosService.crearProducto(nuevoProducto, token);
+            // Crear el producto en Java
+            const idProductoCreado = await productosService.crearProducto(nuevoProducto, token);
+
+            // Si se subió una imagen, renombrarla con el ID del producto
+            if (req.file) {
+                const fs = require('fs').promises;
+                const path = require('path');
+                const oldPath = req.file.path;
+                const ext = path.extname(req.file.originalname);
+                const newPath = path.join(__dirname, `../../public/uploads/${idProductoCreado}_imagen${ext}`);
+                
+                try {
+                    await fs.rename(oldPath, newPath);
+                    console.log(`Imagen guardada: ${idProductoCreado}_imagen${ext}`);
+                } catch (err) {
+                    console.error('Error al renombrar imagen:', err);
+                }
+            }
 
             // Si todo va bien, redirigimos al catálogo para ver nuestro nuevo producto
             console.log("Producto creado con éxito. Redirigiendo al catálogo...");
@@ -105,7 +197,15 @@ const productosController = {
 
         } catch (error) {
             console.error("Error al guardar el producto:", error);
-            // Si falla, recargamos la página de crear pero podríamos añadir un mensaje de error
+            // Si se subió un archivo y hay error, eliminarlo
+            if (req.file) {
+                const fs = require('fs').promises;
+                try {
+                    await fs.unlink(req.file.path);
+                } catch (err) {
+                    console.error('Error al eliminar archivo:', err);
+                }
+            }
             res.redirect('/productos/crear'); 
         }
     },
@@ -172,6 +272,56 @@ const productosController = {
             
             res.render('error', { 
                 mensaje: 'No se ha podido procesar tu solicitud de compra. Es posible que el producto ya esté vendido o haya un problema de conexión con el servidor.',
+                statusCode: error.response?.status || 500 
+            });
+        }
+    },
+    verCard: async (req, res) => {
+        try {
+            const producto = await productosService.getProducto(req.params.id);
+            const fp = producto.fechaPublicacion;
+            if (Array.isArray(fp)) {
+                producto.fechaPublicacion = `${String(fp[2]).padStart(2,'0')}-${String(fp[1]).padStart(2,'0')}-${fp[0]}`;
+            } else if (typeof fp === 'string') {
+                producto.fechaPublicacion = fp.substring(0, 10).split('-').reverse().join('-');
+            }
+            res.render('productos/cardVentas', { title: producto.titulo, producto });
+        } catch (error) {
+            res.redirect('/perfil/mis-ventas');
+        }
+    },
+
+    verCardCompras: async (req, res) => {
+        try {
+            const producto = await productosService.getProducto(req.params.id);
+            const fp = producto.fechaPublicacion;
+            if (Array.isArray(fp)) {
+                producto.fechaPublicacion = `${String(fp[2]).padStart(2,'0')}-${String(fp[1]).padStart(2,'0')}-${fp[0]}`;
+            } else if (typeof fp === 'string') {
+                producto.fechaPublicacion = fp.substring(0, 10).split('-').reverse().join('-');
+            }
+            res.render('productos/cardCompras', { title: producto.titulo, producto });
+        } catch (error) {
+            res.redirect('/perfil/mis-compras');
+        }
+    },
+
+    eliminar: async (req, res) => {
+        try {
+            const idProducto = req.params.id;
+            const token = req.cookies.jwt;
+
+            console.log(`Eliminando producto: ${idProducto}`);
+
+            await productosService.deleteProducto(idProducto, token);
+
+            res.redirect('/productos');
+
+        } catch (error) {
+            console.error("Error al eliminar el producto:", error.message);
+            
+            res.render('error', { 
+                mensaje: 'No se ha podido eliminar el producto. Es posible que no tengas permiso o haya un problema de conexión con el servidor.',
                 statusCode: error.response?.status || 500 
             });
         }

@@ -11,40 +11,79 @@
     </button>
     
     <div class="collapse navbar-collapse" id="menuPrincipal">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/productos">Inicio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/productos">Buscar productos</a>
-        </li>
-        {{#if usuario}}
-        <li class="nav-item">
-          <a class="nav-link btn btn-success text-white ms-lg-3 px-3 rounded-pill fw-bold shadow-sm" href="/productos/crear">
-            <i class="fa-solid fa-plus me-1"></i> Subir Producto
-          </a>
-        </li>
+      {{#if usuario}}
+        {{#if (eq usuario.rol 'ADMINISTRADOR')}}
+          {{!-- NAVBAR PARA ADMINISTRADOR --}}
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/admin">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/admin/usuarios">
+                <i class="fa-solid fa-users me-2"></i> Gestión de Usuarios
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/admin/compraventas">
+                <i class="fa-solid fa-handshake me-2"></i> Gestión de Compraventas
+              </a>
+            </li>
+          </ul>
+          <div class="d-flex align-items-center gap-2">
+            <div class="dropdown">
+              <a class="nav-link dropdown-toggle d-flex align-items-center text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-shield me-2"></i>
+                <span>Administrador</span>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end shadow">
+                <li><a class="dropdown-item text-danger" href="/logout">Cerrar sesión</a></li>
+              </ul>
+            </div>
+          </div>
+        {{else}}
+          {{!-- NAVBAR PARA USUARIO NORMAL --}}
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/productos">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/productos">Buscar productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-success text-white ms-lg-3 px-3 rounded-pill fw-bold shadow-sm" href="/productos/crear">
+                <i class="fa-solid fa-plus me-1"></i> Subir Producto
+              </a>
+            </li>
+          </ul>
+          <div class="d-flex align-items-center gap-2">
+            <div class="dropdown">
+              <a class="nav-link dropdown-toggle d-flex align-items-center text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="/img/usuario.png" alt="Usuario" width="32" height="32" class="rounded-circle border border-secondary me-2 bg-light">
+                <span>Mi Perfil</span>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end shadow">
+                <li><a class="dropdown-item" href="/perfil">Tu perfil</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item text-danger" href="/logout">Cerrar sesión</a></li>
+              </ul>
+            </div>
+          </div>
         {{/if}}
-      </ul>
-      
-      <div class="d-flex align-items-center gap-2">
-          {{#if usuario}}
-              <div class="dropdown">
-                  <a class="nav-link dropdown-toggle d-flex align-items-center text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      <img src="/img/usuario.png" alt="Usuario" width="32" height="32" class="rounded-circle border border-secondary me-2 bg-light">
-                      <span>Mi Perfil</span>
-                  </a>
-                  <ul class="dropdown-menu dropdown-menu-end shadow">
-                      <li><a class="dropdown-item" href="/perfil">Tu perfil</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item text-danger" href="/logout">Cerrar sesión</a></li>
-                  </ul>
-              </div>
-          {{else}}
-              <a href="/login" class="btn-navbar">Iniciar sesión</a>
-              <a href="/registro" class="btn-navbar btn-navbar--outline">Registrarse</a>
-          {{/if}}
-      </div>
+      {{else}}
+        {{!-- NAVBAR PARA USUARIO NO AUTENTICADO --}}
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/productos">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/productos">Buscar productos</a>
+          </li>
+        </ul>
+        <div class="d-flex align-items-center gap-2">
+          <a href="/login" class="btn-navbar">Iniciar sesión</a>
+          <a href="/registro" class="btn-navbar btn-navbar--outline">Registrarse</a>
+        </div>
+      {{/if}}
       
     </div>
   </div>

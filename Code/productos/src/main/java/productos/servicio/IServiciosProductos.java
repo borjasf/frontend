@@ -18,7 +18,7 @@
 		 //Da de alta un nuevo producto en el sistema. (Historia 3)
 		
 		String altaProducto(String titulo, String descripcion, double precio, EstadoProducto estado,
-		                    String idCategoria, boolean envioDisponible, String idVendedor)
+		                    String idCategoria, boolean envioDisponible, String idVendedor, String lugarRecogida, double latitud, double longitud)
 		                    throws EntidadNoEncontrada, IllegalArgumentException;
 	
 		// Asigna o actualiza el lugar de recogida para un producto existente. (Historia 5)
@@ -50,5 +50,7 @@
 		Page<ProductoDTO> buscarProductosPaginado(String idCategoria, String textoDescripcion, EstadoProducto estadoMinimo, Double precioMax, Pageable paginacion) throws RepositorioException, EntidadNoEncontrada;
 		
 		void marcarComoVendido(String idProducto) throws EntidadNoEncontrada;
+		
+		void eliminarProducto(String idProducto) throws EntidadNoEncontrada;
 	
 	}

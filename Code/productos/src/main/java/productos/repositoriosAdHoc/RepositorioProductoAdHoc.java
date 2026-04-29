@@ -37,8 +37,8 @@ public interface RepositorioProductoAdHoc extends IRepositorioProducto, JpaRepos
 	@Override
     @Query("SELECT p FROM Producto p " +
            "WHERE (:idsCategorias IS NULL OR p.categoria.id IN :idsCategorias) " +
-           "AND (:textoDescripcion IS NULL OR LOWER(p.descripcion) LIKE LOWER(CONCAT('%', :textoDescripcion, '%'))) " +
-           "AND (:estadoMinimo IS NULL OR p.estado = :estadoMinimo) " + 
+           "AND (:textoDescripcion IS NULL OR (LOWER(p.titulo) LIKE LOWER(CONCAT('%', :textoDescripcion, '%')) OR LOWER(p.descripcion) LIKE LOWER(CONCAT('%', :textoDescripcion, '%')))) " +
+           "AND (:estadoMinimo IS NULL OR p.estado >= :estadoMinimo) " + 
            "AND (:precioMax IS NULL OR p.precio <= :precioMax)")
     Page<Producto> findProductosByCriteria(
             @Param("idsCategorias") List<String> idsCategorias, 

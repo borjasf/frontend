@@ -32,6 +32,7 @@ public class ProductoDTO {
     private String nombreCategoria;
 	@Schema(description = "Identificador del vendedor del producto")
     private String vendedor;
+	private String nombreVendedor; // NUEVO CAMPO PARA MOSTRAR EL NOMBRE DEL VENDEDOR
 	@Schema(description = "Indica si el producto ya ha sido vendido")
     private boolean vendido; // NUEVO CAMPO
     
@@ -41,7 +42,7 @@ public class ProductoDTO {
 	
 	public ProductoDTO(String id, String titulo, String descripcion, double precio, EstadoProducto estado,
 			LocalDateTime fechaPublicacion, int visualizaciones, boolean envioDisponible,
-			LugarRecogida lugarRecogida, String nombreCategoria, String vendedor, boolean vendido) {
+			LugarRecogida lugarRecogida, String nombreCategoria, String vendedor, String nombreVendedor, boolean vendido) {
 		this.id = id;
 		this.titulo = titulo;
 		this.descripcion = descripcion;
@@ -52,8 +53,9 @@ public class ProductoDTO {
 		this.envioDisponible = envioDisponible;
 		this.lugarRecogida = lugarRecogida;
 		this.nombreCategoria = nombreCategoria;
+		this.nombreVendedor = nombreVendedor;
 		this.vendedor = vendedor;
-		this.vendido = vendido; // NUEVA ASIGNACIÓN
+		this.vendido = vendido;
 	}
     
 	public String getId() {
@@ -152,6 +154,14 @@ public class ProductoDTO {
 		this.vendido = vendido;
 	}
 
+	public String getNombreVendedor() {
+		return nombreVendedor;
+	}
+
+	public void setNombreVendedor(String nombreVendedor) {
+		this.nombreVendedor = nombreVendedor;
+	}
+
 	public static ProductoDTO fromEntity(Producto producto) {
 		return new ProductoDTO(
 			producto.getId(),
@@ -165,6 +175,7 @@ public class ProductoDTO {
 			producto.getLugarRecogida(),
 			producto.getCategoria().getNombre(),
 			producto.getVendedor().getId(),
+			producto.getVendedor().getNombre(),
 			producto.isVendido()
 		);
 	}

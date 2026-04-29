@@ -3,4 +3,5 @@ import compraventas.modelo.externo.ProductoExterno;
 
 public interface IProductosPort {
 	ProductoExterno obtenerProducto(String idProducto);
+	void marcarComoVendido(String idProducto);
 }

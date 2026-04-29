@@ -1,0 +1,125 @@
+{{!-- Dashboard principal del administrador.
+      Muestra accesos rápidos a la gestión de usuarios y compraventas.
+      Solo accesible para usuarios con rol ADMINISTRADOR. --}}
+
+<div class="container-fluid mt-5 mb-5">
+    <div class="row">
+        <div class="col-12">
+            <div class="mb-4">
+                <h1 class="fw-bold text-dark">
+                    <i class="fa-solid fa-shield me-3 text-primary"></i>Panel de Administración
+                </h1>
+                <p class="text-muted">Bienvenido, {{usuario.nombre}}. Aquí puedes gestionar usuarios y compraventas.</p>
+            </div>
+        </div>
+    </div>
+
+    {{!-- Tarjetas de acceso rápido --}}
+    <div class="row g-4 mt-2">
+        
+        {{!-- Tarjeta: Gestión de Usuarios --}}
+        <div class="col-md-6 col-lg-4">
+            <a href="/admin/usuarios" class="text-decoration-none">
+                <div class="card shadow-sm border-0 h-100 transition" style="cursor: pointer; transition: all 0.3s ease;">
+                    <div class="card-body p-4 text-center">
+                        <i class="fa-solid fa-users fa-3x text-primary mb-3"></i>
+                        <h5 class="card-title fw-bold text-dark">Gestión de Usuarios</h5>
+                        <p class="card-text text-muted small mb-3">Consulta todos los usuarios registrados en la plataforma</p>
+                        <div class="badge bg-primary fs-6">{{totalUsuarios}} usuarios</div>
+                    </div>
+                    <div class="card-footer bg-light border-top-0 text-center py-2">
+                        <small class="text-primary fw-bold">Acceder →</small>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        {{!-- Tarjeta: Gestión de Compraventas --}}
+        <div class="col-md-6 col-lg-4">
+            <a href="/admin/compraventas" class="text-decoration-none">
+                <div class="card shadow-sm border-0 h-100 transition" style="cursor: pointer; transition: all 0.3s ease;">
+                    <div class="card-body p-4 text-center">
+                        <i class="fa-solid fa-handshake fa-3x text-success mb-3"></i>
+                        <h5 class="card-title fw-bold text-dark">Gestión de Compraventas</h5>
+                        <p class="card-text text-muted small mb-3">Consulta todas las transacciones realizadas en la plataforma</p>
+                        <div class="badge bg-success fs-6">Ver todas</div>
+                    </div>
+                    <div class="card-footer bg-light border-top-0 text-center py-2">
+                        <small class="text-success fw-bold">Acceder →</small>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        {{!-- Tarjeta: Información --}}
+        <div class="col-md-6 col-lg-4">
+            <div class="card shadow-sm border-0 h-100 bg-light">
+                <div class="card-body p-4 text-center">
+                    <i class="fa-solid fa-circle-info fa-3x text-warning mb-3"></i>
+                    <h5 class="card-title fw-bold text-dark">Información</h5>
+                    <p class="card-text text-muted small mb-3">Este panel es solo para administradores de la plataforma</p>
+                    <small class="text-muted">Puedes consultar usuarios y compraventas</small>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    {{!-- Tabla rápida: últimos usuarios (opcional) --}}
+    <div class="row mt-5">
+        <div class="col-12">
+            <div class="card shadow-sm border-0">
+                <div class="card-header bg-primary text-white">
+                    <h6 class="mb-0 fw-bold">
+                        <i class="fa-solid fa-chart-line me-2"></i>Resumen del Sistema
+                    </h6>
+                </div>
+                <div class="card-body">
+                    <div class="row text-center">
+                        <div class="col-md-3">
+                            <div class="p-3 bg-light rounded">
+                                <h6 class="text-muted mb-2">Usuarios Registrados</h6>
+                                <h3 class="fw-bold text-primary">{{totalUsuarios}}</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="p-3 bg-light rounded">
+                                <h6 class="text-muted mb-2">Acceso Restringido</h6>
+                                <p class="text-muted mb-0">
+                                    <i class="fa-solid fa-lock me-1"></i>
+                                    Solo para administradores
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="p-3 bg-light rounded">
+                                <h6 class="text-muted mb-2">Permisos</h6>
+                                <p class="text-muted mb-0">
+                                    <i class="fa-solid fa-check me-1"></i>
+                                    Consulta completa
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="p-3 bg-light rounded">
+                                <h6 class="text-muted mb-2">Plataforma</h6>
+                                <p class="text-muted mb-0">
+                                    <i class="fa-solid fa-globe me-1"></i>
+                                    SEGUNDUM
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<style>
+    .transition:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15) !important;
+    }
+</style>
