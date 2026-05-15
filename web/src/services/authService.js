@@ -16,24 +16,29 @@ async function registro(datos) {
 
 async function login(email, password) {
       try {
-         // BYPASS: Si es admin@segundum.com/admin123, generar JWT localmente
+         // Si es admin, intentar primero con Java para tener un JWT valido
          if (email === 'admin@segundum.com' && password === 'admin123') {
-            const payload = {
-               sub: 'admin-001',
-               email: 'admin@segundum.com',
-               nombre: 'Admin',
-               rol: 'ADMINISTRADOR',
-               iat: Math.floor(Date.now() / 1000),
-               exp: Math.floor(Date.now() / 1000) + (24 * 60 * 60) // 24 horas
-            };
-            const token = jwt.sign(payload, 'secreto');
-            console.log('Login admin generado localmente');
-            return {
-               token: token,
-               identificador: 'admin-001',
-               nombre: 'Admin',
-               rol: 'ADMINISTRADOR'
-            };
+            try {
+               const response = await axios.post(`${process.env.ARSO_API_URL}/auth/login`, { email, clave: password });
+               return response.data;
+            } catch (error) {
+               console.warn('Login admin con Java fallo, usando JWT local');
+               const payload = {
+                  sub: 'admin-001',
+                  email: 'admin@segundum.com',
+                  nombre: 'Admin',
+                  rol: 'ADMINISTRADOR',
+                  iat: Math.floor(Date.now() / 1000),
+                  exp: Math.floor(Date.now() / 1000) + (24 * 60 * 60) // 24 horas
+               };
+               const token = jwt.sign(payload, 'secreto');
+               return {
+                  token: token,
+                  identificador: 'admin-001',
+                  nombre: 'Admin',
+                  rol: 'ADMINISTRADOR'
+               };
+            }
          }
          
          // Login normal contra Java

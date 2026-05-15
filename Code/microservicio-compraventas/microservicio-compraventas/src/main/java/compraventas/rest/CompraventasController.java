@@ -89,8 +89,8 @@ public class CompraventasController {
 	@PreAuthorize("hasRole('ADMINISTRADOR')")
 	@GetMapping
 	public PagedModel<EntityModel<CompraventaDTO>> getTransacciones(
-			@RequestParam String idComprador, 
-			@RequestParam String idVendedor, 
+			@RequestParam(required = false, defaultValue = "") String idComprador, 
+			@RequestParam(required = false, defaultValue = "") String idVendedor, 
 			Pageable pageable) {
 		
 		Page<Compraventa> transacciones = servicio.getCompraventas(idComprador, idVendedor, pageable);

@@ -40,8 +40,72 @@ const adminController = {
             //Llamamos a usuariosService.getTodosUsuarios(token) para obtener la lista de usuarios
             let usuarios = [];
             try {
-               const data = await usuariosService.getTodosUsuarios(token);                                                                                                  
-               usuarios = data.usuarios ? data.usuarios.map(u => u.resumen || u) : [];
+               const data = await usuariosService.getTodosUsuarios(token);
+               let lista = [];
+
+               if (Array.isArray(data)) {
+                  lista = data;
+               } else if (data.usuarios) {
+                  lista = data.usuarios.map(u => u.resumen || u);
+               } else if (data._embedded) {
+                  lista = Object.values(data._embedded)[0] || [];
+               }
+
+               const normalizarUsuario = (u) => ({
+                  ID: u.ID || u.id || u.identificador || '',
+                  NOMBRE: u.NOMBRE || u.nombre || '',
+                  APELLIDOS: u.APELLIDOS || u.apellidos || '',
+                  EMAIL: u.EMAIL || u.email || '',
+                  ESADMIN: (u.ESADMIN ?? u.esAdmin ?? u.admin) ? 1 : 0,
+                  CONTADORCOMPRAS: u.CONTADORCOMPRAS ?? u.contadorCompras ?? 0,
+                  CONTADORVENTAS: u.CONTADORVENTAS ?? u.contadorVentas ?? 0
+               });
+
+               usuarios = lista.map(normalizarUsuario);
+
+               const faltanDetalles = usuarios.some((u) => !u.APELLIDOS && !u.CONTADORCOMPRAS && !u.CONTADORVENTAS);
+               if (faltanDetalles) {
+                  const ids = usuarios.map((u) => u.ID).filter(Boolean);
+                  const detalles = await Promise.all(ids.map((id) => usuariosService.getUsuario(id, token)));
+                  const detallesPorId = new Map(detalles.map((u) => [u.ID || u.id || u.identificador, u]));
+                  usuarios = usuarios.map((u) => {
+                     const extra = detallesPorId.get(u.ID);
+                     return extra ? normalizarUsuario({ ...u, ...extra }) : u;
+                  });
+
+               }
+
+               // Calcular compras/ventas reales por usuario
+               const idsParaConteo = usuarios.map((u) => u.ID).filter(Boolean);
+               const conteos = await Promise.all(idsParaConteo.map(async (id) => {
+                  try {
+                     const [ventasData, comprasData] = await Promise.all([
+                        compraventasService.getMisVentas(id, token),
+                        compraventasService.getMisCompras(id, token)
+                     ]);
+
+                     const ventas = ventasData?.page?.totalElements ?? 0;
+                     const compras = comprasData?.page?.totalElements ?? 0;
+                     return { id, ventas, compras };
+                  } catch (error) {
+                     console.warn(`No se pudieron contar compras/ventas para usuario ${id}:`, error.message);
+                     return { id, ventas: 0, compras: 0 };
+                  }
+               }));
+
+               const conteosPorId = new Map(conteos.map((c) => [c.id, c]));
+               usuarios = usuarios.map((u) => {
+                  const conteo = conteosPorId.get(u.ID);
+                  if (!conteo) {
+                     return u;
+                  }
+
+                  return {
+                     ...u,
+                     CONTADORVENTAS: conteo.ventas,
+                     CONTADORCOMPRAS: conteo.compras
+                  };
+               });
             } catch (apiError) {
                console.warn("No se pudieron cargar los usuarios desde la API:", apiError.message);
             }
@@ -73,10 +137,24 @@ const adminController = {
             try {
                //Llamar a la API para obtener todas las compraventas
                const data = await compraventasService.getTodasCompraventas(filtros.comprador, filtros.vendedor, token);
-               // La respuesta es HATEOAS paginado (_embedded), extraer el array
-               if (data._embedded) {
+               if (Array.isArray(data)) {
+                  compraventas = data;
+               } else if (data._embedded) {
                   compraventas = Object.values(data._embedded)[0] || [];
                }
+
+               compraventas = compraventas.map((c) => ({
+                  ID: c.ID || c.id || '',
+                  IDPRODUCTO: c.IDPRODUCTO || c.idProducto || '',
+                  NOMBREPRODUCTO: c.NOMBREPRODUCTO || c.titulo || c.producto || '',
+                  IDCOMPRADOR: c.IDCOMPRADOR || c.idComprador || '',
+                  NOMBRE_COMPRADOR: c.NOMBRE_COMPRADOR || c.nombreComprador || '',
+                  IDVENDEDOR: c.IDVENDEDOR || c.idVendedor || '',
+                  NOMBRE_VENDEDOR: c.NOMBRE_VENDEDOR || c.nombreVendedor || '',
+                  FECHACOMPRA: c.FECHACOMPRA || c.fecha || '',
+                  PRECIO: c.PRECIO ?? c.precio ?? 0
+               }));
+
             } catch (apiError) {
                console.warn("No se pudieron cargar las compraventas desde la API:", apiError.message);
             }

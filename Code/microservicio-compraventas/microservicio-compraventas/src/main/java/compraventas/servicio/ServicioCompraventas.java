@@ -103,6 +103,21 @@ public class ServicioCompraventas implements IServicioCompraventas {
 
 	@Override
 	public Page<Compraventa> getCompraventas(String idComprador, String idVendedor, Pageable pageable) {
+		boolean compradorVacio = idComprador == null || idComprador.trim().isEmpty();
+		boolean vendedorVacio = idVendedor == null || idVendedor.trim().isEmpty();
+
+		if (compradorVacio && vendedorVacio) {
+			return repositorio.findAll(pageable);
+		}
+
+		if (compradorVacio) {
+			return repositorio.findByIdVendedor(idVendedor, pageable);
+		}
+
+		if (vendedorVacio) {
+			return repositorio.findByIdComprador(idComprador, pageable);
+		}
+
 		return repositorio.findByIdCompradorAndIdVendedor(idComprador, idVendedor, pageable);
 	}
 }

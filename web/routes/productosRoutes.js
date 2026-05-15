@@ -16,17 +16,13 @@ const productosController = require('../src/controllers/productosController');
 // Middleware para bloquear admins del acceso a productos
 const noAdminMiddleware = (req, res, next) => {
     if (res.locals.usuario && res.locals.usuario.rol === 'ADMINISTRADOR') {
-        return res.status(403).render('error', { 
-            title: 'Acceso denegado', 
-            message: 'Los administradores no pueden acceder a esta sección.',
-            layout: 'layouts/main'
-        });
+        return res.redirect('/admin');
     }
     next();
 };
 
 // rutas estáticas (Fijas, siempre van primero)
-router.get('/productos', productosController.listado);
+router.get('/productos', noAdminMiddleware, productosController.listado);
 
 // Mostrar formulario de crear (Hacemos que coincida con tu crear.hbs)
 router.get('/productos/crear', authMiddleware, noAdminMiddleware, productosController.mostrarCrear);
@@ -67,9 +63,9 @@ router.post('/productos/crear', authMiddleware, noAdminMiddleware, (req, res, ne
 
 
 // Rutas dinámicas (Con parámetros como :id, siempre al final)
-router.get('/productos/:id/cardVentas', productosController.verCard);
-router.get('/productos/:id/cardCompras', productosController.verCardCompras);
-router.get('/productos/:id', productosController.detalle);
+router.get('/productos/:id/cardVentas', noAdminMiddleware, productosController.verCard);
+router.get('/productos/:id/cardCompras', noAdminMiddleware, productosController.verCardCompras);
+router.get('/productos/:id', noAdminMiddleware, productosController.detalle);
 router.get('/productos/:id/editar', authMiddleware, noAdminMiddleware, productosController.mostrarEditar);
 router.post('/productos/:id/editar', authMiddleware, noAdminMiddleware, productosController.editar);
 router.post('/productos/:id/comprar', authMiddleware, noAdminMiddleware, productosController.comprar);

@@ -193,7 +193,7 @@
                                     React.createElement('span', { className: 'badge bg-success' }, usuario.CONTADORVENTAS || 0)
                                 ),
                                 React.createElement('td', { className: 'text-center' },
-                                    usuario.ESADMIN === 1 ?
+                                    usuario.ESADMIN ?
                                         React.createElement('span', { className: 'badge bg-danger' }, 'Admin') :
                                         React.createElement('span', { className: 'badge bg-secondary' }, 'Usuario')
                                 )
