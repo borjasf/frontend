@@ -1,5 +1,253 @@
 /* Media queries para diseño responsive (enfoque mobile-first).
-   - < 576px  (xs): una columna, navbar colapsada
+   - < 576px  (xs): una columna, imágenes más bajas, logo y tipografía reducidos
    - >= 576px (sm): dos columnas en el grid de productos
-   - >= 768px (md): tres columnas, sidebar visible
-   - >= 992px (lg): cuatro columnas, layout completo de escritorio */
+   - >= 768px (md): tres columnas, sidebar visible, imagen detalle mediana
+   - >= 992px (lg): cuatro columnas, layout completo de escritorio
+   - >= 1200px (xl): cinco columnas, tipografía y espaciado máximos
+   Además: prefers-reduced-motion (accesibilidad), hover (solo dispositivos con ratón) y print. */
+
+
+/* regla base de movil con < 576px (xs), una columna, imagenes mas bajas, logo y tipografía reducidos */
+
+body {
+    font-size: 0.9rem;
+}
+
+h1, .h1 {
+    font-size: 1.5rem;
+}
+
+h2, .h2 {
+    font-size: 1.3rem;
+}
+
+/*El catalogo se va a mostrar en una sola columna en dispositivos móviles pequeños */
+.galeria-productos-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+/*La imagen que se representa en el detalle del producto es mas baja en moviles para no ocupar toda la pantalla*/
+.detalle-imagen {
+    min-height: 250px;
+    max-height: 350px;
+    object-fit: cover;
+    width: 100%;
+}
+
+/* Reducimos padding lateral del container en móvil */
+.container,
+.container-fluid {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+/* en las tablas el padding es más pequeño en móvil */
+.table th,
+.table td {
+    padding: 0.5rem;
+    font-size: 0.85rem;
+}
+
+/* Logo de la navbar: bastante más pequeño en móvil */
+.navbar-brand img {
+    width: 50px;
+    height: 25px;
+}
+
+.navbar-brand span {
+    font-size: 0.95rem;
+}
+
+/* Botones grandes con menos altura en móvil */
+.btn-lg {
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+}
+
+/* Stats del perfil*/
+.card .display-4 {
+    font-size: 2.25rem;
+}
+
+/* Sidebar del perfil en el móvil se apila arriba para poder reducir margen inferior */
+.col-lg-3.mb-4 {
+    margin-bottom: 1rem !important;
+}
+
+
+/* =============================
+    >= 576px (sm) — móvil grande
+   =============================*/
+
+@media (min-width: 576px) {
+
+    h1, .h1 {
+        font-size: 1.75rem;
+    }
+
+    /* Dos columnas en el catálogo */
+    .galeria-productos-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.25rem;
+    }
+
+    /* Logo de la navbar a tamaño intermedio */
+    .navbar-brand img {
+        width: 65px;
+        height: 35px;
+    }
+
+    .navbar-brand span {
+        font-size: 1.1rem;
+    }
+
+    .btn-lg {
+        padding: 0.75rem 1.25rem;
+    }
+}
+
+
+/* ========================
+   >= 768px (md) — tablet
+===========================*/
+
+@media (min-width: 768px) {
+
+    body {
+        font-size: 1rem;
+    }
+
+    h1, .h1 {
+        font-size: 2rem;
+    }
+
+    h2, .h2 {
+        font-size: 1.5rem;
+    }
+
+    /* Tres columnas en el catálogo */
+    .galeria-productos-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+
+    /* La imagen del detalle la hacemos más grande ya que ahora si que tenemos un poco mas de espacio */
+    .detalle-imagen {
+        min-height: 400px;
+        max-height: 500px;
+    }
+
+    /* Logo de la navbar a tamaño completo */
+    .navbar-brand img {
+        width: 80px;
+        height: 40px;
+    }
+
+    /* Tablas con padding cómodo */
+    .table th,
+    .table td {
+        padding: 0.75rem;
+        font-size: 0.95rem;
+    }
+
+    /* Recuperamos el display-4 al tamaño normal */
+    .card .display-4 {
+        font-size: 3rem;
+    }
+
+    /* Padding del container ligeramente mayor */
+    .container,
+    .container-fluid {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+
+/* =============================
+    >= 992px (lg) — escritorio 
+   ============================= */
+
+
+@media (min-width: 992px) {
+
+    /* Cuatro columnas en el catálogo */
+    .galeria-productos-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    /* Imagen del detalle a tamaño completo */
+    .detalle-imagen {
+        min-height: 450px;
+        max-height: 600px;
+    }
+
+    /* Stats del perfil con tamaño grande para escritorio */
+    .card .display-4 {
+        font-size: 3.5rem;
+    }
+}
+
+
+/* ====================================
+   >= 1200px (xl) — escritorio grande
+========================================*/
+
+@media (min-width: 1200px) {
+
+    h1, .h1 {
+        font-size: 2.5rem;
+    }
+
+    /* Cinco columnas en el catálogo cuando hay mucho ancho */
+    .galeria-productos-grid {
+        grid-template-columns: repeat(5, 1fr);
+        gap: 1.75rem;
+    }
+}
+
+
+/* =========================================================================
+    ACCESIBILIDAD — usuarios que prefieren menos movimiento
+   ========================================================================= */
+
+
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+
+/* =========================================================================
+      HOVER — solo dispositivos con ratón (no táctiles)
+   ========================================================================= */
+
+@media (hover: hover) {
+
+    /* Cards del catálogo: elevación al pasar el ratón */
+    .galeria-productos-grid .card {
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .galeria-productos-grid .card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12) !important;
+    }
+
+    /* Tarjetas de stats del perfil: leve elevación al pasar el ratón */
+    .card.bg-primary:hover,
+    .card.bg-success:hover,
+    .card.bg-info:hover {
+        transform: translateY(-2px);
+        transition: transform 0.2s ease;
+    }
+}
+

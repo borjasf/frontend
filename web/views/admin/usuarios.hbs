@@ -136,6 +136,8 @@
                 copia.sort((a, b) => (b.CONTADORCOMPRAS || 0) - (a.CONTADORCOMPRAS || 0));
             } else if (ordenar === 'ventas') {
                 copia.sort((a, b) => (b.CONTADORVENTAS || 0) - (a.CONTADORVENTAS || 0));
+            } else if (ordenar === 'enVenta') {
+                copia.sort((a, b) => (b.PRODUCTOSENVENTA || 0) - (a.PRODUCTOSENVENTA || 0));
             }
             return copia;
         }, [usuariosFiltrados, ordenar]);
@@ -159,7 +161,8 @@
                         React.createElement('option', { value: 'nombre' }, 'Ordenar por: Nombre'),
                         React.createElement('option', { value: 'email' }, 'Ordenar por: Email'),
                         React.createElement('option', { value: 'compras' }, 'Ordenar por: Compras (mayor)'),
-                        React.createElement('option', { value: 'ventas' }, 'Ordenar por: Ventas (mayor)')
+                        React.createElement('option', { value: 'ventas' }, 'Ordenar por: Ventas (mayor)'),
+                        React.createElement('option', { value: 'enVenta' }, 'Ordenar por: En venta (mayor)')
                     )
                 )
             ),
@@ -174,9 +177,9 @@
                             React.createElement('th', null, 'Nombre'),
                             React.createElement('th', null, 'Apellidos'),
                             React.createElement('th', null, 'Email'),
+                            React.createElement('th', { className: 'text-center' }, 'En venta'),
                             React.createElement('th', { className: 'text-center' }, 'Compras'),
-                            React.createElement('th', { className: 'text-center' }, 'Ventas'),
-                            React.createElement('th', { className: 'text-center' }, 'Rol')
+                            React.createElement('th', { className: 'text-center' }, 'Ventas')
                         )
                     ),
                     React.createElement('tbody', null,
@@ -187,15 +190,13 @@
                                 React.createElement('td', null, usuario.APELLIDOS),
                                 React.createElement('td', { className: 'email' }, usuario.EMAIL),
                                 React.createElement('td', { className: 'text-center' },
+                                    React.createElement('span', { className: 'badge bg-warning text-dark' }, usuario.PRODUCTOSENVENTA || 0)
+                                ),
+                                React.createElement('td', { className: 'text-center' },
                                     React.createElement('span', { className: 'badge bg-info' }, usuario.CONTADORCOMPRAS || 0)
                                 ),
                                 React.createElement('td', { className: 'text-center' },
                                     React.createElement('span', { className: 'badge bg-success' }, usuario.CONTADORVENTAS || 0)
-                                ),
-                                React.createElement('td', { className: 'text-center' },
-                                    usuario.ESADMIN ?
-                                        React.createElement('span', { className: 'badge bg-danger' }, 'Admin') :
-                                        React.createElement('span', { className: 'badge bg-secondary' }, 'Usuario')
                                 )
                             )
                         )
