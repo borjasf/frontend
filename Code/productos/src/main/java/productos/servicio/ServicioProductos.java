@@ -198,7 +198,7 @@ public class ServicioProductos implements IServiciosProductos {
 				resumen.setFechaPublicacion(producto.getFechaPublicacion());
 				resumen.setEnvioDisponible(producto.isEnvioDisponible());
 				if (producto.getCategoria() != null)
-					resumen.setCategoriaNombre(producto.getCategoria().getNombre());
+					resumen.setNombreCategoria(producto.getCategoria().getNombre());
 				return resumen;
 			})
 			.collect(Collectors.toList());
@@ -240,14 +240,22 @@ public class ServicioProductos implements IServiciosProductos {
 	        }
 	    }
 
-	    Page<Producto> paginaProductos = repositorioProductoAdHoc.findProductosByCriteria(
-	            idsCategoriasParaBuscar, textoDescripcion, estadoMinimo, precioMax, paginacion);
-	    
+	    //Separamos la consulta en dos métodos para evitar el error de Hibernate al evaluar ':idsCategorias IS NULL' 
+		//con un List<String> en JPQL. El servicio elige el adecuado según si se pasan categorías o no.
+	    Page<Producto> paginaProductos;
+	    if (idsCategoriasParaBuscar != null && !idsCategoriasParaBuscar.isEmpty()) {
+	        paginaProductos = repositorioProductoAdHoc.findProductosByCriteriaConCategoria(
+	                idsCategoriasParaBuscar, textoDescripcion, estadoMinimo, precioMax, paginacion);
+	    } else {
+	        paginaProductos = repositorioProductoAdHoc.findProductosByCriteriaSinCategoria(
+	                textoDescripcion, estadoMinimo, precioMax, paginacion);
+	    }
+
 	    List<ProductoDTO> contenidoFiltrado = paginaProductos.getContent().stream()
 	    	.filter(producto -> !producto.isVendido())
 	    	.map(producto -> ProductoDTO.fromEntity(producto))
 	    	.collect(Collectors.toList());
-	    
+
 	    return new PageImpl<>(contenidoFiltrado, paginacion, paginaProductos.getTotalElements());
 	}
 	

@@ -17,6 +17,20 @@ const agregarRutaImagen = (producto) => {
     return producto;
 };
 
+// Función auxiliar para formatear la fecha de publicación a dd-mm-yyyy.
+const formatearFechaPublicacion = (producto) => {
+    //primero cogemos la fecha de publicacion del producto, que puede venir en formato array [yyyy, mm, dd] o string "yyyy-mm-ddT00:00:00"
+    const fp = producto.fechaPublicacion;
+    if (Array.isArray(fp)) {
+        //Si esta en formato array, la convertimos a string dd-mm-yyyy
+        producto.fechaPublicacion = `${String(fp[2]).padStart(2, '0')}-${String(fp[1]).padStart(2, '0')}-${fp[0]}`;
+    } else if (typeof fp === 'string') {
+        //Si esta en formato string, la convertimos a dd-mm-yyyy
+        producto.fechaPublicacion = fp.substring(0, 10).split('-').reverse().join('-');
+    }
+    return producto;
+};
+
 const productosController = {
     // PANTALLA PRINCIPAL: Catálogo de productos
     listado: async (req, res) => {
@@ -65,86 +79,51 @@ const productosController = {
         }
     },
 
-    detalle: async (req, res) => { 
+    detalle: async (req, res) => {
         try {
             const idProducto = req.params.id;
-            let productoVisualizar;
 
-            try {
-                // 1. ¡NUEVO! Disparamos el aumento de visualizaciones de forma silenciosa
-                await productosService.incrementarVisualizaciones(idProducto);
+            // Disparamos el aumento de visualizaciones de forma silenciosa
+            await productosService.incrementarVisualizaciones(idProducto);
 
-                // 2. Intentamos pedir el producto real a Java (ya vendrá con el +1)
-                productoVisualizar = await productosService.getProducto(idProducto);
-                
-                // 3. Calculamos dinámicamente si el que mira es el vendedor
-                const esVendedor = res.locals.usuario && 
-                                  (res.locals.usuario.id === productoVisualizar.vendedor);
-                
-                // 4. Verificamos si el producto ya ha sido vendido
-                const estaVendido = productoVisualizar.vendido === true;
+            // Pedimos el producto a la API
+            const productoVisualizar = await productosService.getProducto(idProducto);
 
-                const fechaPublicacion = productoVisualizar.fechaPublicacion; 
-                if (Array.isArray(fechaPublicacion)) {
-                    productoVisualizar.fechaPublicacion = `${String(fechaPublicacion[2]).padStart(2,'0')}-${String(fechaPublicacion[1]).padStart(2,'0')}-${fechaPublicacion[0]}`;
-                } else if (typeof fechaPublicacion === 'string') {
-                    productoVisualizar.fechaPublicacion = fechaPublicacion.substring(0, 10).split('-').reverse().join('-');
+            // ¿El que mira es el vendedor?
+            const esVendedor = res.locals.usuario &&
+                              (res.locals.usuario.id === productoVisualizar.vendedor);
+
+            // ¿El producto ya está vendido?
+            const estaVendido = productoVisualizar.vendido === true;
+
+            //Formateamos la fecha de publicación a dd-mm-yyyy para mostrarla bonita en el detalle
+            formatearFechaPublicacion(productoVisualizar);
+
+            // Buscamos si existe una imagen local subida para este producto
+            const extensiones = ['.jpg', '.jpeg', '.png', '.gif', '.webp'];
+            let rutaImagen = null;
+            for (const ext of extensiones) {
+                const rutaLocal = path.join(__dirname, `../../public/uploads/${idProducto}_imagen${ext}`);
+                if (fs.existsSync(rutaLocal)) {
+                    rutaImagen = `/uploads/${idProducto}_imagen${ext}`;
+                    break;
                 }
-                
-                // 5. NUEVO: Verificar si existe imagen local uploadada
-                const fs = require('fs');
-                const path = require('path');
-                const extensiones = ['.jpg', '.jpeg', '.png', '.gif', '.webp'];
-                let rutaImagen = null;
-                
-                for (const ext of extensiones) {
-                    const rutaLocal = path.join(__dirname, `../../public/uploads/${idProducto}_imagen${ext}`);
-                    if (fs.existsSync(rutaLocal)) {
-                        rutaImagen = `/uploads/${idProducto}_imagen${ext}`;
-                        break;
-                    }
-                }
-                
-                // Renderizamos la vista inyectando los datos
-                res.render('productos/detalle', { 
-                    title: productoVisualizar.titulo,
-                    producto: productoVisualizar,
-                    rutaImagen: rutaImagen, // Nueva: ruta de la imagen local si existe
-                    esVendedor: esVendedor, // Ahora los botones cambian bien
-                    estaVendido: estaVendido // Pasamos el estado de venta
-                });
-
-            } catch (apiError) {
-                // Si Java falla, seguimos usando el Mock de tu compañero
-                console.log("⚠️ Usando producto de prueba (Mock) para diseño visual.");
-
-                productoVisualizar = {
-                    id: idProducto,
-                    titulo: "Bicicleta de Montaña Orbea (MOCK)",
-                    precio: 350.00,
-                    estado: "BUEN_ESTADO",
-                    categoria: { nombre: "Deportes" },
-                    descripcion: "Bicicleta en perfecto estado, ideal para rutas de montaña. Cuadro de aluminio, frenos de disco y suspensión delantera. Se vende por falta de uso.",
-                    vendedor: { nombre: "Alejandro", email: "a.carrion@um.es" },
-                    visualizaciones: 45,
-                    envioDisponible: false,
-                    fechaPublicacion: "2026-04-15", 
-                    lugarRecogida: "Murcia Centro", 
-                    imagen: "https://images.unsplash.com/photo-1485965120184-e220f721d03e?w=800",
-                    vendido: false
-                };
-
-                res.render('productos/detalle', { 
-                    title: productoVisualizar.titulo,
-                    producto: productoVisualizar,
-                    esVendedor: false,
-                    estaVendido: false
-                });
             }
 
+            res.render('productos/detalle', {
+                title: productoVisualizar.titulo,
+                producto: productoVisualizar,
+                rutaImagen: rutaImagen,
+                esVendedor: esVendedor,
+                estaVendido: estaVendido
+            });
+
         } catch (error) {
-            console.error("Error fatal al cargar el detalle:", error);
-            res.redirect('/productos');
+            console.error("Error al cargar el detalle del producto:", error.message);
+            res.render('error', {
+                mensaje: 'No se ha podido cargar el producto. Es posible que ya no exista o haya un problema con el servidor.',
+                statusCode: error.response?.status || 500
+            });
         }
     },
     mostrarCrear: async (req, res) => { 
@@ -159,6 +138,24 @@ const productosController = {
     crear: async (req, res) => {
         try {
             const token = req.cookies.jwt;
+
+            // Validación servidor: la latitud y longitud son obligatorias para publicar un anuncio. Si el 
+            // usuario ha intentado subir una imagen pero no se ha seleccionado una ubicacion valida se lanza un error
+            const latitud = parseFloat(req.body.latitud);
+            const longitud = parseFloat(req.body.longitud);
+
+            if (isNaN(latitud) || isNaN(longitud) || (latitud === 0 && longitud === 0)) {
+                // Si subieron una imagen, eliminarla para no dejar archivos huérfanos
+                if (req.file) {
+                    const fs = require('fs').promises;
+                    try { await fs.unlink(req.file.path); } catch {}
+                }
+                return res.render('error', {
+                    mensaje: 'Debes seleccionar una ubicación válida en el mapa antes de publicar el anuncio.',
+                    statusCode: 400
+                });
+            }
+
             const nuevoProducto = {
                 titulo: req.body.titulo,
                 precio: parseFloat(req.body.precio),
@@ -166,8 +163,8 @@ const productosController = {
                 descripcion: req.body.descripcion,
                 idCategoria: req.body.categoria,
                 lugarRecogida: req.body.lugarRecogida,
-                latitud: parseFloat(req.body.latitud) || 0,
-                longitud: parseFloat(req.body.longitud) || 0,
+                latitud: latitud,
+                longitud: longitud,
                 envioDisponible: req.body.envioDisponible === 'on',
                 idVendedor: res.locals.usuario.id
             };
@@ -211,12 +208,26 @@ const productosController = {
     },
     mostrarEditar: async (req, res) => {
         try {
-            //Primero leemos req.params.id y req.cookies.jwt
             const idProducto = req.params.id;
-            const tokenJWT = req.cookies.jwt;
-            // Llamar a productosService.getProducto(id) para obtener los datos actuales
             const productoActual = await productosService.getProducto(idProducto);
-            // Renderizar la vista de edición con los datos actuales
+
+            // Bloqueamos el acceso si no es el vendedor (evita que cualquiera vea el formulario por URL directa)
+            if (res.locals.usuario.id !== productoActual.vendedor) {
+                return res.render('error', {
+                    mensaje: 'No tienes permiso para editar este producto.',
+                    statusCode: 403
+                });
+            }
+
+            // Bloqueamos la edición si el producto ya está vendido
+            if (productoActual.vendido) {
+                return res.render('error', {
+                    mensaje: 'No se puede editar un producto que ya ha sido vendido.',
+                    statusCode: 400
+                });
+            }
+
+            formatearFechaPublicacion(productoActual);
             res.render('productos/editar', {
                 title: `Editar ${productoActual.titulo}`,
                 producto: productoActual
@@ -231,6 +242,24 @@ const productosController = {
              //Primero leemos req.params.id y req.cookies.jwt
             const idProducto = req.params.id;
             const tokenJWT = req.cookies.jwt;
+            //Bloqueamos la accion en el caso en que se quiera editar a traves de la URL un producto que esta vendido
+            const productoActual = await productosService.getProducto(idProducto);
+
+            // Bloqueamos la acción si el usuario no es el vendedor (primero el permiso, después el estado)
+            if (res.locals.usuario.id !== productoActual.vendedor) {
+                return res.render('error', {
+                    mensaje: 'No tienes permiso para editar este producto.',
+                    statusCode: 403
+                });
+            }
+
+            // Bloqueamos la acción si el producto ya está vendido
+            if (productoActual.vendido) {
+                return res.render('error', {
+                    mensaje: 'No se puede editar un producto que ya ha sido vendido.',
+                    statusCode: 400
+                });
+            }
             // del body leemos los campos que queremos actualizar (precio y descripción)
             const datosActualizados = {
                 precio: parseFloat(req.body.precio),
@@ -279,12 +308,9 @@ const productosController = {
     verCard: async (req, res) => {
         try {
             const producto = await productosService.getProducto(req.params.id);
-            const fp = producto.fechaPublicacion;
-            if (Array.isArray(fp)) {
-                producto.fechaPublicacion = `${String(fp[2]).padStart(2,'0')}-${String(fp[1]).padStart(2,'0')}-${fp[0]}`;
-            } else if (typeof fp === 'string') {
-                producto.fechaPublicacion = fp.substring(0, 10).split('-').reverse().join('-');
-            }
+            agregarRutaImagen(producto);
+            //formateamos la fecha para verla bonita en la card de ventas
+            formatearFechaPublicacion(producto);
             res.render('productos/cardVentas', { title: producto.titulo, producto });
         } catch (error) {
             res.redirect('/perfil/mis-ventas');
@@ -294,12 +320,9 @@ const productosController = {
     verCardCompras: async (req, res) => {
         try {
             const producto = await productosService.getProducto(req.params.id);
-            const fp = producto.fechaPublicacion;
-            if (Array.isArray(fp)) {
-                producto.fechaPublicacion = `${String(fp[2]).padStart(2,'0')}-${String(fp[1]).padStart(2,'0')}-${fp[0]}`;
-            } else if (typeof fp === 'string') {
-                producto.fechaPublicacion = fp.substring(0, 10).split('-').reverse().join('-');
-            }
+            agregarRutaImagen(producto);
+            //formateamos la fecha para verla bonita en la card de compras
+            formatearFechaPublicacion(producto);
             res.render('productos/cardCompras', { title: producto.titulo, producto });
         } catch (error) {
             res.redirect('/perfil/mis-compras');

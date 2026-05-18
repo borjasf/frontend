@@ -34,16 +34,30 @@ public interface RepositorioProductoAdHoc extends IRepositorioProducto, JpaRepos
     Page<Producto> findProductosByMonthAndYear(@Param("mes") int mes, @Param("ano") int ano, Pageable pageable);
 	
 	
+    //Dividimos la consulta en dos metodos para poder evitar el error que se puede dar en Hibernate 
+    // al evaluar ':idsCategorias IS NULL' con un List<String> en JPQL. El servicio elige el adecuado según si se pasan categorías o no.
+
 	@Override
     @Query("SELECT p FROM Producto p " +
-           "WHERE (:idsCategorias IS NULL OR p.categoria.id IN :idsCategorias) " +
+           "WHERE p.categoria.id IN :idsCategorias " +
            "AND (:textoDescripcion IS NULL OR (LOWER(p.titulo) LIKE LOWER(CONCAT('%', :textoDescripcion, '%')) OR LOWER(p.descripcion) LIKE LOWER(CONCAT('%', :textoDescripcion, '%')))) " +
-           "AND (:estadoMinimo IS NULL OR p.estado >= :estadoMinimo) " + 
+           "AND (:estadoMinimo IS NULL OR p.estado >= :estadoMinimo) " +
            "AND (:precioMax IS NULL OR p.precio <= :precioMax)")
-    Page<Producto> findProductosByCriteria(
-            @Param("idsCategorias") List<String> idsCategorias, 
-            @Param("textoDescripcion") String textoDescripcion, 
-            @Param("estadoMinimo") EstadoProducto estadoMinimo, 
-            @Param("precioMax") Double precioMax, 
+    Page<Producto> findProductosByCriteriaConCategoria(
+            @Param("idsCategorias") List<String> idsCategorias,
+            @Param("textoDescripcion") String textoDescripcion,
+            @Param("estadoMinimo") EstadoProducto estadoMinimo,
+            @Param("precioMax") Double precioMax,
+            Pageable pageable);
+
+	@Override
+    @Query("SELECT p FROM Producto p " +
+           "WHERE (:textoDescripcion IS NULL OR (LOWER(p.titulo) LIKE LOWER(CONCAT('%', :textoDescripcion, '%')) OR LOWER(p.descripcion) LIKE LOWER(CONCAT('%', :textoDescripcion, '%')))) " +
+           "AND (:estadoMinimo IS NULL OR p.estado >= :estadoMinimo) " +
+           "AND (:precioMax IS NULL OR p.precio <= :precioMax)")
+    Page<Producto> findProductosByCriteriaSinCategoria(
+            @Param("textoDescripcion") String textoDescripcion,
+            @Param("estadoMinimo") EstadoProducto estadoMinimo,
+            @Param("precioMax") Double precioMax,
             Pageable pageable);
 }

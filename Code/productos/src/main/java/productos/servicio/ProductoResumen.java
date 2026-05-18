@@ -12,7 +12,7 @@ public class ProductoResumen {
     private LocalDateTime fechaPublicacion;
     private boolean envioDisponible;
     private String descripcion;
-    private String categoriaNombre; // Solo el nombre, sin cargar la entidad
+    private String nombreCategoria; // Solo el nombre, sin cargar la entidad
 
     public ProductoResumen() {
     }
@@ -66,17 +66,17 @@ public class ProductoResumen {
         this.envioDisponible = envioDisponible;
     }
 
-    public String getCategoriaNombre() {
-        return categoriaNombre;
+    public String getNombreCategoria() {
+        return nombreCategoria;
     }
-    public void setCategoriaNombre(String categoriaNombre) {
-        this.categoriaNombre = categoriaNombre;
+    public void setNombreCategoria(String nombreCategoria) {
+        this.nombreCategoria = nombreCategoria;
     }
 
     @Override
     public String toString() {
         return "ProductoResumen [id=" + id + ", titulo=" + titulo + ", precio=" + precio +
                ", estado=" + estado + ", fechaPublicacion=" + fechaPublicacion +
-               ", envioDisponible=" + envioDisponible + ", categoriaNombre=" + categoriaNombre + "]";
+               ", envioDisponible=" + envioDisponible + ", nombreCategoria=" + nombreCategoria + "]";
     }
 }

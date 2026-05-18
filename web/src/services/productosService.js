@@ -1,6 +1,6 @@
 const { crearApiClient } = require('./apiService');
 
-const API_BASE_URL = 'http://localhost:9090/api/productos';
+const API_BASE_URL = `${process.env.ARSO_API_URL}/api/productos`;
 
 const productosService = {
     obtenerProductos: async (filtros) => {
@@ -17,8 +17,6 @@ const productosService = {
             const url = tieneFiltros 
                 ? `${API_BASE_URL}/buscar?${queryParams.toString()}`
                 : `${API_BASE_URL}?${queryParams.toString()}`;
-
-            console.log(`Node.js saltándose Zuul y pidiendo directo a Java en: ${url}`);
 
             const response = await fetch(url);
 
@@ -65,7 +63,8 @@ const productosService = {
     },
     crearProducto: async (datos, token) => {
         try {
-            const response = await fetch('http://localhost:8083/productos', {
+            // Salta Zuul: va directo al microservicio porque Zuul añade trailing slash que Spring no matchea
+            const response = await fetch(`${process.env.PRODUCTOS_DIRECT_URL}/productos`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -171,6 +170,18 @@ const productosService = {
         } catch (error) {
             console.error("Error en getCountProductosEnVenta:", error.message);
             return 0;
+        }
+    }, 
+    getProductosDelVendedor: async (idVendedor) => {
+        try {
+            const response = await fetch(`${API_BASE_URL}/vendedor/${idVendedor}`);
+            if (!response.ok) {
+                return []; // Si Java responde con error, lista vacía
+            }
+            return await response.json(); // Array de productos del vendedor
+        } catch (error) {
+            console.error("Error en getProductosDelVendedor:", error.message);
+            return [];
         }
     }
 };

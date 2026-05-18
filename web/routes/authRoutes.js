@@ -36,7 +36,7 @@ router.post('/registro', authController.registro);
 
 // Login con GitHub: redirige a la pasarela Spring que gestiona el OAuth
 router.get('/auth/github', (req, res) => {
-  res.redirect('http://localhost:9090/oauth2/authorization/github');
+  res.redirect(`${process.env.ARSO_API_URL}/oauth2/authorization/github`);
 });
 
 // Callback de GitHub OAuth: Spring redirige aquí con el token JWT

@@ -94,6 +94,13 @@ main {
     padding-right: 2.75rem;
 }
 
+/* Cuando hay error en un input de contraseña se oculta el icono SVG
+   de Bootstrap para que no se superponga con el botón del ojo. */
+.password-wrapper .form-control.is-invalid {
+    background-image: none;
+    padding-right: 2.75rem;
+}
+
 .toggle-password {
     position: absolute;
     right: 0.75rem;

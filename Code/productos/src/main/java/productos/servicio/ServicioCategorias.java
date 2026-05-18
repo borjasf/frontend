@@ -27,6 +27,7 @@ public class ServicioCategorias implements IServiciosCategorias {
 	
 	public ServicioCategorias(IRepositorioCategorias repositorioCategoria, RepositorioCategoriasAdHoc repositorioAdHoc) {
 		this.repositorioCategoria = repositorioCategoria;
+		this.repositorioAdHoc = repositorioAdHoc;
 	}
 	
 	@Override

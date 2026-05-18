@@ -32,17 +32,14 @@
 </div>
 
 <script>
-    console.log("🟢 1. El HTML ha cargado perfectamente.");
     try {
         window.PRODUCTOS_INICIALES = {{{ productosInyectados }}};
-        console.log("🟢 2. Datos recibidos de Java:", window.PRODUCTOS_INICIALES);
     } catch(error) {
         window.PRODUCTOS_INICIALES = {};
     }
     
     try {
         window.CATEGORIAS_INICIALES = {{{ categoriasInyectadas }}};
-        console.log("🟢 2.5 Categorías recibidas:", window.CATEGORIAS_INICIALES);
     } catch(error) {
         window.CATEGORIAS_INICIALES = [];
     }
@@ -53,7 +50,6 @@
 <script src="https://cdn.jsdelivr.net/npm/@babel/standalone@7.23.6/babel.min.js"></script>
 
 <script type="text/babel">
-    console.log("🚀 3. Babel y React han superado los bloqueos.");
 
     const { useState, useEffect } = React;
     const { createRoot } = ReactDOM;
@@ -109,7 +105,6 @@
             if (filtros.estado) params.append('estado', filtros.estado);
             if (filtros.precioMax) params.append('precioMax', filtros.precioMax);
 
-            console.log("🚀 Viajando al backend con:", params.toString());
             // Mandamos al navegador a la nueva ruta
             window.location.href = `/productos?${params.toString()}`;
         };
@@ -236,16 +231,16 @@
 // 1. Añadimos position-relative al card
 <div className="card h-100 shadow-sm border-0 position-relative" key={producto.id || Math.random()}>
     <div className="img-tarjeta bg-light d-flex align-items-center justify-content-center border-bottom">
-        {producto.rutaImagen ? (
-            <img src={producto.rutaImagen} alt={producto.titulo} className="w-100 h-100 object-fit-cover" />
-        ) : (
-            <i className="fa-solid fa-tag fa-3x text-secondary opacity-50"></i>
-        )}
+        <img
+            src={producto.rutaImagen || '/img/fotografia_producto_sin_foto.jpg'}
+            alt={producto.titulo || 'Producto sin foto'}
+            className="w-100 h-100 object-fit-cover"
+        />
     </div>
     <div className="card-body d-flex flex-column">
         <h5 className="card-title fw-bold">{producto.titulo || 'Sin título'}</h5>
-        {producto.categoriaNombre && (
-            <span className="badge bg-secondary mb-1">{producto.categoriaNombre}</span>
+        {(producto.nombreCategoria) && (
+            <span className="badge bg-secondary mb-1">{producto.nombreCategoria}</span>
         )}
         <p className="card-text text-truncate text-muted">{producto.descripcion || ''}</p>
         <div className="mt-auto d-flex justify-content-between align-items-center pt-3 border-top">

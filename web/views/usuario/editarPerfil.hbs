@@ -11,7 +11,7 @@
                     <h5 class="fw-bold mb-0"><i class="fa-solid fa-address-card me-2"></i>Información Personal</h5>
                 </div>
                 <div class="card-body p-4">
-                    <form action="/perfil/editar" method="POST">
+                    <form action="/perfil/editar" method="POST" novalidate onsubmit="return validaciones.validarFormularioEditarPerfil(this)">
                         <div class="row mb-3">
                             <div class="col-md-6">
                                 <label class="form-label text-muted small fw-bold">Nombre</label>
@@ -78,3 +78,19 @@ function togglePassword(inputId, btn) {
     }
 }
 </script>
+
+<style>
+      /* Cuando el input contraseña tenga error, ocultar el icono SVG
+         para que no rompa el flex del input-group con el botón del ojo */
+      .input-group .form-control.is-invalid {
+          background-image: none;
+      }
+  </style>
+
+  <script src="/js/validaciones.js"></script>
+  <script>
+      document.addEventListener('DOMContentLoaded', () => {
+          const form = document.querySelector('form[action="/perfil/editar"]');
+          if (form) validaciones.inicializarLimpiezaErrores(form);
+      });
+  </script>

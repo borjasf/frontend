@@ -1,0 +1,57 @@
+{{!-- Página "Mis productos" — listado de productos que el usuario autenticado ha creado.
+      Muestra título, precio, fecha de publicación, estado/vendido y enlace al detalle.
+      Datos obtenidos vía GET /api/productos/vendedor/{idVendedor} (público). --}}
+<div class="container mt-5 mb-5">
+    <div class="row">
+
+        {{> perfilSidebar}}
+
+        <section class="col-lg-9">
+            <h2 class="fw-bold mb-4">Mis Productos</h2>
+
+            <div class="card shadow-sm border-0">
+                <div class="card-body p-0">
+                    <div class="table-responsive">
+                        <table class="table table-hover align-middle mb-0">
+                            <thead class="table-light">
+                                <tr>
+                                    <th scope="col" class="ps-4">Producto</th>
+                                    <th scope="col">Precio</th>
+                                    <th scope="col">Fecha</th>
+                                    <th scope="col">Estado</th>
+                                    <th scope="col" class="text-end pe-4">Detalle</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {{#each productos}}
+                                <tr>
+                                    <td class="ps-4">
+                                        <span class="fw-bold text-dark">{{this.titulo}}</span>
+                                    </td>
+                                    <td class="fw-bold text-success">{{this.precio}} €</td>
+                                    <td class="text-muted small">{{this.fecha}}</td>
+                                    <td>
+                                        <span class="badge {{this.badgeColor}}">{{#if this.vendido}}Vendido{{else}}{{this.estado}}{{/if}}</span>
+                                    </td>
+                                    <td class="text-end pe-4">
+                                        <a href="/productos/{{this.id}}" class="btn btn-sm btn-outline-primary" title="Ver producto">
+                                            <i class="fa-solid fa-circle-info"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                {{else}}
+                                <tr>
+                                    <td colspan="5" class="text-center py-5">
+                                        <p class="text-muted mb-0">Aún no has creado ningún producto.</p>
+                                        <a href="/productos/crear" class="btn btn-link">Crear producto</a>
+                                    </td>
+                                </tr>
+                                {{/each}}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>

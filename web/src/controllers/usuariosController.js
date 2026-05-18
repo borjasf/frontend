@@ -175,8 +175,42 @@ const usuariosController = {
             console.error("Error al cambiar contraseña:", error);
             res.render('error', { mensaje: 'No se pudo cambiar la contraseña.', statusCode: error.response?.status || 500 });
         }
-    }
+    },
+    
+    misProductos : async (req, res) => {
+        try {
+          const idUsuario = res.locals.usuario.id;
+          const token = req.cookies.jwt;
 
+          const [dataUsuario, productos] = await Promise.all([
+              usuariosService.getUsuario(idUsuario, token),
+              productosService.getProductosDelVendedor(idUsuario)
+          ]);
+
+          const usuarioReal = dataUsuario.resumen || dataUsuario;
+          const productosFormateados = productos.map(p => ({
+              id: p.id,
+              titulo: p.titulo,
+              precio: p.precio,
+              fecha: Array.isArray(p.fechaPublicacion)
+                  ? `${p.fechaPublicacion[2]}/${p.fechaPublicacion[1]}/${p.fechaPublicacion[0]}`
+                  : p.fechaPublicacion?.substring(0, 10) ?? '—',
+              estado: p.estado,
+              vendido: p.vendido,
+              badgeColor: p.vendido ? 'bg-secondary' : 'bg-success'
+          }));
+
+          res.render('usuario/misProductos', {
+              title: 'Mis Productos',
+              usuario: usuarioReal,
+              activoProductos: true,
+              productos: productosFormateados
+          });
+      } catch (error) {
+          console.error("Error al cargar mis productos:", error);
+          res.render('error', { mensaje: 'No se pudieron cargar tus productos.', statusCode: 500 });
+      }
+  }
 };
 
 module.exports = usuariosController;

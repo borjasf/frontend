@@ -86,12 +86,34 @@ main {
     box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
 }
 
+/* Borde rojo cuando hay error de validación. . */
+.form-group input[type="text"].is-invalid,
+.form-group input[type="email"].is-invalid,
+.form-group input[type="password"].is-invalid,
+.form-group input[type="date"].is-invalid {
+    border-color: #dc3545;
+}
+
 .password-wrapper {
     position: relative;
 }
 
 .password-wrapper input {
     padding-right: 2.75rem;
+}
+
+/* Cuando hay error en un input de contraseña se oculta el icono SVG
+   de Bootstrap para que no se superponga con el botón del ojo. */
+.password-wrapper .form-control.is-invalid {
+    background-image: none;
+    padding-right: 2.75rem;
+}
+
+/* Cuando hay error en el input de fecha se oculta el icono SVG
+   de Bootstrap para que no se superponga con el icono nativo del calendario. */
+.form-group input[type="date"].is-invalid {
+    background-image: none;
+    padding-right: 0.75rem;
 }
 
 .toggle-password {

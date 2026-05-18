@@ -14,19 +14,25 @@ const adminController = {
          try {
             // Obtener estadísticas básicas para el dashboard
             const token = req.cookies.jwt;
+            const idUsuario = res.locals.usuario.id || res.locals.usuario.sub; 
             
             // Obtener total de usuarios
             let totalUsuarios = 0;
             try {
-               const dataUsuarios = await usuariosService.getTodosUsuarios(token);
+               const [dataUsuarios, dataAdmin] = await Promise.all([
+                  usuariosService.getTodosUsuarios(token),
+                  usuariosService.getUsuario(idUsuario, token)
+               ]);
                totalUsuarios = dataUsuarios.usuarios ? dataUsuarios.usuarios.length : 0;
+               usuarioReal = dataAdmin.resumen || dataAdmin; // En caso de que la API devuelva un resumen en lugar del usuario completo
             } catch (error) {
                console.warn("No se pudieron contar los usuarios:", error.message);
             }
             
             res.render('admin/dashboard', { 
                title: 'Panel de Administración',
-               totalUsuarios: totalUsuarios
+               totalUsuarios: totalUsuarios,
+               usuario: {usuarioReal, rol: res.locals.usuario.rol || 'ADMINISTRADOR'} 
             });
          } catch (error) {
             console.error("Error al cargar el dashboard:", error);

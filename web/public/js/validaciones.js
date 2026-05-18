@@ -47,8 +47,12 @@ function validarNoVacio(valor) {
  * @param {string} mensaje - Mensaje de error
  */
 function mostrarError(campo, mensaje) {
+    // Si el campo está dentro de un wrapper, el mensaje lo insertamos DESPUÉS del wrapper
+    const wrapper = campo.closest('.input-group') || campo.closest('.password-wrapper');
+    const referencia = wrapper || campo;
+
     // Limpiar error previo
-    const errorExistente = campo.nextElementSibling;
+    const errorExistente = referencia.nextElementSibling;
     if (errorExistente && errorExistente.classList.contains('invalid-feedback')) {
         errorExistente.remove();
     }
@@ -64,7 +68,7 @@ function mostrarError(campo, mensaje) {
     divError.style.color = '#dc3545';
     divError.style.marginTop = '0.25rem';
 
-    campo.parentNode.insertBefore(divError, campo.nextSibling);
+    referencia.parentNode.insertBefore(divError, referencia.nextSibling);
 }
 
 /**
@@ -73,7 +77,9 @@ function mostrarError(campo, mensaje) {
  */
 function limpiarError(campo) {
     campo.classList.remove('is-invalid');
-    const errorExistente = campo.nextElementSibling;
+    const wrapper = campo.closest('.input-group') || campo.closest('.password-wrapper');
+    const referencia = wrapper || campo;
+    const errorExistente = referencia.nextElementSibling;
     if (errorExistente && errorExistente.classList.contains('invalid-feedback')) {
         errorExistente.remove();
     }
@@ -132,6 +138,7 @@ function validarFormularioRegistro(formulario) {
     const email = formulario.querySelector('input[name="email"]');
     const password = formulario.querySelector('input[name="password"]');
     const confirmPassword = formulario.querySelector('input[name="confirmPassword"]');
+    const fecha = formulario.querySelector('input[name="fechaNacimiento"]');
 
     // Validar nombre
     if (!validarNoVacio(nombre.value)) {
@@ -160,6 +167,12 @@ function validarFormularioRegistro(formulario) {
         esValido = false;
     }
 
+    //Validamos que la contraseña tenga al menos 6 caracteres
+    else if (password.value.length < 6) {
+        mostrarError(password, 'La contraseña debe tener al menos 6 caracteres');
+        esValido = false;
+    }
+
     // Validar confirmación de contraseña
     if (!confirmPassword.value) {
         mostrarError(confirmPassword, 'Debes confirmar la contraseña');
@@ -167,6 +180,20 @@ function validarFormularioRegistro(formulario) {
     } else if (!validarCoincidencia(password.value, confirmPassword.value)) {
         mostrarError(confirmPassword, 'Las contraseñas no coinciden');
         esValido = false;
+    }
+
+    // Validar fecha de nacimiento no es futura y no está vacía
+    if (!fecha.value) {
+        mostrarError(fecha, 'La fecha de nacimiento es requerida');
+        esValido = false;
+    }
+    if (fecha.value) {
+        const fechaSeleccionada = new Date(fecha.value);
+        const fechaActual = new Date();
+        if (fechaSeleccionada > fechaActual) {
+            mostrarError(fecha, 'La fecha de nacimiento no puede ser futura');
+            esValido = false;
+        }   
     }
 
     return esValido;
@@ -275,6 +302,7 @@ function validarFormularioEditarPerfil(formulario) {
     const apellidos = formulario.querySelector('input[name="apellidos"]');
     const email = formulario.querySelector('input[name="email"]');
     const clave = formulario.querySelector('input[name="clave"]');
+    const fecha = formulario.querySelector('input[name="fechaNacimiento"]');
 
     // Validar nombre
     if (!validarNoVacio(nombre.value)) {
@@ -295,6 +323,20 @@ function validarFormularioEditarPerfil(formulario) {
     } else if (!validarEmail(email.value)) {
         mostrarError(email, 'Ingresa un email válido (ej: usuario@ejemplo.com)');
         esValido = false;
+    }
+
+    //Validamos que la fecha de nacimiento no sea futura y no este vacía
+    if (!fecha.value) {
+        mostrarError(fecha, 'La fecha de nacimiento es requerida');
+        esValido = false;  
+    }
+    if (fecha.value) {
+        const fechaSeleccionada = new Date(fecha.value);
+        const fechaActual = new Date();
+        if (fechaSeleccionada > fechaActual) {
+            mostrarError(fecha, 'La fecha de nacimiento no puede ser futura');
+            esValido = false;
+        }
     }
 
     // Validar contraseña (requerida para confirmar cambios)

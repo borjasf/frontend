@@ -21,6 +21,10 @@ public interface IRepositorioProducto extends PagingAndSortingRepository<Product
 	Page<Producto> findProductosByMonthAndYear(int mes, int ano, Pageable pageable);
     
     List<Producto> findByVendedorIdOrderByFechaPublicacionDesc(String idVendedor);
-    Page<Producto> findProductosByCriteria(List<String> idsCategorias, String textoDescripcion, 
+
+    Page<Producto> findProductosByCriteriaConCategoria(List<String> idsCategorias, String textoDescripcion,
+            EstadoProducto estadoMinimo, Double precioMax, Pageable pageable);
+
+    Page<Producto> findProductosByCriteriaSinCategoria(String textoDescripcion,
             EstadoProducto estadoMinimo, Double precioMax, Pageable pageable);
 }

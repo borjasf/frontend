@@ -12,7 +12,7 @@
         <div class="row g-0">
 
             <figure class="col-md-6 bg-light m-0 d-flex align-items-center justify-content-center">
-                <img src="{{producto.imagen}}" class="img-fluid object-fit-cover detalle-imagen" alt="Fotografía de {{producto.titulo}}">
+                <img src="{{#if producto.rutaImagen}}{{producto.rutaImagen}}{{else}}/img/fotografia_producto_sin_foto.jpg{{/if}}" class="img-fluid object-fit-cover detalle-imagen" alt="Fotografía de {{producto.titulo}}">
             </figure>
 
             <section class="col-md-6 p-4 p-lg-5 d-flex flex-column">

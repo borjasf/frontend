@@ -26,4 +26,7 @@ router.get('/perfil/mis-ventas', usuariosController.misVentas);
 // GET /perfil/mis-compras -> Llama a misCompras para mostrar los productos que el usuario ha comprado
 router.get('/perfil/mis-compras', usuariosController.misCompras);
 
+// GET /perfil/mis-productos -> Llama a misProductos para mostrar los productos que el usuario ha creado
+router.get('/perfil/mis-productos', usuariosController.misProductos);
+
 module.exports = router;

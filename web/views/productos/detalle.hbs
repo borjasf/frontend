@@ -2,6 +2,12 @@
       Muestra todos los campos: título, descripción, precio, estado, categoría, vendedor, visualizaciones, envío.
       Si el usuario está autenticado y no es el vendedor: botón "Comprar".
       Si el usuario es el vendedor: botones "Editar" y opción de eliminar. --}}
+
+{{!--Se va a utilizar el mapa de Leaflet para poder ver la ubicación que el usuario elige para el envio producto --}}
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+
 <div class="container mt-5 mb-5">
     
     <nav aria-label="breadcrumb">
@@ -15,7 +21,7 @@
         <div class="row g-0">
             
             <figure class="col-md-6 bg-light m-0 d-flex align-items-center justify-content-center">
-                <img id="imagenProducto" src="{{#if rutaImagen}}{{rutaImagen}}{{else}}https://via.placeholder.com/800x600?text=Sin+foto{{/if}}" class="img-fluid object-fit-cover detalle-imagen" alt="Fotografía de {{producto.titulo}}">
+                <img id="imagenProducto" src="{{#if rutaImagen}}{{rutaImagen}}{{else}}/img/fotografia_producto_sin_foto.jpg{{/if}}" class="img-fluid object-fit-cover detalle-imagen" alt="Fotografía de {{producto.titulo}}">
             </figure>
 
             <section class="col-md-6 p-4 p-lg-5 d-flex flex-column">
@@ -56,6 +62,15 @@
                         </span>
                     </div>
 
+                    {{!-- Mapa de Leaflet para mostrar la ubicación del producto.
+                         Los datos van como data-* para que Handlebars escape HTML automáticamente
+                         y evitar romper el JS si la descripción contiene comillas o etiquetas. --}}
+                    <div id="mapa-recogida" class="mt-3 rounded"
+                         style="height: 250px; z-index: 0;"
+                         data-lat="{{producto.lugarRecogida.latitud}}"
+                         data-lng="{{producto.lugarRecogida.longitud}}"
+                         data-descripcion="{{producto.lugarRecogida.descripcion}}"></div>
+
                     {{#if producto.envioDisponible}}
                     <div class="text-success small">
                         <i class="fa-solid fa-truck-fast me-2"></i>Envío a domicilio disponible
@@ -71,12 +86,24 @@
                     {{#if esVendedor}}
                         <div class="row g-2">
                             <div class="col-6">
+                                {{#unless estaVendido}}
                                 <a href="/productos/{{producto.id}}/editar" class="btn btn-outline-dark w-100 py-2">Editar anuncio</a>
+                                {{else}}
+                                    <button class="btn btn-outline-secondary w-100 py-2" disabled title="No se puede editar un producto vendido">
+                                        Editar anuncio 
+                                    </button>
+                                {{/unless}}
                             </div>
                             <div class="col-6">
-                                <form action="/productos/{{producto.id}}/eliminar" method="POST">
-                                    <button type="submit" class="btn btn-outline-danger w-100 py-2">Eliminar</button>
-                                </form>
+                                {{#unless estaVendido}}
+                                    <button type="button" class="btn btn-outline-danger w-100 py-2" data-bs-toggle="modal" data-bs-target="#confirmarEliminacion">
+                                        Eliminar
+                                    </button>
+                                {{else}}
+                                    <button class="btn btn-outline-secondary w-100 py-2" disabled title="No se puede eliminar un producto vendido">
+                                        Eliminar
+                                    </button>
+                                {{/unless}}
                             </div>
                         </div>
                     {{else}}
@@ -93,8 +120,60 @@
                         {{/if}}
                     {{/if}}
                 </footer>
-
+                            {{!-- Modal de confirmación para eliminar el producto --}}
+                    <div class="modal fade" id="confirmarEliminacion" tabindex="-1" aria-labelledby="confirmarEliminacionLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="confirmarEliminacionLabel">Confirmar eliminación</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>¿Estás seguro de que deseas eliminar este producto? Esta acción no se puede deshacer.</p>
+                                    <p class="text-danger"><strong>Advertencia:</strong> Si el producto tiene una compraventa asociada, no se podrá eliminar.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                                    <form action="/productos/{{producto.id}}/eliminar" method="POST" class="d-inline">
+                                        <button type="submit" class="btn btn-danger">Eliminar producto</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             </section>
         </div>
     </article>
+
+{{!-- Script para inicializar el mapa de Leaflet con la ubicación del producto --}}
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        // Leemos los datos del div via dataset (Handlebars ya ha escapado los caracteres especiales)
+        const divMapa = document.getElementById('mapa-recogida');
+        const lat = parseFloat(divMapa.dataset.lat);
+        const lng = parseFloat(divMapa.dataset.lng);
+        const descripcion = divMapa.dataset.descripcion || '';
+
+        // Si no hay coordenadas válidas, ocultar el div del mapa
+        if (isNaN(lat) || isNaN(lng) || (lat === 0 && lng === 0)) {
+            divMapa.style.display = 'none';
+            return;
+        }
+
+        // Crear mapa centrado en la ubicación de recogida
+        const mapa = L.map('mapa-recogida').setView([lat, lng], 15);
+
+        // Capa base de OpenStreetMap (gratis, sin API key)
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap',
+            maxZoom: 19
+        }).addTo(mapa);
+
+        // Marker con popup (la descripción se asigna como texto plano, no como HTML)
+        L.marker([lat, lng])
+            .addTo(mapa)
+            .bindPopup(descripcion)
+            .openPopup();
+    });
+</script>
 </div>
