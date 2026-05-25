@@ -31,7 +31,7 @@
                                     <td class="fw-bold text-success">{{this.precio}} €</td>
                                     <td class="text-muted small">{{this.fecha}}</td>
                                     <td>
-                                        <span class="badge {{this.badgeColor}}">{{#if this.vendido}}Vendido{{else}}{{this.estado}}{{/if}}</span>
+                                        <span class="badge {{this.badgeColor}}">{{#if this.vendido}}Vendido{{else}}{{formatearEstado this.estado}}{{/if}}</span>
                                     </td>
                                     <td class="text-end pe-4">
                                         <a href="/productos/{{this.id}}" class="btn btn-sm btn-outline-primary" title="Ver producto">

@@ -29,7 +29,7 @@
                 <header class="mb-4">
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <div>
-                            <span class="badge bg-primary text-uppercase">{{producto.estado}}</span>
+                            <span class="badge bg-primary">{{formatearEstado producto.estado}}</span>
                             {{#if estaVendido}}
                             <span class="badge bg-danger text-uppercase ms-2">Vendido</span>
                             {{/if}}

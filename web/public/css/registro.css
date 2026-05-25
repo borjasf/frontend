@@ -82,8 +82,8 @@ main {
 .form-group input[type="email"]:focus,
 .form-group input[type="password"]:focus,
 .form-group input[type="date"]:focus {
-    border-color: #3b82f6;
-    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+    border-color: #1A759F;
+    box-shadow: 0 0 0 3px rgba(26, 117, 159, 0.15);
 }
 
 /* Borde rojo cuando hay error de validación. . */
@@ -172,7 +172,7 @@ main {
 }
 
 .cbx:hover {
-    border-color: #10b981;
+    border-color: #76C893;
 }
 
 .flip {
@@ -185,7 +185,7 @@ main {
 }
 
 #isAdmin:checked + .cbx {
-    border-color: #10b981;
+    border-color: #76C893;
 }
 
 #isAdmin:checked + .cbx .flip {
@@ -210,11 +210,11 @@ main {
 
 .back {
     transform: rotateY(180deg);
-    background: #10b981;
+    background: #76C893;
     text-align: center;
     color: #fff;
     line-height: 20px;
-    box-shadow: 0 0 0 1px #10b981;
+    box-shadow: 0 0 0 1px #76C893;
 }
 
 .back svg {
@@ -253,7 +253,7 @@ main {
   padding: 1em 2.7em;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
-  background: #1f2937;
+  background: #184E77;
   color: white;
   border: none;
   position: relative;
@@ -286,7 +286,7 @@ main {
 .btn-register .transition {
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
   transition-duration: 500ms;
-  background-color: rgba(16, 185, 129, 0.6);
+  background-color: rgba(82, 182, 154, 0.6);
   border-radius: 9999px;
   width: 0;
   height: 0;

@@ -1,4 +1,6 @@
 node_modules
 .env
+env/
 .venv
 web/public/uploads
+FRONTEND_DOCUMENTATION.md

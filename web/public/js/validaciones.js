@@ -301,7 +301,7 @@ function validarFormularioEditarPerfil(formulario) {
     const nombre = formulario.querySelector('input[name="nombre"]');
     const apellidos = formulario.querySelector('input[name="apellidos"]');
     const email = formulario.querySelector('input[name="email"]');
-    const clave = formulario.querySelector('input[name="clave"]');
+    const clave = formulario.querySelector('input[name="claveActual"]');
     const fecha = formulario.querySelector('input[name="fechaNacimiento"]');
 
     // Validar nombre

@@ -13,7 +13,7 @@ services:
       retries: 20
     volumes:
       - mysql-data:/var/lib/mysql
-      - ./init-db.sql:/docker-entrypoint-initdb.d/init.sql # Script de inicialización
+      - ./Code/init-db.sql:/docker-entrypoint-initdb.d/init.sql # Script de inicialización
     networks:
       - arso-network
 
@@ -37,7 +37,7 @@ services:
   # 2. Microservicios
   usuarios:
     build: 
-      context: ./microservicio-usuarios # Construye usando el Dockerfile de esta carpeta
+      context: ./Code/microservicio-usuarios
     ports:
       - "8080:8080"
     environment:
@@ -55,8 +55,8 @@ services:
       - arso-network
 
   productos:
-    build: 
-      context: ./productos
+    build:
+      context: ./Code/productos
     ports:
       - "8083:8083"
     environment:
@@ -69,12 +69,18 @@ services:
         condition: service_healthy
       rabbitmq:
         condition: service_started
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO /dev/null http://localhost:8083/productos 2>/dev/null || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 20
+      start_period: 60s
     networks:
       - arso-network
 
   compraventas:
     build: 
-      context: ./microservicio-compraventas/microservicio-compraventas
+      context: ./Code/microservicio-compraventas/microservicio-compraventas
     ports:
       - "8082:8082"
     environment:
@@ -92,8 +98,8 @@ services:
       - arso-network
 
   pasarela:
-    build: 
-      context: ./pasarela
+    build:
+      context: ./Code/pasarela
     ports:
       - "9090:8090" # El puerto público al que accederás desde tu navegador
     environment:
@@ -103,8 +109,34 @@ services:
       - COMPRAVENTAS_URL=http://compraventas:8082
     depends_on:
       - usuarios
-      - productos
       - compraventas
+      - productos
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO /dev/null http://localhost:8090/api/productos 2>/dev/null || exit 1"]
+      interval: 15s
+      timeout: 10s
+      retries: 20
+      start_period: 60s
+    networks:
+      - arso-network
+
+  web:
+    build:
+      context: ./web
+    ports:
+      - "3001:3001"
+    environment:
+      - ARSO_API_URL=http://pasarela:8090
+      - PRODUCTOS_DIRECT_URL=http://productos:8083
+      - JWT_SECRET=secreto
+      - PORT=3001
+    volumes:
+      - uploads-data:/app/public/uploads
+    depends_on:
+      pasarela:
+        condition: service_healthy
+      productos:
+        condition: service_healthy
     networks:
       - arso-network
 
@@ -112,6 +144,7 @@ services:
 volumes:
   mysql-data:
   mongo-data:
+  uploads-data:
 
 networks:
   arso-network:

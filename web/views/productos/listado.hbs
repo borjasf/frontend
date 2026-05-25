@@ -54,6 +54,15 @@
     const { useState, useEffect } = React;
     const { createRoot } = ReactDOM;
 
+    const ESTADOS = {
+        NUEVO:       'Nuevo',
+        COMO_NUEVO:  'Como nuevo',
+        BUEN_ESTADO: 'Buen estado',
+        ACEPTABLE:   'Aceptable',
+        PARA_REPARAR:'Para reparar'
+    };
+    const formatearEstado = (e) => ESTADOS[e] || e;
+
     function FiltrosBusqueda() {
         // Leemos la URL actual por si el usuario ya había buscado algo antes
         const urlParams = new URLSearchParams(window.location.search);
@@ -245,7 +254,7 @@
         <p className="card-text text-truncate text-muted">{producto.descripcion || ''}</p>
         <div className="mt-auto d-flex justify-content-between align-items-center pt-3 border-top">
             <h5 className="text-success fw-bold mb-0">{producto.precio || 0} €</h5>
-            <span className="badge bg-dark rounded-pill">{producto.estado || 'N/A'}</span>
+            <span className="badge bg-dark rounded-pill">{formatearEstado(producto.estado) || 'N/A'}</span>
         </div>
         
         {/* 2. EL ENLACE MÁGICO AL FINAL DEL CARD BODY */}

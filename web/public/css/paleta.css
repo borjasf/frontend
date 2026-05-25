@@ -1,0 +1,64 @@
+/*En esta clase vamos a definir la palta de colores escogida para poder hacer este proyecto, para ello se ha elegido la paleta de 
+colores MEADOW GREEN (https://coolors.co/palette/d9ed92-b5e48c-99d98c-76c893-52b69a-34a0a4-168aad-1a759f-1e6091-184e77), escogida por los colores 
+tan parecidos al de nuestro logo.*/
+:root { 
+    --color-verde-claro:   #D9ED92;
+    --color-verde:         #B5E48C;
+    --color-verde-medio:   #99D98C;
+    --color-verde-oscuro:  #76C893;
+    --color-verde-azul:    #52B69A;
+    --color-cian:          #34A0A4;
+    --color-azul-medio:    #168AAD;
+    --color-azul:          #1A759F;
+    --color-azul-oscuro:   #1E6091;
+    --color-azul-muy-osc:  #184E77;
+
+    /*Tambien hacemos la sobreescritura de variables Bootstrap*/
+    --bs-primary:           #1A759F;
+    --bs-primary-rgb:       26, 117, 159;
+    --bs-success:           #76C893;
+    --bs-success-rgb:       118, 200, 147;
+    --bs-info:              #168AAD;
+    --bs-info-rgb:          22, 138, 173;
+    --bs-secondary:         #52B69A;
+    --bs-secondary-rgb:     82, 182, 154;
+    --bs-dark:              #184E77;
+    --bs-dark-rgb:          24, 78, 119;
+}
+
+/*Ajustes de colores para los botones y elementos de la interfaz*/
+  .btn-primary {
+      background-color: var(--color-azul);
+      border-color: var(--color-azul);
+  }
+  /*Efecto hover para el botón primario, oscureciendo el azul para dar feedback visual*/
+  .btn-primary:hover {
+      background-color: var(--color-azul-oscuro);
+      border-color: var(--color-azul-oscuro);
+  }
+  /*Botón de éxito con el verde oscuro, manteniendo la coherencia con la paleta*/
+  .btn-success {
+      background-color: var(--color-verde-oscuro);
+      border-color: var(--color-verde-oscuro);
+  }
+  /*Efecto hover para el botón de éxito, usando el verde-azul para un contraste suave*/
+  .btn-success:hover {
+      background-color: var(--color-verde-azul);
+      border-color: var(--color-verde-azul);
+  }
+  /*Colores para la barra de navegación, usando el azul muy oscuro para un fondo elegante y profesional*/
+  .navbar-dark.bg-dark {
+      background-color: var(--color-azul-muy-osc) !important;
+  }
+  /*Colores para los textos principales, usando el azul para títulos y el verde oscuro para mensajes de éxito o destacados*/
+  .bg-primary {
+      background-color: var(--color-azul) !important;
+  }
+  /*Texto en azul para elementos destacados o títulos, asegurando que resalten sobre fondos claros*/
+  .text-primary {
+      color: var(--color-azul) !important;
+  }
+  /*Texto en verde oscuro para mensajes de éxito, etiquetas o elementos que requieran atención positiva*/
+  .text-success {
+      color: var(--color-verde-oscuro) !important;
+  }

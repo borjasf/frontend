@@ -47,6 +47,18 @@ hbs.registerHelper('eq', function(a, b) {
     return a === b;
 });
 
+// Registrar helper 'formatearEstado' para mostrar el estado del producto de forma legible
+const ESTADOS = {
+    NUEVO:          'Nuevo',
+    COMO_NUEVO:     'Como nuevo',
+    BUEN_ESTADO:    'Buen estado',
+    ACEPTABLE:      'Aceptable',
+    PARA_REPARAR:   'Para reparar'
+};
+hbs.registerHelper('formatearEstado', function(estado) {
+    return ESTADOS[estado] || estado;
+});
+
 // Middleware
 app.use(express.urlencoded({ extended: false })); // leer formularios POST
 app.use(express.json());

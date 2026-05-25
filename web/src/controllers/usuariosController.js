@@ -5,6 +5,7 @@
 const usuariosService = require('../services/usuariosService');
 const productosService = require('../services/productosService');
 const compraventasService = require('../services/compraventasService');
+const authService = require('../services/authService');
 
 const usuariosController = {
     
@@ -141,9 +142,24 @@ const usuariosController = {
         try {
             const idUsuario = res.locals.usuario.id;
             const token = req.cookies.jwt;
-            const { nombre, apellidos, email, clave, fechaNacimiento, telefono } = req.body;
+            const { nombre, apellidos, email, claveActual, fechaNacimiento, telefono } = req.body;
 
-            await usuariosService.actualizarUsuario(idUsuario, { nombre, apellidos, email, clave, fechaNacimiento, telefono }, token);
+            // Recuperamos el email ACTUAL del usuario en BD para verificar la identidad.
+            const datosActuales = await usuariosService.getUsuario(idUsuario, token);
+            const usuarioActual = datosActuales.resumen || datosActuales;
+
+            // Comprobamos que la clave actual es correcta para confirmar la identidad del usuario
+            try {
+                await authService.login(usuarioActual.email, claveActual);
+            } catch (error) {
+                return res.render('usuario/editarPerfil', {
+                                                            title: 'Editar Perfil',
+                                                            usuario: usuarioActual,
+                                                            activoPerfil: true,
+                                                             error: 'La contraseña actual es incorrecta.'});
+            }
+
+            await usuariosService.actualizarUsuario(idUsuario, { nombre, apellidos, email, clave: claveActual, fechaNacimiento, telefono }, token);
             res.redirect('/perfil');
         } catch (error) {
             console.error("Error al editar el perfil:", error);
